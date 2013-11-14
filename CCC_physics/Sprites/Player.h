@@ -18,7 +18,8 @@
 -(void) createBox2dObject:(b2World*)world;
 -(void) kangarooJump;
 -(void) moveRight;
-
 @property (nonatomic, readwrite) b2Body *body;
 @property bool contactingGameOver;
+
+
 @end
