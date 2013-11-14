@@ -76,33 +76,33 @@
         
         // Create font based items ready for CCMenu
         
+//
+//        CCMenuItemImage *learn = [CCMenuItemImage itemFromNormalImage:@"learn.png"
+//                                                        selectedImage:@"learn.png"
+//                                                               target:self
+//                                                             selector:@selector(onLearningModules:)];
+//        learn.scale = .5;
+//        learn.zOrder = -50;
+//        
+//        CCMenu *learnMenu = [CCMenu menuWithItems: learn, nil];
+//        [self addChild:learnMenu];
+//        learnMenu.position = ccp(0,0);
+//        
+//        CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"explore.png"
+//                                                          selectedImage:@"explore.png"
+//                                                                 target:self
+//                                                               selector:@selector(onPlay:)];
+//        
+//        
+//        explore.zOrder = -50;
+//        CCMenu *exploreMenu = [CCMenu menuWithItems: explore, nil];
+//        [self addChild:exploreMenu];
+//        explore.scale = .5;
+//        exploreMenu.position = ccp(screenSize.width,screenSize.height/2);
 
-        CCMenuItemImage *learn = [CCMenuItemImage itemFromNormalImage:@"learn.png"
-                                                        selectedImage:@"learn.png"
-                                                               target:self
-                                                             selector:@selector(onLearningModules:)];
-        learn.scale = .5;
-        learn.zOrder = -50;
-        
-        CCMenu *learnMenu = [CCMenu menuWithItems: learn, nil];
-        [self addChild:learnMenu];
-        learnMenu.position = ccp(0,0);
-        
-        CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"explore.png"
-                                                          selectedImage:@"explore.png"
-                                                                 target:self
-                                                               selector:@selector(onPlay:)];
-        
-        
-        explore.zOrder = -50;
-        CCMenu *exploreMenu = [CCMenu menuWithItems: explore, nil];
-        [self addChild:exploreMenu];
-        explore.scale = .5;
-        exploreMenu.position = ccp(screenSize.width,screenSize.height/2);
-
-        
-        CCSprite *background = [CCSprite spriteWithFile:@"mainBackground.jpg"];
-        background.position = ccp(screenSize.width/2, screenSize.height/2);
+//        ADD BACKGROUND IMAGE
+        CCSprite *background = [CCSprite spriteWithFile:@"Opening Page.png"];
+        background.position = ccp(screenSize.width/2+70, screenSize.height/2-60);
         background.scale = .5;
         background.zOrder = -100;
         [self addChild:background];
@@ -122,12 +122,25 @@
         
         [GameDataParser saveData:gameData];
         
-        
+        [CCVideoPlayer setDelegate: self];
+        [CCVideoPlayer playMovieWithFile:@"Opening Sequence.m4v"];
+
         
         self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
         
     }
     return self;
 }
+
+- (void) moviePlaybackFinished {
+    //    [[CCDirector sharedDirector] startAnimation];
+    CCLOG(@"movieplaybackfinished");
+}
+
+-(void) movieStartsPlaying {
+    [[CCDirector sharedDirector] stopAnimation];
+    CCLOG(@"moviestarts");
+}
+
 
 @end
