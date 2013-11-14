@@ -8,7 +8,7 @@
 @end
 
 @implementation MazeLayer
-
+@synthesize hud;
 
 
 +(id) scene
@@ -64,6 +64,16 @@
         bodyDef.userData = endTile;
         NSLog(@"done creating game over tile");
     }
+    if (uniqueID >= 4) {
+        GameObject *collectible= [[GameObject alloc] init];
+        [collectible setType:kGameObjectCollectible];
+        bodyDef.userData = collectible;
+        [self addChild:collectible];
+        collectible.zOrder = -5000;
+        
+        NSLog(@"done creating collectible tile");
+    }
+    
     
 	b2Body *body = world->CreateBody(&bodyDef);
     
@@ -163,6 +173,47 @@
 }
 
 
+
+- (void) drawCollectibles {
+	CCTMXObjectGroup *objects = [_tileMap objectGroupNamed:@"collectibles"];
+	NSMutableDictionary * objPoint;
+    
+	int x, y, w, h;
+    int num = 4;
+	for (objPoint in [objects objects]) {
+        NSLog(@"collectible detected");
+		x = [[objPoint valueForKey:@"x"] intValue]/2;
+		y = [[objPoint valueForKey:@"y"] intValue]/2;
+		w = [[objPoint valueForKey:@"width"] intValue]/2;
+		h = [[objPoint valueForKey:@"height"] intValue]/2;
+        
+		CGPoint _point=ccp(x+w/2,y+h);
+		CGPoint _size=ccp(w,h);
+        CGRect testRect = CGRectMake(w, h, x, y);
+        [[UIColor redColor] set]; // red team color
+        UIRectFill(testRect); // this will fill the upper rect all red,
+        //        [self addChild:testRect];
+        
+		[self makeBox2dObjAt:_point
+					withSize:_size
+					 dynamic:false
+					rotation:0
+					friction:1.5f
+					 density:0.0f
+				 restitution:0
+					   boxId:-1
+                    uniqueID:num];
+        
+        num++;
+	}
+    
+}
+-(void) removeBody:(b2Body*) b {
+    world->DestroyBody(b);;
+}
+
+
+
 -(void) setupPhysicsWorld {
     
     b2Vec2 gravity = b2Vec2(0.0f, -9.8f);
@@ -220,8 +271,7 @@
 -(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
     CGSize screenSize = [CCDirector sharedDirector].winSize;
-
-    
+   
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
     firstTouch = location;
@@ -283,7 +333,9 @@
         // just added this in here brah
         [self drawGameOverTiles];
         [self drawEndTiles];
+        [self drawCollectibles];
         [self scheduleUpdate];
+        numCollected = 0;
 
     }
     return self;
@@ -299,8 +351,23 @@
     int32 velocityIterations = 8;
 	int32 positionIterations = 1;
     
+    if (contactListener->collected > numCollected) {
+        //        if (contactListener->collectible != nil) {
+        //            CCLOG(@"contact listener -> collectible: %u",  );
+        ////            [self removeBody:contactListener->collectible];
+        
+        //
+        //        }
+        numCollected ++;
+        [player updateHealth];
+        CCLOG(@"updating player health");
+        //    world->DestroyBody(contactListener->collectible);
+    }
+    [hud setHealth:player.health];
     
-	
+    CCLOG(@"player health: %d", player.health);
+    
+
     
 	// Instruct the world to perform a single step of simulation. It is
 	// generally best to keep the time step and iterations fixed.
@@ -322,6 +389,46 @@
 	CGPoint newPos = ccp(-1* pos.x * PTM_RATIO + 50, self.position.y * PTM_RATIO);
 	[self setPosition:newPos];
    // [self setViewpointCenter:player.position];
+    // [self setViewpointCenter:player.position];
+    std::vector<b2Body *>toDestroy;
+    std::vector<MyContact>::iterator p;
+    for (p= contactListener->_contacts.begin();
+         p != contactListener->_contacts.end(); ++p) {
+        MyContact contact = *p;
+        
+        b2Body *bodyA = contact.fixtureA->GetBody();
+        b2Body *bodyB = contact.fixtureB->GetBody();
+        
+        if (bodyA->GetUserData() != NULL && bodyB->GetUserData() != NULL) {
+            GameObject *spriteA = (GameObject *) bodyA->GetUserData();
+            GameObject *spriteB = (GameObject *) bodyB->GetUserData();
+            
+            if (spriteA.type == kGameObjectEaten) {
+                if (std::find(toDestroy.begin(), toDestroy.end(), bodyA) == toDestroy.end()) {
+                    toDestroy.push_back(bodyA);
+                }
+            }
+            
+            else if (spriteB.type == kGameObjectEaten) {
+                if (std::find(toDestroy.begin(), toDestroy.end(), bodyB) == toDestroy.end()) {
+                    toDestroy.push_back(bodyB);
+                }
+            }
+        }
+
+    }
+    
+    std::vector<b2Body *>::iterator pos2;
+    for (pos2 = toDestroy.begin(); pos2 != toDestroy.end(); ++pos2) {
+        b2Body *body = *pos2;
+        if (body->GetUserData() != NULL) {
+            GameObject *sprite = (GameObject *) body->GetUserData();
+            [self removeChild:sprite cleanup:YES];
+        }
+        world->DestroyBody(body);
+    }
+    
+    
 
 }
 

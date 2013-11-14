@@ -9,7 +9,7 @@
 #import "SimpleAudioEngine.h"
 #import "CocosDenshion.h"
 
-
+@class HudLayer;
 @interface MazeLayer : CCLayer <DirectionPadDelegate> {
     CCTMXTiledMap *_tileMap;
     CCSpriteBatchNode *_actors;
@@ -23,8 +23,11 @@
     CCSpriteBatchNode *humanSpriteSheet;
     CGPoint firstTouch;
     CGPoint lastTouch;
+    HudLayer *hud;
+    int numCollected;
 
 }
+-(void) removeBody:(b2Body*) b;;
 
 @property(nonatomic)HudLayer *hud;
 @property(nonatomic)CCArray *collisions;

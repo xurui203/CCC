@@ -1,16 +1,42 @@
 
 #import "Player.h"
 #import "Constants.h"
-
+#import "ContactListener.h"
 @implementation Player
 @synthesize body;
+@synthesize health;
 
 - (id) init {
 	if ((self = [super init])) {
 		type = kGameObjectPlayer;
+        health = 11;
+
 	}
 	return self;
 }
+
+
+//HEALTH
+-(bool) isDead {
+    return health <= 0;
+}
+
+-(void) restoreHealth:(float)amount
+{
+    health = MAX(health + amount, MAX_HEALTH);
+}
+
+-(void) updateHealth {
+  
+    health += 5;
+    if (health > MAX_HEALTH) {
+        health = MAX_HEALTH;
+    }
+    CCLOG(@"updating health");
+    CCLOG(@"%d", health);
+}
+
+
 
 -(void)startContact {
     contactingGameOver = true;
