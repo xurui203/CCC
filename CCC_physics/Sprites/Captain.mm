@@ -10,32 +10,34 @@
 -(id)init {
     NSLog(@"CAPTAIN: INIT");
     if (self = [super init]){
-        NSLog(@"init human");
+        //if ((self = [super initWithSpriteFrameName:@"Lat Capt Human-Standing0001.png"])) {
+            NSLog(@"init human");
         
         //Set idle action
-        self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:[self HumanIdleAnimation]]];
+            self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:[self HumanIdleAnimation]]];
+        
         
         //Set walk action
-        self.walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self HumanWalkAnimation]]];
-
-        //Set crawl action
-        self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self HumanCrawlAnimation]]];
-    
-        //Set default suerpower to captain
-        self.currentSuperpower = [CaptainSP alloc];
-        [self.currentSuperpower init];
+            self.walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self HumanWalkAnimation]]];
         
-        //to be deleted
-        self.superPowerAction =[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]];
+        //Def superpower
+        //        Superpower *testSuperpower = [Superpower alloc];
+        //        testSuperpower = [testSuperpower init];
+        self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self HumanCrawlAnimation]]];
 
+        
+            self.superPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self SuperpowerAnimation]], [CCCallFunc actionWithTarget:self selector:@selector(idle)], nil];
+        //
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
-        self.centerToBottom = 39.0;
-        self.centerToSides = 29.0;
-        self.hitPoints = 100.0;
-        self.damage = 20.0;
-        self.walkSpeed = 80;
-
-    }
+            self.centerToBottom = 39.0;
+            self.centerToSides = 29.0;
+            self.hitPoints = 100.0;
+            self.damage = 20.0;
+            self.walkSpeed = 80;
+        
+        
+   // }
+}
     NSLog(@"captain init but without frame");
     return self;
 }
@@ -75,20 +77,8 @@
     }
 }
 
-- (void)transform:(Superpower*) superpower{
-    
-    [self stopAllActions];
-    [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]]]; //Transform from current state
-    [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation]]]; //Transform into superpower state
-    self.currentSuperpower = superpower;
-    if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
-        _actionState = kActionStateSuperPower;
-    }
-}
-
-
 -(void)superPower {
-    if (_actionState == kActionStateIdle || _actionState == kActionStateSuperPower){ //|| _actionState == kActionStateWalk) {
+    if (_actionState == kActionStateIdle || _actionState == kActionStateSuperPower || _actionState == kActionStateWalk) {
         [self stopAllActions];
         [self runAction:_superPowerAction];
         _actionState = kActionStateSuperPower;
@@ -112,8 +102,7 @@
 //        if (_velocity.x >= 0) self.scaleX = 1.0;
 //        else self.scaleX = -1.0;
         _velocity = ccp(2.0, 0);
-        //[super moveRight];
-        [self.currentSuperpower jump:self];
+        [super moveRight];
     }
     
 }
@@ -179,11 +168,9 @@
     
     }
 
-
-//TO BE DELETED
 - (CCAnimation *) SuperpowerAnimation {
     //action animation - runs once and then returns to idle
-    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:54];
+    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:85];
     for (int i = 1; i <= 25; i++  ) {
         CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
         [superPowerActionFrames addObject:frame];
@@ -201,49 +188,6 @@
     return actionAnimation;
 }
 
-
-//MOVE TO CAPTAIN SP
-//- (CCAnimation *) makeTransformFromAnimation { //Ant Capt Transition-From Human0002.png
-//    //action animation - runs once and then returns to idle
-//    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:54];
-//    for (int i = 1; i <= 25; i++  ) {
-//        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
-//        [superPowerActionFrames addObject:frame];
-//    }
-//    for (int j = 1; j <= 29; j++  ) {
-//        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Trainsition-KL00%d.png", j]];
-//        [superPowerActionFrames addObject:frame];
-//    }
-//    for (int k = 1; k <= 31; k++  ) {
-//        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
-//        [superPowerActionFrames addObject:frame];
-//    }
-//    CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
-//    
-//    return actionAnimation;
-//}
-
-                                
-//MOVE TO CAPTAIN SP
-//- (CCAnimation *) makeTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
-//    //action animation - runs once and then returns to idle
-//    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:54];
-//    for (int i = 1; i <= 25; i++  ) {
-//        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
-//        [superPowerActionFrames addObject:frame];
-//    }
-//    for (int j = 1; j <= 29; j++  ) {
-//        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Trainsition-KL00%d.png", j]];
-//        [superPowerActionFrames addObject:frame];
-//    }
-//    for (int k = 1; k <= 31; k++  ) {
-//        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
-//        [superPowerActionFrames addObject:frame];
-//    }
-//    CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
-//    
-//    return actionAnimation;
-//}
 
 
 

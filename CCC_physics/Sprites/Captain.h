@@ -3,10 +3,6 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "Defines.h"
-#import "Superpower.h"
-#import "CaptainSP.h"
-#import "Kangaroo.h"
-
 
 @interface Captain : Player {
     
@@ -18,12 +14,7 @@
 @property(nonatomic,strong)id walkAction;
 @property(nonatomic,strong)id failAction;
 @property(nonatomic,strong)id crawlAction;
-@property(nonatomic,strong)id transformAction;
 
-//transform animations
-//@property(nonatomic, strong) CCAnimation* transformFromAnimation; //transform from captain
-//@property(nonatomic, strong) CCAnimation* transformIntoAnimation; //transform into captain
-@property(nonatomic, strong) Superpower* currentSuperpower;
 
 
 //states
