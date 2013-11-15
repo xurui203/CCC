@@ -21,6 +21,9 @@
     NSMutableDictionary *_endTilesDictionary;
     NSMutableArray *_collisionArray;
     CCSpriteBatchNode *humanSpriteSheet;
+    CCSpriteBatchNode *actionSpriteSheet;
+    CCTextureCache *sharedCache;
+
     CGPoint firstTouch;
     CGPoint lastTouch;
     HudLayer *hud;

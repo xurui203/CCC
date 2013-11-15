@@ -12,20 +12,21 @@
         NSString *myName = @"Kangaroo";
         self.name = myName;
         self.icon = [UIImage imageNamed: (NSString*) @"Kangaroo Icon"];
-        
-        //Necessary?
-//        self.transformFromAnimation = self.makeTransformFromAnimation;
-//        self.transformIntoAnimation = self.makeTransformIntoAnimation;
+
         self.jumpAnimation = self.makeJumpAnimation;
     }
     return self;
 }
 
-# define NUM_TRANSFORM_FROM 25
+//25
+# define NUM_TRANSFORM_FROM 9
 -(CCAnimation*) makeTransformFromAnimation{
     CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_FROM];
     for (int i = 1; i <= NUM_TRANSFORM_FROM; i++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
+        
+        //CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"CCC GF-Climbing/lat capt gf000%d.png", i]];
+
         [superPowerActionFrames addObject:frame];
     }
     CCAnimation *transformFromAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];

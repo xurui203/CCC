@@ -322,11 +322,24 @@
         [self setupPhysicsWorld];
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap];
+        
+
+
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"CCC_first.plist"];
+       // [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
+//
+//        [[CCTextureCache sharedTextureCache] addImage:@"CCC_first.png"];
+//        [[CCTextureCache sharedTextureCache] addImage:@"ActionsSheet.png"];
         
         humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"CCC_first.png"];
-        [humanSpriteSheet.texture setAliasTexParameters];
+      //  CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
+
+       [humanSpriteSheet.texture setAliasTexParameters];
+        //[actionSpriteSheet.texture setAliasTexParameters];
+
         [self addChild:humanSpriteSheet];
+       // [self addChild:sheet2];
+
         [self drawCollisionTiles];
         [self initCaptain];
 //        [self initMenu];

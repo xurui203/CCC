@@ -7,7 +7,7 @@
 #import "cocos2d.h"
 #import "Player.h"
 
-@interface Superpower : NSObject
+@interface Superpower : CCLayer
 
 @property(strong, nonatomic) NSString* name;
 @property(strong, nonatomic) CCAnimation* transformIntoAnimation; //transforms into superpower
