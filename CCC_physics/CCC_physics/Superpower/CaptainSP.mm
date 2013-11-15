@@ -18,7 +18,10 @@
         NSLog(@"Making transformation animations");
         self.transformFromAnimation = self.makeTransformFromAnimation;
         self.transformIntoAnimation = self.makeTransformIntoAnimation;
-       // self.jumpAnimation = self.makeJumpAnimation;
+        self.walkAnimation = self.makeWalkAnimation;
+        self.crawlAnimation = self.makeCrawlAnimation;
+        //self.jumpAnimation = self.makeJumpAnimation;
+        self.idleAnimation = self.makeIdleAnimation;
     }
     return self;
 }
@@ -63,9 +66,67 @@
     return actionAnimation;
 }
 
+
+- (CCAnimation *) makeWalkAnimation {
+    
+    CCArray *walkFrames = [CCArray arrayWithCapacity:8];
+    for (int i = 1; i < 9; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Walking000%d.png", i]];
+        [walkFrames addObject:frame];
+    }
+    
+    CCAnimation *walk = [CCAnimation animationWithFrames:[walkFrames getNSArray] delay:1.0/12.0];
+    
+    return walk;
+    
+}
+
+- (CCAnimation *) makeCrawlAnimation {
+    
+    CCArray *crawlFrames = [CCArray arrayWithCapacity:8];
+    for (int i = 1; i < 9; i++) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Crawling000%d.png", i]];
+        [crawlFrames addObject:frame];
+    }
+    
+    CCAnimation *crawl = [CCAnimation animationWithFrames:[crawlFrames getNSArray] delay:1.0/12.0];
+    
+    return crawl;
+    
+}
+
+- (CCAnimation *) makeIdleAnimation {
+    
+    CCArray *idleFrames = [CCArray arrayWithCapacity:2];
+    for (int i = 1; i < 3; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Standing000%d.png", i]];
+        [idleFrames addObject:frame];
+    }
+    
+    CCAnimation *idleAnimation = [CCAnimation animationWithFrames:[idleFrames getNSArray] delay:1.0/12.0];
+    
+    return idleAnimation;
+}
+
+
+
 -(void) jump: (Player*) player {
     b2Vec2 impulse = b2Vec2(4.0f, 15.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+}
+
+
+-(void) moveRight: (Player*) player{
+    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
+    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+    player.body->SetLinearVelocity(b2Vec2(6.5, 0));
+}
+
+-(void) crawl: (Player*) player {
+    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
+    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+    player.body->SetLinearVelocity(b2Vec2(6.5, 0));
+    
 }
 
 

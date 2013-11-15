@@ -15,14 +15,30 @@
 
 @property(strong, nonatomic) CCAnimation* specialActionAnimation; //special action transformation
 
+@property(strong, nonatomic) CCAnimation* walkAnimation; // walk transformation
+@property(strong, nonatomic) CCAnimation* crawlAnimation; //crawl transformation
+//@property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
+@property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
+
+
 @property(strong, nonatomic) UIImage* icon;
+@property(nonatomic) BOOL isLocked;
 
 
 //- (void*) useSuperpower;
 
 - (CCAnimation*) makeTransformIntoAnimation;
 - (CCAnimation*) makeTransformFromAnimation;
+
+- (CCAnimation*) makeWalkAnimation;
+- (CCAnimation*) makeCrawlAnimation;
+//- (CCAnimation*) makeJumpAnimation;
+- (CCAnimation*) makeIdleAnimation;
+
+
 - (void) jump: (Player*) player;
+- (void) moveRight: (Player*) player;
+- (void) crawl: (Player*) player;
 
 
 @end

@@ -651,6 +651,7 @@
 		5B4D451C1835C59D00F2855E /* CaptainSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45171835C59D00F2855E /* CaptainSP.mm */; };
 		5B4D451D1835C59D00F2855E /* Kangaroo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45191835C59D00F2855E /* Kangaroo.mm */; };
 		5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D451B1835C59D00F2855E /* Superpower.mm */; };
+		5B4D45211835D2A700F2855E /* SuperpowerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45201835D2A700F2855E /* SuperpowerManager.m */; };
 		5BB581F3183330BF00A9F330 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F0183330BF00A9F330 /* hurt.wav */; };
 		5BB581F4183330BF00A9F330 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F1183330BF00A9F330 /* jump.wav */; };
 		5BB581F5183330BF00A9F330 /* sbm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F2183330BF00A9F330 /* sbm.mp3 */; };
@@ -1505,6 +1506,8 @@
 		5B4D45191835C59D00F2855E /* Kangaroo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Kangaroo.mm; sourceTree = "<group>"; };
 		5B4D451A1835C59D00F2855E /* Superpower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superpower.h; sourceTree = "<group>"; };
 		5B4D451B1835C59D00F2855E /* Superpower.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpower.mm; sourceTree = "<group>"; };
+		5B4D451F1835D2A600F2855E /* SuperpowerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpowerManager.h; sourceTree = "<group>"; };
+		5B4D45201835D2A700F2855E /* SuperpowerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperpowerManager.m; sourceTree = "<group>"; };
 		5BB581F0183330BF00A9F330 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
 		5BB581F1183330BF00A9F330 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		5BB581F2183330BF00A9F330 /* sbm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sbm.mp3; sourceTree = "<group>"; };
@@ -2886,6 +2889,8 @@
 				5B4D45191835C59D00F2855E /* Kangaroo.mm */,
 				5B4D451A1835C59D00F2855E /* Superpower.h */,
 				5B4D451B1835C59D00F2855E /* Superpower.mm */,
+				5B4D451F1835D2A600F2855E /* SuperpowerManager.h */,
+				5B4D45201835D2A700F2855E /* SuperpowerManager.m */,
 			);
 			path = Superpower;
 			sourceTree = "<group>";
@@ -3542,6 +3547,7 @@
 				3ECB2DFE18256F2B00C82177 /* ChapterSelect.mm in Sources */,
 				3E452D821824063400B4EFDE /* CCActionProgressTimer.m in Sources */,
 				3EC0B9DC182554B8004CC08D /* MainMenu.mm in Sources */,
+				5B4D45211835D2A700F2855E /* SuperpowerManager.m in Sources */,
 				3ECB2DF218256BE500C82177 /* TemplateDataParser.m in Sources */,
 				3ECB2DEF18256BE500C82177 /* GameDataParser.m in Sources */,
 				3E452DB31824063400B4EFDE /* CCLabelTTF.m in Sources */,
