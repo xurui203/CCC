@@ -648,6 +648,9 @@
 		5B2743C7182A1C3600942895 /* Ant Capt Trainsition-KL007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B274370182A1C3500942895 /* Ant Capt Trainsition-KL007.png */; };
 		5B2743C8182A1C3600942895 /* Ant Capt Trainsition-KL008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B274371182A1C3500942895 /* Ant Capt Trainsition-KL008.png */; };
 		5B2743C9182A1C3600942895 /* Ant Capt Trainsition-KL009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B274372182A1C3500942895 /* Ant Capt Trainsition-KL009.png */; };
+		5B4D451C1835C59D00F2855E /* CaptainSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45171835C59D00F2855E /* CaptainSP.mm */; };
+		5B4D451D1835C59D00F2855E /* Kangaroo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45191835C59D00F2855E /* Kangaroo.mm */; };
+		5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D451B1835C59D00F2855E /* Superpower.mm */; };
 		5BB581F3183330BF00A9F330 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F0183330BF00A9F330 /* hurt.wav */; };
 		5BB581F4183330BF00A9F330 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F1183330BF00A9F330 /* jump.wav */; };
 		5BB581F5183330BF00A9F330 /* sbm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F2183330BF00A9F330 /* sbm.mp3 */; };
@@ -1496,6 +1499,12 @@
 		5B274370182A1C3500942895 /* Ant Capt Trainsition-KL007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-KL007.png"; sourceTree = "<group>"; };
 		5B274371182A1C3500942895 /* Ant Capt Trainsition-KL008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-KL008.png"; sourceTree = "<group>"; };
 		5B274372182A1C3500942895 /* Ant Capt Trainsition-KL009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-KL009.png"; sourceTree = "<group>"; };
+		5B4D45161835C59D00F2855E /* CaptainSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainSP.h; sourceTree = "<group>"; };
+		5B4D45171835C59D00F2855E /* CaptainSP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CaptainSP.mm; sourceTree = "<group>"; };
+		5B4D45181835C59D00F2855E /* Kangaroo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kangaroo.h; sourceTree = "<group>"; };
+		5B4D45191835C59D00F2855E /* Kangaroo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Kangaroo.mm; sourceTree = "<group>"; };
+		5B4D451A1835C59D00F2855E /* Superpower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superpower.h; sourceTree = "<group>"; };
+		5B4D451B1835C59D00F2855E /* Superpower.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpower.mm; sourceTree = "<group>"; };
 		5BB581F0183330BF00A9F330 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
 		5BB581F1183330BF00A9F330 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		5BB581F2183330BF00A9F330 /* sbm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sbm.mp3; sourceTree = "<group>"; };
@@ -1565,6 +1574,7 @@
 		3E452D4A1824063300B4EFDE /* CCC_physics */ = {
 			isa = PBXGroup;
 			children = (
+				5B4D45151835C59D00F2855E /* Superpower */,
 				5BCB887D1829E6A4009D6DBF /* Sprites */,
 				3ECB2EC91825C9A400C82177 /* MazeLayer.h */,
 				3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */,
@@ -2867,6 +2877,19 @@
 			path = To;
 			sourceTree = "<group>";
 		};
+		5B4D45151835C59D00F2855E /* Superpower */ = {
+			isa = PBXGroup;
+			children = (
+				5B4D45161835C59D00F2855E /* CaptainSP.h */,
+				5B4D45171835C59D00F2855E /* CaptainSP.mm */,
+				5B4D45181835C59D00F2855E /* Kangaroo.h */,
+				5B4D45191835C59D00F2855E /* Kangaroo.mm */,
+				5B4D451A1835C59D00F2855E /* Superpower.h */,
+				5B4D451B1835C59D00F2855E /* Superpower.mm */,
+			);
+			path = Superpower;
+			sourceTree = "<group>";
+		};
 		5BB581EF183330BF00A9F330 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -3491,6 +3514,7 @@
 				3E452EA91824063700B4EFDE /* b2EdgeShape.cpp in Sources */,
 				3E452EB11824063700B4EFDE /* b2BlockAllocator.cpp in Sources */,
 				3E452E941824063600B4EFDE /* b2CollidePolygon.cpp in Sources */,
+				5B4D451D1835C59D00F2855E /* Kangaroo.mm in Sources */,
 				3EBD93691833DEFB00ABC143 /* CCVideoPlayerImpliOS.m in Sources */,
 				3E452EB81824063700B4EFDE /* b2Math.cpp in Sources */,
 				3E452DEE1824063500B4EFDE /* CCSprite.m in Sources */,
@@ -3616,6 +3640,7 @@
 				3E452E1F1824063500B4EFDE /* cocos2d.m in Sources */,
 				3E452E411824063600B4EFDE /* MacGLView.m in Sources */,
 				3E452E701824063600B4EFDE /* CocosDenshion.m in Sources */,
+				5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */,
 				3E452F0D1824063700B4EFDE /* b2RopeJoint.cpp in Sources */,
 				3E452EFB1824063700B4EFDE /* b2GearJoint.cpp in Sources */,
 				3E452EFE1824063700B4EFDE /* b2Joint.cpp in Sources */,
@@ -3635,6 +3660,7 @@
 				3ECB2EA11825866D00C82177 /* TRBox2D.mm in Sources */,
 				3E452E9F1824063700B4EFDE /* b2TimeOfImpact.cpp in Sources */,
 				3EBD938D1834971C00ABC143 /* Collectible.mm in Sources */,
+				5B4D451C1835C59D00F2855E /* CaptainSP.mm in Sources */,
 				3E452EBB1824063700B4EFDE /* b2Settings.cpp in Sources */,
 				3E452DC31824063400B4EFDE /* CCNode.m in Sources */,
 				3E452E811824063600B4EFDE /* ZAttributedString.m in Sources */,
