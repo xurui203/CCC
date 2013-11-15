@@ -17,8 +17,7 @@
         self.currentSuperpower = [CaptainSP alloc];
         [self.currentSuperpower init];
         
-        //to be deleted
-        self.superPowerAction =[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]];
+
         //Set idle action
         self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:self.currentSuperpower.idleAnimation]];
                            
@@ -27,7 +26,10 @@
                            
         //Set crawl action
         self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.crawlAnimation]];
-                                                                  
+        
+        //to be deleted
+        self.superPowerAction =[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]];
+        
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
         self.centerToSides = 29.0;
@@ -52,17 +54,6 @@
     
     if (_actionState == kActionStateSuperPower){
         NSLog(@"JUMP EXECUTING");
-        
-        //        CCJumpTo* jumpAct = [CCJumpTo actionWithDuration:1.0f position:ccp(self.position.x   150.0, self.position.y) height:80 jumps:1 ];
-        //        jumpAct.tag = JUMP_TAG;
-        //        NSLog(@"JUMPing");
-        //        [self runAction:jumpAct];
-        //
-        //        CCAction *action = [self getActionByTag: JUMP_TAG];
-        //        if (!action){
-        //            [self runAction:_idleAction];
-        //            _actionState = kActionStateIdle;
-        //        }
         [super kangarooJump];
     }
     
@@ -75,6 +66,7 @@
     }
 }
 
+//Use this method to reset superpower. This method should be called whenever an icon is clicked from the superpower menu.
 - (void)transform:(Superpower*) superpower{
     
     [self stopAllActions];
@@ -111,7 +103,6 @@
 
         [self.currentSuperpower moveRight:self];
     }
-    
 }
 
 -(void)crawl {
@@ -128,8 +119,6 @@
     }
     
 }
-
-
 
 -(void)update:(ccTime)dt {
     NSLog(@"captain updating");
