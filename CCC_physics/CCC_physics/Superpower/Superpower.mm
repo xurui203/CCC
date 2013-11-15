@@ -10,6 +10,11 @@
 -(id)init{
     self.transformFromAnimation = self.makeTransformFromAnimation;
     self.transformIntoAnimation = self.makeTransformIntoAnimation;
+
+    self.walkAnimation = self.makeWalkAnimation;
+    self.crawlAnimation = self.makeCrawlAnimation;
+    //self.jumpAnimation = self.makeJumpAnimation;
+    self.idleAnimation = self.makeIdleAnimation;
     return self;
 }
 

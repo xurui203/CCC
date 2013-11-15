@@ -13,15 +13,8 @@
         NSString *myName = @"CaptainSP";
         self.name = myName;
         //self.icon = [UIImage imageNamed: (NSString*) @"Kangaroo Icon"];
-        
-        //Necessary?
         NSLog(@"Making transformation animations");
-        self.transformFromAnimation = self.makeTransformFromAnimation;
-        self.transformIntoAnimation = self.makeTransformIntoAnimation;
-        self.walkAnimation = self.makeWalkAnimation;
-        self.crawlAnimation = self.makeCrawlAnimation;
-        //self.jumpAnimation = self.makeJumpAnimation;
-        self.idleAnimation = self.makeIdleAnimation;
+
     }
     return self;
 }
