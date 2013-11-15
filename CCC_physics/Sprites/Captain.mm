@@ -115,7 +115,7 @@
     
     if (_actionState == kActionStateCrawl) {
         _velocity = ccp(2.0, 0);
-        [super moveRight];
+        [self.currentSuperpower moveRight:self];
     }
     
 }
