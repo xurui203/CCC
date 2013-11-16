@@ -33,7 +33,7 @@
 -(void) removeBody:(b2Body*) b;;
 
 @property(nonatomic)HudLayer *hud;
-@property(nonatomic)CCArray *collisions;
+@property(nonatomic)CCArray *collectiblesArray;
 
 -(CGRect)collisionBoundingBox;
 

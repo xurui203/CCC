@@ -9,7 +9,7 @@
 
 @implementation MazeLayer
 @synthesize hud;
-
+@synthesize collectiblesArray;
 
 +(id) scene
 {
@@ -65,11 +65,12 @@
         NSLog(@"done creating game over tile");
     }
     if (uniqueID >= 4) {
-        GameObject *collectible= [[GameObject alloc] init];
+        GameObject *collectible= [[GameObject alloc] initWithFile:@"Apple.png"];
         [collectible setType:kGameObjectCollectible];
         bodyDef.userData = collectible;
         [self addChild:collectible];
-        collectible.zOrder = -5000;
+        collectible.scale = .5;
+        collectible.zOrder = 5000;
         
         NSLog(@"done creating collectible tile");
     }
@@ -189,10 +190,7 @@
         
 		CGPoint _point=ccp(x+w/2,y+h);
 		CGPoint _size=ccp(w,h);
-        CGRect testRect = CGRectMake(w, h, x, y);
-        [[UIColor redColor] set]; // red team color
-        UIRectFill(testRect); // this will fill the upper rect all red,
-        //        [self addChild:testRect];
+
         
 		[self makeBox2dObjAt:_point
 					withSize:_size
@@ -206,6 +204,14 @@
         
         num++;
 	}
+    
+//    collectiblesArray = [CCArray arrayWithCapacity:num-4];
+//    for(int i=0; i<num-4; i++)
+//    {
+//        for (objPoint in [objects objects])
+//        {
+//            GameObject *collectItem = [[GameObject alloc] initWithSpriteFrameName:@"Apple.png"];
+//        }}
     
 }
 -(void) removeBody:(b2Body*) b {
