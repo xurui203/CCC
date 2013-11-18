@@ -11,7 +11,7 @@
     if (self = [super init]){
         NSString *myName = @"Kangaroo";
         self.name = myName;
-        self.icon = [UIImage imageNamed: (NSString*) @"Kangaroo Icon"];
+        self.icon = @"KangarooIcon.png";
 
         self.jumpAnimation = self.makeJumpAnimation;
     }

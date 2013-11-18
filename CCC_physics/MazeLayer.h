@@ -7,9 +7,11 @@
 #import "ContactListener.h"
 #import "HudLayer.h"
 #import "SimpleAudioEngine.h"
+#import "IconDrawer.h"
 #import "CocosDenshion.h"
 
 @class HudLayer;
+@class IconDrawer;
 @interface MazeLayer : CCLayer <DirectionPadDelegate> {
     CCTMXTiledMap *_tileMap;
     CCSpriteBatchNode *_actors;
@@ -34,7 +36,7 @@
 
 @property(nonatomic)HudLayer *hud;
 @property(nonatomic)CCArray *collectiblesArray;
-
+@property(nonatomic)IconDrawer *drawer;
 -(CGRect)collisionBoundingBox;
 
 +(id) scene;

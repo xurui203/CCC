@@ -12,6 +12,10 @@
 #import "HudLayer.h"
 #import "ContactListener.h"
 #import "SimpleAudioEngine.h"
+#import "IconDrawer.h"
+@class MazeLayer;
+@class IconDrawer;
+
 
 @interface GameScene : CCLayer {
     b2World *world;
@@ -25,6 +29,6 @@
 
 @property (nonatomic)MazeLayer *mazeLayer;
 @property(nonatomic)HudLayer *hudLayer;
-
+@property(nonatomic)IconDrawer *icondrawer;
 
 @end

@@ -148,9 +148,12 @@
     _hudLayer = [HudLayer node];
     [self addChild:_hudLayer z:1];
     
-    _hudLayer.dPad.delegate = _mazeLayer;
+    
+    _icondrawer = [IconDrawer node];
+    [self addChild:_icondrawer z:2];
     _mazeLayer.hud = _hudLayer;
     
+    _mazeLayer.drawer = _icondrawer;
 }
 +(CCScene *) scene
 {
@@ -160,7 +163,7 @@
 	// 'layer' is an autorelease object.
 	GameScene *layer = [GameScene node];
 	
-	// add layer as a child to scene
+	// add layer as a chisld to scene
 	[scene addChild: layer];
 	
 	// return the scene

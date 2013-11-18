@@ -505,6 +505,7 @@
 		3EC0B9CC18255119004CC08D /* StickyNote-iPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC0B9A718255118004CC08D /* StickyNote-iPhone-hd.png */; };
 		3EC0B9CD18255119004CC08D /* StickyNote-iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC0B9A818255118004CC08D /* StickyNote-iPhone.png */; };
 		3EC0B9DC182554B8004CC08D /* MainMenu.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0B9DA182554B8004CC08D /* MainMenu.mm */; };
+		3EC20BFA183AB97C00085879 /* IconDrawer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EC20BF9183AB97C00085879 /* IconDrawer.mm */; };
 		3ECB2DE918256BE500C82177 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2DD618256BE400C82177 /* Chapter.m */; };
 		3ECB2DEA18256BE500C82177 /* ChapterParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2DD818256BE400C82177 /* ChapterParser.m */; };
 		3ECB2DEB18256BE500C82177 /* Chapters.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2DDA18256BE400C82177 /* Chapters.m */; };
@@ -2170,6 +2171,8 @@
 		3EC0B9A818255118004CC08D /* StickyNote-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StickyNote-iPhone.png"; sourceTree = "<group>"; };
 		3EC0B9DA182554B8004CC08D /* MainMenu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainMenu.mm; sourceTree = "<group>"; };
 		3EC0B9DB182554B8004CC08D /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		3EC20BF8183AB97C00085879 /* IconDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDrawer.h; sourceTree = "<group>"; };
+		3EC20BF9183AB97C00085879 /* IconDrawer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IconDrawer.mm; sourceTree = "<group>"; };
 		3ECB2DD518256BE400C82177 /* Chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
 		3ECB2DD618256BE400C82177 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
 		3ECB2DD718256BE400C82177 /* ChapterParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterParser.h; sourceTree = "<group>"; };
@@ -5709,6 +5712,8 @@
 				3ECB2ECC1825C9A400C82177 /* HudLayer.mm */,
 				3ECB2EC91825C9A400C82177 /* MazeLayer.h */,
 				3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */,
+				3EC20BF8183AB97C00085879 /* IconDrawer.h */,
+				3EC20BF9183AB97C00085879 /* IconDrawer.mm */,
 				5BBA6EF41835DE5000E21408 /* PracMazeLayers */,
 				5BBA6EF31835DE3F00E21408 /* MainMazeLayers */,
 			);
@@ -7159,6 +7164,7 @@
 				3E452F101824063700B4EFDE /* b2WeldJoint.cpp in Sources */,
 				31234209182A95B4001BC4B7 /* GameOverLayer.mm in Sources */,
 				3E452DF41824063500B4EFDE /* CCSpriteFrame.m in Sources */,
+				3EC20BFA183AB97C00085879 /* IconDrawer.mm in Sources */,
 				3E452E1B1824063500B4EFDE /* CCTransitionRadial.m in Sources */,
 				3E452D851824063400B4EFDE /* CCActionTiledGrid.m in Sources */,
 				3E452E4B1824063600B4EFDE /* CCArray.m in Sources */,

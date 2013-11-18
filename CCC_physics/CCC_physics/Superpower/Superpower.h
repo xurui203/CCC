@@ -21,7 +21,7 @@
 @property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
 
 
-@property(strong, nonatomic) UIImage* icon;
+@property(strong, nonatomic) NSString* icon;
 @property(nonatomic) BOOL isLocked;
 
 
