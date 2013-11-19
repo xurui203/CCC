@@ -10,35 +10,58 @@
 @class Player;
 @implementation SuperpowerManager
 //
-//-(Player *) addObject:(NSString*)className
-//{
-//    // create the Player object
-//    Player* o = nullptr;
-//    if([className  isEqual: @"Captain"])
-//        o = [[Captain alloc] init];
-//    else if([className  isEqual: @"Kangaroo"])
-//        o = [[Kangaroo alloc] init];
-//    
-//    // process the new object
-//    if( o != nullptr )
-//    {
-////    o->addBodyToWorld(this->world);
-////    self->addChild(o);
-//    }
-//    
-//    return o;
-//}
-//
-//- (void)transform:(Superpower*) superpower{
-//    
-//    [self stopAllActions];
-//    [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]]]; //Transform from current state
-//    [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation]]]; //Transform into superpower state
-//    self.currentSuperpower = superpower;
-//    if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
-//        _actionState = kActionStateSuperPower;
-//    }
-//}
+@synthesize superpowers, currentSuperPower, iconDrawer, initiatedSPs;
 
+-(id) init {
+    if ([super init]) {
+        //add new superpower classes to this array
+        superpowers = [[NSMutableArray alloc] initWithObjects: @"CaptainSP", @"Kangaroo", nil];
+        
+        int spNum = 3;
+        initiatedSPs = [[NSMutableArray alloc] initWithCapacity:spNum];
+        [self addSPs];
+    }
+    
+    return self;
+}
+
+
+-(void) addSPs
+{
+    // create the Player object
+    Superpower* o = nullptr;
+    if (superpowers != nil) {
+        CCLOG(@"not nil");
+        NSLog(@"array: %@", superpowers);
+    }
+    for (int x=0; x< 2; x++) {
+//        o = [self initSP: (NSString *)[superpowers objectAtIndex:x]];
+        //initialize an instance of the selected superpower class
+        CCLOG([superpowers objectAtIndex:x]);
+        NSString *tempClassName = [superpowers objectAtIndex:x];
+        o = [[NSClassFromString(tempClassName) alloc] init];
+//        o = [[[superpowers objectAtIndex:x] alloc] init];
+        
+//        o = [[superpowers[x] alloc] init];
+        //add the instance variable to initiatedSPs array
+//        [initiatedSPs addObject:o];
+//        Superpower* tempSuperpower = [initiatedSPs objectAtIndex:x];
+//        tempSuperpower = o;
+        
+    }
+    
+    if( o != nullptr )
+    {
+        //    o->addBodyToWorld(this->world);
+        //    self->addChild(o);
+    }
+    
+    
+    //initialize icon drawer
+    
+    iconDrawer = [[IconDrawer alloc] init];
+    [iconDrawer initMenu:initiatedSPs];
+//    return o;
+}
 
 @end

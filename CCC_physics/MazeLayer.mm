@@ -256,24 +256,6 @@
 }
 
 
-//-(void) initMenu {
-//    CCMenuItem *kangarooItem = [CCMenuItemImage
-//                                itemFromNormalImage:@"KangarooIcon.png"
-//                                selectedImage:@"KangarooIcon.png"
-//                                target:self selector:@selector(kangarooButtonTapped:)];
-//    CCMenu *menu= [CCMenu menuWithItems:kangarooItem, nil];
-//    menu.position = ccp(500, 300);
-//    [self addChild: menu z:100];
-//}
-//
-//-(void)kangarooButtonTapped:(id) sender{
-//    NSLog(@"kangaroo selected");
-//    //Superpower *power = [Superpower init];
-//    //    _human.superPowerAction = power.superpowerAction;
-//    [player superPower];
-//}
-
-
 -(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
     CGSize screenSize = [CCDirector sharedDirector].winSize;
@@ -294,7 +276,6 @@
     
 	return TRUE;
 }
-
 
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {

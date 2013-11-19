@@ -70,8 +70,12 @@
     
     [self stopAllActions];
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]]]; //Transform from current state
+    
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation]]]; //Transform into superpower state
     self.currentSuperpower = superpower;
+    if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
+        _actionState = kActionStateSuperPower;
+    }
 }
 
 -(void)superPower {
