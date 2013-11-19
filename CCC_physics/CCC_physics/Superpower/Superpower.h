@@ -20,7 +20,7 @@
 //@property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
 @property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
 
-
+@property(strong, nonatomic) NSString *disabledIconImage;
 @property(strong, nonatomic) NSString* icon;
 @property(nonatomic) BOOL isLocked;
 
@@ -34,7 +34,7 @@
 - (CCAnimation*) makeCrawlAnimation;
 //- (CCAnimation*) makeJumpAnimation;
 - (CCAnimation*) makeIdleAnimation;
-
+- (CCAnimation*) spAnimation;
 
 - (void) jump: (Player*) player;
 - (void) moveRight: (Player*) player;

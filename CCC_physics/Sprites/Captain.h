@@ -50,5 +50,5 @@
 //-(void)hurtWithDamage:(float)damage;
 -(void)walk;
 -(void) crawl;
-
+-(void) transform:(Superpower *)sp;
 @end

@@ -11,9 +11,10 @@
     if (self = [super init]){
         NSString *myName = @"Kangaroo";
         self.name = myName;
-        self.icon = @"KangarooIcon.png";
-
-        self.jumpAnimation = self.makeJumpAnimation;
+        self.icon = @"Kangaroo Icon.png";
+        self.isLocked = YES;
+        self.spAnimation = self.makeJumpAnimation;
+        self.disabledIconImage = @"Kangaroo Icon.png";
     }
     return self;
 }
@@ -59,6 +60,18 @@
     CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
     return actionAnimation;
 }
+
+
+-(CCAnimation*) spAnimation{
+    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:31];
+    for (int k = 1; k <= 31; k++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
+        [superPowerActionFrames addObject:frame];
+    }
+    CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
+    return actionAnimation;
+}
+
 
 -(void) kangarooJump: (Player*) player {
     b2Vec2 impulse = b2Vec2(4.0f, 15.0f);

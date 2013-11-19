@@ -11,7 +11,7 @@
 
 
 @implementation GameScene  
-@synthesize iPad, device;
+@synthesize iPad, device, spM;
 
 - (void) setupPhysicsWorld {
     
@@ -120,6 +120,10 @@
         //  Put a 'back' button in the scene
         [self addBackButton];
         [self initMenu];
+        
+        spM = [[SuperpowerManager alloc] init];
+        
+        
         [self createScene];
         [self setupPhysicsWorld];
 //        [self limitWorldToScreen];
@@ -132,14 +136,14 @@
         [self addChild:background];
         
         
-        
+        //Initialize a superpower manager instance
+ 
         // schedule Box2D updates
 //        [self schedule: @selector(tick:)];
 
     }
     return self;
 }
-
 
 -(void) createScene {
     
@@ -155,6 +159,7 @@
     
     _mazeLayer.drawer = _icondrawer;
 }
+
 +(CCScene *) scene
 {
 	// 'scene' is an autorelease object.

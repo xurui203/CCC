@@ -27,10 +27,11 @@
         
         NSString *myName = @"CaptainSP";
         self.name = myName;
+        self.isLocked = NO;
 //        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
 //        CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
 //        [self addChild:sheet2];
-        //self.icon = [UIImage imageNamed: (NSString*) @"Kangaroo Icon"];
+        self.icon = @"CCC Icon.png";
         NSLog(@"Making transformation animations");
 
     }

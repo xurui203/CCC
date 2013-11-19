@@ -7,6 +7,6 @@
 
 @interface Kangaroo : Superpower
 
-@property(strong, nonatomic) CCAnimation* jumpAnimation; //main superpower action
+@property(strong, nonatomic) CCAnimation* spAnimation; //main superpower action
 
 @end

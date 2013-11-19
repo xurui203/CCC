@@ -16,18 +16,22 @@
 #import "SimpleAudioEngine.h"
 #import "CocosDenshion.h"
 #import "GameScene.h"
+#import "SuperpowerManager.h"
+
 @interface IconDrawer : CCLayer {
     
     //INSTANCE VARIABLE DECLARATION (PRIVATE)
-    
+    NSArray *SuperpowersToDisplayArray;
     bool open;
+    Captain *captain;
 }
--(void) initMenu: (Superpower *) sp;
+-(void) initMenu: (NSArray *) spArray;
+
 
 //INSTANCE VARIBABLES (PUBLIC AKA OTHER CLASSES CAN USE) - MUST BE SYNTHESIZED
 
-@property (nonatomic) CCMenu *menu;
-@property (nonatomic) CCMenu *menu2;
+@property (nonatomic) CCMenu *BGmenu;
+@property (nonatomic) CCMenu *spIconMenu;
 @property (nonatomic) CCMenuItemImage *iconDrawerImage;
 
 @end

@@ -11,7 +11,7 @@
 
 @implementation IconDrawer
 
-@synthesize menu, menu2;
+@synthesize BGmenu, spIconMenu;
 @synthesize iconDrawerImage;
 
 -(id)init {
@@ -21,12 +21,13 @@
         
         iconDrawerImage = [CCMenuItemImage itemFromNormalImage:@"Icon Drawer.png" selectedImage:@"Icon Drawer.png" target:self selector:@selector(pressed:)];
         iconDrawerImage.scale = .5;
-        menu = [CCMenu menuWithItems:iconDrawerImage, nil];
-        [self addChild:menu z:90];
+        BGmenu = [CCMenu menuWithItems:iconDrawerImage, nil];
+        [self addChild:BGmenu z:90];
         CCLOG(@"added iconDrawer");
-        menu.position = ccp(300, 340);
+        BGmenu.position = ccp(300, 340);
         //        [self initMenu];
         open = NO;
+       
         
     }
     
@@ -36,7 +37,7 @@
 -(void) pressed:(id)sender {
     if (open == YES) {
         
-        [menu runAction:
+        [BGmenu runAction:
          
          [CCSequence actions:
           [CCSpawn actions:
@@ -50,7 +51,7 @@
     else if (open == NO) {
         
         
-        [menu runAction:
+        [BGmenu runAction:
          
          [CCSequence actions:
           [CCSpawn actions:
@@ -67,35 +68,69 @@
 
 
 -(void) makeVisible {
-    if (menu2.visible == YES) {
-        menu2.visible = NO;
-    } else if (menu2.visible ==NO) {
-        menu2.visible = YES;
+    if (spIconMenu.visible == YES) {
+        spIconMenu.visible = NO;
+    } else if (spIconMenu.visible ==NO) {
+        spIconMenu.visible = YES;
     }
     
 }
 
 //ICONS IN DRAWER
--(void) initMenu: (Superpower*) sp {
-    //eventually have a for loop to loop through the icons
-    CCMenuItem *icon = [CCMenuItemImage
-                        itemFromNormalImage:sp.icon
-                        selectedImage:sp.icon
-                        target:self selector:@selector(iconButtonTapped: sp:)];
-    menu2= [CCMenu menuWithItems:icon, nil];
-    menu2.position = ccp(400, 285);
-    [self addChild: menu2 z:100];
-    menu2.visible = NO;
+
+
+
+-(void) initMenu:(NSMutableArray *) SParray {
+    //create an empty menu
+    spIconMenu = [CCMenu menuWithItems:nil];
+    
+    //add to scene
+    [self addChild:spIconMenu];
+    
+    //go through every superpower instance variable in the initialized array and add its icon to the menu
+    for(int i = 0; i < SParray.count; i++)
+    {
+        Superpower *sp = [SParray objectAtIndex: i];
+        
+        CCMenuItemFont *item = [CCMenuItemImage
+                                itemFromNormalImage:sp.icon
+                                selectedImage:sp.icon
+                                disabledImage:sp.disabledIconImage
+                                target:self selector:@selector(iconButtonTapped:)];
+        item.userData = sp;
+       //make item enabled or disabled based on whether or not it is locked
+        if (sp.isLocked) {
+            item.isEnabled = NO;
+        } else if (sp.isLocked == NO) {
+            item.isEnabled = YES;
+        }
+        
+        [spIconMenu addChild:item];
+    }
+    
+    [spIconMenu alignItemsHorizontallyWithPadding:3.0];
+    spIconMenu.position = ccp(400, 285);
+//    [self addChild: spIconMenu z:100];
+        spIconMenu.visible = NO;
 }
 
 -(Superpower *) iconButtonTapped:(id) sender
-                       withPower: (Superpower *) sp
 {
-    NSLog(@"%@ selected", sp.name);
-    return sp;
+//    NSLog(@"%@ selected", sp.name);
+//    return sp;
+    //
+    CCMenuItemFont *itm = (CCMenuItemFont *)sender;
+       Superpower *s =  (Superpower *)itm.userData;
+    [captain transform: s];
+    
+    
 }
 
 
-
+-(void) updateIcons: (NSArray *)spArray {
+    for (int x=0; x<spArray.count ; x++) {
+        
+    }
+}
 
 @end
