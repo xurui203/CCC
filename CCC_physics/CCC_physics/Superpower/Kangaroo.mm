@@ -9,10 +9,14 @@
 
 - (id)init{
     if (self = [super init]){
-        NSString *myName = @"Kangaroo";
+        NSString *myName = @"kangaroo";
         self.name = myName;
         self.icon = @"KangarooIcon.png";
 
+        self.canWalk = TRUE;
+        self.canCrawl = FALSE;
+        self.canJump = TRUE;
+        
         self.jumpAnimation = self.makeJumpAnimation;
     }
     return self;
@@ -49,23 +53,60 @@
     
 }
 
-# define NUM_ACTION 31
--(CCAnimation*) makeJumpAnimation{
-    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:31];
-    for (int k = 1; k <= 31; k++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
-        [superPowerActionFrames addObject:frame];
+# define NUM_TRANSFORM_WALK 15
+
+- (CCAnimation *) makeWalkAnimation {
+    
+    CCArray *walkFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_WALK];
+    for (int i = 1; i <= NUM_TRANSFORM_WALK; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Running00%d", i]];
+        [walkFrames addObject:frame];
     }
-    CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
-    return actionAnimation;
+    
+    CCAnimation *walk = [CCAnimation animationWithFrames:[walkFrames getNSArray] delay:1.0/12.0];
+    
+    return walk;
+    
 }
 
--(void) kangarooJump: (Player*) player {
+
+
+# define NUM_TRANSFORM_IDLE 1
+- (CCAnimation *) makeIdleAnimation {
+    
+    CCArray *idleFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_IDLE];
+    for (int i = 1; i <= NUM_TRANSFORM_IDLE; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"lat capt KL"]];
+        [idleFrames addObject:frame];
+    }
+    
+    CCAnimation *idleAnimation = [CCAnimation animationWithFrames:[idleFrames getNSArray] delay:1.0/12.0];
+    
+    return idleAnimation;
+}
+
+# define NUM_TRANSFORM_JUMP 31
+-(CCAnimation*) makeJumpAnimation{
+    CCArray *jumpFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_JUMP];
+    for (int k = 1; k <= NUM_TRANSFORM_JUMP; k++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
+        [jumpFrames addObject:frame];
+    }
+    CCAnimation *jumpAnimation = [CCAnimation animationWithFrames:[jumpFrames getNSArray] delay:1.0/24.0];
+    return jumpAnimation;
+}
+
+-(void) jump: (Player*) player {
     b2Vec2 impulse = b2Vec2(4.0f, 15.0f);
     
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
 }
 
+-(void) moveRight: (Player*) player{
+    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
+    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+    player.body->SetLinearVelocity(b2Vec2(4.5, 0));
+}
 
 
 @end

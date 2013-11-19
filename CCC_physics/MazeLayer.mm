@@ -242,7 +242,7 @@
 -(void)initCaptain {
     
     NSLog(@"initizaling captain");
-    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing0001.png"];
+    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     
     NSLog(@"init human");
     [humanSpriteSheet addChild:player];
@@ -331,14 +331,15 @@
         
 
 
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"CCC_first.plist"];
+        //[[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
        // [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
 //
-//        [[CCTextureCache sharedTextureCache] addImage:@"CCC_first.png"];
+        [[CCTextureCache sharedTextureCache] addImage:@"CCC_first.png"];
 //        [[CCTextureCache sharedTextureCache] addImage:@"ActionsSheet.png"];
         
-        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"CCC_first.png"];
+      //  humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
       //  CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
+          humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"CCC_first.png"];
 
        [humanSpriteSheet.texture setAliasTexParameters];
         //[actionSpriteSheet.texture setAliasTexParameters];
@@ -348,8 +349,7 @@
 
         [self drawCollisionTiles];
         [self initCaptain];
-//        [self initMenu];
-        // just added this in here brah
+
         [self drawGameOverTiles];
         [self drawEndTiles];
         [self drawCollectibles];

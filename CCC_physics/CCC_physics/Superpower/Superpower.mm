@@ -13,7 +13,7 @@
 
     self.walkAnimation = self.makeWalkAnimation;
     self.crawlAnimation = self.makeCrawlAnimation;
-    //self.jumpAnimation = self.makeJumpAnimation;
+    self.jumpAnimation = self.makeJumpAnimation;
     self.idleAnimation = self.makeIdleAnimation;
     return self;
 }
@@ -27,6 +27,9 @@
     return nil;
 }
 
+- (CCAnimation *) makeJumpAnimation{
+    return nil;
+}
 - (void) jump:(Player *)player{
     
 }

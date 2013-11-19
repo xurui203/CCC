@@ -18,6 +18,8 @@
 @property(nonatomic,strong)id walkAction;
 @property(nonatomic,strong)id failAction;
 @property(nonatomic,strong)id crawlAction;
+@property(nonatomic,strong)id jumpAction;
+
 @property(nonatomic,strong)id transformAction;
 
 //transform animations

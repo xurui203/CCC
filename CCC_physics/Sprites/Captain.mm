@@ -27,8 +27,7 @@
         //Set crawl action
         self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.crawlAnimation]];
         
-        //to be deleted
-        self.superPowerAction =[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]];
+        self.jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.jumpAnimation], nil];
         
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
@@ -73,9 +72,6 @@
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]]]; //Transform from current state
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation]]]; //Transform into superpower state
     self.currentSuperpower = superpower;
-    if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
-        _actionState = kActionStateSuperPower;
-    }
 }
 
 -(void)superPower {
@@ -92,7 +88,9 @@
 
 
 -(void)walk {
-    if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower || _actionState == kActionStateCrawl) {
+    //if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower || _actionState == kActionStateCrawl) {
+    if (!self.currentSuperpower.canWalk) return;
+    if (_actionState != kActionStateWalk){
         [self stopAllActions];
         [self runAction:_walkAction];
         _actionState = kActionStateWalk;
@@ -100,30 +98,54 @@
     
     if (_actionState == kActionStateWalk) {
         _velocity = ccp(2.0, 0);
-
         [self.currentSuperpower moveRight:self];
     }
 }
 
+-(void)jump {
+    //if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower || _actionState == kActionStateCrawl) {
+    if (!self.currentSuperpower.canJump) return;
+    if (_actionState != kActionStateJump){
+        [self stopAllActions];
+        [self runAction:_jumpAction];
+        _actionState = kActionStateJump;
+    }
+    
+    if (_actionState == kActionStateWalk) {
+        _velocity = ccp(2.0, 0);
+        [self.currentSuperpower moveRight:self];
+    }
+}
 -(void)crawl {
-    if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower ||_actionState == kActionStateWalk) {
+//    if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower ||_actionState == kActionStateWalk) {
+//        [self stopAllActions];
+//        [self runAction:_crawlAction];
+//        _actionState = kActionStateCrawl;
+//        self.position = ccp(self.position.x, self.position.y-200);
+//    }
+//    
+//    if (_actionState == kActionStateCrawl) {
+//        _velocity = ccp(2.0, 0);
+//        [self.currentSuperpower moveRight:self];
+//    }
+    if (!self.currentSuperpower.canCrawl) return;
+
+    if (_actionState != kActionStateCrawl){
         [self stopAllActions];
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;
-        self.position = ccp(self.position.x, self.position.y-200);
     }
     
     if (_actionState == kActionStateCrawl) {
         _velocity = ccp(2.0, 0);
-        [self.currentSuperpower moveRight:self];
+        [self.currentSuperpower crawl:self];
     }
-    
 }
 
 -(void)update:(ccTime)dt {
     NSLog(@"captain updating");
-    if (_actionState == kActionStateWalk | _actionState == kActionStateSuperPower) {
+  //  if (_actionState == kActionStateWalk | _actionState == kActionStateSuperPower) {
         _desiredPosition = ccpAdd(position_, ccpMult(_velocity, dt));
-    }
+//    }
 }
 @end

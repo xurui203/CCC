@@ -17,12 +17,16 @@
 
 @property(strong, nonatomic) CCAnimation* walkAnimation; // walk transformation
 @property(strong, nonatomic) CCAnimation* crawlAnimation; //crawl transformation
-//@property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
+@property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
 @property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
 
 
 @property(strong, nonatomic) NSString* icon;
 @property(nonatomic) BOOL isLocked;
+@property(nonatomic) BOOL canWalk;
+@property(nonatomic) BOOL canCrawl;
+@property(nonatomic) BOOL canJump;
+@property(nonatomic) BOOL canFly;
 
 
 //- (void*) useSuperpower;
@@ -32,7 +36,7 @@
 
 - (CCAnimation*) makeWalkAnimation;
 - (CCAnimation*) makeCrawlAnimation;
-//- (CCAnimation*) makeJumpAnimation;
+- (CCAnimation*) makeJumpAnimation;
 - (CCAnimation*) makeIdleAnimation;
 
 

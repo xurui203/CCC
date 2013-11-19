@@ -25,8 +25,12 @@
 //        self.idleAnimation = self.makeIdleAnimation;
 //        
         
-        NSString *myName = @"CaptainSP";
+        NSString *myName = @"captainSP";
         self.name = myName;
+        self.canWalk = TRUE;
+        self.canCrawl = TRUE;
+        self.canJump = TRUE;
+        
 //        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
 //        CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
 //        [self addChild:sheet2];
@@ -37,21 +41,13 @@
     return self;
 }
 
-# define NUM_TRANSFORM_INTO 123
+# define NUM_TRANSFORM_INTO 1
 
 - (CCAnimation *) makeTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
     //action animation - runs once and then returns to idle
     CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_INTO];
     for (int i = 1; i <= NUM_TRANSFORM_INTO; i++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
-        [superPowerActionFrames addObject:frame];
-    }
-    for (int j = 1; j <= 29; j++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Trainsition-KL00%d.png", j]];
-        [superPowerActionFrames addObject:frame];
-    }
-    for (int k = 1; k <= 31; k++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transition-From Human00%d.png", i]];
         [superPowerActionFrames addObject:frame];
     }
     CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
@@ -137,6 +133,20 @@
     return idleAnimation;
 }
 
+# define NUM_TRANSFORM_JUMP 9
+- (CCAnimation *) makeJumpAnimation {
+    
+    CCArray *jumpFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_JUMP];
+    for (int i = 1; i < NUM_TRANSFORM_JUMP; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Leaping000%d.png", i]];
+        [jumpFrames addObject:frame];
+    }
+    
+    CCAnimation *jumpAnimation = [CCAnimation animationWithFrames:[jumpFrames getNSArray] delay:1.0/12.0];
+    
+    return jumpAnimation;
+}
+
 
 
 -(void) jump: (Player*) player {
@@ -154,7 +164,7 @@
 -(void) crawl: (Player*) player {
     b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
-    player.body->SetLinearVelocity(b2Vec2(6.5, 0));
+    player.body->SetLinearVelocity(b2Vec2(5.5, 0));
     
 }
 
