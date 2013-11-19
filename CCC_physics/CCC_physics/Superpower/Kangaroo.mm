@@ -19,13 +19,14 @@
 }
 
 //25
-# define NUM_TRANSFORM_FROM 9
+//Ant Capt Transistion-From KL0001
+# define NUM_TRANSFORM_FROM 25
 -(CCAnimation*) makeTransformFromAnimation{
     CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_FROM];
     for (int i = 1; i <= NUM_TRANSFORM_FROM; i++  ) {
         
         //CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"CCC GF-Climbing/lat capt gf000%d.png", i]];
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d", i]];
 
         [superPowerActionFrames addObject:frame];
     }
@@ -33,6 +34,8 @@
     return transformFromAnimation;
 
 }
+
+//Ant Capt Trainsition-KL0001
 
 # define NUM_TRANSFORM_INTO 29
 -(CCAnimation*) makeTransformIntoAnimation{

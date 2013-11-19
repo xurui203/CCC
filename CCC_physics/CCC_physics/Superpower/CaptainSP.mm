@@ -57,6 +57,9 @@
     return actionAnimation;
 }
 
+
+//Ant Capt Transition-From Human0001
+
 - (CCAnimation *) makeTransformFromAnimation { //Ant Capt Transition-From Human0002.png
     //action animation - runs once and then returns to idle
     CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:54];
