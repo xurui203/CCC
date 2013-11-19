@@ -674,6 +674,31 @@
 		5B2D7D7B183BFECE00BA3365 /* Ant Capt Transistion-From KL0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D62183BFECE00BA3365 /* Ant Capt Transistion-From KL0023.png */; };
 		5B2D7D7C183BFECE00BA3365 /* Ant Capt Transistion-From KL0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D63183BFECE00BA3365 /* Ant Capt Transistion-From KL0024.png */; };
 		5B2D7D7D183BFECE00BA3365 /* Ant Capt Transistion-From KL0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D64183BFECE00BA3365 /* Ant Capt Transistion-From KL0025.png */; };
+		5B2D7D91183C028F00BA3365 /* Lat Capt Human-Walking001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D7E183C028F00BA3365 /* Lat Capt Human-Walking001.png */; };
+		5B2D7D92183C028F00BA3365 /* Lat Capt Human-Walking.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D7F183C028F00BA3365 /* Lat Capt Human-Walking.xml */; };
+		5B2D7D93183C028F00BA3365 /* Lat Capt Human-Walking002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D80183C028F00BA3365 /* Lat Capt Human-Walking002.png */; };
+		5B2D7D94183C028F00BA3365 /* Lat Capt Human-Walking003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D81183C028F00BA3365 /* Lat Capt Human-Walking003.png */; };
+		5B2D7D95183C028F00BA3365 /* Lat Capt Human-Walking004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D82183C028F00BA3365 /* Lat Capt Human-Walking004.png */; };
+		5B2D7D96183C028F00BA3365 /* Lat Capt Human-Walking005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D83183C028F00BA3365 /* Lat Capt Human-Walking005.png */; };
+		5B2D7D97183C028F00BA3365 /* Lat Capt Human-Walking006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D84183C028F00BA3365 /* Lat Capt Human-Walking006.png */; };
+		5B2D7D98183C028F00BA3365 /* Lat Capt Human-Walking007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D85183C028F00BA3365 /* Lat Capt Human-Walking007.png */; };
+		5B2D7D99183C028F00BA3365 /* Lat Capt Human-Walking008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D86183C028F00BA3365 /* Lat Capt Human-Walking008.png */; };
+		5B2D7D9A183C028F00BA3365 /* Lat Capt Human-Walking009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D87183C028F00BA3365 /* Lat Capt Human-Walking009.png */; };
+		5B2D7D9B183C028F00BA3365 /* Lat Capt Human-Walking0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D88183C028F00BA3365 /* Lat Capt Human-Walking0010.png */; };
+		5B2D7D9C183C028F00BA3365 /* Lat Capt Human-Walking0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D89183C028F00BA3365 /* Lat Capt Human-Walking0011.png */; };
+		5B2D7D9D183C028F00BA3365 /* Lat Capt Human-Walking0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D8A183C028F00BA3365 /* Lat Capt Human-Walking0012.png */; };
+		5B2D7D9E183C028F00BA3365 /* Lat Capt Human-Walking0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D8B183C028F00BA3365 /* Lat Capt Human-Walking0013.png */; };
+		5B2D7D9F183C028F00BA3365 /* Lat Capt Human-Walking0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D8C183C028F00BA3365 /* Lat Capt Human-Walking0014.png */; };
+		5B2D7DA0183C028F00BA3365 /* Lat Capt Human-Walking0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D8D183C028F00BA3365 /* Lat Capt Human-Walking0015.png */; };
+		5B2D7DA1183C028F00BA3365 /* Lat Capt Human-Walking0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D8E183C028F00BA3365 /* Lat Capt Human-Walking0016.png */; };
+		5B2D7DA2183C028F00BA3365 /* Lat Capt Human-Walking0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D8F183C028F00BA3365 /* Lat Capt Human-Walking0017.png */; };
+		5B2D7DA3183C028F00BA3365 /* Lat Capt Human-Walking0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7D90183C028F00BA3365 /* Lat Capt Human-Walking0018.png */; };
+		5B2D7DAA183C04EB00BA3365 /* Lat Capt Human-Standing001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7DA4183C04EB00BA3365 /* Lat Capt Human-Standing001.png */; };
+		5B2D7DAB183C04EB00BA3365 /* Lat Capt Human-Standing002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7DA5183C04EB00BA3365 /* Lat Capt Human-Standing002.png */; };
+		5B2D7DAC183C04EB00BA3365 /* Lat Capt Human-Standing003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7DA6183C04EB00BA3365 /* Lat Capt Human-Standing003.png */; };
+		5B2D7DAD183C04EB00BA3365 /* Lat Capt Human-Standing004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7DA7183C04EB00BA3365 /* Lat Capt Human-Standing004.png */; };
+		5B2D7DAE183C04EB00BA3365 /* Lat Capt Human-Standing005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7DA8183C04EB00BA3365 /* Lat Capt Human-Standing005.png */; };
+		5B2D7DAF183C04EB00BA3365 /* Lat Capt Human-Standing006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D7DA9183C04EB00BA3365 /* Lat Capt Human-Standing006.png */; };
 		5B4D451C1835C59D00F2855E /* CaptainSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45171835C59D00F2855E /* CaptainSP.mm */; };
 		5B4D451D1835C59D00F2855E /* Kangaroo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45191835C59D00F2855E /* Kangaroo.mm */; };
 		5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D451B1835C59D00F2855E /* Superpower.mm */; };
@@ -948,15 +973,15 @@
 		5BB623F518360001001E8571 /* CCC GF-Walking0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620991835FFFF001E8571 /* CCC GF-Walking0038.png */; };
 		5BB623F618360001001E8571 /* CCC GF-Walking0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6209A1835FFFF001E8571 /* CCC GF-Walking0039.png */; };
 		5BB623F718360001001E8571 /* Gecko Feet Spec Sheet.docx in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6209B1835FFFF001E8571 /* Gecko Feet Spec Sheet.docx */; };
-		5BB623F818360001001E8571 /* Lat Capt Human-Crawling0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6209E1835FFFF001E8571 /* Lat Capt Human-Crawling0001.png */; };
-		5BB623F918360001001E8571 /* Lat Capt Human-Crawling0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6209F1835FFFF001E8571 /* Lat Capt Human-Crawling0002.png */; };
-		5BB623FA18360001001E8571 /* Lat Capt Human-Crawling0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A01835FFFF001E8571 /* Lat Capt Human-Crawling0003.png */; };
-		5BB623FB18360001001E8571 /* Lat Capt Human-Crawling0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A11835FFFF001E8571 /* Lat Capt Human-Crawling0004.png */; };
-		5BB623FC18360001001E8571 /* Lat Capt Human-Crawling0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A21835FFFF001E8571 /* Lat Capt Human-Crawling0005.png */; };
-		5BB623FD18360001001E8571 /* Lat Capt Human-Crawling0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A31835FFFF001E8571 /* Lat Capt Human-Crawling0006.png */; };
-		5BB623FE18360001001E8571 /* Lat Capt Human-Crawling0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A41835FFFF001E8571 /* Lat Capt Human-Crawling0007.png */; };
-		5BB623FF18360001001E8571 /* Lat Capt Human-Crawling0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A51835FFFF001E8571 /* Lat Capt Human-Crawling0008.png */; };
-		5BB6240018360001001E8571 /* Lat Capt Human-Crawling0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A61835FFFF001E8571 /* Lat Capt Human-Crawling0009.png */; };
+		5BB623F818360001001E8571 /* Lat Capt Human-Crawling001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6209E1835FFFF001E8571 /* Lat Capt Human-Crawling001.png */; };
+		5BB623F918360001001E8571 /* Lat Capt Human-Crawling002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6209F1835FFFF001E8571 /* Lat Capt Human-Crawling002.png */; };
+		5BB623FA18360001001E8571 /* Lat Capt Human-Crawling003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A01835FFFF001E8571 /* Lat Capt Human-Crawling003.png */; };
+		5BB623FB18360001001E8571 /* Lat Capt Human-Crawling004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A11835FFFF001E8571 /* Lat Capt Human-Crawling004.png */; };
+		5BB623FC18360001001E8571 /* Lat Capt Human-Crawling005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A21835FFFF001E8571 /* Lat Capt Human-Crawling005.png */; };
+		5BB623FD18360001001E8571 /* Lat Capt Human-Crawling006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A31835FFFF001E8571 /* Lat Capt Human-Crawling006.png */; };
+		5BB623FE18360001001E8571 /* Lat Capt Human-Crawling007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A41835FFFF001E8571 /* Lat Capt Human-Crawling007.png */; };
+		5BB623FF18360001001E8571 /* Lat Capt Human-Crawling008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A51835FFFF001E8571 /* Lat Capt Human-Crawling008.png */; };
+		5BB6240018360001001E8571 /* Lat Capt Human-Crawling009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A61835FFFF001E8571 /* Lat Capt Human-Crawling009.png */; };
 		5BB6240118360001001E8571 /* Lat Capt Human-Crawling0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A71835FFFF001E8571 /* Lat Capt Human-Crawling0010.png */; };
 		5BB6240218360001001E8571 /* Lat Capt Human-Crawling0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A81835FFFF001E8571 /* Lat Capt Human-Crawling0011.png */; };
 		5BB6240318360001001E8571 /* Lat Capt Human-Crawling0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620A91835FFFF001E8571 /* Lat Capt Human-Crawling0012.png */; };
@@ -1006,86 +1031,6 @@
 		5BB6242F18360001001E8571 /* Lat Capt Human-Running0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620D71835FFFF001E8571 /* Lat Capt Human-Running0022.png */; };
 		5BB6243018360001001E8571 /* Lat Capt Human-Running0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620D81835FFFF001E8571 /* Lat Capt Human-Running0023.png */; };
 		5BB6243118360001001E8571 /* Lat Capt Human-Running0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620D91835FFFF001E8571 /* Lat Capt Human-Running0024.png */; };
-		5BB6243218360001001E8571 /* Lat Capt Human-Standing.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620DB1835FFFF001E8571 /* Lat Capt Human-Standing.xml */; };
-		5BB6243318360001001E8571 /* Lat Capt Human-Standing0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620DC1835FFFF001E8571 /* Lat Capt Human-Standing0001.png */; };
-		5BB6243418360001001E8571 /* Lat Capt Human-Standing0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620DD1835FFFF001E8571 /* Lat Capt Human-Standing0002.png */; };
-		5BB6243518360001001E8571 /* Lat Capt Human-Standing0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620DE1835FFFF001E8571 /* Lat Capt Human-Standing0003.png */; };
-		5BB6243618360001001E8571 /* Lat Capt Human-Standing0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620DF1835FFFF001E8571 /* Lat Capt Human-Standing0004.png */; };
-		5BB6243718360001001E8571 /* Lat Capt Human-Standing0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E01835FFFF001E8571 /* Lat Capt Human-Standing0005.png */; };
-		5BB6243818360001001E8571 /* Lat Capt Human-Standing0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E11835FFFF001E8571 /* Lat Capt Human-Standing0006.png */; };
-		5BB6243918360001001E8571 /* Lat Capt Human-Standing0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E21835FFFF001E8571 /* Lat Capt Human-Standing0007.png */; };
-		5BB6243A18360001001E8571 /* Lat Capt Human-Standing0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E31835FFFF001E8571 /* Lat Capt Human-Standing0008.png */; };
-		5BB6243B18360001001E8571 /* Lat Capt Human-Standing0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E41835FFFF001E8571 /* Lat Capt Human-Standing0009.png */; };
-		5BB6243C18360001001E8571 /* Lat Capt Human-Standing0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E51835FFFF001E8571 /* Lat Capt Human-Standing0010.png */; };
-		5BB6243D18360001001E8571 /* Lat Capt Human-Standing0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E61835FFFF001E8571 /* Lat Capt Human-Standing0011.png */; };
-		5BB6243E18360001001E8571 /* Lat Capt Human-Standing0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E71835FFFF001E8571 /* Lat Capt Human-Standing0012.png */; };
-		5BB6243F18360001001E8571 /* Lat Capt Human-Standing0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E81835FFFF001E8571 /* Lat Capt Human-Standing0013.png */; };
-		5BB6244018360001001E8571 /* Lat Capt Human-Standing0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620E91835FFFF001E8571 /* Lat Capt Human-Standing0014.png */; };
-		5BB6244118360001001E8571 /* Lat Capt Human-Standing0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620EA1835FFFF001E8571 /* Lat Capt Human-Standing0015.png */; };
-		5BB6244218360001001E8571 /* Lat Capt Human-Standing0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620EB1835FFFF001E8571 /* Lat Capt Human-Standing0016.png */; };
-		5BB6244318360001001E8571 /* Lat Capt Human-Standing0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620EC1835FFFF001E8571 /* Lat Capt Human-Standing0017.png */; };
-		5BB6244418360001001E8571 /* Lat Capt Human-Standing0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620ED1835FFFF001E8571 /* Lat Capt Human-Standing0018.png */; };
-		5BB6244518360001001E8571 /* Lat Capt Human-Standing0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620EE1835FFFF001E8571 /* Lat Capt Human-Standing0019.png */; };
-		5BB6244618360001001E8571 /* Lat Capt Human-Standing0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620EF1835FFFF001E8571 /* Lat Capt Human-Standing0020.png */; };
-		5BB6244718360001001E8571 /* Lat Capt Human-Standing0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F01835FFFF001E8571 /* Lat Capt Human-Standing0021.png */; };
-		5BB6244818360001001E8571 /* Lat Capt Human-Standing0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F11835FFFF001E8571 /* Lat Capt Human-Standing0022.png */; };
-		5BB6244918360001001E8571 /* Lat Capt Human-Standing0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F21835FFFF001E8571 /* Lat Capt Human-Standing0023.png */; };
-		5BB6244A18360001001E8571 /* Lat Capt Human-Standing0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F31835FFFF001E8571 /* Lat Capt Human-Standing0024.png */; };
-		5BB6244B18360001001E8571 /* Lat Capt Human-Standing0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F41835FFFF001E8571 /* Lat Capt Human-Standing0025.png */; };
-		5BB6244C18360001001E8571 /* Lat Capt Human-Standing0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F51835FFFF001E8571 /* Lat Capt Human-Standing0026.png */; };
-		5BB6244D18360001001E8571 /* Lat Capt Human-Standing0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F61835FFFF001E8571 /* Lat Capt Human-Standing0027.png */; };
-		5BB6244E18360001001E8571 /* Lat Capt Human-Standing0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F71835FFFF001E8571 /* Lat Capt Human-Standing0028.png */; };
-		5BB6244F18360001001E8571 /* Lat Capt Human-Standing0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F81835FFFF001E8571 /* Lat Capt Human-Standing0029.png */; };
-		5BB6245018360001001E8571 /* Lat Capt Human-Standing0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620F91835FFFF001E8571 /* Lat Capt Human-Standing0030.png */; };
-		5BB6245118360001001E8571 /* Lat Capt Human-Standing0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620FA1835FFFF001E8571 /* Lat Capt Human-Standing0031.png */; };
-		5BB6245218360001001E8571 /* Lat Capt Human-Standing0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620FB1835FFFF001E8571 /* Lat Capt Human-Standing0032.png */; };
-		5BB6245318360001001E8571 /* Lat Capt Human-Standing0033.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620FC1835FFFF001E8571 /* Lat Capt Human-Standing0033.png */; };
-		5BB6245418360001001E8571 /* Lat Capt Human-Standing0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620FD1835FFFF001E8571 /* Lat Capt Human-Standing0034.png */; };
-		5BB6245518360001001E8571 /* Lat Capt Human-Standing0035.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620FE1835FFFF001E8571 /* Lat Capt Human-Standing0035.png */; };
-		5BB6245618360001001E8571 /* Lat Capt Human-Standing0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB620FF1835FFFF001E8571 /* Lat Capt Human-Standing0036.png */; };
-		5BB6245718360001001E8571 /* Lat Capt Human-Standing0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621001835FFFF001E8571 /* Lat Capt Human-Standing0037.png */; };
-		5BB6245818360001001E8571 /* Lat Capt Human-Standing0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621011835FFFF001E8571 /* Lat Capt Human-Standing0038.png */; };
-		5BB6245918360001001E8571 /* Lat Capt Human-Standing0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621021835FFFF001E8571 /* Lat Capt Human-Standing0039.png */; };
-		5BB6245A18360001001E8571 /* Lat Capt Human-Standing0040.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621031835FFFF001E8571 /* Lat Capt Human-Standing0040.png */; };
-		5BB6245B18360001001E8571 /* Lat Capt Human-Standing0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621041835FFFF001E8571 /* Lat Capt Human-Standing0041.png */; };
-		5BB6245C18360001001E8571 /* Lat Capt Human-Standing0042.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621051835FFFF001E8571 /* Lat Capt Human-Standing0042.png */; };
-		5BB6245D18360001001E8571 /* Lat Capt Human-Standing0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621061835FFFF001E8571 /* Lat Capt Human-Standing0043.png */; };
-		5BB6245E18360001001E8571 /* Lat Capt Human-Standing0044.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621071835FFFF001E8571 /* Lat Capt Human-Standing0044.png */; };
-		5BB6245F18360001001E8571 /* Lat Capt Human-Standing0045.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621081835FFFF001E8571 /* Lat Capt Human-Standing0045.png */; };
-		5BB6246018360001001E8571 /* Lat Capt Human-Standing0046.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621091835FFFF001E8571 /* Lat Capt Human-Standing0046.png */; };
-		5BB6246118360001001E8571 /* Lat Capt Human-Standing0047.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6210A1835FFFF001E8571 /* Lat Capt Human-Standing0047.png */; };
-		5BB6246218360001001E8571 /* Lat Capt Human-Standing0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6210B1835FFFF001E8571 /* Lat Capt Human-Standing0048.png */; };
-		5BB6246318360001001E8571 /* Lat Capt Human-Standing0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6210C1835FFFF001E8571 /* Lat Capt Human-Standing0049.png */; };
-		5BB6246418360001001E8571 /* Lat Capt Human-Standing0050.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6210D1835FFFF001E8571 /* Lat Capt Human-Standing0050.png */; };
-		5BB6246518360001001E8571 /* Lat Capt Human-Standing0051.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6210E1835FFFF001E8571 /* Lat Capt Human-Standing0051.png */; };
-		5BB6246618360001001E8571 /* Lat Capt Human-Standing0052.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6210F1835FFFF001E8571 /* Lat Capt Human-Standing0052.png */; };
-		5BB6246718360001001E8571 /* Lat Capt Human-Standing0053.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621101835FFFF001E8571 /* Lat Capt Human-Standing0053.png */; };
-		5BB6246818360001001E8571 /* Lat Capt Human-Standing0054.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621111835FFFF001E8571 /* Lat Capt Human-Standing0054.png */; };
-		5BB6246918360001001E8571 /* Lat Capt Human-Standing0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621121835FFFF001E8571 /* Lat Capt Human-Standing0055.png */; };
-		5BB6246A18360001001E8571 /* Lat Capt Human-Standing0056.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621131835FFFF001E8571 /* Lat Capt Human-Standing0056.png */; };
-		5BB6246B18360001001E8571 /* Lat Capt Human-Standing0057.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621141835FFFF001E8571 /* Lat Capt Human-Standing0057.png */; };
-		5BB6246C18360001001E8571 /* Lat Capt Human-Standing0058.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621151835FFFF001E8571 /* Lat Capt Human-Standing0058.png */; };
-		5BB6246D18360001001E8571 /* Lat Capt Human-Standing0059.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621161835FFFF001E8571 /* Lat Capt Human-Standing0059.png */; };
-		5BB6246E18360001001E8571 /* Lat Capt Human-Standing0060.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621171835FFFF001E8571 /* Lat Capt Human-Standing0060.png */; };
-		5BB6246F18360001001E8571 /* Lat Capt Human-Standing0061.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621181835FFFF001E8571 /* Lat Capt Human-Standing0061.png */; };
-		5BB6247018360001001E8571 /* Lat Capt Human-Standing0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621191835FFFF001E8571 /* Lat Capt Human-Standing0062.png */; };
-		5BB6247118360001001E8571 /* Lat Capt Human-Standing0063.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6211A1835FFFF001E8571 /* Lat Capt Human-Standing0063.png */; };
-		5BB6247218360001001E8571 /* Lat Capt Human-Standing0064.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6211B1835FFFF001E8571 /* Lat Capt Human-Standing0064.png */; };
-		5BB6247318360001001E8571 /* Lat Capt Human-Standing0065.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6211C1835FFFF001E8571 /* Lat Capt Human-Standing0065.png */; };
-		5BB6247418360001001E8571 /* Lat Capt Human-Standing0066.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6211D1835FFFF001E8571 /* Lat Capt Human-Standing0066.png */; };
-		5BB6247518360001001E8571 /* Lat Capt Human-Standing0067.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6211E1835FFFF001E8571 /* Lat Capt Human-Standing0067.png */; };
-		5BB6247618360001001E8571 /* Lat Capt Human-Standing0068.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6211F1835FFFF001E8571 /* Lat Capt Human-Standing0068.png */; };
-		5BB6247718360001001E8571 /* Lat Capt Human-Standing0069.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621201835FFFF001E8571 /* Lat Capt Human-Standing0069.png */; };
-		5BB6247818360001001E8571 /* Lat Capt Human-Standing0070.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621211835FFFF001E8571 /* Lat Capt Human-Standing0070.png */; };
-		5BB6247918360001001E8571 /* Lat Capt Human-Standing0071.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621221835FFFF001E8571 /* Lat Capt Human-Standing0071.png */; };
-		5BB6247A18360001001E8571 /* Lat Capt Human-Standing0072.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621231835FFFF001E8571 /* Lat Capt Human-Standing0072.png */; };
-		5BB6247B18360001001E8571 /* Lat Capt Human-Standing0073.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621241835FFFF001E8571 /* Lat Capt Human-Standing0073.png */; };
-		5BB6247C18360001001E8571 /* Lat Capt Human-Standing0074.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621251835FFFF001E8571 /* Lat Capt Human-Standing0074.png */; };
-		5BB6247D18360001001E8571 /* Lat Capt Human-Standing0075.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621261835FFFF001E8571 /* Lat Capt Human-Standing0075.png */; };
-		5BB6247E18360001001E8571 /* Lat Capt Human-Standing0076.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621271835FFFF001E8571 /* Lat Capt Human-Standing0076.png */; };
-		5BB6247F18360001001E8571 /* Lat Capt Human-Standing0077.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621281835FFFF001E8571 /* Lat Capt Human-Standing0077.png */; };
-		5BB6248018360001001E8571 /* Lat Capt Human-Standing0078.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621291835FFFF001E8571 /* Lat Capt Human-Standing0078.png */; };
-		5BB6248118360001001E8571 /* Lat Capt Human-Standing0079.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6212A1835FFFF001E8571 /* Lat Capt Human-Standing0079.png */; };
 		5BB6248218360001001E8571 /* Lat Capt Human-Stand Up.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6212C1835FFFF001E8571 /* Lat Capt Human-Stand Up.xml */; };
 		5BB6248318360001001E8571 /* Lat Capt Human-Stand Up0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6212D1835FFFF001E8571 /* Lat Capt Human-Stand Up0001.png */; };
 		5BB6248418360001001E8571 /* Lat Capt Human-Stand Up0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6212E1835FFFF001E8571 /* Lat Capt Human-Stand Up0002.png */; };
@@ -1146,25 +1091,6 @@
 		5BB624BB18360001001E8571 /* Lat Capt Human-To Crawl Transition0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621661835FFFF001E8571 /* Lat Capt Human-To Crawl Transition0028.png */; };
 		5BB624BC18360001001E8571 /* Lat Capt Human-Wait to Crawl.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621681835FFFF001E8571 /* Lat Capt Human-Wait to Crawl.png */; };
 		5BB624BD18360001001E8571 /* Lat Capt Human-Wait to Crawl.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621691835FFFF001E8571 /* Lat Capt Human-Wait to Crawl.xml */; };
-		5BB624BE18360001001E8571 /* Lat Capt Human-Walking.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6216B1835FFFF001E8571 /* Lat Capt Human-Walking.xml */; };
-		5BB624BF18360001001E8571 /* Lat Capt Human-Walking0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6216C1835FFFF001E8571 /* Lat Capt Human-Walking0001.png */; };
-		5BB624C018360001001E8571 /* Lat Capt Human-Walking0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6216D1835FFFF001E8571 /* Lat Capt Human-Walking0002.png */; };
-		5BB624C118360001001E8571 /* Lat Capt Human-Walking0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6216E1835FFFF001E8571 /* Lat Capt Human-Walking0003.png */; };
-		5BB624C218360001001E8571 /* Lat Capt Human-Walking0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6216F1835FFFF001E8571 /* Lat Capt Human-Walking0004.png */; };
-		5BB624C318360001001E8571 /* Lat Capt Human-Walking0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621701835FFFF001E8571 /* Lat Capt Human-Walking0005.png */; };
-		5BB624C418360001001E8571 /* Lat Capt Human-Walking0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621711835FFFF001E8571 /* Lat Capt Human-Walking0006.png */; };
-		5BB624C518360001001E8571 /* Lat Capt Human-Walking0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621721835FFFF001E8571 /* Lat Capt Human-Walking0007.png */; };
-		5BB624C618360001001E8571 /* Lat Capt Human-Walking0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621731835FFFF001E8571 /* Lat Capt Human-Walking0008.png */; };
-		5BB624C718360001001E8571 /* Lat Capt Human-Walking0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621741835FFFF001E8571 /* Lat Capt Human-Walking0009.png */; };
-		5BB624C818360001001E8571 /* Lat Capt Human-Walking0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621751835FFFF001E8571 /* Lat Capt Human-Walking0010.png */; };
-		5BB624C918360001001E8571 /* Lat Capt Human-Walking0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621761835FFFF001E8571 /* Lat Capt Human-Walking0011.png */; };
-		5BB624CA18360001001E8571 /* Lat Capt Human-Walking0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621771835FFFF001E8571 /* Lat Capt Human-Walking0012.png */; };
-		5BB624CB18360001001E8571 /* Lat Capt Human-Walking0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621781835FFFF001E8571 /* Lat Capt Human-Walking0013.png */; };
-		5BB624CC18360001001E8571 /* Lat Capt Human-Walking0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621791835FFFF001E8571 /* Lat Capt Human-Walking0014.png */; };
-		5BB624CD18360001001E8571 /* Lat Capt Human-Walking0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6217A1835FFFF001E8571 /* Lat Capt Human-Walking0015.png */; };
-		5BB624CE18360001001E8571 /* Lat Capt Human-Walking0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6217B1835FFFF001E8571 /* Lat Capt Human-Walking0016.png */; };
-		5BB624CF18360001001E8571 /* Lat Capt Human-Walking0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6217C1835FFFF001E8571 /* Lat Capt Human-Walking0017.png */; };
-		5BB624D018360001001E8571 /* Lat Capt Human-Walking0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6217D1835FFFF001E8571 /* Lat Capt Human-Walking0018.png */; };
 		5BB624D118360001001E8571 /* Kangaroo Legs Spec Sheet.docx in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6217F1835FFFF001E8571 /* Kangaroo Legs Spec Sheet.docx */; };
 		5BB624D218360001001E8571 /* Lat Capt Kangaroo-Jumping.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621811835FFFF001E8571 /* Lat Capt Kangaroo-Jumping.xml */; };
 		5BB624D318360001001E8571 /* Lat Capt KL-Jumping0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB621821835FFFF001E8571 /* Lat Capt KL-Jumping0001.png */; };
@@ -1291,15 +1217,15 @@
 		5BB6254C18360001001E8571 /* Ant Capt Tranisition-From GF0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220318360000001E8571 /* Ant Capt Tranisition-From GF0026.png */; };
 		5BB6254D18360001001E8571 /* Ant Capt Tranisition-From GF0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220418360000001E8571 /* Ant Capt Tranisition-From GF0027.png */; };
 		5BB6254E18360001001E8571 /* Ant Capt Tranisition-From GF0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220518360000001E8571 /* Ant Capt Tranisition-From GF0028.png */; };
-		5BB6254F18360001001E8571 /* Ant Capt Transition-From Human0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220718360000001E8571 /* Ant Capt Transition-From Human0001.png */; };
-		5BB6255018360001001E8571 /* Ant Capt Transition-From Human0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220818360000001E8571 /* Ant Capt Transition-From Human0002.png */; };
-		5BB6255118360001001E8571 /* Ant Capt Transition-From Human0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220918360000001E8571 /* Ant Capt Transition-From Human0003.png */; };
-		5BB6255218360001001E8571 /* Ant Capt Transition-From Human0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220A18360000001E8571 /* Ant Capt Transition-From Human0004.png */; };
-		5BB6255318360001001E8571 /* Ant Capt Transition-From Human0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220B18360000001E8571 /* Ant Capt Transition-From Human0005.png */; };
-		5BB6255418360001001E8571 /* Ant Capt Transition-From Human0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220C18360000001E8571 /* Ant Capt Transition-From Human0006.png */; };
-		5BB6255518360001001E8571 /* Ant Capt Transition-From Human0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220D18360000001E8571 /* Ant Capt Transition-From Human0007.png */; };
-		5BB6255618360001001E8571 /* Ant Capt Transition-From Human0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220E18360000001E8571 /* Ant Capt Transition-From Human0008.png */; };
-		5BB6255718360001001E8571 /* Ant Capt Transition-From Human0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220F18360000001E8571 /* Ant Capt Transition-From Human0009.png */; };
+		5BB6254F18360001001E8571 /* Ant Capt Transition-From Human001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220718360000001E8571 /* Ant Capt Transition-From Human001.png */; };
+		5BB6255018360001001E8571 /* Ant Capt Transition-From Human002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220818360000001E8571 /* Ant Capt Transition-From Human002.png */; };
+		5BB6255118360001001E8571 /* Ant Capt Transition-From Human003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220918360000001E8571 /* Ant Capt Transition-From Human003.png */; };
+		5BB6255218360001001E8571 /* Ant Capt Transition-From Human004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220A18360000001E8571 /* Ant Capt Transition-From Human004.png */; };
+		5BB6255318360001001E8571 /* Ant Capt Transition-From Human005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220B18360000001E8571 /* Ant Capt Transition-From Human005.png */; };
+		5BB6255418360001001E8571 /* Ant Capt Transition-From Human006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220C18360000001E8571 /* Ant Capt Transition-From Human006.png */; };
+		5BB6255518360001001E8571 /* Ant Capt Transition-From Human007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220D18360000001E8571 /* Ant Capt Transition-From Human007.png */; };
+		5BB6255618360001001E8571 /* Ant Capt Transition-From Human008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220E18360000001E8571 /* Ant Capt Transition-From Human008.png */; };
+		5BB6255718360001001E8571 /* Ant Capt Transition-From Human009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6220F18360000001E8571 /* Ant Capt Transition-From Human009.png */; };
 		5BB6255818360001001E8571 /* Ant Capt Transition-From Human0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6221018360000001E8571 /* Ant Capt Transition-From Human0010.png */; };
 		5BB6255918360001001E8571 /* Ant Capt Transition-From Human0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6221118360000001E8571 /* Ant Capt Transition-From Human0011.png */; };
 		5BB6255A18360001001E8571 /* Ant Capt Transition-From Human0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6221218360000001E8571 /* Ant Capt Transition-From Human0012.png */; };
@@ -2364,6 +2290,31 @@
 		5B2D7D62183BFECE00BA3365 /* Ant Capt Transistion-From KL0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transistion-From KL0023.png"; sourceTree = "<group>"; };
 		5B2D7D63183BFECE00BA3365 /* Ant Capt Transistion-From KL0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transistion-From KL0024.png"; sourceTree = "<group>"; };
 		5B2D7D64183BFECE00BA3365 /* Ant Capt Transistion-From KL0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transistion-From KL0025.png"; sourceTree = "<group>"; };
+		5B2D7D7E183C028F00BA3365 /* Lat Capt Human-Walking001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking001.png"; sourceTree = "<group>"; };
+		5B2D7D7F183C028F00BA3365 /* Lat Capt Human-Walking.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lat Capt Human-Walking.xml"; sourceTree = "<group>"; };
+		5B2D7D80183C028F00BA3365 /* Lat Capt Human-Walking002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking002.png"; sourceTree = "<group>"; };
+		5B2D7D81183C028F00BA3365 /* Lat Capt Human-Walking003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking003.png"; sourceTree = "<group>"; };
+		5B2D7D82183C028F00BA3365 /* Lat Capt Human-Walking004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking004.png"; sourceTree = "<group>"; };
+		5B2D7D83183C028F00BA3365 /* Lat Capt Human-Walking005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking005.png"; sourceTree = "<group>"; };
+		5B2D7D84183C028F00BA3365 /* Lat Capt Human-Walking006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking006.png"; sourceTree = "<group>"; };
+		5B2D7D85183C028F00BA3365 /* Lat Capt Human-Walking007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking007.png"; sourceTree = "<group>"; };
+		5B2D7D86183C028F00BA3365 /* Lat Capt Human-Walking008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking008.png"; sourceTree = "<group>"; };
+		5B2D7D87183C028F00BA3365 /* Lat Capt Human-Walking009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking009.png"; sourceTree = "<group>"; };
+		5B2D7D88183C028F00BA3365 /* Lat Capt Human-Walking0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0010.png"; sourceTree = "<group>"; };
+		5B2D7D89183C028F00BA3365 /* Lat Capt Human-Walking0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0011.png"; sourceTree = "<group>"; };
+		5B2D7D8A183C028F00BA3365 /* Lat Capt Human-Walking0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0012.png"; sourceTree = "<group>"; };
+		5B2D7D8B183C028F00BA3365 /* Lat Capt Human-Walking0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0013.png"; sourceTree = "<group>"; };
+		5B2D7D8C183C028F00BA3365 /* Lat Capt Human-Walking0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0014.png"; sourceTree = "<group>"; };
+		5B2D7D8D183C028F00BA3365 /* Lat Capt Human-Walking0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0015.png"; sourceTree = "<group>"; };
+		5B2D7D8E183C028F00BA3365 /* Lat Capt Human-Walking0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0016.png"; sourceTree = "<group>"; };
+		5B2D7D8F183C028F00BA3365 /* Lat Capt Human-Walking0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0017.png"; sourceTree = "<group>"; };
+		5B2D7D90183C028F00BA3365 /* Lat Capt Human-Walking0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0018.png"; sourceTree = "<group>"; };
+		5B2D7DA4183C04EB00BA3365 /* Lat Capt Human-Standing001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing001.png"; sourceTree = "<group>"; };
+		5B2D7DA5183C04EB00BA3365 /* Lat Capt Human-Standing002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing002.png"; sourceTree = "<group>"; };
+		5B2D7DA6183C04EB00BA3365 /* Lat Capt Human-Standing003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing003.png"; sourceTree = "<group>"; };
+		5B2D7DA7183C04EB00BA3365 /* Lat Capt Human-Standing004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing004.png"; sourceTree = "<group>"; };
+		5B2D7DA8183C04EB00BA3365 /* Lat Capt Human-Standing005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing005.png"; sourceTree = "<group>"; };
+		5B2D7DA9183C04EB00BA3365 /* Lat Capt Human-Standing006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing006.png"; sourceTree = "<group>"; };
 		5B4D45161835C59D00F2855E /* CaptainSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainSP.h; sourceTree = "<group>"; };
 		5B4D45171835C59D00F2855E /* CaptainSP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CaptainSP.mm; sourceTree = "<group>"; };
 		5B4D45181835C59D00F2855E /* Kangaroo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kangaroo.h; sourceTree = "<group>"; };
@@ -2642,15 +2593,15 @@
 		5BB620991835FFFF001E8571 /* CCC GF-Walking0038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC GF-Walking0038.png"; sourceTree = "<group>"; };
 		5BB6209A1835FFFF001E8571 /* CCC GF-Walking0039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC GF-Walking0039.png"; sourceTree = "<group>"; };
 		5BB6209B1835FFFF001E8571 /* Gecko Feet Spec Sheet.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gecko Feet Spec Sheet.docx"; sourceTree = "<group>"; };
-		5BB6209E1835FFFF001E8571 /* Lat Capt Human-Crawling0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0001.png"; sourceTree = "<group>"; };
-		5BB6209F1835FFFF001E8571 /* Lat Capt Human-Crawling0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0002.png"; sourceTree = "<group>"; };
-		5BB620A01835FFFF001E8571 /* Lat Capt Human-Crawling0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0003.png"; sourceTree = "<group>"; };
-		5BB620A11835FFFF001E8571 /* Lat Capt Human-Crawling0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0004.png"; sourceTree = "<group>"; };
-		5BB620A21835FFFF001E8571 /* Lat Capt Human-Crawling0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0005.png"; sourceTree = "<group>"; };
-		5BB620A31835FFFF001E8571 /* Lat Capt Human-Crawling0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0006.png"; sourceTree = "<group>"; };
-		5BB620A41835FFFF001E8571 /* Lat Capt Human-Crawling0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0007.png"; sourceTree = "<group>"; };
-		5BB620A51835FFFF001E8571 /* Lat Capt Human-Crawling0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0008.png"; sourceTree = "<group>"; };
-		5BB620A61835FFFF001E8571 /* Lat Capt Human-Crawling0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0009.png"; sourceTree = "<group>"; };
+		5BB6209E1835FFFF001E8571 /* Lat Capt Human-Crawling001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling001.png"; sourceTree = "<group>"; };
+		5BB6209F1835FFFF001E8571 /* Lat Capt Human-Crawling002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling002.png"; sourceTree = "<group>"; };
+		5BB620A01835FFFF001E8571 /* Lat Capt Human-Crawling003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling003.png"; sourceTree = "<group>"; };
+		5BB620A11835FFFF001E8571 /* Lat Capt Human-Crawling004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling004.png"; sourceTree = "<group>"; };
+		5BB620A21835FFFF001E8571 /* Lat Capt Human-Crawling005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling005.png"; sourceTree = "<group>"; };
+		5BB620A31835FFFF001E8571 /* Lat Capt Human-Crawling006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling006.png"; sourceTree = "<group>"; };
+		5BB620A41835FFFF001E8571 /* Lat Capt Human-Crawling007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling007.png"; sourceTree = "<group>"; };
+		5BB620A51835FFFF001E8571 /* Lat Capt Human-Crawling008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling008.png"; sourceTree = "<group>"; };
+		5BB620A61835FFFF001E8571 /* Lat Capt Human-Crawling009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling009.png"; sourceTree = "<group>"; };
 		5BB620A71835FFFF001E8571 /* Lat Capt Human-Crawling0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0010.png"; sourceTree = "<group>"; };
 		5BB620A81835FFFF001E8571 /* Lat Capt Human-Crawling0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0011.png"; sourceTree = "<group>"; };
 		5BB620A91835FFFF001E8571 /* Lat Capt Human-Crawling0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Crawling0012.png"; sourceTree = "<group>"; };
@@ -2700,86 +2651,6 @@
 		5BB620D71835FFFF001E8571 /* Lat Capt Human-Running0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Running0022.png"; sourceTree = "<group>"; };
 		5BB620D81835FFFF001E8571 /* Lat Capt Human-Running0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Running0023.png"; sourceTree = "<group>"; };
 		5BB620D91835FFFF001E8571 /* Lat Capt Human-Running0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Running0024.png"; sourceTree = "<group>"; };
-		5BB620DB1835FFFF001E8571 /* Lat Capt Human-Standing.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lat Capt Human-Standing.xml"; sourceTree = "<group>"; };
-		5BB620DC1835FFFF001E8571 /* Lat Capt Human-Standing0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0001.png"; sourceTree = "<group>"; };
-		5BB620DD1835FFFF001E8571 /* Lat Capt Human-Standing0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0002.png"; sourceTree = "<group>"; };
-		5BB620DE1835FFFF001E8571 /* Lat Capt Human-Standing0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0003.png"; sourceTree = "<group>"; };
-		5BB620DF1835FFFF001E8571 /* Lat Capt Human-Standing0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0004.png"; sourceTree = "<group>"; };
-		5BB620E01835FFFF001E8571 /* Lat Capt Human-Standing0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0005.png"; sourceTree = "<group>"; };
-		5BB620E11835FFFF001E8571 /* Lat Capt Human-Standing0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0006.png"; sourceTree = "<group>"; };
-		5BB620E21835FFFF001E8571 /* Lat Capt Human-Standing0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0007.png"; sourceTree = "<group>"; };
-		5BB620E31835FFFF001E8571 /* Lat Capt Human-Standing0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0008.png"; sourceTree = "<group>"; };
-		5BB620E41835FFFF001E8571 /* Lat Capt Human-Standing0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0009.png"; sourceTree = "<group>"; };
-		5BB620E51835FFFF001E8571 /* Lat Capt Human-Standing0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0010.png"; sourceTree = "<group>"; };
-		5BB620E61835FFFF001E8571 /* Lat Capt Human-Standing0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0011.png"; sourceTree = "<group>"; };
-		5BB620E71835FFFF001E8571 /* Lat Capt Human-Standing0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0012.png"; sourceTree = "<group>"; };
-		5BB620E81835FFFF001E8571 /* Lat Capt Human-Standing0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0013.png"; sourceTree = "<group>"; };
-		5BB620E91835FFFF001E8571 /* Lat Capt Human-Standing0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0014.png"; sourceTree = "<group>"; };
-		5BB620EA1835FFFF001E8571 /* Lat Capt Human-Standing0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0015.png"; sourceTree = "<group>"; };
-		5BB620EB1835FFFF001E8571 /* Lat Capt Human-Standing0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0016.png"; sourceTree = "<group>"; };
-		5BB620EC1835FFFF001E8571 /* Lat Capt Human-Standing0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0017.png"; sourceTree = "<group>"; };
-		5BB620ED1835FFFF001E8571 /* Lat Capt Human-Standing0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0018.png"; sourceTree = "<group>"; };
-		5BB620EE1835FFFF001E8571 /* Lat Capt Human-Standing0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0019.png"; sourceTree = "<group>"; };
-		5BB620EF1835FFFF001E8571 /* Lat Capt Human-Standing0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0020.png"; sourceTree = "<group>"; };
-		5BB620F01835FFFF001E8571 /* Lat Capt Human-Standing0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0021.png"; sourceTree = "<group>"; };
-		5BB620F11835FFFF001E8571 /* Lat Capt Human-Standing0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0022.png"; sourceTree = "<group>"; };
-		5BB620F21835FFFF001E8571 /* Lat Capt Human-Standing0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0023.png"; sourceTree = "<group>"; };
-		5BB620F31835FFFF001E8571 /* Lat Capt Human-Standing0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0024.png"; sourceTree = "<group>"; };
-		5BB620F41835FFFF001E8571 /* Lat Capt Human-Standing0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0025.png"; sourceTree = "<group>"; };
-		5BB620F51835FFFF001E8571 /* Lat Capt Human-Standing0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0026.png"; sourceTree = "<group>"; };
-		5BB620F61835FFFF001E8571 /* Lat Capt Human-Standing0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0027.png"; sourceTree = "<group>"; };
-		5BB620F71835FFFF001E8571 /* Lat Capt Human-Standing0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0028.png"; sourceTree = "<group>"; };
-		5BB620F81835FFFF001E8571 /* Lat Capt Human-Standing0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0029.png"; sourceTree = "<group>"; };
-		5BB620F91835FFFF001E8571 /* Lat Capt Human-Standing0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0030.png"; sourceTree = "<group>"; };
-		5BB620FA1835FFFF001E8571 /* Lat Capt Human-Standing0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0031.png"; sourceTree = "<group>"; };
-		5BB620FB1835FFFF001E8571 /* Lat Capt Human-Standing0032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0032.png"; sourceTree = "<group>"; };
-		5BB620FC1835FFFF001E8571 /* Lat Capt Human-Standing0033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0033.png"; sourceTree = "<group>"; };
-		5BB620FD1835FFFF001E8571 /* Lat Capt Human-Standing0034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0034.png"; sourceTree = "<group>"; };
-		5BB620FE1835FFFF001E8571 /* Lat Capt Human-Standing0035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0035.png"; sourceTree = "<group>"; };
-		5BB620FF1835FFFF001E8571 /* Lat Capt Human-Standing0036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0036.png"; sourceTree = "<group>"; };
-		5BB621001835FFFF001E8571 /* Lat Capt Human-Standing0037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0037.png"; sourceTree = "<group>"; };
-		5BB621011835FFFF001E8571 /* Lat Capt Human-Standing0038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0038.png"; sourceTree = "<group>"; };
-		5BB621021835FFFF001E8571 /* Lat Capt Human-Standing0039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0039.png"; sourceTree = "<group>"; };
-		5BB621031835FFFF001E8571 /* Lat Capt Human-Standing0040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0040.png"; sourceTree = "<group>"; };
-		5BB621041835FFFF001E8571 /* Lat Capt Human-Standing0041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0041.png"; sourceTree = "<group>"; };
-		5BB621051835FFFF001E8571 /* Lat Capt Human-Standing0042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0042.png"; sourceTree = "<group>"; };
-		5BB621061835FFFF001E8571 /* Lat Capt Human-Standing0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0043.png"; sourceTree = "<group>"; };
-		5BB621071835FFFF001E8571 /* Lat Capt Human-Standing0044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0044.png"; sourceTree = "<group>"; };
-		5BB621081835FFFF001E8571 /* Lat Capt Human-Standing0045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0045.png"; sourceTree = "<group>"; };
-		5BB621091835FFFF001E8571 /* Lat Capt Human-Standing0046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0046.png"; sourceTree = "<group>"; };
-		5BB6210A1835FFFF001E8571 /* Lat Capt Human-Standing0047.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0047.png"; sourceTree = "<group>"; };
-		5BB6210B1835FFFF001E8571 /* Lat Capt Human-Standing0048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0048.png"; sourceTree = "<group>"; };
-		5BB6210C1835FFFF001E8571 /* Lat Capt Human-Standing0049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0049.png"; sourceTree = "<group>"; };
-		5BB6210D1835FFFF001E8571 /* Lat Capt Human-Standing0050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0050.png"; sourceTree = "<group>"; };
-		5BB6210E1835FFFF001E8571 /* Lat Capt Human-Standing0051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0051.png"; sourceTree = "<group>"; };
-		5BB6210F1835FFFF001E8571 /* Lat Capt Human-Standing0052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0052.png"; sourceTree = "<group>"; };
-		5BB621101835FFFF001E8571 /* Lat Capt Human-Standing0053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0053.png"; sourceTree = "<group>"; };
-		5BB621111835FFFF001E8571 /* Lat Capt Human-Standing0054.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0054.png"; sourceTree = "<group>"; };
-		5BB621121835FFFF001E8571 /* Lat Capt Human-Standing0055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0055.png"; sourceTree = "<group>"; };
-		5BB621131835FFFF001E8571 /* Lat Capt Human-Standing0056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0056.png"; sourceTree = "<group>"; };
-		5BB621141835FFFF001E8571 /* Lat Capt Human-Standing0057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0057.png"; sourceTree = "<group>"; };
-		5BB621151835FFFF001E8571 /* Lat Capt Human-Standing0058.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0058.png"; sourceTree = "<group>"; };
-		5BB621161835FFFF001E8571 /* Lat Capt Human-Standing0059.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0059.png"; sourceTree = "<group>"; };
-		5BB621171835FFFF001E8571 /* Lat Capt Human-Standing0060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0060.png"; sourceTree = "<group>"; };
-		5BB621181835FFFF001E8571 /* Lat Capt Human-Standing0061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0061.png"; sourceTree = "<group>"; };
-		5BB621191835FFFF001E8571 /* Lat Capt Human-Standing0062.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0062.png"; sourceTree = "<group>"; };
-		5BB6211A1835FFFF001E8571 /* Lat Capt Human-Standing0063.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0063.png"; sourceTree = "<group>"; };
-		5BB6211B1835FFFF001E8571 /* Lat Capt Human-Standing0064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0064.png"; sourceTree = "<group>"; };
-		5BB6211C1835FFFF001E8571 /* Lat Capt Human-Standing0065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0065.png"; sourceTree = "<group>"; };
-		5BB6211D1835FFFF001E8571 /* Lat Capt Human-Standing0066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0066.png"; sourceTree = "<group>"; };
-		5BB6211E1835FFFF001E8571 /* Lat Capt Human-Standing0067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0067.png"; sourceTree = "<group>"; };
-		5BB6211F1835FFFF001E8571 /* Lat Capt Human-Standing0068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0068.png"; sourceTree = "<group>"; };
-		5BB621201835FFFF001E8571 /* Lat Capt Human-Standing0069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0069.png"; sourceTree = "<group>"; };
-		5BB621211835FFFF001E8571 /* Lat Capt Human-Standing0070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0070.png"; sourceTree = "<group>"; };
-		5BB621221835FFFF001E8571 /* Lat Capt Human-Standing0071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0071.png"; sourceTree = "<group>"; };
-		5BB621231835FFFF001E8571 /* Lat Capt Human-Standing0072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0072.png"; sourceTree = "<group>"; };
-		5BB621241835FFFF001E8571 /* Lat Capt Human-Standing0073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0073.png"; sourceTree = "<group>"; };
-		5BB621251835FFFF001E8571 /* Lat Capt Human-Standing0074.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0074.png"; sourceTree = "<group>"; };
-		5BB621261835FFFF001E8571 /* Lat Capt Human-Standing0075.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0075.png"; sourceTree = "<group>"; };
-		5BB621271835FFFF001E8571 /* Lat Capt Human-Standing0076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0076.png"; sourceTree = "<group>"; };
-		5BB621281835FFFF001E8571 /* Lat Capt Human-Standing0077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0077.png"; sourceTree = "<group>"; };
-		5BB621291835FFFF001E8571 /* Lat Capt Human-Standing0078.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0078.png"; sourceTree = "<group>"; };
-		5BB6212A1835FFFF001E8571 /* Lat Capt Human-Standing0079.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0079.png"; sourceTree = "<group>"; };
 		5BB6212C1835FFFF001E8571 /* Lat Capt Human-Stand Up.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lat Capt Human-Stand Up.xml"; sourceTree = "<group>"; };
 		5BB6212D1835FFFF001E8571 /* Lat Capt Human-Stand Up0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Stand Up0001.png"; sourceTree = "<group>"; };
 		5BB6212E1835FFFF001E8571 /* Lat Capt Human-Stand Up0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Stand Up0002.png"; sourceTree = "<group>"; };
@@ -2840,25 +2711,6 @@
 		5BB621661835FFFF001E8571 /* Lat Capt Human-To Crawl Transition0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-To Crawl Transition0028.png"; sourceTree = "<group>"; };
 		5BB621681835FFFF001E8571 /* Lat Capt Human-Wait to Crawl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Wait to Crawl.png"; sourceTree = "<group>"; };
 		5BB621691835FFFF001E8571 /* Lat Capt Human-Wait to Crawl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lat Capt Human-Wait to Crawl.xml"; sourceTree = "<group>"; };
-		5BB6216B1835FFFF001E8571 /* Lat Capt Human-Walking.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lat Capt Human-Walking.xml"; sourceTree = "<group>"; };
-		5BB6216C1835FFFF001E8571 /* Lat Capt Human-Walking0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0001.png"; sourceTree = "<group>"; };
-		5BB6216D1835FFFF001E8571 /* Lat Capt Human-Walking0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0002.png"; sourceTree = "<group>"; };
-		5BB6216E1835FFFF001E8571 /* Lat Capt Human-Walking0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0003.png"; sourceTree = "<group>"; };
-		5BB6216F1835FFFF001E8571 /* Lat Capt Human-Walking0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0004.png"; sourceTree = "<group>"; };
-		5BB621701835FFFF001E8571 /* Lat Capt Human-Walking0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0005.png"; sourceTree = "<group>"; };
-		5BB621711835FFFF001E8571 /* Lat Capt Human-Walking0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0006.png"; sourceTree = "<group>"; };
-		5BB621721835FFFF001E8571 /* Lat Capt Human-Walking0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0007.png"; sourceTree = "<group>"; };
-		5BB621731835FFFF001E8571 /* Lat Capt Human-Walking0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0008.png"; sourceTree = "<group>"; };
-		5BB621741835FFFF001E8571 /* Lat Capt Human-Walking0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0009.png"; sourceTree = "<group>"; };
-		5BB621751835FFFF001E8571 /* Lat Capt Human-Walking0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0010.png"; sourceTree = "<group>"; };
-		5BB621761835FFFF001E8571 /* Lat Capt Human-Walking0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0011.png"; sourceTree = "<group>"; };
-		5BB621771835FFFF001E8571 /* Lat Capt Human-Walking0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0012.png"; sourceTree = "<group>"; };
-		5BB621781835FFFF001E8571 /* Lat Capt Human-Walking0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0013.png"; sourceTree = "<group>"; };
-		5BB621791835FFFF001E8571 /* Lat Capt Human-Walking0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0014.png"; sourceTree = "<group>"; };
-		5BB6217A1835FFFF001E8571 /* Lat Capt Human-Walking0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0015.png"; sourceTree = "<group>"; };
-		5BB6217B1835FFFF001E8571 /* Lat Capt Human-Walking0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0016.png"; sourceTree = "<group>"; };
-		5BB6217C1835FFFF001E8571 /* Lat Capt Human-Walking0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0017.png"; sourceTree = "<group>"; };
-		5BB6217D1835FFFF001E8571 /* Lat Capt Human-Walking0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Walking0018.png"; sourceTree = "<group>"; };
 		5BB6217F1835FFFF001E8571 /* Kangaroo Legs Spec Sheet.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kangaroo Legs Spec Sheet.docx"; sourceTree = "<group>"; };
 		5BB621811835FFFF001E8571 /* Lat Capt Kangaroo-Jumping.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lat Capt Kangaroo-Jumping.xml"; sourceTree = "<group>"; };
 		5BB621821835FFFF001E8571 /* Lat Capt KL-Jumping0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt KL-Jumping0001.png"; sourceTree = "<group>"; };
@@ -2985,15 +2837,15 @@
 		5BB6220318360000001E8571 /* Ant Capt Tranisition-From GF0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Tranisition-From GF0026.png"; sourceTree = "<group>"; };
 		5BB6220418360000001E8571 /* Ant Capt Tranisition-From GF0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Tranisition-From GF0027.png"; sourceTree = "<group>"; };
 		5BB6220518360000001E8571 /* Ant Capt Tranisition-From GF0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Tranisition-From GF0028.png"; sourceTree = "<group>"; };
-		5BB6220718360000001E8571 /* Ant Capt Transition-From Human0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0001.png"; sourceTree = "<group>"; };
-		5BB6220818360000001E8571 /* Ant Capt Transition-From Human0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0002.png"; sourceTree = "<group>"; };
-		5BB6220918360000001E8571 /* Ant Capt Transition-From Human0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0003.png"; sourceTree = "<group>"; };
-		5BB6220A18360000001E8571 /* Ant Capt Transition-From Human0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0004.png"; sourceTree = "<group>"; };
-		5BB6220B18360000001E8571 /* Ant Capt Transition-From Human0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0005.png"; sourceTree = "<group>"; };
-		5BB6220C18360000001E8571 /* Ant Capt Transition-From Human0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0006.png"; sourceTree = "<group>"; };
-		5BB6220D18360000001E8571 /* Ant Capt Transition-From Human0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0007.png"; sourceTree = "<group>"; };
-		5BB6220E18360000001E8571 /* Ant Capt Transition-From Human0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0008.png"; sourceTree = "<group>"; };
-		5BB6220F18360000001E8571 /* Ant Capt Transition-From Human0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0009.png"; sourceTree = "<group>"; };
+		5BB6220718360000001E8571 /* Ant Capt Transition-From Human001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human001.png"; sourceTree = "<group>"; };
+		5BB6220818360000001E8571 /* Ant Capt Transition-From Human002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human002.png"; sourceTree = "<group>"; };
+		5BB6220918360000001E8571 /* Ant Capt Transition-From Human003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human003.png"; sourceTree = "<group>"; };
+		5BB6220A18360000001E8571 /* Ant Capt Transition-From Human004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human004.png"; sourceTree = "<group>"; };
+		5BB6220B18360000001E8571 /* Ant Capt Transition-From Human005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human005.png"; sourceTree = "<group>"; };
+		5BB6220C18360000001E8571 /* Ant Capt Transition-From Human006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human006.png"; sourceTree = "<group>"; };
+		5BB6220D18360000001E8571 /* Ant Capt Transition-From Human007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human007.png"; sourceTree = "<group>"; };
+		5BB6220E18360000001E8571 /* Ant Capt Transition-From Human008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human008.png"; sourceTree = "<group>"; };
+		5BB6220F18360000001E8571 /* Ant Capt Transition-From Human009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human009.png"; sourceTree = "<group>"; };
 		5BB6221018360000001E8571 /* Ant Capt Transition-From Human0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0010.png"; sourceTree = "<group>"; };
 		5BB6221118360000001E8571 /* Ant Capt Transition-From Human0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0011.png"; sourceTree = "<group>"; };
 		5BB6221218360000001E8571 /* Ant Capt Transition-From Human0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Transition-From Human0012.png"; sourceTree = "<group>"; };
@@ -4954,15 +4806,15 @@
 		5BB6209D1835FFFF001E8571 /* Crawling */ = {
 			isa = PBXGroup;
 			children = (
-				5BB6209E1835FFFF001E8571 /* Lat Capt Human-Crawling0001.png */,
-				5BB6209F1835FFFF001E8571 /* Lat Capt Human-Crawling0002.png */,
-				5BB620A01835FFFF001E8571 /* Lat Capt Human-Crawling0003.png */,
-				5BB620A11835FFFF001E8571 /* Lat Capt Human-Crawling0004.png */,
-				5BB620A21835FFFF001E8571 /* Lat Capt Human-Crawling0005.png */,
-				5BB620A31835FFFF001E8571 /* Lat Capt Human-Crawling0006.png */,
-				5BB620A41835FFFF001E8571 /* Lat Capt Human-Crawling0007.png */,
-				5BB620A51835FFFF001E8571 /* Lat Capt Human-Crawling0008.png */,
-				5BB620A61835FFFF001E8571 /* Lat Capt Human-Crawling0009.png */,
+				5BB6209E1835FFFF001E8571 /* Lat Capt Human-Crawling001.png */,
+				5BB6209F1835FFFF001E8571 /* Lat Capt Human-Crawling002.png */,
+				5BB620A01835FFFF001E8571 /* Lat Capt Human-Crawling003.png */,
+				5BB620A11835FFFF001E8571 /* Lat Capt Human-Crawling004.png */,
+				5BB620A21835FFFF001E8571 /* Lat Capt Human-Crawling005.png */,
+				5BB620A31835FFFF001E8571 /* Lat Capt Human-Crawling006.png */,
+				5BB620A41835FFFF001E8571 /* Lat Capt Human-Crawling007.png */,
+				5BB620A51835FFFF001E8571 /* Lat Capt Human-Crawling008.png */,
+				5BB620A61835FFFF001E8571 /* Lat Capt Human-Crawling009.png */,
 				5BB620A71835FFFF001E8571 /* Lat Capt Human-Crawling0010.png */,
 				5BB620A81835FFFF001E8571 /* Lat Capt Human-Crawling0011.png */,
 				5BB620A91835FFFF001E8571 /* Lat Capt Human-Crawling0012.png */,
@@ -5032,86 +4884,12 @@
 		5BB620DA1835FFFF001E8571 /* Standing */ = {
 			isa = PBXGroup;
 			children = (
-				5BB620DB1835FFFF001E8571 /* Lat Capt Human-Standing.xml */,
-				5BB620DC1835FFFF001E8571 /* Lat Capt Human-Standing0001.png */,
-				5BB620DD1835FFFF001E8571 /* Lat Capt Human-Standing0002.png */,
-				5BB620DE1835FFFF001E8571 /* Lat Capt Human-Standing0003.png */,
-				5BB620DF1835FFFF001E8571 /* Lat Capt Human-Standing0004.png */,
-				5BB620E01835FFFF001E8571 /* Lat Capt Human-Standing0005.png */,
-				5BB620E11835FFFF001E8571 /* Lat Capt Human-Standing0006.png */,
-				5BB620E21835FFFF001E8571 /* Lat Capt Human-Standing0007.png */,
-				5BB620E31835FFFF001E8571 /* Lat Capt Human-Standing0008.png */,
-				5BB620E41835FFFF001E8571 /* Lat Capt Human-Standing0009.png */,
-				5BB620E51835FFFF001E8571 /* Lat Capt Human-Standing0010.png */,
-				5BB620E61835FFFF001E8571 /* Lat Capt Human-Standing0011.png */,
-				5BB620E71835FFFF001E8571 /* Lat Capt Human-Standing0012.png */,
-				5BB620E81835FFFF001E8571 /* Lat Capt Human-Standing0013.png */,
-				5BB620E91835FFFF001E8571 /* Lat Capt Human-Standing0014.png */,
-				5BB620EA1835FFFF001E8571 /* Lat Capt Human-Standing0015.png */,
-				5BB620EB1835FFFF001E8571 /* Lat Capt Human-Standing0016.png */,
-				5BB620EC1835FFFF001E8571 /* Lat Capt Human-Standing0017.png */,
-				5BB620ED1835FFFF001E8571 /* Lat Capt Human-Standing0018.png */,
-				5BB620EE1835FFFF001E8571 /* Lat Capt Human-Standing0019.png */,
-				5BB620EF1835FFFF001E8571 /* Lat Capt Human-Standing0020.png */,
-				5BB620F01835FFFF001E8571 /* Lat Capt Human-Standing0021.png */,
-				5BB620F11835FFFF001E8571 /* Lat Capt Human-Standing0022.png */,
-				5BB620F21835FFFF001E8571 /* Lat Capt Human-Standing0023.png */,
-				5BB620F31835FFFF001E8571 /* Lat Capt Human-Standing0024.png */,
-				5BB620F41835FFFF001E8571 /* Lat Capt Human-Standing0025.png */,
-				5BB620F51835FFFF001E8571 /* Lat Capt Human-Standing0026.png */,
-				5BB620F61835FFFF001E8571 /* Lat Capt Human-Standing0027.png */,
-				5BB620F71835FFFF001E8571 /* Lat Capt Human-Standing0028.png */,
-				5BB620F81835FFFF001E8571 /* Lat Capt Human-Standing0029.png */,
-				5BB620F91835FFFF001E8571 /* Lat Capt Human-Standing0030.png */,
-				5BB620FA1835FFFF001E8571 /* Lat Capt Human-Standing0031.png */,
-				5BB620FB1835FFFF001E8571 /* Lat Capt Human-Standing0032.png */,
-				5BB620FC1835FFFF001E8571 /* Lat Capt Human-Standing0033.png */,
-				5BB620FD1835FFFF001E8571 /* Lat Capt Human-Standing0034.png */,
-				5BB620FE1835FFFF001E8571 /* Lat Capt Human-Standing0035.png */,
-				5BB620FF1835FFFF001E8571 /* Lat Capt Human-Standing0036.png */,
-				5BB621001835FFFF001E8571 /* Lat Capt Human-Standing0037.png */,
-				5BB621011835FFFF001E8571 /* Lat Capt Human-Standing0038.png */,
-				5BB621021835FFFF001E8571 /* Lat Capt Human-Standing0039.png */,
-				5BB621031835FFFF001E8571 /* Lat Capt Human-Standing0040.png */,
-				5BB621041835FFFF001E8571 /* Lat Capt Human-Standing0041.png */,
-				5BB621051835FFFF001E8571 /* Lat Capt Human-Standing0042.png */,
-				5BB621061835FFFF001E8571 /* Lat Capt Human-Standing0043.png */,
-				5BB621071835FFFF001E8571 /* Lat Capt Human-Standing0044.png */,
-				5BB621081835FFFF001E8571 /* Lat Capt Human-Standing0045.png */,
-				5BB621091835FFFF001E8571 /* Lat Capt Human-Standing0046.png */,
-				5BB6210A1835FFFF001E8571 /* Lat Capt Human-Standing0047.png */,
-				5BB6210B1835FFFF001E8571 /* Lat Capt Human-Standing0048.png */,
-				5BB6210C1835FFFF001E8571 /* Lat Capt Human-Standing0049.png */,
-				5BB6210D1835FFFF001E8571 /* Lat Capt Human-Standing0050.png */,
-				5BB6210E1835FFFF001E8571 /* Lat Capt Human-Standing0051.png */,
-				5BB6210F1835FFFF001E8571 /* Lat Capt Human-Standing0052.png */,
-				5BB621101835FFFF001E8571 /* Lat Capt Human-Standing0053.png */,
-				5BB621111835FFFF001E8571 /* Lat Capt Human-Standing0054.png */,
-				5BB621121835FFFF001E8571 /* Lat Capt Human-Standing0055.png */,
-				5BB621131835FFFF001E8571 /* Lat Capt Human-Standing0056.png */,
-				5BB621141835FFFF001E8571 /* Lat Capt Human-Standing0057.png */,
-				5BB621151835FFFF001E8571 /* Lat Capt Human-Standing0058.png */,
-				5BB621161835FFFF001E8571 /* Lat Capt Human-Standing0059.png */,
-				5BB621171835FFFF001E8571 /* Lat Capt Human-Standing0060.png */,
-				5BB621181835FFFF001E8571 /* Lat Capt Human-Standing0061.png */,
-				5BB621191835FFFF001E8571 /* Lat Capt Human-Standing0062.png */,
-				5BB6211A1835FFFF001E8571 /* Lat Capt Human-Standing0063.png */,
-				5BB6211B1835FFFF001E8571 /* Lat Capt Human-Standing0064.png */,
-				5BB6211C1835FFFF001E8571 /* Lat Capt Human-Standing0065.png */,
-				5BB6211D1835FFFF001E8571 /* Lat Capt Human-Standing0066.png */,
-				5BB6211E1835FFFF001E8571 /* Lat Capt Human-Standing0067.png */,
-				5BB6211F1835FFFF001E8571 /* Lat Capt Human-Standing0068.png */,
-				5BB621201835FFFF001E8571 /* Lat Capt Human-Standing0069.png */,
-				5BB621211835FFFF001E8571 /* Lat Capt Human-Standing0070.png */,
-				5BB621221835FFFF001E8571 /* Lat Capt Human-Standing0071.png */,
-				5BB621231835FFFF001E8571 /* Lat Capt Human-Standing0072.png */,
-				5BB621241835FFFF001E8571 /* Lat Capt Human-Standing0073.png */,
-				5BB621251835FFFF001E8571 /* Lat Capt Human-Standing0074.png */,
-				5BB621261835FFFF001E8571 /* Lat Capt Human-Standing0075.png */,
-				5BB621271835FFFF001E8571 /* Lat Capt Human-Standing0076.png */,
-				5BB621281835FFFF001E8571 /* Lat Capt Human-Standing0077.png */,
-				5BB621291835FFFF001E8571 /* Lat Capt Human-Standing0078.png */,
-				5BB6212A1835FFFF001E8571 /* Lat Capt Human-Standing0079.png */,
+				5B2D7DA4183C04EB00BA3365 /* Lat Capt Human-Standing001.png */,
+				5B2D7DA5183C04EB00BA3365 /* Lat Capt Human-Standing002.png */,
+				5B2D7DA6183C04EB00BA3365 /* Lat Capt Human-Standing003.png */,
+				5B2D7DA7183C04EB00BA3365 /* Lat Capt Human-Standing004.png */,
+				5B2D7DA8183C04EB00BA3365 /* Lat Capt Human-Standing005.png */,
+				5B2D7DA9183C04EB00BA3365 /* Lat Capt Human-Standing006.png */,
 			);
 			path = Standing;
 			sourceTree = "<group>";
@@ -5200,25 +4978,25 @@
 		5BB6216A1835FFFF001E8571 /* Walking */ = {
 			isa = PBXGroup;
 			children = (
-				5BB6216B1835FFFF001E8571 /* Lat Capt Human-Walking.xml */,
-				5BB6216C1835FFFF001E8571 /* Lat Capt Human-Walking0001.png */,
-				5BB6216D1835FFFF001E8571 /* Lat Capt Human-Walking0002.png */,
-				5BB6216E1835FFFF001E8571 /* Lat Capt Human-Walking0003.png */,
-				5BB6216F1835FFFF001E8571 /* Lat Capt Human-Walking0004.png */,
-				5BB621701835FFFF001E8571 /* Lat Capt Human-Walking0005.png */,
-				5BB621711835FFFF001E8571 /* Lat Capt Human-Walking0006.png */,
-				5BB621721835FFFF001E8571 /* Lat Capt Human-Walking0007.png */,
-				5BB621731835FFFF001E8571 /* Lat Capt Human-Walking0008.png */,
-				5BB621741835FFFF001E8571 /* Lat Capt Human-Walking0009.png */,
-				5BB621751835FFFF001E8571 /* Lat Capt Human-Walking0010.png */,
-				5BB621761835FFFF001E8571 /* Lat Capt Human-Walking0011.png */,
-				5BB621771835FFFF001E8571 /* Lat Capt Human-Walking0012.png */,
-				5BB621781835FFFF001E8571 /* Lat Capt Human-Walking0013.png */,
-				5BB621791835FFFF001E8571 /* Lat Capt Human-Walking0014.png */,
-				5BB6217A1835FFFF001E8571 /* Lat Capt Human-Walking0015.png */,
-				5BB6217B1835FFFF001E8571 /* Lat Capt Human-Walking0016.png */,
-				5BB6217C1835FFFF001E8571 /* Lat Capt Human-Walking0017.png */,
-				5BB6217D1835FFFF001E8571 /* Lat Capt Human-Walking0018.png */,
+				5B2D7D7E183C028F00BA3365 /* Lat Capt Human-Walking001.png */,
+				5B2D7D7F183C028F00BA3365 /* Lat Capt Human-Walking.xml */,
+				5B2D7D80183C028F00BA3365 /* Lat Capt Human-Walking002.png */,
+				5B2D7D81183C028F00BA3365 /* Lat Capt Human-Walking003.png */,
+				5B2D7D82183C028F00BA3365 /* Lat Capt Human-Walking004.png */,
+				5B2D7D83183C028F00BA3365 /* Lat Capt Human-Walking005.png */,
+				5B2D7D84183C028F00BA3365 /* Lat Capt Human-Walking006.png */,
+				5B2D7D85183C028F00BA3365 /* Lat Capt Human-Walking007.png */,
+				5B2D7D86183C028F00BA3365 /* Lat Capt Human-Walking008.png */,
+				5B2D7D87183C028F00BA3365 /* Lat Capt Human-Walking009.png */,
+				5B2D7D88183C028F00BA3365 /* Lat Capt Human-Walking0010.png */,
+				5B2D7D89183C028F00BA3365 /* Lat Capt Human-Walking0011.png */,
+				5B2D7D8A183C028F00BA3365 /* Lat Capt Human-Walking0012.png */,
+				5B2D7D8B183C028F00BA3365 /* Lat Capt Human-Walking0013.png */,
+				5B2D7D8C183C028F00BA3365 /* Lat Capt Human-Walking0014.png */,
+				5B2D7D8D183C028F00BA3365 /* Lat Capt Human-Walking0015.png */,
+				5B2D7D8E183C028F00BA3365 /* Lat Capt Human-Walking0016.png */,
+				5B2D7D8F183C028F00BA3365 /* Lat Capt Human-Walking0017.png */,
+				5B2D7D90183C028F00BA3365 /* Lat Capt Human-Walking0018.png */,
 			);
 			path = Walking;
 			sourceTree = "<group>";
@@ -5429,15 +5207,15 @@
 		5BB6220618360000001E8571 /* From Human */ = {
 			isa = PBXGroup;
 			children = (
-				5BB6220718360000001E8571 /* Ant Capt Transition-From Human0001.png */,
-				5BB6220818360000001E8571 /* Ant Capt Transition-From Human0002.png */,
-				5BB6220918360000001E8571 /* Ant Capt Transition-From Human0003.png */,
-				5BB6220A18360000001E8571 /* Ant Capt Transition-From Human0004.png */,
-				5BB6220B18360000001E8571 /* Ant Capt Transition-From Human0005.png */,
-				5BB6220C18360000001E8571 /* Ant Capt Transition-From Human0006.png */,
-				5BB6220D18360000001E8571 /* Ant Capt Transition-From Human0007.png */,
-				5BB6220E18360000001E8571 /* Ant Capt Transition-From Human0008.png */,
-				5BB6220F18360000001E8571 /* Ant Capt Transition-From Human0009.png */,
+				5BB6220718360000001E8571 /* Ant Capt Transition-From Human001.png */,
+				5BB6220818360000001E8571 /* Ant Capt Transition-From Human002.png */,
+				5BB6220918360000001E8571 /* Ant Capt Transition-From Human003.png */,
+				5BB6220A18360000001E8571 /* Ant Capt Transition-From Human004.png */,
+				5BB6220B18360000001E8571 /* Ant Capt Transition-From Human005.png */,
+				5BB6220C18360000001E8571 /* Ant Capt Transition-From Human006.png */,
+				5BB6220D18360000001E8571 /* Ant Capt Transition-From Human007.png */,
+				5BB6220E18360000001E8571 /* Ant Capt Transition-From Human008.png */,
+				5BB6220F18360000001E8571 /* Ant Capt Transition-From Human009.png */,
 				5BB6221018360000001E8571 /* Ant Capt Transition-From Human0010.png */,
 				5BB6221118360000001E8571 /* Ant Capt Transition-From Human0011.png */,
 				5BB6221218360000001E8571 /* Ant Capt Transition-From Human0012.png */,
@@ -5861,21 +5639,15 @@
 				5BB624D618360001001E8571 /* Lat Capt KL-Jumping0004.png in Resources */,
 				5B274383182A1C3600942895 /* Lat Capt KL-Jumping0024.png in Resources */,
 				5B2743BA182A1C3600942895 /* Ant Capt Trainsition-KL0021.png in Resources */,
-				5BB6255718360001001E8571 /* Ant Capt Transition-From Human0009.png in Resources */,
+				5BB6255718360001001E8571 /* Ant Capt Transition-From Human009.png in Resources */,
 				3E45309A18243D4400B4EFDE /* Lat Capt Human-Standing0033.png in Resources */,
-				5BB6246A18360001001E8571 /* Lat Capt Human-Standing0056.png in Resources */,
 				3E4530A518243D4400B4EFDE /* Lat Capt Human-Standing0044.png in Resources */,
 				3ECB2E8C18257CB800C82177 /* 2Star-Normal-iPad-hd.png in Resources */,
-				5BB6244418360001001E8571 /* Lat Capt Human-Standing0018.png in Resources */,
 				3E45305A18243D4400B4EFDE /* Lat Capt Human-Leaping0004.png in Resources */,
 				5BB623F318360001001E8571 /* CCC GF-Walking0036.png in Resources */,
 				3E45305D18243D4400B4EFDE /* Lat Capt Human-Leaping0007.png in Resources */,
-				5BB6246318360001001E8571 /* Lat Capt Human-Standing0049.png in Resources */,
-				5BB624CD18360001001E8571 /* Lat Capt Human-Walking0015.png in Resources */,
 				5BB6254718360001001E8571 /* Ant Capt Tranisition-From GF0021.png in Resources */,
 				5BB624F918360001001E8571 /* Lat Capt KL-Running0007.png in Resources */,
-				5BB6246718360001001E8571 /* Lat Capt Human-Standing0053.png in Resources */,
-				5BB624D018360001001E8571 /* Lat Capt Human-Walking0018.png in Resources */,
 				5BB6259718360001001E8571 /* Ant Capt Trainsition-Into DN0021.png in Resources */,
 				3E45307818243D4400B4EFDE /* Lat Capt Human-Running0024.png in Resources */,
 				5BB6241418360001001E8571 /* Lat Capt Human-Leaping0005.png in Resources */,
@@ -5885,7 +5657,6 @@
 				3E4530B618243D4400B4EFDE /* Lat Capt Human-Standing0061.png in Resources */,
 				5BB625A618360001001E8571 /* Ant Capt Trainsition-Into DN0036.png in Resources */,
 				3E4530B718243D4400B4EFDE /* Lat Capt Human-Standing0062.png in Resources */,
-				5BB6243518360001001E8571 /* Lat Capt Human-Standing0003.png in Resources */,
 				5BB624EE18360001001E8571 /* Lat Capt KL-Jumping0028.png in Resources */,
 				3E4530FB18243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0021.png in Resources */,
 				5B2743AD182A1C3600942895 /* Ant Capt Trainsition-KL001.png in Resources */,
@@ -5894,8 +5665,8 @@
 				5BB625C018360001001E8571 /* Ant Capt Trainsition-Into DN0062.png in Resources */,
 				5BB6236D18360001001E8571 /* CCC DN-Stand&Sniff0085.png in Resources */,
 				3EBD9161182ABD9500ABC143 /* Spider Icon.png in Resources */,
+				5B2D7D97183C028F00BA3365 /* Lat Capt Human-Walking006.png in Resources */,
 				3E45310618243D4400B4EFDE /* Lat Capt Human-Walking0001.png in Resources */,
-				5BB6243918360001001E8571 /* Lat Capt Human-Standing0007.png in Resources */,
 				3E45309D18243D4400B4EFDE /* Lat Capt Human-Standing0036.png in Resources */,
 				5BB6253518360001001E8571 /* Ant Capt Tranisition-From GF0003.png in Resources */,
 				3E45309318243D4400B4EFDE /* Lat Capt Human-Standing0026.png in Resources */,
@@ -5920,30 +5691,26 @@
 				3ECB2EC418258BAC00C82177 /* Visible Boundary (Not include in final).png in Resources */,
 				3E45306118243D4400B4EFDE /* Lat Capt Human-Running0001.png in Resources */,
 				5BB623CA18360001001E8571 /* lat capt gf0023.png in Resources */,
-				5BB6244D18360001001E8571 /* Lat Capt Human-Standing0027.png in Resources */,
 				5BB6240718360001001E8571 /* Lat Capt Human-Crawling0016.png in Resources */,
 				5BB6255E18360001001E8571 /* Ant Capt Transition-From Human0016.png in Resources */,
 				3E45310518243D4400B4EFDE /* Lat Capt Human-Walking.xml in Resources */,
 				5BB6251D18360001001E8571 /* Ant Capt Transition-From DN0024.png in Resources */,
 				5BB6259318360001001E8571 /* Ant Capt Trainsition-Into DN0017.png in Resources */,
 				5B2743C0182A1C3600942895 /* Ant Capt Trainsition-KL0027.png in Resources */,
-				5BB6246F18360001001E8571 /* Lat Capt Human-Standing0061.png in Resources */,
 				5BB625A718360001001E8571 /* Ant Capt Trainsition-Into DN0037.png in Resources */,
 				5BB623AF18360001001E8571 /* CCC DN-Walking0053.png in Resources */,
 				5BB623F718360001001E8571 /* Gecko Feet Spec Sheet.docx in Resources */,
-				5BB6254F18360001001E8571 /* Ant Capt Transition-From Human0001.png in Resources */,
+				5BB6254F18360001001E8571 /* Ant Capt Transition-From Human001.png in Resources */,
 				5B2743B2182A1C3600942895 /* Ant Capt Trainsition-KL0014.png in Resources */,
 				5B2743AB182A1C3600942895 /* Ant Capt Transistion-From KL008.png in Resources */,
 				3E4530E918243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0003.png in Resources */,
 				3E4530F218243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0012.png in Resources */,
-				5BB6243418360001001E8571 /* Lat Capt Human-Standing0002.png in Resources */,
 				5BB6231718360001001E8571 /* CCC DN-Running0023.png in Resources */,
 				3EBD93531833DD6600ABC143 /* Spider Icon.png in Resources */,
 				3E45310C18243D4400B4EFDE /* Lat Capt Human-Walking0007.png in Resources */,
 				5B2743C8182A1C3600942895 /* Ant Capt Trainsition-KL008.png in Resources */,
 				5BB6231E18360001001E8571 /* CCC DN-Stand&Sniff0006.png in Resources */,
 				5BB622FF18360001001E8571 /* CCC DN-Sniffing&Crawling0019.png in Resources */,
-				5BB6247518360001001E8571 /* Lat Capt Human-Standing0067.png in Resources */,
 				5BB6230818360001001E8571 /* CCC DN-Running0008.png in Resources */,
 				3EBD933C1833DD6600ABC143 /* Energy Score Bar0041.png in Resources */,
 				5BB6260818360001001E8571 /* Ant Capt Trainsition-Human0043.png in Resources */,
@@ -5953,11 +5720,11 @@
 				3ECB2E8B18257CB800C82177 /* 1Star-Normal-iPhone.png in Resources */,
 				3E45310318243D4400B4EFDE /* Lat Capt Human-Wait to Crawl.png in Resources */,
 				5BB625A918360001001E8571 /* Ant Capt Trainsition-Into DN0039.png in Resources */,
-				5BB6245E18360001001E8571 /* Lat Capt Human-Standing0044.png in Resources */,
 				5BB624DD18360001001E8571 /* Lat Capt KL-Jumping0011.png in Resources */,
 				5BB6233218360001001E8571 /* CCC DN-Stand&Sniff0026.png in Resources */,
 				3E45305B18243D4400B4EFDE /* Lat Capt Human-Leaping0005.png in Resources */,
 				5BB623A918360001001E8571 /* CCC DN-Walking0047.png in Resources */,
+				5B2D7D9C183C028F00BA3365 /* Lat Capt Human-Walking0011.png in Resources */,
 				5BB6232418360001001E8571 /* CCC DN-Stand&Sniff0012.png in Resources */,
 				5BB6253018360001001E8571 /* Ant Capt Transition-From DN0043.png in Resources */,
 				3E45306C18243D4400B4EFDE /* Lat Capt Human-Running0012.png in Resources */,
@@ -5973,7 +5740,6 @@
 				5BB624D818360001001E8571 /* Lat Capt KL-Jumping0006.png in Resources */,
 				5BB6242E18360001001E8571 /* Lat Capt Human-Running0021.png in Resources */,
 				3EBD93881834280000ABC143 /* energy-hd.pvr.ccz in Resources */,
-				5BB624C318360001001E8571 /* Lat Capt Human-Walking0005.png in Resources */,
 				5B27438C182A1C3600942895 /* Lat Capt KL-Jumping004.png in Resources */,
 				3E4530E318243D4400B4EFDE /* Lat Capt Human-Stand Up0026.png in Resources */,
 				3E45304D18243D4400B4EFDE /* Lat Capt Human-Crawling0015.png in Resources */,
@@ -5985,11 +5751,10 @@
 				5BB6238F18360001001E8571 /* CCC DN-Walking0021.png in Resources */,
 				5BB625A218360001001E8571 /* Ant Capt Trainsition-Into DN0032.png in Resources */,
 				5BB625C518360001001E8571 /* Ant Capt Trainsition-GF0005.png in Resources */,
-				5BB6243818360001001E8571 /* Lat Capt Human-Standing0006.png in Resources */,
 				5B2743C5182A1C3600942895 /* Ant Capt Trainsition-KL005.png in Resources */,
 				5BB6260F18360001001E8571 /* Ant Capt Trainsition-Human0050.png in Resources */,
 				5BB625E618360001001E8571 /* Ant Capt Trainsition-Human0009.png in Resources */,
-				5BB6240018360001001E8571 /* Lat Capt Human-Crawling0009.png in Resources */,
+				5BB6240018360001001E8571 /* Lat Capt Human-Crawling009.png in Resources */,
 				5BB6239C18360001001E8571 /* CCC DN-Walking0034.png in Resources */,
 				3E45304118243D4400B4EFDE /* Lat Capt Human-Crawling0003.png in Resources */,
 				5BB6249A18360001001E8571 /* Lat Capt Human-Stand Up0024.png in Resources */,
@@ -6005,12 +5770,10 @@
 				5BB624DB18360001001E8571 /* Lat Capt KL-Jumping0009.png in Resources */,
 				5BB6260C18360001001E8571 /* Ant Capt Trainsition-Human0047.png in Resources */,
 				3EC0B9C318255119004CC08D /* Arrow-Normal-iPad.png in Resources */,
-				5BB6245D18360001001E8571 /* Lat Capt Human-Standing0043.png in Resources */,
 				3EC0B9C618255119004CC08D /* Arrow-Selected-iPad-hd.png in Resources */,
 				3EBD93381833DD6600ABC143 /* Energy Score Bar0037.png in Resources */,
 				3EBD93321833DD6600ABC143 /* Energy Score Bar0031.png in Resources */,
 				3EBD93431833DD6600ABC143 /* Energy Score Bar0048.png in Resources */,
-				5BB624BF18360001001E8571 /* Lat Capt Human-Walking0001.png in Resources */,
 				5BB623CB18360001001E8571 /* lat capt gf0024.png in Resources */,
 				5BB622ED18360000001E8571 /* CCC DN-Sniffing&Crawling0001.png in Resources */,
 				3ECB2E8A18257CB800C82177 /* 1Star-Normal-iPhone-hd.png in Resources */,
@@ -6028,9 +5791,7 @@
 				3EBD93191833DD6600ABC143 /* Energy Score Bar0006.png in Resources */,
 				5BB623D018360001001E8571 /* CCC GF-Walking0001.png in Resources */,
 				5BB6260218360001001E8571 /* Ant Capt Trainsition-Human0037.png in Resources */,
-				5BB6244018360001001E8571 /* Lat Capt Human-Standing0014.png in Resources */,
 				5BB623EC18360001001E8571 /* CCC GF-Walking0029.png in Resources */,
-				5BB6245218360001001E8571 /* Lat Capt Human-Standing0032.png in Resources */,
 				3EBD93261833DD6600ABC143 /* Energy Score Bar0019.png in Resources */,
 				5BB6231D18360001001E8571 /* CCC DN-Stand&Sniff0005.png in Resources */,
 				3E45309B18243D4400B4EFDE /* Lat Capt Human-Standing0034.png in Resources */,
@@ -6054,6 +5815,7 @@
 				5BB6241F18360001001E8571 /* Lat Capt Human-Running0006.png in Resources */,
 				5BB625DB18360001001E8571 /* Ant Capt Trainsition-GF0027.png in Resources */,
 				3E4530B118243D4400B4EFDE /* Lat Capt Human-Standing0056.png in Resources */,
+				5B2D7D94183C028F00BA3365 /* Lat Capt Human-Walking003.png in Resources */,
 				3E45305C18243D4400B4EFDE /* Lat Capt Human-Leaping0006.png in Resources */,
 				5BB6262018360001001E8571 /* Ant Capt Trainsition-KL0015.png in Resources */,
 				5BB6240C18360001001E8571 /* Lat Capt Human-Just Crawling.xml in Resources */,
@@ -6061,7 +5823,6 @@
 				3E4530CA18243D4400B4EFDE /* Lat Capt Human-Stand Up0001.png in Resources */,
 				5BB6233D18360001001E8571 /* CCC DN-Stand&Sniff0037.png in Resources */,
 				5BB6252B18360001001E8571 /* Ant Capt Transition-From DN0038.png in Resources */,
-				5BB6246518360001001E8571 /* Lat Capt Human-Standing0051.png in Resources */,
 				5BB6261118360001001E8571 /* Ant Capt Trainsition-Human0052.png in Resources */,
 				5BB624F318360001001E8571 /* Lat Capt KL-Running0001.png in Resources */,
 				5BB624D318360001001E8571 /* Lat Capt KL-Jumping0001.png in Resources */,
@@ -6087,14 +5848,12 @@
 				5B274375182A1C3500942895 /* Lat Capt KL-Jumping0011.png in Resources */,
 				5BB625AF18360001001E8571 /* Ant Capt Trainsition-Into DN0045.png in Resources */,
 				5BB625BD18360001001E8571 /* Ant Capt Trainsition-Into DN0059.png in Resources */,
-				5BB6247818360001001E8571 /* Lat Capt Human-Standing0070.png in Resources */,
 				5BB625EA18360001001E8571 /* Ant Capt Trainsition-Human0013.png in Resources */,
 				3E45305718243D4400B4EFDE /* Lat Capt Human-Leaping0001.png in Resources */,
 				5B2743C9182A1C3600942895 /* Ant Capt Trainsition-KL009.png in Resources */,
 				3E45308D18243D4400B4EFDE /* Lat Capt Human-Standing0020.png in Resources */,
 				5BB6253B18360001001E8571 /* Ant Capt Tranisition-From GF0009.png in Resources */,
 				3E45308918243D4400B4EFDE /* Lat Capt Human-Standing0016.png in Resources */,
-				5BB624BE18360001001E8571 /* Lat Capt Human-Walking.xml in Resources */,
 				3EBD93511833DD6600ABC143 /* Owl Icon.png in Resources */,
 				3E45306018243D4400B4EFDE /* Lat Capt Human-Running.xml in Resources */,
 				5BB6234618360001001E8571 /* CCC DN-Stand&Sniff0046.png in Resources */,
@@ -6106,14 +5865,13 @@
 				5B274381182A1C3600942895 /* Lat Capt KL-Jumping0022.png in Resources */,
 				5BB624D118360001001E8571 /* Kangaroo Legs Spec Sheet.docx in Resources */,
 				5BB625B218360001001E8571 /* Ant Capt Trainsition-Into DN0048.png in Resources */,
-				5BB623FD18360001001E8571 /* Lat Capt Human-Crawling0006.png in Resources */,
+				5BB623FD18360001001E8571 /* Lat Capt Human-Crawling006.png in Resources */,
 				5B274373182A1C3500942895 /* Lat Capt KL-Jumping001.png in Resources */,
 				5BB625AD18360001001E8571 /* Ant Capt Trainsition-Into DN0043.png in Resources */,
 				5BB622F918360001001E8571 /* CCC DN-Sniffing&Crawling0013.png in Resources */,
 				5B2D7D71183BFECE00BA3365 /* Ant Capt Transistion-From KL0013.png in Resources */,
 				5BB624AD18360001001E8571 /* Lat Capt Human-To Crawl Transition0014.png in Resources */,
 				5BB623BB18360001001E8571 /* lat capt gf0008.png in Resources */,
-				5BB624C418360001001E8571 /* Lat Capt Human-Walking0006.png in Resources */,
 				3EBD93211833DD6600ABC143 /* Energy Score Bar0014.png in Resources */,
 				3E4530B218243D4400B4EFDE /* Lat Capt Human-Standing0057.png in Resources */,
 				5BB6261818360001001E8571 /* Ant Capt Trainsition-KL007.png in Resources */,
@@ -6123,9 +5881,7 @@
 				5BB625C418360001001E8571 /* Ant Capt Trainsition-GF0004.png in Resources */,
 				5BB623AA18360001001E8571 /* CCC DN-Walking0048.png in Resources */,
 				5B27438A182A1C3600942895 /* Lat Capt KL-Jumping0030.png in Resources */,
-				5BB6245718360001001E8571 /* Lat Capt Human-Standing0037.png in Resources */,
 				5BB625FF18360001001E8571 /* Ant Capt Trainsition-Human0034.png in Resources */,
-				5BB6246818360001001E8571 /* Lat Capt Human-Standing0054.png in Resources */,
 				5B274398182A1C3600942895 /* Ant Capt Transistion-From KL0013.png in Resources */,
 				3E45307518243D4400B4EFDE /* Lat Capt Human-Running0021.png in Resources */,
 				5BB6258B18360001001E8571 /* Ant Capt Trainsition-Into DN0009.png in Resources */,
@@ -6150,8 +5906,6 @@
 				5BB6251E18360001001E8571 /* Ant Capt Transition-From DN0025.png in Resources */,
 				5BB623ED18360001001E8571 /* CCC GF-Walking0030.png in Resources */,
 				5B274391182A1C3600942895 /* Lat Capt KL-Jumping009.png in Resources */,
-				5BB6244518360001001E8571 /* Lat Capt Human-Standing0019.png in Resources */,
-				5BB6247F18360001001E8571 /* Lat Capt Human-Standing0077.png in Resources */,
 				5BB6232718360001001E8571 /* CCC DN-Stand&Sniff0015.png in Resources */,
 				5BB6235118360001001E8571 /* CCC DN-Stand&Sniff0057.png in Resources */,
 				3E4530E518243D4400B4EFDE /* Lat Capt Human-Stand Up0028.png in Resources */,
@@ -6166,7 +5920,6 @@
 				5B2743BB182A1C3600942895 /* Ant Capt Trainsition-KL0022.png in Resources */,
 				3ECB2E8E18257CB800C82177 /* 2Star-Normal-iPhone-hd.png in Resources */,
 				3EBD93461833DD6600ABC143 /* Milk.png in Resources */,
-				5BB624CC18360001001E8571 /* Lat Capt Human-Walking0014.png in Resources */,
 				5BB6230018360001001E8571 /* CCC DN-Sniffing&Crawling0020.png in Resources */,
 				5BB6237918360001001E8571 /* CCC DN-Stand&Sniff0097.png in Resources */,
 				5BB625CE18360001001E8571 /* Ant Capt Trainsition-GF0014.png in Resources */,
@@ -6184,6 +5937,7 @@
 				3E4530BB18243D4400B4EFDE /* Lat Capt Human-Standing0066.png in Resources */,
 				5BB623C518360001001E8571 /* lat capt gf0018.png in Resources */,
 				3E97293D182837AC00F988F1 /* Boundaries.png in Resources */,
+				5B2D7DA2183C028F00BA3365 /* Lat Capt Human-Walking0017.png in Resources */,
 				5BB623A518360001001E8571 /* CCC DN-Walking0043.png in Resources */,
 				3E45311218243D4400B4EFDE /* Lat Capt Human-Walking0013.png in Resources */,
 				5BB6255A18360001001E8571 /* Ant Capt Transition-From Human0012.png in Resources */,
@@ -6202,10 +5956,8 @@
 				3E45306918243D4400B4EFDE /* Lat Capt Human-Running0009.png in Resources */,
 				5BB6253218360001001E8571 /* Ant Capt Transition-From DN0045.png in Resources */,
 				5B274380182A1C3600942895 /* Lat Capt KL-Jumping0021.png in Resources */,
-				5BB624CF18360001001E8571 /* Lat Capt Human-Walking0017.png in Resources */,
 				5BB625A418360001001E8571 /* Ant Capt Trainsition-Into DN0034.png in Resources */,
 				5BB623D718360001001E8571 /* CCC GF-Walking0008.png in Resources */,
-				5BB6246418360001001E8571 /* Lat Capt Human-Standing0050.png in Resources */,
 				5BB6233C18360001001E8571 /* CCC DN-Stand&Sniff0036.png in Resources */,
 				5B2743A3182A1C3600942895 /* Ant Capt Transistion-From KL0023.png in Resources */,
 				3ECB2E8418257CB800C82177 /* 0Star-Normal-iPad-hd.png in Resources */,
@@ -6222,11 +5974,10 @@
 				5BB625F018360001001E8571 /* Ant Capt Trainsition-Human0019.png in Resources */,
 				3EC0B9C418255119004CC08D /* Arrow-Normal-iPhone-hd.png in Resources */,
 				5BB624A018360001001E8571 /* Lat Capt Human-To Crawl Transition0001.png in Resources */,
+				5B2D7DA0183C028F00BA3365 /* Lat Capt Human-Walking0015.png in Resources */,
 				5BB6260618360001001E8571 /* Ant Capt Trainsition-Human0041.png in Resources */,
 				3E4530F418243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0014.png in Resources */,
 				3E452D4F1824063400B4EFDE /* Default@2x.png in Resources */,
-				5BB6244218360001001E8571 /* Lat Capt Human-Standing0016.png in Resources */,
-				5BB6243D18360001001E8571 /* Lat Capt Human-Standing0011.png in Resources */,
 				5B2743A9182A1C3600942895 /* Ant Capt Transistion-From KL006.png in Resources */,
 				5BB6261E18360001001E8571 /* Ant Capt Trainsition-KL0013.png in Resources */,
 				3E45304A18243D4400B4EFDE /* Lat Capt Human-Crawling0012.png in Resources */,
@@ -6249,27 +6000,20 @@
 				5BB624DA18360001001E8571 /* Lat Capt KL-Jumping0008.png in Resources */,
 				3EBD93481833DD6600ABC143 /* Back Arrow.png in Resources */,
 				5BB6236518360001001E8571 /* CCC DN-Stand&Sniff0077.png in Resources */,
-				5BB6244F18360001001E8571 /* Lat Capt Human-Standing0029.png in Resources */,
 				5BB6231918360001001E8571 /* CCC DN-Stand&Sniff0001.png in Resources */,
-				5BB624C218360001001E8571 /* Lat Capt Human-Walking0004.png in Resources */,
 				5BB623C318360001001E8571 /* lat capt gf0016.png in Resources */,
 				5BB623DB18360001001E8571 /* CCC GF-Walking0012.png in Resources */,
 				5BB6261518360001001E8571 /* Ant Capt Trainsition-KL004.png in Resources */,
-				5BB6246918360001001E8571 /* Lat Capt Human-Standing0055.png in Resources */,
 				5BB6251718360001001E8571 /* Ant Capt Transition-From DN0018.png in Resources */,
 				5BB6239718360001001E8571 /* CCC DN-Walking0029.png in Resources */,
-				5BB6243718360001001E8571 /* Lat Capt Human-Standing0005.png in Resources */,
 				3E4530F818243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0018.png in Resources */,
 				3E45307918243D4400B4EFDE /* Lat Capt Human-Standing.xml in Resources */,
-				5BB6244918360001001E8571 /* Lat Capt Human-Standing0023.png in Resources */,
 				3E45310718243D4400B4EFDE /* Lat Capt Human-Walking0002.png in Resources */,
 				5BB6252818360001001E8571 /* Ant Capt Transition-From DN0035.png in Resources */,
 				5BB6231518360001001E8571 /* CCC DN-Running0021.png in Resources */,
 				5BB6261A18360001001E8571 /* Ant Capt Trainsition-KL009.png in Resources */,
-				5BB6246618360001001E8571 /* Lat Capt Human-Standing0052.png in Resources */,
 				3E45310418243D4400B4EFDE /* Lat Capt Human-Wait to Crawl.xml in Resources */,
 				5BB6248F18360001001E8571 /* Lat Capt Human-Stand Up0013.png in Resources */,
-				5BB6246C18360001001E8571 /* Lat Capt Human-Standing0058.png in Resources */,
 				3EBD915E182ABD9500ABC143 /* Kangaroo Icon.png in Resources */,
 				3EBD93541833DD6600ABC143 /* .QT-04b2-cea298cc-bfffd0b8-00 in Resources */,
 				3E4530A918243D4400B4EFDE /* Lat Capt Human-Standing0048.png in Resources */,
@@ -6306,7 +6050,7 @@
 				5BB624ED18360001001E8571 /* Lat Capt KL-Jumping0027.png in Resources */,
 				5BB623DA18360001001E8571 /* CCC GF-Walking0011.png in Resources */,
 				5BB625DE18360001001E8571 /* Ant Capt Trainsition-Human0001.png in Resources */,
-				5BB6255618360001001E8571 /* Ant Capt Transition-From Human0008.png in Resources */,
+				5BB6255618360001001E8571 /* Ant Capt Transition-From Human008.png in Resources */,
 				5BB623DC18360001001E8571 /* CCC GF-Walking0013.png in Resources */,
 				5BB6242618360001001E8571 /* Lat Capt Human-Running0013.png in Resources */,
 				5BB625D918360001001E8571 /* Ant Capt Trainsition-GF0025.png in Resources */,
@@ -6324,8 +6068,6 @@
 				3E4530DA18243D4400B4EFDE /* Lat Capt Human-Stand Up0017.png in Resources */,
 				5BB623E318360001001E8571 /* CCC GF-Walking0020.png in Resources */,
 				5BB6234418360001001E8571 /* CCC DN-Stand&Sniff0044.png in Resources */,
-				5BB6245F18360001001E8571 /* Lat Capt Human-Standing0045.png in Resources */,
-				5BB624C818360001001E8571 /* Lat Capt Human-Walking0010.png in Resources */,
 				5BB624EA18360001001E8571 /* Lat Capt KL-Jumping0024.png in Resources */,
 				5BB6242518360001001E8571 /* Lat Capt Human-Running0012.png in Resources */,
 				3E45310918243D4400B4EFDE /* Lat Capt Human-Walking0004.png in Resources */,
@@ -6341,6 +6083,7 @@
 				5BB623E118360001001E8571 /* CCC GF-Walking0018.png in Resources */,
 				5B2743BF182A1C3600942895 /* Ant Capt Trainsition-KL0026.png in Resources */,
 				5B2743AC182A1C3600942895 /* Ant Capt Transistion-From KL009.png in Resources */,
+				5B2D7DAF183C04EB00BA3365 /* Lat Capt Human-Standing006.png in Resources */,
 				5B274379182A1C3500942895 /* Lat Capt KL-Jumping0015.png in Resources */,
 				5BB625CC18360001001E8571 /* Ant Capt Trainsition-GF0012.png in Resources */,
 				3E4530E118243D4400B4EFDE /* Lat Capt Human-Stand Up0024.png in Resources */,
@@ -6369,6 +6112,7 @@
 				3ECB2DEE18256BE500C82177 /* GameData.xml in Resources */,
 				3E45307018243D4400B4EFDE /* Lat Capt Human-Running0016.png in Resources */,
 				3E452D551824063400B4EFDE /* Icon-72.png in Resources */,
+				5B2D7D9A183C028F00BA3365 /* Lat Capt Human-Walking009.png in Resources */,
 				5BB623B418360001001E8571 /* lat capt gf0001.png in Resources */,
 				5BB6234118360001001E8571 /* CCC DN-Stand&Sniff0041.png in Resources */,
 				5BB6232F18360001001E8571 /* CCC DN-Stand&Sniff0023.png in Resources */,
@@ -6379,7 +6123,6 @@
 				5BB625F518360001001E8571 /* Ant Capt Trainsition-Human0024.png in Resources */,
 				3EBD93491833DD6600ABC143 /* CCC icon.png in Resources */,
 				5BB624F718360001001E8571 /* Lat Capt KL-Running0005.png in Resources */,
-				5BB6244118360001001E8571 /* Lat Capt Human-Standing0015.png in Resources */,
 				5BB6248B18360001001E8571 /* Lat Capt Human-Stand Up0009.png in Resources */,
 				5BB625C918360001001E8571 /* Ant Capt Trainsition-GF0009.png in Resources */,
 				3E45306D18243D4400B4EFDE /* Lat Capt Human-Running0013.png in Resources */,
@@ -6397,18 +6140,17 @@
 				3EBD938A1834280000ABC143 /* energy.pvr.ccz in Resources */,
 				5BB624E718360001001E8571 /* Lat Capt KL-Jumping0021.png in Resources */,
 				5BB623E518360001001E8571 /* CCC GF-Walking0022.png in Resources */,
-				5BB624C618360001001E8571 /* Lat Capt Human-Walking0008.png in Resources */,
 				5BB6254218360001001E8571 /* Ant Capt Tranisition-From GF0016.png in Resources */,
 				5BB6249B18360001001E8571 /* Lat Capt Human-Stand Up0025.png in Resources */,
 				5BB623C718360001001E8571 /* lat capt gf0020.png in Resources */,
 				5BB625C218360001001E8571 /* Ant Capt Trainsition-GF0002.png in Resources */,
-				5BB6245C18360001001E8571 /* Lat Capt Human-Standing0042.png in Resources */,
 				5BB625AA18360001001E8571 /* Ant Capt Trainsition-Into DN0040.png in Resources */,
 				3E4530AE18243D4400B4EFDE /* Lat Capt Human-Standing0053.png in Resources */,
 				3E452D4D1824063300B4EFDE /* Default.png in Resources */,
 				5BB6241C18360001001E8571 /* Lat Capt Human-Running0003.png in Resources */,
 				5B2743AA182A1C3600942895 /* Ant Capt Transistion-From KL007.png in Resources */,
 				5BB6230418360001001E8571 /* CCC DN-Running0004.png in Resources */,
+				5B2D7D99183C028F00BA3365 /* Lat Capt Human-Walking008.png in Resources */,
 				5BB623B718360001001E8571 /* lat capt gf0004.png in Resources */,
 				5BB6262D18360001001E8571 /* Ant Capt Trainsition-KL0028.png in Resources */,
 				3E45310818243D4400B4EFDE /* Lat Capt Human-Walking0003.png in Resources */,
@@ -6417,14 +6159,15 @@
 				5BB625FA18360001001E8571 /* Ant Capt Trainsition-Human0029.png in Resources */,
 				5BB6231B18360001001E8571 /* CCC DN-Stand&Sniff0003.png in Resources */,
 				5BB625E218360001001E8571 /* Ant Capt Trainsition-Human0005.png in Resources */,
-				5BB6255018360001001E8571 /* Ant Capt Transition-From Human0002.png in Resources */,
+				5B2D7D92183C028F00BA3365 /* Lat Capt Human-Walking.xml in Resources */,
+				5BB6255018360001001E8571 /* Ant Capt Transition-From Human002.png in Resources */,
 				5BB6262918360001001E8571 /* Ant Capt Trainsition-KL0024.png in Resources */,
 				5BB6254918360001001E8571 /* Ant Capt Tranisition-From GF0023.png in Resources */,
 				5BB623D818360001001E8571 /* CCC GF-Walking0009.png in Resources */,
 				5BB6232118360001001E8571 /* CCC DN-Stand&Sniff0009.png in Resources */,
 				5B274382182A1C3600942895 /* Lat Capt KL-Jumping0023.png in Resources */,
 				5BB6239418360001001E8571 /* CCC DN-Walking0026.png in Resources */,
-				5BB6255118360001001E8571 /* Ant Capt Transition-From Human0003.png in Resources */,
+				5BB6255118360001001E8571 /* Ant Capt Transition-From Human003.png in Resources */,
 				3ECB2E9718257CB800C82177 /* Locked-iPhone.png in Resources */,
 				5BB623AC18360001001E8571 /* CCC DN-Walking0050.png in Resources */,
 				5B2D7D6E183BFECE00BA3365 /* Ant Capt Transistion-From KL0010.png in Resources */,
@@ -6443,9 +6186,7 @@
 				5BB625D518360001001E8571 /* Ant Capt Trainsition-GF0021.png in Resources */,
 				5BB623A418360001001E8571 /* CCC DN-Walking0042.png in Resources */,
 				3EBD93551833DD6600ABC143 /* .QT-04b2-cea29a22-bfffd0b8-00 in Resources */,
-				5BB6243B18360001001E8571 /* Lat Capt Human-Standing0009.png in Resources */,
 				5BB623BA18360001001E8571 /* lat capt gf0007.png in Resources */,
-				5BB6243318360001001E8571 /* Lat Capt Human-Standing0001.png in Resources */,
 				5BB6235A18360001001E8571 /* CCC DN-Stand&Sniff0066.png in Resources */,
 				5BB6255B18360001001E8571 /* Ant Capt Transition-From Human0013.png in Resources */,
 				5BB6248E18360001001E8571 /* Lat Capt Human-Stand Up0012.png in Resources */,
@@ -6456,7 +6197,6 @@
 				5BB6236618360001001E8571 /* CCC DN-Stand&Sniff0078.png in Resources */,
 				5BB625EC18360001001E8571 /* Ant Capt Trainsition-Human0015.png in Resources */,
 				5BB625ED18360001001E8571 /* Ant Capt Trainsition-Human0016.png in Resources */,
-				5BB6245A18360001001E8571 /* Lat Capt Human-Standing0040.png in Resources */,
 				3E45304F18243D4400B4EFDE /* Lat Capt Human-Crawling0017.png in Resources */,
 				5BB6238918360001001E8571 /* CCC DN-Walking0015.png in Resources */,
 				3ECB2DF118256BE500C82177 /* TemplateData.xml in Resources */,
@@ -6465,8 +6205,8 @@
 				5BB624BB18360001001E8571 /* Lat Capt Human-To Crawl Transition0028.png in Resources */,
 				5BB6260118360001001E8571 /* Ant Capt Trainsition-Human0036.png in Resources */,
 				3E4530DB18243D4400B4EFDE /* Lat Capt Human-Stand Up0018.png in Resources */,
-				5BB6244C18360001001E8571 /* Lat Capt Human-Standing0026.png in Resources */,
 				3E45307718243D4400B4EFDE /* Lat Capt Human-Running0023.png in Resources */,
+				5B2D7DAA183C04EB00BA3365 /* Lat Capt Human-Standing001.png in Resources */,
 				5BB6232018360001001E8571 /* CCC DN-Stand&Sniff0008.png in Resources */,
 				3E45304B18243D4400B4EFDE /* Lat Capt Human-Crawling0013.png in Resources */,
 				5BB622F318360001001E8571 /* CCC DN-Sniffing&Crawling0007.png in Resources */,
@@ -6478,7 +6218,6 @@
 				3E4530C618243D4400B4EFDE /* Lat Capt Human-Standing0077.png in Resources */,
 				5B2743BE182A1C3600942895 /* Ant Capt Trainsition-KL0025.png in Resources */,
 				3EBD931B1833DD6600ABC143 /* Energy Score Bar0008.png in Resources */,
-				5BB6247218360001001E8571 /* Lat Capt Human-Standing0064.png in Resources */,
 				5B27437D182A1C3600942895 /* Lat Capt KL-Jumping0019.png in Resources */,
 				5BB624B418360001001E8571 /* Lat Capt Human-To Crawl Transition0021.png in Resources */,
 				5BB624B118360001001E8571 /* Lat Capt Human-To Crawl Transition0018.png in Resources */,
@@ -6498,11 +6237,11 @@
 				5BB625A118360001001E8571 /* Ant Capt Trainsition-Into DN0031.png in Resources */,
 				5BB625D418360001001E8571 /* Ant Capt Trainsition-GF0020.png in Resources */,
 				3ECB2E9418257CB800C82177 /* Locked-iPad-hd.png in Resources */,
+				5B2D7D93183C028F00BA3365 /* Lat Capt Human-Walking002.png in Resources */,
 				5BB625F318360001001E8571 /* Ant Capt Trainsition-Human0022.png in Resources */,
 				3EBD930F1833DD6600ABC143 /* Apple.png in Resources */,
 				3E4530F918243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0019.png in Resources */,
 				5BB6253418360001001E8571 /* Ant Capt Tranisition-From GF0002.png in Resources */,
-				5BB6244818360001001E8571 /* Lat Capt Human-Standing0022.png in Resources */,
 				3E4530A318243D4400B4EFDE /* Lat Capt Human-Standing0042.png in Resources */,
 				3E4530C218243D4400B4EFDE /* Lat Capt Human-Standing0073.png in Resources */,
 				5BB624D718360001001E8571 /* Lat Capt KL-Jumping0005.png in Resources */,
@@ -6515,7 +6254,6 @@
 				5BB6235218360001001E8571 /* CCC DN-Stand&Sniff0058.png in Resources */,
 				5BB6259C18360001001E8571 /* Ant Capt Trainsition-Into DN0026.png in Resources */,
 				5BB6236818360001001E8571 /* CCC DN-Stand&Sniff0080.png in Resources */,
-				5BB6247B18360001001E8571 /* Lat Capt Human-Standing0073.png in Resources */,
 				5BB625B618360001001E8571 /* Ant Capt Trainsition-Into DN0052.png in Resources */,
 				5BB625F818360001001E8571 /* Ant Capt Trainsition-Human0027.png in Resources */,
 				5BB623B518360001001E8571 /* lat capt gf0002.png in Resources */,
@@ -6523,12 +6261,12 @@
 				5BB6234818360001001E8571 /* CCC DN-Stand&Sniff0048.png in Resources */,
 				5B2743BC182A1C3600942895 /* Ant Capt Trainsition-KL0023.png in Resources */,
 				5BB6241718360001001E8571 /* Lat Capt Human-Leaping0008.png in Resources */,
+				5B2D7D98183C028F00BA3365 /* Lat Capt Human-Walking007.png in Resources */,
 				3EBD93171833DD6600ABC143 /* Energy Score Bar0004.png in Resources */,
 				5BB625BB18360001001E8571 /* Ant Capt Trainsition-Into DN0057.png in Resources */,
 				5BB623D518360001001E8571 /* CCC GF-Walking0006.png in Resources */,
 				3E45305E18243D4400B4EFDE /* Lat Capt Human-Leaping0008.png in Resources */,
 				5BB625E018360001001E8571 /* Ant Capt Trainsition-Human0003.png in Resources */,
-				5BB6247418360001001E8571 /* Lat Capt Human-Standing0066.png in Resources */,
 				5BB623F518360001001E8571 /* CCC GF-Walking0038.png in Resources */,
 				5BB6261418360001001E8571 /* Ant Capt Trainsition-KL003.png in Resources */,
 				5B2743B5182A1C3600942895 /* Ant Capt Trainsition-KL0017.png in Resources */,
@@ -6541,20 +6279,19 @@
 				5BB6252118360001001E8571 /* Ant Capt Transition-From DN0028.png in Resources */,
 				5BB622F818360001001E8571 /* CCC DN-Sniffing&Crawling0012.png in Resources */,
 				5B2D7D70183BFECE00BA3365 /* Ant Capt Transistion-From KL0012.png in Resources */,
-				5BB6247D18360001001E8571 /* Lat Capt Human-Standing0075.png in Resources */,
 				5BB623EF18360001001E8571 /* CCC GF-Walking0032.png in Resources */,
 				3E4530D618243D4400B4EFDE /* Lat Capt Human-Stand Up0013.png in Resources */,
 				5BB625B018360001001E8571 /* Ant Capt Trainsition-Into DN0046.png in Resources */,
 				3E45311818243D4400B4EFDE /* CCC_human.plist in Resources */,
 				5BB6251118360001001E8571 /* Ant Capt Transition-From DN0012.png in Resources */,
-				5BB6244618360001001E8571 /* Lat Capt Human-Standing0020.png in Resources */,
 				3E45305918243D4400B4EFDE /* Lat Capt Human-Leaping0003.png in Resources */,
 				5BB6262218360001001E8571 /* Ant Capt Trainsition-KL0017.png in Resources */,
-				5BB623FE18360001001E8571 /* Lat Capt Human-Crawling0007.png in Resources */,
+				5BB623FE18360001001E8571 /* Lat Capt Human-Crawling007.png in Resources */,
 				5BB6238318360001001E8571 /* CCC DN-Walking0009.png in Resources */,
-				5BB6247318360001001E8571 /* Lat Capt Human-Standing0065.png in Resources */,
 				3E45308A18243D4400B4EFDE /* Lat Capt Human-Standing0017.png in Resources */,
-				5BB623FF18360001001E8571 /* Lat Capt Human-Crawling0008.png in Resources */,
+				5BB623FF18360001001E8571 /* Lat Capt Human-Crawling008.png in Resources */,
+				5B2D7DAD183C04EB00BA3365 /* Lat Capt Human-Standing004.png in Resources */,
+				5B2D7D96183C028F00BA3365 /* Lat Capt Human-Walking005.png in Resources */,
 				5BB623EA18360001001E8571 /* CCC GF-Walking0027.png in Resources */,
 				5BB6242B18360001001E8571 /* Lat Capt Human-Running0018.png in Resources */,
 				5BB6237018360001001E8571 /* CCC DN-Stand&Sniff0088.png in Resources */,
@@ -6567,10 +6304,8 @@
 				5BB6234918360001001E8571 /* CCC DN-Stand&Sniff0049.png in Resources */,
 				5BB624A518360001001E8571 /* Lat Capt Human-To Crawl Transition0006.png in Resources */,
 				5BB624FA18360001001E8571 /* Lat Capt KL-Running0008.png in Resources */,
-				5BB6243618360001001E8571 /* Lat Capt Human-Standing0004.png in Resources */,
 				5B274385182A1C3600942895 /* Lat Capt KL-Jumping0026.png in Resources */,
-				5BB623FB18360001001E8571 /* Lat Capt Human-Crawling0004.png in Resources */,
-				5BB624C718360001001E8571 /* Lat Capt Human-Walking0009.png in Resources */,
+				5BB623FB18360001001E8571 /* Lat Capt Human-Crawling004.png in Resources */,
 				5B27438D182A1C3600942895 /* Lat Capt KL-Jumping005.png in Resources */,
 				3EBD932C1833DD6600ABC143 /* Energy Score Bar0025.png in Resources */,
 				5BB625E518360001001E8571 /* Ant Capt Trainsition-Human0008.png in Resources */,
@@ -6586,9 +6321,9 @@
 				5BB6240618360001001E8571 /* Lat Capt Human-Crawling0015.png in Resources */,
 				3E45306418243D4400B4EFDE /* Lat Capt Human-Running0004.png in Resources */,
 				3E45305518243D4400B4EFDE /* Lat Capt Human-Leaping.png in Resources */,
+				5B2D7D9D183C028F00BA3365 /* Lat Capt Human-Walking0012.png in Resources */,
 				3E45307E18243D4400B4EFDE /* Lat Capt Human-Standing0005.png in Resources */,
 				5BB6252618360001001E8571 /* Ant Capt Transition-From DN0033.png in Resources */,
-				5BB6247E18360001001E8571 /* Lat Capt Human-Standing0076.png in Resources */,
 				5BB6258A18360001001E8571 /* Ant Capt Trainsition-Into DN0008.png in Resources */,
 				5BB625B818360001001E8571 /* Ant Capt Trainsition-Into DN0054.png in Resources */,
 				5BB6231618360001001E8571 /* CCC DN-Running0022.png in Resources */,
@@ -6600,7 +6335,6 @@
 				5BB623C818360001001E8571 /* lat capt gf0021.png in Resources */,
 				5BB6233718360001001E8571 /* CCC DN-Stand&Sniff0031.png in Resources */,
 				5BB623C218360001001E8571 /* lat capt gf0015.png in Resources */,
-				5BB624CA18360001001E8571 /* Lat Capt Human-Walking0012.png in Resources */,
 				3E45311318243D4400B4EFDE /* Lat Capt Human-Walking0014.png in Resources */,
 				5BB6240318360001001E8571 /* Lat Capt Human-Crawling0012.png in Resources */,
 				5BB6231A18360001001E8571 /* CCC DN-Stand&Sniff0002.png in Resources */,
@@ -6614,7 +6348,6 @@
 				3E45306E18243D4400B4EFDE /* Lat Capt Human-Running0014.png in Resources */,
 				3E45311718243D4400B4EFDE /* Lat Capt Human-Walking0018.png in Resources */,
 				5BB6261F18360001001E8571 /* Ant Capt Trainsition-KL0014.png in Resources */,
-				5BB6243F18360001001E8571 /* Lat Capt Human-Standing0013.png in Resources */,
 				3ECB2E7B18257CB800C82177 /* Maze-Selected-iPhone.png in Resources */,
 				5BB6240E18360001001E8571 /* Lat Capt Human-Leaping.png in Resources */,
 				3ECB2E9618257CB800C82177 /* Locked-iPhone-hd.png in Resources */,
@@ -6622,13 +6355,13 @@
 				5BB6250218360001001E8571 /* Lat Capt Kangaroo-Standing.xml in Resources */,
 				3E4530EA18243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0004.png in Resources */,
 				5B274399182A1C3600942895 /* Ant Capt Transistion-From KL0014.png in Resources */,
-				5BB6247C18360001001E8571 /* Lat Capt Human-Standing0074.png in Resources */,
 				3ECB2E0F18257A9800C82177 /* Levels-Chapter1.xml in Resources */,
 				5BB6231218360001001E8571 /* CCC DN-Running0018.png in Resources */,
 				5BB625C818360001001E8571 /* Ant Capt Trainsition-GF0008.png in Resources */,
 				5BB6241518360001001E8571 /* Lat Capt Human-Leaping0006.png in Resources */,
-				5BB623FA18360001001E8571 /* Lat Capt Human-Crawling0003.png in Resources */,
+				5BB623FA18360001001E8571 /* Lat Capt Human-Crawling003.png in Resources */,
 				5BB6236C18360001001E8571 /* CCC DN-Stand&Sniff0084.png in Resources */,
+				5B2D7D91183C028F00BA3365 /* Lat Capt Human-Walking001.png in Resources */,
 				5BB6248718360001001E8571 /* Lat Capt Human-Stand Up0005.png in Resources */,
 				3E45308018243D4400B4EFDE /* Lat Capt Human-Standing0007.png in Resources */,
 				5B2743B9182A1C3600942895 /* Ant Capt Trainsition-KL0020.png in Resources */,
@@ -6645,7 +6378,6 @@
 				5BB6239318360001001E8571 /* CCC DN-Walking0025.png in Resources */,
 				3EBD93341833DD6600ABC143 /* Energy Score Bar0033.png in Resources */,
 				5BB6231418360001001E8571 /* CCC DN-Running0020.png in Resources */,
-				5BB6248018360001001E8571 /* Lat Capt Human-Standing0078.png in Resources */,
 				3E4530ED18243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0007.png in Resources */,
 				3EBD934D1833DD6600ABC143 /* Gecko Icon.png in Resources */,
 				5BB6238718360001001E8571 /* CCC DN-Walking0013.png in Resources */,
@@ -6654,7 +6386,6 @@
 				3E45309818243D4400B4EFDE /* Lat Capt Human-Standing0031.png in Resources */,
 				5BB625B418360001001E8571 /* Ant Capt Trainsition-Into DN0050.png in Resources */,
 				3E45307618243D4400B4EFDE /* Lat Capt Human-Running0022.png in Resources */,
-				5BB624CB18360001001E8571 /* Lat Capt Human-Walking0013.png in Resources */,
 				5BB624FD18360001001E8571 /* Lat Capt KL-Running0011.png in Resources */,
 				5BB6250E18360001001E8571 /* Ant Capt Transition-From DN0009.png in Resources */,
 				5BB624AA18360001001E8571 /* Lat Capt Human-To Crawl Transition0011.png in Resources */,
@@ -6662,11 +6393,13 @@
 				3ECB2E7718257CB800C82177 /* Maze-Normal-iPhone.png in Resources */,
 				3E452D571824063400B4EFDE /* Icon-Small-50.png in Resources */,
 				3EBD93161833DD6600ABC143 /* Energy Score Bar0003.png in Resources */,
+				5B2D7D9F183C028F00BA3365 /* Lat Capt Human-Walking0014.png in Resources */,
 				3E4530EB18243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0005.png in Resources */,
 				5B2743B4182A1C3600942895 /* Ant Capt Trainsition-KL0016.png in Resources */,
 				3E45304818243D4400B4EFDE /* Lat Capt Human-Crawling0010.png in Resources */,
 				5B274388182A1C3600942895 /* Lat Capt KL-Jumping0029.png in Resources */,
 				3EBD93561833DD6600ABC143 /* Opening Page.png in Resources */,
+				5B2D7D9E183C028F00BA3365 /* Lat Capt Human-Walking0013.png in Resources */,
 				5BB625DD18360001001E8571 /* Ant Capt Trainsition-GF0029.png in Resources */,
 				5BB6240418360001001E8571 /* Lat Capt Human-Crawling0013.png in Resources */,
 				3EBD93501833DD6600ABC143 /* Kangaroo Icon.png in Resources */,
@@ -6675,7 +6408,6 @@
 				5BB6231018360001001E8571 /* CCC DN-Running0016.png in Resources */,
 				5BB6238418360001001E8571 /* CCC DN-Walking0010.png in Resources */,
 				5B274378182A1C3500942895 /* Lat Capt KL-Jumping0014.png in Resources */,
-				5BB6245B18360001001E8571 /* Lat Capt Human-Standing0041.png in Resources */,
 				5BB623D218360001001E8571 /* CCC GF-Walking0003.png in Resources */,
 				5BB6239B18360001001E8571 /* CCC DN-Walking0033.png in Resources */,
 				5BB6254618360001001E8571 /* Ant Capt Tranisition-From GF0020.png in Resources */,
@@ -6700,7 +6432,6 @@
 				5BB6236418360001001E8571 /* CCC DN-Stand&Sniff0076.png in Resources */,
 				5BB6261B18360001001E8571 /* Ant Capt Trainsition-KL0010.png in Resources */,
 				3EBD93311833DD6600ABC143 /* Energy Score Bar0030.png in Resources */,
-				5BB6244A18360001001E8571 /* Lat Capt Human-Standing0024.png in Resources */,
 				3E45308618243D4400B4EFDE /* Lat Capt Human-Standing0013.png in Resources */,
 				5BB622F418360001001E8571 /* CCC DN-Sniffing&Crawling0008.png in Resources */,
 				5BB6236918360001001E8571 /* CCC DN-Stand&Sniff0081.png in Resources */,
@@ -6714,7 +6445,6 @@
 				5B2743C6182A1C3600942895 /* Ant Capt Trainsition-KL006.png in Resources */,
 				5BB6233518360001001E8571 /* CCC DN-Stand&Sniff0029.png in Resources */,
 				5BB623F218360001001E8571 /* CCC GF-Walking0035.png in Resources */,
-				5BB624C018360001001E8571 /* Lat Capt Human-Walking0002.png in Resources */,
 				5BB624FC18360001001E8571 /* Lat Capt KL-Running0010.png in Resources */,
 				5BB623E418360001001E8571 /* CCC GF-Walking0021.png in Resources */,
 				3E45306B18243D4400B4EFDE /* Lat Capt Human-Running0011.png in Resources */,
@@ -6744,13 +6474,14 @@
 				5BB6248818360001001E8571 /* Lat Capt Human-Stand Up0006.png in Resources */,
 				5BB6230918360001001E8571 /* CCC DN-Running0009.png in Resources */,
 				5BB6262618360001001E8571 /* Ant Capt Trainsition-KL0021.png in Resources */,
-				5BB6247618360001001E8571 /* Lat Capt Human-Standing0068.png in Resources */,
 				5B274392182A1C3600942895 /* CCC_first.plist in Resources */,
 				5B27439F182A1C3600942895 /* Ant Capt Transistion-From KL002.png in Resources */,
-				5BB6255218360001001E8571 /* Ant Capt Transition-From Human0004.png in Resources */,
+				5BB6255218360001001E8571 /* Ant Capt Transition-From Human004.png in Resources */,
 				5BB6258718360001001E8571 /* Ant Capt Trainsition-Into DN0005.png in Resources */,
+				5B2D7D9B183C028F00BA3365 /* Lat Capt Human-Walking0010.png in Resources */,
 				3E4530D418243D4400B4EFDE /* Lat Capt Human-Stand Up0011.png in Resources */,
 				5BB624BA18360001001E8571 /* Lat Capt Human-To Crawl Transition0027.png in Resources */,
+				5B2D7DAB183C04EB00BA3365 /* Lat Capt Human-Standing002.png in Resources */,
 				3E45310D18243D4400B4EFDE /* Lat Capt Human-Walking0008.png in Resources */,
 				5BB6249918360001001E8571 /* Lat Capt Human-Stand Up0023.png in Resources */,
 				5BB6239018360001001E8571 /* CCC DN-Walking0022.png in Resources */,
@@ -6759,7 +6490,6 @@
 				5BB6234B18360001001E8571 /* CCC DN-Stand&Sniff0051.png in Resources */,
 				5BB623A818360001001E8571 /* CCC DN-Walking0046.png in Resources */,
 				3E4530BA18243D4400B4EFDE /* Lat Capt Human-Standing0065.png in Resources */,
-				5BB6248118360001001E8571 /* Lat Capt Human-Standing0079.png in Resources */,
 				5BB6248A18360001001E8571 /* Lat Capt Human-Stand Up0008.png in Resources */,
 				5BB6232C18360001001E8571 /* CCC DN-Stand&Sniff0020.png in Resources */,
 				5BB624DF18360001001E8571 /* Lat Capt KL-Jumping0013.png in Resources */,
@@ -6770,11 +6500,11 @@
 				5BB623F618360001001E8571 /* CCC GF-Walking0039.png in Resources */,
 				5B2743A8182A1C3600942895 /* Ant Capt Transistion-From KL005.png in Resources */,
 				5BB6234718360001001E8571 /* CCC DN-Stand&Sniff0047.png in Resources */,
+				5B2D7DA3183C028F00BA3365 /* Lat Capt Human-Walking0018.png in Resources */,
 				5BB625B718360001001E8571 /* Ant Capt Trainsition-Into DN0053.png in Resources */,
 				5B2743C7182A1C3600942895 /* Ant Capt Trainsition-KL007.png in Resources */,
 				5BB6259A18360001001E8571 /* Ant Capt Trainsition-Into DN0024.png in Resources */,
 				3E4530F718243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0017.png in Resources */,
-				5BB6247918360001001E8571 /* Lat Capt Human-Standing0071.png in Resources */,
 				5BB624E218360001001E8571 /* Lat Capt KL-Jumping0016.png in Resources */,
 				5B274387182A1C3600942895 /* Lat Capt KL-Jumping0028.png in Resources */,
 				5BB6238518360001001E8571 /* CCC DN-Walking0011.png in Resources */,
@@ -6782,7 +6512,7 @@
 				5BB6235E18360001001E8571 /* CCC DN-Stand&Sniff0070.png in Resources */,
 				5B2743BD182A1C3600942895 /* Ant Capt Trainsition-KL0024.png in Resources */,
 				5BB6259F18360001001E8571 /* Ant Capt Trainsition-Into DN0029.png in Resources */,
-				5BB623FC18360001001E8571 /* Lat Capt Human-Crawling0005.png in Resources */,
+				5BB623FC18360001001E8571 /* Lat Capt Human-Crawling005.png in Resources */,
 				3ECB2EBC18258BAC00C82177 /* prac_map.tmx in Resources */,
 				5BB624B818360001001E8571 /* Lat Capt Human-To Crawl Transition0025.png in Resources */,
 				3E45309918243D4400B4EFDE /* Lat Capt Human-Standing0032.png in Resources */,
@@ -6816,18 +6546,16 @@
 				5B274377182A1C3500942895 /* Lat Capt KL-Jumping0013.png in Resources */,
 				5BB624EB18360001001E8571 /* Lat Capt KL-Jumping0025.png in Resources */,
 				5BB623E818360001001E8571 /* CCC GF-Walking0025.png in Resources */,
-				5BB6245618360001001E8571 /* Lat Capt Human-Standing0036.png in Resources */,
 				5BB6232518360001001E8571 /* CCC DN-Stand&Sniff0013.png in Resources */,
 				5B27437B182A1C3600942895 /* Lat Capt KL-Jumping0017.png in Resources */,
 				3E45306318243D4400B4EFDE /* Lat Capt Human-Running0003.png in Resources */,
 				3E45309E18243D4400B4EFDE /* Lat Capt Human-Standing0037.png in Resources */,
 				5BB6243118360001001E8571 /* Lat Capt Human-Running0024.png in Resources */,
-				5BB6244E18360001001E8571 /* Lat Capt Human-Standing0028.png in Resources */,
 				3E452D5B1824063400B4EFDE /* Icon-Small@2x.png in Resources */,
 				5BB6242D18360001001E8571 /* Lat Capt Human-Running0020.png in Resources */,
 				5BB6258818360001001E8571 /* Ant Capt Trainsition-Into DN0006.png in Resources */,
 				3E452D511824063400B4EFDE /* Default-568h@2x.png in Resources */,
-				5BB623F818360001001E8571 /* Lat Capt Human-Crawling0001.png in Resources */,
+				5BB623F818360001001E8571 /* Lat Capt Human-Crawling001.png in Resources */,
 				5BB6230118360001001E8571 /* CCC DN-Running0001.png in Resources */,
 				5BB624E418360001001E8571 /* Lat Capt KL-Jumping0018.png in Resources */,
 				5BB6256818360001001E8571 /* Ant Capt Transition-From Human0026.png in Resources */,
@@ -6842,8 +6570,6 @@
 				5BB623A018360001001E8571 /* CCC DN-Walking0038.png in Resources */,
 				3EBD932A1833DD6600ABC143 /* Energy Score Bar0023.png in Resources */,
 				5BB6259E18360001001E8571 /* Ant Capt Trainsition-Into DN0028.png in Resources */,
-				5BB6245118360001001E8571 /* Lat Capt Human-Standing0031.png in Resources */,
-				5BB6246218360001001E8571 /* Lat Capt Human-Standing0048.png in Resources */,
 				3E45309118243D4400B4EFDE /* Lat Capt Human-Standing0024.png in Resources */,
 				3E4530E018243D4400B4EFDE /* Lat Capt Human-Stand Up0023.png in Resources */,
 				5BB6234D18360001001E8571 /* CCC DN-Stand&Sniff0053.png in Resources */,
@@ -6860,16 +6586,12 @@
 				5BB6250118360001001E8571 /* Lat Capt KL-Running0015.png in Resources */,
 				3E4530E418243D4400B4EFDE /* Lat Capt Human-Stand Up0027.png in Resources */,
 				5BB622EF18360000001E8571 /* CCC DN-Sniffing&Crawling0003.png in Resources */,
-				5BB6244B18360001001E8571 /* Lat Capt Human-Standing0025.png in Resources */,
-				5BB6247A18360001001E8571 /* Lat Capt Human-Standing0072.png in Resources */,
 				3E4530F118243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0011.png in Resources */,
 				5BB623C918360001001E8571 /* lat capt gf0022.png in Resources */,
 				5BB623BF18360001001E8571 /* lat capt gf0012.png in Resources */,
 				5BB6233118360001001E8571 /* CCC DN-Stand&Sniff0025.png in Resources */,
 				5BB625EB18360001001E8571 /* Ant Capt Trainsition-Human0014.png in Resources */,
-				5BB6245418360001001E8571 /* Lat Capt Human-Standing0034.png in Resources */,
 				5BB623A318360001001E8571 /* CCC DN-Walking0041.png in Resources */,
-				5BB624CE18360001001E8571 /* Lat Capt Human-Walking0016.png in Resources */,
 				3E4530D218243D4400B4EFDE /* Lat Capt Human-Stand Up0009.png in Resources */,
 				5BB6241818360001001E8571 /* Lat Capt Human-Leaping0009.png in Resources */,
 				3ECB2DEC18256BE500C82177 /* Chapters.xml in Resources */,
@@ -6889,7 +6611,6 @@
 				5BB6254C18360001001E8571 /* Ant Capt Tranisition-From GF0026.png in Resources */,
 				3E45311418243D4400B4EFDE /* Lat Capt Human-Walking0015.png in Resources */,
 				3E4530D918243D4400B4EFDE /* Lat Capt Human-Stand Up0016.png in Resources */,
-				5BB624C118360001001E8571 /* Lat Capt Human-Walking0003.png in Resources */,
 				5B27437F182A1C3600942895 /* Lat Capt KL-Jumping0020.png in Resources */,
 				3E4530FE18243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0024.png in Resources */,
 				3E4530C318243D4400B4EFDE /* Lat Capt Human-Standing0074.png in Resources */,
@@ -6897,15 +6618,11 @@
 				5BB6252D18360001001E8571 /* Ant Capt Transition-From DN0040.png in Resources */,
 				5BB6237F18360001001E8571 /* CCC DN-Walking0005.png in Resources */,
 				3EBD93231833DD6600ABC143 /* Energy Score Bar0016.png in Resources */,
-				5BB6244318360001001E8571 /* Lat Capt Human-Standing0017.png in Resources */,
 				3E45310118243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0027.png in Resources */,
 				3EBD934C1833DD6600ABC143 /* Forward Arrow (Red).png in Resources */,
 				3E4530CC18243D4400B4EFDE /* Lat Capt Human-Stand Up0003.png in Resources */,
-				5BB6245018360001001E8571 /* Lat Capt Human-Standing0030.png in Resources */,
 				5BB6259918360001001E8571 /* Ant Capt Trainsition-Into DN0023.png in Resources */,
 				5BB6238B18360001001E8571 /* CCC DN-Walking0017.png in Resources */,
-				5BB6243A18360001001E8571 /* Lat Capt Human-Standing0008.png in Resources */,
-				5BB6245818360001001E8571 /* Lat Capt Human-Standing0038.png in Resources */,
 				5BB6238218360001001E8571 /* CCC DN-Walking0008.png in Resources */,
 				5BB6236F18360001001E8571 /* CCC DN-Stand&Sniff0087.png in Resources */,
 				3E4530AD18243D4400B4EFDE /* Lat Capt Human-Standing0052.png in Resources */,
@@ -6931,20 +6648,16 @@
 				5BB6248218360001001E8571 /* Lat Capt Human-Stand Up.xml in Resources */,
 				5BB6253C18360001001E8571 /* Ant Capt Tranisition-From GF0010.png in Resources */,
 				5B2743C1182A1C3600942895 /* Ant Capt Trainsition-KL0028.png in Resources */,
-				5BB6245318360001001E8571 /* Lat Capt Human-Standing0033.png in Resources */,
 				5B2D7D7D183BFECE00BA3365 /* Ant Capt Transistion-From KL0025.png in Resources */,
 				5BB6230618360001001E8571 /* CCC DN-Running0006.png in Resources */,
 				5BB6251A18360001001E8571 /* Ant Capt Transition-From DN0021.png in Resources */,
 				5BB625FC18360001001E8571 /* Ant Capt Trainsition-Human0031.png in Resources */,
 				5BB6256918360001001E8571 /* Ant Capt Transition-From Human0027.png in Resources */,
-				5BB6247118360001001E8571 /* Lat Capt Human-Standing0063.png in Resources */,
 				5BB6230218360001001E8571 /* CCC DN-Running0002.png in Resources */,
 				5B274389182A1C3600942895 /* Lat Capt KL-Jumping003.png in Resources */,
 				5BB6242218360001001E8571 /* Lat Capt Human-Running0009.png in Resources */,
 				3E4530B518243D4400B4EFDE /* Lat Capt Human-Standing0060.png in Resources */,
 				3EC0B9C218255119004CC08D /* Arrow-Normal-iPad-hd.png in Resources */,
-				5BB6247018360001001E8571 /* Lat Capt Human-Standing0062.png in Resources */,
-				5BB6243E18360001001E8571 /* Lat Capt Human-Standing0012.png in Resources */,
 				5BB6235F18360001001E8571 /* CCC DN-Stand&Sniff0071.png in Resources */,
 				3E45305118243D4400B4EFDE /* Lat Capt Human-Crawling0019.png in Resources */,
 				5BB624AF18360001001E8571 /* Lat Capt Human-To Crawl Transition0016.png in Resources */,
@@ -6954,14 +6667,12 @@
 				5BB581F4183330BF00A9F330 /* jump.wav in Resources */,
 				5BB625C118360001001E8571 /* Ant Capt Trainsition-GF0001.png in Resources */,
 				5BB625F918360001001E8571 /* Ant Capt Trainsition-Human0028.png in Resources */,
-				5BB6246018360001001E8571 /* Lat Capt Human-Standing0046.png in Resources */,
 				3EBD93201833DD6600ABC143 /* Energy Score Bar0013.png in Resources */,
 				5B2743B1182A1C3600942895 /* Ant Capt Trainsition-KL0013.png in Resources */,
 				3ECB2E9118257CB800C82177 /* 3Star-Normal-iPad.png in Resources */,
 				5B27437C182A1C3600942895 /* Lat Capt KL-Jumping0018.png in Resources */,
 				5BB623EE18360001001E8571 /* CCC GF-Walking0031.png in Resources */,
 				3EBD93121833DD6600ABC143 /* Chicken.png in Resources */,
-				5BB6246118360001001E8571 /* Lat Capt Human-Standing0047.png in Resources */,
 				3EBD933F1833DD6600ABC143 /* Energy Score Bar0044.png in Resources */,
 				5BB623B318360001001E8571 /* CCC DN-Walking0057.png in Resources */,
 				5BB624D518360001001E8571 /* Lat Capt KL-Jumping0003.png in Resources */,
@@ -6978,6 +6689,7 @@
 				5BB6232A18360001001E8571 /* CCC DN-Stand&Sniff0018.png in Resources */,
 				3EBD915D182ABD9500ABC143 /* Icon Drawer.png in Resources */,
 				3EBD916D182AE43E00ABC143 /* explore.png in Resources */,
+				5B2D7DAC183C04EB00BA3365 /* Lat Capt Human-Standing003.png in Resources */,
 				5BB623F018360001001E8571 /* CCC GF-Walking0033.png in Resources */,
 				5B2743A2182A1C3600942895 /* Ant Capt Transistion-From KL0022.png in Resources */,
 				5B2D7D6F183BFECE00BA3365 /* Ant Capt Transistion-From KL0011.png in Resources */,
@@ -6988,6 +6700,7 @@
 				5BB623D118360001001E8571 /* CCC GF-Walking0002.png in Resources */,
 				5B2D7D7B183BFECE00BA3365 /* Ant Capt Transistion-From KL0023.png in Resources */,
 				3EBD93111833DD6600ABC143 /* Broccoli.png in Resources */,
+				5B2D7DAE183C04EB00BA3365 /* Lat Capt Human-Standing005.png in Resources */,
 				3E452D531824063400B4EFDE /* fps_images.png in Resources */,
 				5BB6242F18360001001E8571 /* Lat Capt Human-Running0022.png in Resources */,
 				3E4530C718243D4400B4EFDE /* Lat Capt Human-Standing0078.png in Resources */,
@@ -7013,6 +6726,7 @@
 				5BB6255C18360001001E8571 /* Ant Capt Transition-From Human0014.png in Resources */,
 				5BB624E518360001001E8571 /* Lat Capt KL-Jumping0019.png in Resources */,
 				5BB6260518360001001E8571 /* Ant Capt Trainsition-Human0040.png in Resources */,
+				5B2D7D95183C028F00BA3365 /* Lat Capt Human-Walking004.png in Resources */,
 				3ECB2E8818257CB800C82177 /* 1Star-Normal-iPad-hd.png in Resources */,
 				5BB625CB18360001001E8571 /* Ant Capt Trainsition-GF0011.png in Resources */,
 				3E4530BD18243D4400B4EFDE /* Lat Capt Human-Standing0068.png in Resources */,
@@ -7022,10 +6736,8 @@
 				3E45304618243D4400B4EFDE /* Lat Capt Human-Crawling0008.png in Resources */,
 				5BB6262A18360001001E8571 /* Ant Capt Trainsition-KL0025.png in Resources */,
 				3EBD936E1833DEFB00ABC143 /* README.md in Resources */,
-				5BB6243C18360001001E8571 /* Lat Capt Human-Standing0010.png in Resources */,
 				5BB6250818360001001E8571 /* Ant Capt Transition-From DN0003.png in Resources */,
 				5BB6232E18360001001E8571 /* CCC DN-Stand&Sniff0022.png in Resources */,
-				5BB6245918360001001E8571 /* Lat Capt Human-Standing0039.png in Resources */,
 				5BB624E818360001001E8571 /* Lat Capt KL-Jumping0022.png in Resources */,
 				5BB6233318360001001E8571 /* CCC DN-Stand&Sniff0027.png in Resources */,
 				5BB623DF18360001001E8571 /* CCC GF-Walking0016.png in Resources */,
@@ -7038,16 +6750,14 @@
 				3E45304518243D4400B4EFDE /* Lat Capt Human-Crawling0007.png in Resources */,
 				5BB623DE18360001001E8571 /* CCC GF-Walking0015.png in Resources */,
 				5B274397182A1C3600942895 /* Ant Capt Transistion-From KL0012.png in Resources */,
-				5BB6244718360001001E8571 /* Lat Capt Human-Standing0021.png in Resources */,
 				5BB6237418360001001E8571 /* CCC DN-Stand&Sniff0092.png in Resources */,
 				5B2743B8182A1C3600942895 /* Ant Capt Trainsition-KL002.png in Resources */,
 				3E45303F18243D4400B4EFDE /* Lat Capt Human-Crawling0001.png in Resources */,
-				5BB624C918360001001E8571 /* Lat Capt Human-Walking0011.png in Resources */,
 				3EBD915C182ABD9500ABC143 /* Home icon.png in Resources */,
 				3E45308E18243D4400B4EFDE /* Lat Capt Human-Standing0021.png in Resources */,
 				5BB6262318360001001E8571 /* Ant Capt Trainsition-KL0018.png in Resources */,
-				5BB6255418360001001E8571 /* Ant Capt Transition-From Human0006.png in Resources */,
-				5BB6255518360001001E8571 /* Ant Capt Transition-From Human0007.png in Resources */,
+				5BB6255418360001001E8571 /* Ant Capt Transition-From Human006.png in Resources */,
+				5BB6255518360001001E8571 /* Ant Capt Transition-From Human007.png in Resources */,
 				3EBD931F1833DD6600ABC143 /* Energy Score Bar0012.png in Resources */,
 				3E45307F18243D4400B4EFDE /* Lat Capt Human-Standing0006.png in Resources */,
 				5BB625BE18360001001E8571 /* Ant Capt Trainsition-Into DN0060.png in Resources */,
@@ -7056,10 +6766,8 @@
 				5BB6249718360001001E8571 /* Lat Capt Human-Stand Up0021.png in Resources */,
 				5BB624AC18360001001E8571 /* Lat Capt Human-To Crawl Transition0013.png in Resources */,
 				5BB6249C18360001001E8571 /* Lat Capt Human-Stand Up0026.png in Resources */,
-				5BB6246E18360001001E8571 /* Lat Capt Human-Standing0060.png in Resources */,
 				3E45310018243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0026.png in Resources */,
 				5BB625E918360001001E8571 /* Ant Capt Trainsition-Human0012.png in Resources */,
-				5BB6246D18360001001E8571 /* Lat Capt Human-Standing0059.png in Resources */,
 				5BB6256118360001001E8571 /* Ant Capt Transition-From Human0019.png in Resources */,
 				5BB6240218360001001E8571 /* Lat Capt Human-Crawling0011.png in Resources */,
 				3E4530D118243D4400B4EFDE /* Lat Capt Human-Stand Up0008.png in Resources */,
@@ -7096,20 +6804,17 @@
 				5BB624D218360001001E8571 /* Lat Capt Kangaroo-Jumping.xml in Resources */,
 				3E45311618243D4400B4EFDE /* Lat Capt Human-Walking0017.png in Resources */,
 				5BB623C418360001001E8571 /* lat capt gf0017.png in Resources */,
-				5BB623F918360001001E8571 /* Lat Capt Human-Crawling0002.png in Resources */,
+				5BB623F918360001001E8571 /* Lat Capt Human-Crawling002.png in Resources */,
 				5BB6230518360001001E8571 /* CCC DN-Running0005.png in Resources */,
 				5B2743A0182A1C3600942895 /* Ant Capt Transistion-From KL0020.png in Resources */,
 				5BB6231F18360001001E8571 /* CCC DN-Stand&Sniff0007.png in Resources */,
 				3E4530A218243D4400B4EFDE /* Lat Capt Human-Standing0041.png in Resources */,
 				5BB6250018360001001E8571 /* Lat Capt KL-Running0014.png in Resources */,
 				5B2D7D74183BFECE00BA3365 /* Ant Capt Transistion-From KL0016.png in Resources */,
-				5BB6246B18360001001E8571 /* Lat Capt Human-Standing0057.png in Resources */,
 				5BB624F218360001001E8571 /* Lat Capt Kangaroo-Running.xml in Resources */,
 				5BB6256018360001001E8571 /* Ant Capt Transition-From Human0018.png in Resources */,
-				5BB624C518360001001E8571 /* Lat Capt Human-Walking0007.png in Resources */,
 				5B2D7D6A183BFECE00BA3365 /* Ant Capt Transistion-From KL006.png in Resources */,
 				5BB624BC18360001001E8571 /* Lat Capt Human-Wait to Crawl.png in Resources */,
-				5BB6247718360001001E8571 /* Lat Capt Human-Standing0069.png in Resources */,
 				5BB6253318360001001E8571 /* Ant Capt Tranisition-From GF0001.png in Resources */,
 				5BB6242318360001001E8571 /* Lat Capt Human-Running0010.png in Resources */,
 				3E4530DD18243D4400B4EFDE /* Lat Capt Human-Stand Up0020.png in Resources */,
@@ -7122,11 +6827,11 @@
 				5BB6237D18360001001E8571 /* CCC DN-Walking0003.png in Resources */,
 				3E4530DC18243D4400B4EFDE /* Lat Capt Human-Stand Up0019.png in Resources */,
 				3E45304018243D4400B4EFDE /* Lat Capt Human-Crawling0002.png in Resources */,
+				5B2D7DA1183C028F00BA3365 /* Lat Capt Human-Walking0016.png in Resources */,
 				3E4530F518243D4400B4EFDE /* Lat Capt Human-To Crawl Transition0015.png in Resources */,
 				5BB6258E18360001001E8571 /* Ant Capt Trainsition-Into DN0012.png in Resources */,
-				5BB6255318360001001E8571 /* Ant Capt Transition-From Human0005.png in Resources */,
+				5BB6255318360001001E8571 /* Ant Capt Transition-From Human005.png in Resources */,
 				3E45306718243D4400B4EFDE /* Lat Capt Human-Running0007.png in Resources */,
-				5BB6245518360001001E8571 /* Lat Capt Human-Standing0035.png in Resources */,
 				5BB6233918360001001E8571 /* CCC DN-Stand&Sniff0033.png in Resources */,
 				5BB6258918360001001E8571 /* Ant Capt Trainsition-Into DN0007.png in Resources */,
 				5B274374182A1C3500942895 /* Lat Capt KL-Jumping0010.png in Resources */,
@@ -7143,7 +6848,6 @@
 				5BB624B518360001001E8571 /* Lat Capt Human-To Crawl Transition0022.png in Resources */,
 				3E452F2C1824063800B4EFDE /* blocks.png in Resources */,
 				5BB6240518360001001E8571 /* Lat Capt Human-Crawling0014.png in Resources */,
-				5BB6243218360001001E8571 /* Lat Capt Human-Standing.xml in Resources */,
 				5BB6253718360001001E8571 /* Ant Capt Tranisition-From GF0005.png in Resources */,
 				5BB624D918360001001E8571 /* Lat Capt KL-Jumping0007.png in Resources */,
 				5BB623E618360001001E8571 /* CCC GF-Walking0023.png in Resources */,

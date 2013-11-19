@@ -37,10 +37,12 @@
     return self;
 }
 
+# define NUM_TRANSFORM_INTO 123
+
 - (CCAnimation *) makeTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
     //action animation - runs once and then returns to idle
-    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:85];
-    for (int i = 1; i <= 25; i++  ) {
+    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_INTO];
+    for (int i = 1; i <= NUM_TRANSFORM_INTO; i++  ) {
         CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
         [superPowerActionFrames addObject:frame];
     }
@@ -59,20 +61,13 @@
 
 
 //Ant Capt Transition-From Human0001
+# define NUM_TRANSFORM_FROM 27
 
 - (CCAnimation *) makeTransformFromAnimation { //Ant Capt Transition-From Human0002.png
     //action animation - runs once and then returns to idle
-    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:54];
-    for (int i = 1; i <= 25; i++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transistion-From KL00%d.png", i]];
-        [superPowerActionFrames addObject:frame];
-    }
-    for (int j = 1; j <= 29; j++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Trainsition-KL00%d.png", j]];
-        [superPowerActionFrames addObject:frame];
-    }
-    for (int k = 1; k <= 31; k++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
+    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_FROM];
+    for (int i = 1; i <= NUM_TRANSFORM_FROM; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transition-From Human00%d.png", i]];
         [superPowerActionFrames addObject:frame];
     }
     CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
@@ -96,11 +91,14 @@
 //    
 //}
 
+
+# define NUM_TRANSFORM_WALK 18
+
 - (CCAnimation *) makeWalkAnimation {
     
-    CCArray *walkFrames = [CCArray arrayWithCapacity:8];
-    for (int i = 1; i < 9; i++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Walking000%d.png", i]];
+    CCArray *walkFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_WALK];
+    for (int i = 1; i < NUM_TRANSFORM_WALK; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Walking00%d", i]];
         [walkFrames addObject:frame];
     }
     
@@ -110,11 +108,12 @@
     
 }
 
+# define NUM_TRANSFORM_CRAWL 20
 - (CCAnimation *) makeCrawlAnimation {
     
-    CCArray *crawlFrames = [CCArray arrayWithCapacity:8];
-    for (int i = 1; i < 9; i++) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Crawling000%d.png", i]];
+    CCArray *crawlFrames = [CCArray arrayWithCapacity: NUM_TRANSFORM_CRAWL];
+    for (int i = 1; i < NUM_TRANSFORM_CRAWL; i++) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Crawling00%d.png", i]];
         [crawlFrames addObject:frame];
     }
     
@@ -124,11 +123,12 @@
     
 }
 
+# define NUM_TRANSFORM_IDLE 6
 - (CCAnimation *) makeIdleAnimation {
     
-    CCArray *idleFrames = [CCArray arrayWithCapacity:2];
-    for (int i = 1; i < 3; i++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Standing000%d.png", i]];
+    CCArray *idleFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_IDLE];
+    for (int i = 1; i < NUM_TRANSFORM_IDLE; i++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt Human-Standing00%d.png", i]];
         [idleFrames addObject:frame];
     }
     
