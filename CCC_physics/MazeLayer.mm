@@ -23,8 +23,8 @@
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap];
         NSLog(@"LOADING PLISTS!!!");
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
-        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet2.plist"];
+        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet2.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
         [self addChild:humanSpriteSheet z:2];
         [self drawCollisionTiles];
@@ -310,15 +310,15 @@
     
     if (player.actionState == kActionStateIdle){
 
-    if (location.x <= screenSize.width && location.y >= 150) {
+    if (location.x <= screenSize.width && location.y >= 100) {
         [player walk];
     }
-    if (location.y < 100) {
+    if (location.y < 80) {
         //player.position = ccp(player.position.x, player.position.y-50);
         [player crawl];
         ;
     }
-    if (location.x >= screenSize.width*(3/4) && location.y > 250) {
+    if (location.x >= screenSize.width/2 && location.y > 230) {
         //player.position = ccp(player.position.x, player.position.y-50);
         [player jump];
         ;

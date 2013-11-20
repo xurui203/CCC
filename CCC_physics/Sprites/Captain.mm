@@ -100,7 +100,7 @@
 
 -(void)walk {
     if (!self.currentSuperpower.canWalk) return;
-    if (_actionState != kActionStateWalk && [self numberOfRunningActions] ==0){
+    if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
         _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.walkAnimation], nil];
         [self runAction:_walkAction];
@@ -135,7 +135,7 @@
 -(void)crawl {
     if (!self.currentSuperpower.canCrawl) return;
 
-    if (_actionState != kActionStateCrawl && [self numberOfRunningActions] ==0){
+    if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;

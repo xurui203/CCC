@@ -1113,58 +1113,6 @@
 		5B2D8393183C274B00BA3365 /* Ant Capt Trainsition-GF0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D809A183C274B00BA3365 /* Ant Capt Trainsition-GF0027.png */; };
 		5B2D8394183C274B00BA3365 /* Ant Capt Trainsition-GF0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D809B183C274B00BA3365 /* Ant Capt Trainsition-GF0028.png */; };
 		5B2D8395183C274B00BA3365 /* Ant Capt Trainsition-GF0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D809C183C274B00BA3365 /* Ant Capt Trainsition-GF0029.png */; };
-		5B2D8396183C274B00BA3365 /* Ant Capt Trainsition-Human0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D809E183C274B00BA3365 /* Ant Capt Trainsition-Human0001.png */; };
-		5B2D8397183C274B00BA3365 /* Ant Capt Trainsition-Human0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D809F183C274B00BA3365 /* Ant Capt Trainsition-Human0002.png */; };
-		5B2D8398183C274B00BA3365 /* Ant Capt Trainsition-Human0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A0183C274B00BA3365 /* Ant Capt Trainsition-Human0003.png */; };
-		5B2D8399183C274B00BA3365 /* Ant Capt Trainsition-Human0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A1183C274B00BA3365 /* Ant Capt Trainsition-Human0004.png */; };
-		5B2D839A183C274B00BA3365 /* Ant Capt Trainsition-Human0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A2183C274B00BA3365 /* Ant Capt Trainsition-Human0005.png */; };
-		5B2D839B183C274B00BA3365 /* Ant Capt Trainsition-Human0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A3183C274B00BA3365 /* Ant Capt Trainsition-Human0006.png */; };
-		5B2D839C183C274B00BA3365 /* Ant Capt Trainsition-Human0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A4183C274B00BA3365 /* Ant Capt Trainsition-Human0007.png */; };
-		5B2D839D183C274B00BA3365 /* Ant Capt Trainsition-Human0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A5183C274B00BA3365 /* Ant Capt Trainsition-Human0008.png */; };
-		5B2D839E183C274B00BA3365 /* Ant Capt Trainsition-Human0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A6183C274B00BA3365 /* Ant Capt Trainsition-Human0009.png */; };
-		5B2D839F183C274B00BA3365 /* Ant Capt Trainsition-Human0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A7183C274B00BA3365 /* Ant Capt Trainsition-Human0010.png */; };
-		5B2D83A0183C274B00BA3365 /* Ant Capt Trainsition-Human0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A8183C274B00BA3365 /* Ant Capt Trainsition-Human0011.png */; };
-		5B2D83A1183C274B00BA3365 /* Ant Capt Trainsition-Human0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80A9183C274B00BA3365 /* Ant Capt Trainsition-Human0012.png */; };
-		5B2D83A2183C274B00BA3365 /* Ant Capt Trainsition-Human0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80AA183C274B00BA3365 /* Ant Capt Trainsition-Human0013.png */; };
-		5B2D83A3183C274B00BA3365 /* Ant Capt Trainsition-Human0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80AB183C274B00BA3365 /* Ant Capt Trainsition-Human0014.png */; };
-		5B2D83A4183C274B00BA3365 /* Ant Capt Trainsition-Human0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80AC183C274B00BA3365 /* Ant Capt Trainsition-Human0015.png */; };
-		5B2D83A5183C274B00BA3365 /* Ant Capt Trainsition-Human0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80AD183C274B00BA3365 /* Ant Capt Trainsition-Human0016.png */; };
-		5B2D83A6183C274B00BA3365 /* Ant Capt Trainsition-Human0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80AE183C274B00BA3365 /* Ant Capt Trainsition-Human0017.png */; };
-		5B2D83A7183C274B00BA3365 /* Ant Capt Trainsition-Human0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80AF183C274B00BA3365 /* Ant Capt Trainsition-Human0018.png */; };
-		5B2D83A8183C274B00BA3365 /* Ant Capt Trainsition-Human0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B0183C274B00BA3365 /* Ant Capt Trainsition-Human0019.png */; };
-		5B2D83A9183C274B00BA3365 /* Ant Capt Trainsition-Human0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B1183C274B00BA3365 /* Ant Capt Trainsition-Human0020.png */; };
-		5B2D83AA183C274B00BA3365 /* Ant Capt Trainsition-Human0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B2183C274B00BA3365 /* Ant Capt Trainsition-Human0021.png */; };
-		5B2D83AB183C274B00BA3365 /* Ant Capt Trainsition-Human0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B3183C274B00BA3365 /* Ant Capt Trainsition-Human0022.png */; };
-		5B2D83AC183C274B00BA3365 /* Ant Capt Trainsition-Human0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B4183C274B00BA3365 /* Ant Capt Trainsition-Human0023.png */; };
-		5B2D83AD183C274B00BA3365 /* Ant Capt Trainsition-Human0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B5183C274B00BA3365 /* Ant Capt Trainsition-Human0024.png */; };
-		5B2D83AE183C274B00BA3365 /* Ant Capt Trainsition-Human0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B6183C274B00BA3365 /* Ant Capt Trainsition-Human0025.png */; };
-		5B2D83AF183C274B00BA3365 /* Ant Capt Trainsition-Human0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B7183C274B00BA3365 /* Ant Capt Trainsition-Human0026.png */; };
-		5B2D83B0183C274B00BA3365 /* Ant Capt Trainsition-Human0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B8183C274B00BA3365 /* Ant Capt Trainsition-Human0027.png */; };
-		5B2D83B1183C274B00BA3365 /* Ant Capt Trainsition-Human0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80B9183C274B00BA3365 /* Ant Capt Trainsition-Human0028.png */; };
-		5B2D83B2183C274B00BA3365 /* Ant Capt Trainsition-Human0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80BA183C274B00BA3365 /* Ant Capt Trainsition-Human0029.png */; };
-		5B2D83B3183C274B00BA3365 /* Ant Capt Trainsition-Human0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80BB183C274B00BA3365 /* Ant Capt Trainsition-Human0030.png */; };
-		5B2D83B4183C274B00BA3365 /* Ant Capt Trainsition-Human0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80BC183C274B00BA3365 /* Ant Capt Trainsition-Human0031.png */; };
-		5B2D83B5183C274B00BA3365 /* Ant Capt Trainsition-Human0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80BD183C274B00BA3365 /* Ant Capt Trainsition-Human0032.png */; };
-		5B2D83B6183C274B00BA3365 /* Ant Capt Trainsition-Human0033.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80BE183C274B00BA3365 /* Ant Capt Trainsition-Human0033.png */; };
-		5B2D83B7183C274B00BA3365 /* Ant Capt Trainsition-Human0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80BF183C274B00BA3365 /* Ant Capt Trainsition-Human0034.png */; };
-		5B2D83B8183C274B00BA3365 /* Ant Capt Trainsition-Human0035.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C0183C274B00BA3365 /* Ant Capt Trainsition-Human0035.png */; };
-		5B2D83B9183C274B00BA3365 /* Ant Capt Trainsition-Human0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C1183C274B00BA3365 /* Ant Capt Trainsition-Human0036.png */; };
-		5B2D83BA183C274B00BA3365 /* Ant Capt Trainsition-Human0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C2183C274B00BA3365 /* Ant Capt Trainsition-Human0037.png */; };
-		5B2D83BB183C274B00BA3365 /* Ant Capt Trainsition-Human0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C3183C274B00BA3365 /* Ant Capt Trainsition-Human0038.png */; };
-		5B2D83BC183C274B00BA3365 /* Ant Capt Trainsition-Human0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C4183C274B00BA3365 /* Ant Capt Trainsition-Human0039.png */; };
-		5B2D83BD183C274B00BA3365 /* Ant Capt Trainsition-Human0040.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C5183C274B00BA3365 /* Ant Capt Trainsition-Human0040.png */; };
-		5B2D83BE183C274B00BA3365 /* Ant Capt Trainsition-Human0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C6183C274B00BA3365 /* Ant Capt Trainsition-Human0041.png */; };
-		5B2D83BF183C274B00BA3365 /* Ant Capt Trainsition-Human0042.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C7183C274B00BA3365 /* Ant Capt Trainsition-Human0042.png */; };
-		5B2D83C0183C274B00BA3365 /* Ant Capt Trainsition-Human0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C8183C274B00BA3365 /* Ant Capt Trainsition-Human0043.png */; };
-		5B2D83C1183C274B00BA3365 /* Ant Capt Trainsition-Human0044.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80C9183C274B00BA3365 /* Ant Capt Trainsition-Human0044.png */; };
-		5B2D83C2183C274B00BA3365 /* Ant Capt Trainsition-Human0045.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80CA183C274B00BA3365 /* Ant Capt Trainsition-Human0045.png */; };
-		5B2D83C3183C274B00BA3365 /* Ant Capt Trainsition-Human0046.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80CB183C274B00BA3365 /* Ant Capt Trainsition-Human0046.png */; };
-		5B2D83C4183C274B00BA3365 /* Ant Capt Trainsition-Human0047.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80CC183C274B00BA3365 /* Ant Capt Trainsition-Human0047.png */; };
-		5B2D83C5183C274B00BA3365 /* Ant Capt Trainsition-Human0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80CD183C274B00BA3365 /* Ant Capt Trainsition-Human0048.png */; };
-		5B2D83C6183C274B00BA3365 /* Ant Capt Trainsition-Human0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80CE183C274B00BA3365 /* Ant Capt Trainsition-Human0049.png */; };
-		5B2D83C7183C274B00BA3365 /* Ant Capt Trainsition-Human0050.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80CF183C274B00BA3365 /* Ant Capt Trainsition-Human0050.png */; };
-		5B2D83C8183C274B00BA3365 /* Ant Capt Trainsition-Human0051.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80D0183C274B00BA3365 /* Ant Capt Trainsition-Human0051.png */; };
-		5B2D83C9183C274B00BA3365 /* Ant Capt Trainsition-Human0052.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80D1183C274B00BA3365 /* Ant Capt Trainsition-Human0052.png */; };
 		5B2D83CA183C274B00BA3365 /* Ant Capt Trainsition-KL001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80D3183C274B00BA3365 /* Ant Capt Trainsition-KL001.png */; };
 		5B2D83CB183C274B00BA3365 /* Ant Capt Trainsition-KL0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80D4183C274B00BA3365 /* Ant Capt Trainsition-KL0010.png */; };
 		5B2D83CC183C274B00BA3365 /* Ant Capt Trainsition-KL0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D80D5183C274B00BA3365 /* Ant Capt Trainsition-KL0011.png */; };
@@ -1198,6 +1146,43 @@
 		5B4D451D1835C59D00F2855E /* Kangaroo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45191835C59D00F2855E /* Kangaroo.mm */; };
 		5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D451B1835C59D00F2855E /* Superpower.mm */; };
 		5B4D45211835D2A700F2855E /* SuperpowerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45201835D2A700F2855E /* SuperpowerManager.mm */; };
+		5B6F77AC183D5CB800D737B2 /* BetaSheet2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */; };
+		5B6F77AD183D5CB800D737B2 /* BetaSheet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */; };
+		5B6F77D2183D5D5200D737B2 /* Captain001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AF183D5D5200D737B2 /* Captain001.png */; };
+		5B6F77D3183D5D5200D737B2 /* Captain0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B0183D5D5200D737B2 /* Captain0010.png */; };
+		5B6F77D4183D5D5200D737B2 /* Captain0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B1183D5D5200D737B2 /* Captain0011.png */; };
+		5B6F77D5183D5D5200D737B2 /* Captain0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B2183D5D5200D737B2 /* Captain0012.png */; };
+		5B6F77D6183D5D5200D737B2 /* Captain0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B3183D5D5200D737B2 /* Captain0013.png */; };
+		5B6F77D7183D5D5200D737B2 /* Captain0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B4183D5D5200D737B2 /* Captain0014.png */; };
+		5B6F77D8183D5D5200D737B2 /* Captain0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B5183D5D5200D737B2 /* Captain0015.png */; };
+		5B6F77D9183D5D5200D737B2 /* Captain0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B6183D5D5200D737B2 /* Captain0016.png */; };
+		5B6F77DA183D5D5200D737B2 /* Captain0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B7183D5D5200D737B2 /* Captain0017.png */; };
+		5B6F77DB183D5D5200D737B2 /* Captain0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B8183D5D5200D737B2 /* Captain0018.png */; };
+		5B6F77DC183D5D5200D737B2 /* Captain0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77B9183D5D5200D737B2 /* Captain0019.png */; };
+		5B6F77DD183D5D5200D737B2 /* Captain002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77BA183D5D5200D737B2 /* Captain002.png */; };
+		5B6F77DE183D5D5200D737B2 /* Captain0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77BB183D5D5200D737B2 /* Captain0020.png */; };
+		5B6F77DF183D5D5200D737B2 /* Captain0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77BC183D5D5200D737B2 /* Captain0021.png */; };
+		5B6F77E0183D5D5200D737B2 /* Captain0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77BD183D5D5200D737B2 /* Captain0022.png */; };
+		5B6F77E1183D5D5200D737B2 /* Captain0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77BE183D5D5200D737B2 /* Captain0023.png */; };
+		5B6F77E2183D5D5200D737B2 /* Captain0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77BF183D5D5200D737B2 /* Captain0024.png */; };
+		5B6F77E3183D5D5200D737B2 /* Captain0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C0183D5D5200D737B2 /* Captain0025.png */; };
+		5B6F77E4183D5D5200D737B2 /* Captain0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C1183D5D5200D737B2 /* Captain0026.png */; };
+		5B6F77E5183D5D5200D737B2 /* Captain0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C2183D5D5200D737B2 /* Captain0027.png */; };
+		5B6F77E6183D5D5200D737B2 /* Captain0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C3183D5D5200D737B2 /* Captain0028.png */; };
+		5B6F77E7183D5D5200D737B2 /* Captain0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C4183D5D5200D737B2 /* Captain0029.png */; };
+		5B6F77E8183D5D5200D737B2 /* Captain003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C5183D5D5200D737B2 /* Captain003.png */; };
+		5B6F77E9183D5D5200D737B2 /* Captain0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C6183D5D5200D737B2 /* Captain0030.png */; };
+		5B6F77EA183D5D5200D737B2 /* Captain0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C7183D5D5200D737B2 /* Captain0031.png */; };
+		5B6F77EB183D5D5200D737B2 /* Captain0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C8183D5D5200D737B2 /* Captain0032.png */; };
+		5B6F77EC183D5D5200D737B2 /* Captain0033.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77C9183D5D5200D737B2 /* Captain0033.png */; };
+		5B6F77ED183D5D5200D737B2 /* Captain0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77CA183D5D5200D737B2 /* Captain0034.png */; };
+		5B6F77EE183D5D5200D737B2 /* Captain0035.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77CB183D5D5200D737B2 /* Captain0035.png */; };
+		5B6F77EF183D5D5200D737B2 /* Captain004.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77CC183D5D5200D737B2 /* Captain004.png */; };
+		5B6F77F0183D5D5200D737B2 /* Captain005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77CD183D5D5200D737B2 /* Captain005.png */; };
+		5B6F77F1183D5D5200D737B2 /* Captain006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77CE183D5D5200D737B2 /* Captain006.png */; };
+		5B6F77F2183D5D5200D737B2 /* Captain007.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77CF183D5D5200D737B2 /* Captain007.png */; };
+		5B6F77F3183D5D5200D737B2 /* Captain008.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77D0183D5D5200D737B2 /* Captain008.png */; };
+		5B6F77F4183D5D5200D737B2 /* Captain009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77D1183D5D5200D737B2 /* Captain009.png */; };
 		5BB581F3183330BF00A9F330 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F0183330BF00A9F330 /* hurt.wav */; };
 		5BB581F4183330BF00A9F330 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F1183330BF00A9F330 /* jump.wav */; };
 		5BB581F5183330BF00A9F330 /* sbm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F2183330BF00A9F330 /* sbm.mp3 */; };
@@ -2519,58 +2504,6 @@
 		5B2D809A183C274B00BA3365 /* Ant Capt Trainsition-GF0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-GF0027.png"; sourceTree = "<group>"; };
 		5B2D809B183C274B00BA3365 /* Ant Capt Trainsition-GF0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-GF0028.png"; sourceTree = "<group>"; };
 		5B2D809C183C274B00BA3365 /* Ant Capt Trainsition-GF0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-GF0029.png"; sourceTree = "<group>"; };
-		5B2D809E183C274B00BA3365 /* Ant Capt Trainsition-Human0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0001.png"; sourceTree = "<group>"; };
-		5B2D809F183C274B00BA3365 /* Ant Capt Trainsition-Human0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0002.png"; sourceTree = "<group>"; };
-		5B2D80A0183C274B00BA3365 /* Ant Capt Trainsition-Human0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0003.png"; sourceTree = "<group>"; };
-		5B2D80A1183C274B00BA3365 /* Ant Capt Trainsition-Human0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0004.png"; sourceTree = "<group>"; };
-		5B2D80A2183C274B00BA3365 /* Ant Capt Trainsition-Human0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0005.png"; sourceTree = "<group>"; };
-		5B2D80A3183C274B00BA3365 /* Ant Capt Trainsition-Human0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0006.png"; sourceTree = "<group>"; };
-		5B2D80A4183C274B00BA3365 /* Ant Capt Trainsition-Human0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0007.png"; sourceTree = "<group>"; };
-		5B2D80A5183C274B00BA3365 /* Ant Capt Trainsition-Human0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0008.png"; sourceTree = "<group>"; };
-		5B2D80A6183C274B00BA3365 /* Ant Capt Trainsition-Human0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0009.png"; sourceTree = "<group>"; };
-		5B2D80A7183C274B00BA3365 /* Ant Capt Trainsition-Human0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0010.png"; sourceTree = "<group>"; };
-		5B2D80A8183C274B00BA3365 /* Ant Capt Trainsition-Human0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0011.png"; sourceTree = "<group>"; };
-		5B2D80A9183C274B00BA3365 /* Ant Capt Trainsition-Human0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0012.png"; sourceTree = "<group>"; };
-		5B2D80AA183C274B00BA3365 /* Ant Capt Trainsition-Human0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0013.png"; sourceTree = "<group>"; };
-		5B2D80AB183C274B00BA3365 /* Ant Capt Trainsition-Human0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0014.png"; sourceTree = "<group>"; };
-		5B2D80AC183C274B00BA3365 /* Ant Capt Trainsition-Human0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0015.png"; sourceTree = "<group>"; };
-		5B2D80AD183C274B00BA3365 /* Ant Capt Trainsition-Human0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0016.png"; sourceTree = "<group>"; };
-		5B2D80AE183C274B00BA3365 /* Ant Capt Trainsition-Human0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0017.png"; sourceTree = "<group>"; };
-		5B2D80AF183C274B00BA3365 /* Ant Capt Trainsition-Human0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0018.png"; sourceTree = "<group>"; };
-		5B2D80B0183C274B00BA3365 /* Ant Capt Trainsition-Human0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0019.png"; sourceTree = "<group>"; };
-		5B2D80B1183C274B00BA3365 /* Ant Capt Trainsition-Human0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0020.png"; sourceTree = "<group>"; };
-		5B2D80B2183C274B00BA3365 /* Ant Capt Trainsition-Human0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0021.png"; sourceTree = "<group>"; };
-		5B2D80B3183C274B00BA3365 /* Ant Capt Trainsition-Human0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0022.png"; sourceTree = "<group>"; };
-		5B2D80B4183C274B00BA3365 /* Ant Capt Trainsition-Human0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0023.png"; sourceTree = "<group>"; };
-		5B2D80B5183C274B00BA3365 /* Ant Capt Trainsition-Human0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0024.png"; sourceTree = "<group>"; };
-		5B2D80B6183C274B00BA3365 /* Ant Capt Trainsition-Human0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0025.png"; sourceTree = "<group>"; };
-		5B2D80B7183C274B00BA3365 /* Ant Capt Trainsition-Human0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0026.png"; sourceTree = "<group>"; };
-		5B2D80B8183C274B00BA3365 /* Ant Capt Trainsition-Human0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0027.png"; sourceTree = "<group>"; };
-		5B2D80B9183C274B00BA3365 /* Ant Capt Trainsition-Human0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0028.png"; sourceTree = "<group>"; };
-		5B2D80BA183C274B00BA3365 /* Ant Capt Trainsition-Human0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0029.png"; sourceTree = "<group>"; };
-		5B2D80BB183C274B00BA3365 /* Ant Capt Trainsition-Human0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0030.png"; sourceTree = "<group>"; };
-		5B2D80BC183C274B00BA3365 /* Ant Capt Trainsition-Human0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0031.png"; sourceTree = "<group>"; };
-		5B2D80BD183C274B00BA3365 /* Ant Capt Trainsition-Human0032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0032.png"; sourceTree = "<group>"; };
-		5B2D80BE183C274B00BA3365 /* Ant Capt Trainsition-Human0033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0033.png"; sourceTree = "<group>"; };
-		5B2D80BF183C274B00BA3365 /* Ant Capt Trainsition-Human0034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0034.png"; sourceTree = "<group>"; };
-		5B2D80C0183C274B00BA3365 /* Ant Capt Trainsition-Human0035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0035.png"; sourceTree = "<group>"; };
-		5B2D80C1183C274B00BA3365 /* Ant Capt Trainsition-Human0036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0036.png"; sourceTree = "<group>"; };
-		5B2D80C2183C274B00BA3365 /* Ant Capt Trainsition-Human0037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0037.png"; sourceTree = "<group>"; };
-		5B2D80C3183C274B00BA3365 /* Ant Capt Trainsition-Human0038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0038.png"; sourceTree = "<group>"; };
-		5B2D80C4183C274B00BA3365 /* Ant Capt Trainsition-Human0039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0039.png"; sourceTree = "<group>"; };
-		5B2D80C5183C274B00BA3365 /* Ant Capt Trainsition-Human0040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0040.png"; sourceTree = "<group>"; };
-		5B2D80C6183C274B00BA3365 /* Ant Capt Trainsition-Human0041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0041.png"; sourceTree = "<group>"; };
-		5B2D80C7183C274B00BA3365 /* Ant Capt Trainsition-Human0042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0042.png"; sourceTree = "<group>"; };
-		5B2D80C8183C274B00BA3365 /* Ant Capt Trainsition-Human0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0043.png"; sourceTree = "<group>"; };
-		5B2D80C9183C274B00BA3365 /* Ant Capt Trainsition-Human0044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0044.png"; sourceTree = "<group>"; };
-		5B2D80CA183C274B00BA3365 /* Ant Capt Trainsition-Human0045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0045.png"; sourceTree = "<group>"; };
-		5B2D80CB183C274B00BA3365 /* Ant Capt Trainsition-Human0046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0046.png"; sourceTree = "<group>"; };
-		5B2D80CC183C274B00BA3365 /* Ant Capt Trainsition-Human0047.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0047.png"; sourceTree = "<group>"; };
-		5B2D80CD183C274B00BA3365 /* Ant Capt Trainsition-Human0048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0048.png"; sourceTree = "<group>"; };
-		5B2D80CE183C274B00BA3365 /* Ant Capt Trainsition-Human0049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0049.png"; sourceTree = "<group>"; };
-		5B2D80CF183C274B00BA3365 /* Ant Capt Trainsition-Human0050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0050.png"; sourceTree = "<group>"; };
-		5B2D80D0183C274B00BA3365 /* Ant Capt Trainsition-Human0051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0051.png"; sourceTree = "<group>"; };
-		5B2D80D1183C274B00BA3365 /* Ant Capt Trainsition-Human0052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-Human0052.png"; sourceTree = "<group>"; };
 		5B2D80D3183C274B00BA3365 /* Ant Capt Trainsition-KL001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-KL001.png"; sourceTree = "<group>"; };
 		5B2D80D4183C274B00BA3365 /* Ant Capt Trainsition-KL0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-KL0010.png"; sourceTree = "<group>"; };
 		5B2D80D5183C274B00BA3365 /* Ant Capt Trainsition-KL0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ant Capt Trainsition-KL0011.png"; sourceTree = "<group>"; };
@@ -2608,6 +2541,43 @@
 		5B4D451B1835C59D00F2855E /* Superpower.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpower.mm; sourceTree = "<group>"; };
 		5B4D451F1835D2A600F2855E /* SuperpowerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpowerManager.h; sourceTree = "<group>"; };
 		5B4D45201835D2A700F2855E /* SuperpowerManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpowerManager.mm; sourceTree = "<group>"; };
+		5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BetaSheet2.plist; sourceTree = "<group>"; };
+		5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaSheet2.png; sourceTree = "<group>"; };
+		5B6F77AF183D5D5200D737B2 /* Captain001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain001.png; sourceTree = "<group>"; };
+		5B6F77B0183D5D5200D737B2 /* Captain0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0010.png; sourceTree = "<group>"; };
+		5B6F77B1183D5D5200D737B2 /* Captain0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0011.png; sourceTree = "<group>"; };
+		5B6F77B2183D5D5200D737B2 /* Captain0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0012.png; sourceTree = "<group>"; };
+		5B6F77B3183D5D5200D737B2 /* Captain0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0013.png; sourceTree = "<group>"; };
+		5B6F77B4183D5D5200D737B2 /* Captain0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0014.png; sourceTree = "<group>"; };
+		5B6F77B5183D5D5200D737B2 /* Captain0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0015.png; sourceTree = "<group>"; };
+		5B6F77B6183D5D5200D737B2 /* Captain0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0016.png; sourceTree = "<group>"; };
+		5B6F77B7183D5D5200D737B2 /* Captain0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0017.png; sourceTree = "<group>"; };
+		5B6F77B8183D5D5200D737B2 /* Captain0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0018.png; sourceTree = "<group>"; };
+		5B6F77B9183D5D5200D737B2 /* Captain0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0019.png; sourceTree = "<group>"; };
+		5B6F77BA183D5D5200D737B2 /* Captain002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain002.png; sourceTree = "<group>"; };
+		5B6F77BB183D5D5200D737B2 /* Captain0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0020.png; sourceTree = "<group>"; };
+		5B6F77BC183D5D5200D737B2 /* Captain0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0021.png; sourceTree = "<group>"; };
+		5B6F77BD183D5D5200D737B2 /* Captain0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0022.png; sourceTree = "<group>"; };
+		5B6F77BE183D5D5200D737B2 /* Captain0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0023.png; sourceTree = "<group>"; };
+		5B6F77BF183D5D5200D737B2 /* Captain0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0024.png; sourceTree = "<group>"; };
+		5B6F77C0183D5D5200D737B2 /* Captain0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0025.png; sourceTree = "<group>"; };
+		5B6F77C1183D5D5200D737B2 /* Captain0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0026.png; sourceTree = "<group>"; };
+		5B6F77C2183D5D5200D737B2 /* Captain0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0027.png; sourceTree = "<group>"; };
+		5B6F77C3183D5D5200D737B2 /* Captain0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0028.png; sourceTree = "<group>"; };
+		5B6F77C4183D5D5200D737B2 /* Captain0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0029.png; sourceTree = "<group>"; };
+		5B6F77C5183D5D5200D737B2 /* Captain003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain003.png; sourceTree = "<group>"; };
+		5B6F77C6183D5D5200D737B2 /* Captain0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0030.png; sourceTree = "<group>"; };
+		5B6F77C7183D5D5200D737B2 /* Captain0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0031.png; sourceTree = "<group>"; };
+		5B6F77C8183D5D5200D737B2 /* Captain0032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0032.png; sourceTree = "<group>"; };
+		5B6F77C9183D5D5200D737B2 /* Captain0033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0033.png; sourceTree = "<group>"; };
+		5B6F77CA183D5D5200D737B2 /* Captain0034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0034.png; sourceTree = "<group>"; };
+		5B6F77CB183D5D5200D737B2 /* Captain0035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain0035.png; sourceTree = "<group>"; };
+		5B6F77CC183D5D5200D737B2 /* Captain004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain004.png; sourceTree = "<group>"; };
+		5B6F77CD183D5D5200D737B2 /* Captain005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain005.png; sourceTree = "<group>"; };
+		5B6F77CE183D5D5200D737B2 /* Captain006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain006.png; sourceTree = "<group>"; };
+		5B6F77CF183D5D5200D737B2 /* Captain007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain007.png; sourceTree = "<group>"; };
+		5B6F77D0183D5D5200D737B2 /* Captain008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain008.png; sourceTree = "<group>"; };
+		5B6F77D1183D5D5200D737B2 /* Captain009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain009.png; sourceTree = "<group>"; };
 		5BB581F0183330BF00A9F330 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
 		5BB581F1183330BF00A9F330 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		5BB581F2183330BF00A9F330 /* sbm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sbm.mp3; sourceTree = "<group>"; };
@@ -4504,9 +4474,9 @@
 		5B2D803F183C274B00BA3365 /* Into... */ = {
 			isa = PBXGroup;
 			children = (
+				5B6F77AE183D5D5200D737B2 /* Into Human */,
 				5B2D8040183C274B00BA3365 /* Into Dog Nose */,
 				5B2D807F183C274B00BA3365 /* Into Gecko Feet */,
-				5B2D809D183C274B00BA3365 /* Into Human */,
 				5B2D80D2183C274B00BA3365 /* Into Kangaroo Legs */,
 			);
 			path = Into...;
@@ -4617,65 +4587,6 @@
 			path = "Into Gecko Feet";
 			sourceTree = "<group>";
 		};
-		5B2D809D183C274B00BA3365 /* Into Human */ = {
-			isa = PBXGroup;
-			children = (
-				5B2D809E183C274B00BA3365 /* Ant Capt Trainsition-Human0001.png */,
-				5B2D809F183C274B00BA3365 /* Ant Capt Trainsition-Human0002.png */,
-				5B2D80A0183C274B00BA3365 /* Ant Capt Trainsition-Human0003.png */,
-				5B2D80A1183C274B00BA3365 /* Ant Capt Trainsition-Human0004.png */,
-				5B2D80A2183C274B00BA3365 /* Ant Capt Trainsition-Human0005.png */,
-				5B2D80A3183C274B00BA3365 /* Ant Capt Trainsition-Human0006.png */,
-				5B2D80A4183C274B00BA3365 /* Ant Capt Trainsition-Human0007.png */,
-				5B2D80A5183C274B00BA3365 /* Ant Capt Trainsition-Human0008.png */,
-				5B2D80A6183C274B00BA3365 /* Ant Capt Trainsition-Human0009.png */,
-				5B2D80A7183C274B00BA3365 /* Ant Capt Trainsition-Human0010.png */,
-				5B2D80A8183C274B00BA3365 /* Ant Capt Trainsition-Human0011.png */,
-				5B2D80A9183C274B00BA3365 /* Ant Capt Trainsition-Human0012.png */,
-				5B2D80AA183C274B00BA3365 /* Ant Capt Trainsition-Human0013.png */,
-				5B2D80AB183C274B00BA3365 /* Ant Capt Trainsition-Human0014.png */,
-				5B2D80AC183C274B00BA3365 /* Ant Capt Trainsition-Human0015.png */,
-				5B2D80AD183C274B00BA3365 /* Ant Capt Trainsition-Human0016.png */,
-				5B2D80AE183C274B00BA3365 /* Ant Capt Trainsition-Human0017.png */,
-				5B2D80AF183C274B00BA3365 /* Ant Capt Trainsition-Human0018.png */,
-				5B2D80B0183C274B00BA3365 /* Ant Capt Trainsition-Human0019.png */,
-				5B2D80B1183C274B00BA3365 /* Ant Capt Trainsition-Human0020.png */,
-				5B2D80B2183C274B00BA3365 /* Ant Capt Trainsition-Human0021.png */,
-				5B2D80B3183C274B00BA3365 /* Ant Capt Trainsition-Human0022.png */,
-				5B2D80B4183C274B00BA3365 /* Ant Capt Trainsition-Human0023.png */,
-				5B2D80B5183C274B00BA3365 /* Ant Capt Trainsition-Human0024.png */,
-				5B2D80B6183C274B00BA3365 /* Ant Capt Trainsition-Human0025.png */,
-				5B2D80B7183C274B00BA3365 /* Ant Capt Trainsition-Human0026.png */,
-				5B2D80B8183C274B00BA3365 /* Ant Capt Trainsition-Human0027.png */,
-				5B2D80B9183C274B00BA3365 /* Ant Capt Trainsition-Human0028.png */,
-				5B2D80BA183C274B00BA3365 /* Ant Capt Trainsition-Human0029.png */,
-				5B2D80BB183C274B00BA3365 /* Ant Capt Trainsition-Human0030.png */,
-				5B2D80BC183C274B00BA3365 /* Ant Capt Trainsition-Human0031.png */,
-				5B2D80BD183C274B00BA3365 /* Ant Capt Trainsition-Human0032.png */,
-				5B2D80BE183C274B00BA3365 /* Ant Capt Trainsition-Human0033.png */,
-				5B2D80BF183C274B00BA3365 /* Ant Capt Trainsition-Human0034.png */,
-				5B2D80C0183C274B00BA3365 /* Ant Capt Trainsition-Human0035.png */,
-				5B2D80C1183C274B00BA3365 /* Ant Capt Trainsition-Human0036.png */,
-				5B2D80C2183C274B00BA3365 /* Ant Capt Trainsition-Human0037.png */,
-				5B2D80C3183C274B00BA3365 /* Ant Capt Trainsition-Human0038.png */,
-				5B2D80C4183C274B00BA3365 /* Ant Capt Trainsition-Human0039.png */,
-				5B2D80C5183C274B00BA3365 /* Ant Capt Trainsition-Human0040.png */,
-				5B2D80C6183C274B00BA3365 /* Ant Capt Trainsition-Human0041.png */,
-				5B2D80C7183C274B00BA3365 /* Ant Capt Trainsition-Human0042.png */,
-				5B2D80C8183C274B00BA3365 /* Ant Capt Trainsition-Human0043.png */,
-				5B2D80C9183C274B00BA3365 /* Ant Capt Trainsition-Human0044.png */,
-				5B2D80CA183C274B00BA3365 /* Ant Capt Trainsition-Human0045.png */,
-				5B2D80CB183C274B00BA3365 /* Ant Capt Trainsition-Human0046.png */,
-				5B2D80CC183C274B00BA3365 /* Ant Capt Trainsition-Human0047.png */,
-				5B2D80CD183C274B00BA3365 /* Ant Capt Trainsition-Human0048.png */,
-				5B2D80CE183C274B00BA3365 /* Ant Capt Trainsition-Human0049.png */,
-				5B2D80CF183C274B00BA3365 /* Ant Capt Trainsition-Human0050.png */,
-				5B2D80D0183C274B00BA3365 /* Ant Capt Trainsition-Human0051.png */,
-				5B2D80D1183C274B00BA3365 /* Ant Capt Trainsition-Human0052.png */,
-			);
-			path = "Into Human";
-			sourceTree = "<group>";
-		};
 		5B2D80D2183C274B00BA3365 /* Into Kangaroo Legs */ = {
 			isa = PBXGroup;
 			children = (
@@ -4763,6 +4674,48 @@
 			name = "Learning Modules";
 			sourceTree = "<group>";
 		};
+		5B6F77AE183D5D5200D737B2 /* Into Human */ = {
+			isa = PBXGroup;
+			children = (
+				5B6F77AF183D5D5200D737B2 /* Captain001.png */,
+				5B6F77B0183D5D5200D737B2 /* Captain0010.png */,
+				5B6F77B1183D5D5200D737B2 /* Captain0011.png */,
+				5B6F77B2183D5D5200D737B2 /* Captain0012.png */,
+				5B6F77B3183D5D5200D737B2 /* Captain0013.png */,
+				5B6F77B4183D5D5200D737B2 /* Captain0014.png */,
+				5B6F77B5183D5D5200D737B2 /* Captain0015.png */,
+				5B6F77B6183D5D5200D737B2 /* Captain0016.png */,
+				5B6F77B7183D5D5200D737B2 /* Captain0017.png */,
+				5B6F77B8183D5D5200D737B2 /* Captain0018.png */,
+				5B6F77B9183D5D5200D737B2 /* Captain0019.png */,
+				5B6F77BA183D5D5200D737B2 /* Captain002.png */,
+				5B6F77BB183D5D5200D737B2 /* Captain0020.png */,
+				5B6F77BC183D5D5200D737B2 /* Captain0021.png */,
+				5B6F77BD183D5D5200D737B2 /* Captain0022.png */,
+				5B6F77BE183D5D5200D737B2 /* Captain0023.png */,
+				5B6F77BF183D5D5200D737B2 /* Captain0024.png */,
+				5B6F77C0183D5D5200D737B2 /* Captain0025.png */,
+				5B6F77C1183D5D5200D737B2 /* Captain0026.png */,
+				5B6F77C2183D5D5200D737B2 /* Captain0027.png */,
+				5B6F77C3183D5D5200D737B2 /* Captain0028.png */,
+				5B6F77C4183D5D5200D737B2 /* Captain0029.png */,
+				5B6F77C5183D5D5200D737B2 /* Captain003.png */,
+				5B6F77C6183D5D5200D737B2 /* Captain0030.png */,
+				5B6F77C7183D5D5200D737B2 /* Captain0031.png */,
+				5B6F77C8183D5D5200D737B2 /* Captain0032.png */,
+				5B6F77C9183D5D5200D737B2 /* Captain0033.png */,
+				5B6F77CA183D5D5200D737B2 /* Captain0034.png */,
+				5B6F77CB183D5D5200D737B2 /* Captain0035.png */,
+				5B6F77CC183D5D5200D737B2 /* Captain004.png */,
+				5B6F77CD183D5D5200D737B2 /* Captain005.png */,
+				5B6F77CE183D5D5200D737B2 /* Captain006.png */,
+				5B6F77CF183D5D5200D737B2 /* Captain007.png */,
+				5B6F77D0183D5D5200D737B2 /* Captain008.png */,
+				5B6F77D1183D5D5200D737B2 /* Captain009.png */,
+			);
+			path = "Into Human";
+			sourceTree = "<group>";
+		};
 		5BB581EF183330BF00A9F330 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -4776,6 +4729,8 @@
 		5BBA6EF11835DE1300E21408 /* Layers */ = {
 			isa = PBXGroup;
 			children = (
+				5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */,
+				5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */,
 				5B2D7DD2183C244F00BA3365 /* BetaSheet.plist */,
 				5B2D7DD3183C244F00BA3365 /* BetaSheet.png */,
 				31234207182A95B4001BC4B7 /* GameOverLayer.h */,
@@ -4923,7 +4878,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2D839B183C274B00BA3365 /* Ant Capt Trainsition-Human0006.png in Resources */,
 				5B2D837A183C274B00BA3365 /* Ant Capt Trainsition-GF0002.png in Resources */,
 				5B2D81BF183C274B00BA3365 /* lat capt gf0009.png in Resources */,
 				3ECB2EC318258BAC00C82177 /* sprites.plist in Resources */,
@@ -4947,7 +4901,6 @@
 				5B2D8346183C274B00BA3365 /* Ant Capt Trainsition-Into DN0012.png in Resources */,
 				5B2D8381183C274B00BA3365 /* Ant Capt Trainsition-GF0009.png in Resources */,
 				5B2D82D3183C274B00BA3365 /* Ant Capt Transition-From DN0022.png in Resources */,
-				5B2D83A3183C274B00BA3365 /* Ant Capt Trainsition-Human0014.png in Resources */,
 				5B2D83DB183C274B00BA3365 /* Ant Capt Trainsition-KL0025.png in Resources */,
 				5B2D83D7183C274B00BA3365 /* Ant Capt Trainsition-KL0021.png in Resources */,
 				5B2D82F3183C274B00BA3365 /* Ant Capt Tranisition-From GF0009.png in Resources */,
@@ -4961,6 +4914,7 @@
 				5B2D837D183C274B00BA3365 /* Ant Capt Trainsition-GF0005.png in Resources */,
 				5B2D8208183C274B00BA3365 /* Lat Capt Human-Crawling003.png in Resources */,
 				5B2D8341183C274B00BA3365 /* Ant Capt Trainsition-Into DN0007.png in Resources */,
+				5B6F77E6183D5D5200D737B2 /* Captain0028.png in Resources */,
 				5B2D8190183C274B00BA3365 /* CCC DN-Walking0019.png in Resources */,
 				5B2D8267183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0014.png in Resources */,
 				5B2D8355183C274B00BA3365 /* Ant Capt Trainsition-Into DN0027.png in Resources */,
@@ -4969,6 +4923,7 @@
 				5B2D8278183C274B00BA3365 /* Lat Capt Human-Walking.xml in Resources */,
 				5B2D82B2183C274B00BA3365 /* Lat Capt KL-Running0014.png in Resources */,
 				5B2D8230183C274B00BA3365 /* Lat Capt Human-Running005.png in Resources */,
+				5B6F77ED183D5D5200D737B2 /* Captain0034.png in Resources */,
 				5B2D818C183C274B00BA3365 /* CCC DN-Walking0015.png in Resources */,
 				5B2743AD182A1C3600942895 /* Ant Capt Trainsition-KL001.png in Resources */,
 				3EBD915A182ABD9500ABC143 /* Gecko Icon.png in Resources */,
@@ -5014,6 +4969,7 @@
 				5B2D8285183C274B00BA3365 /* Lat Capt Human-Walking004.png in Resources */,
 				5B2743C8182A1C3600942895 /* Ant Capt Trainsition-KL008.png in Resources */,
 				3EBD933C1833DD6600ABC143 /* Energy Score Bar0041.png in Resources */,
+				5B6F77D5183D5D5200D737B2 /* Captain0012.png in Resources */,
 				5B2D813A183C274B00BA3365 /* CCC DN-Stand&Sniff0031.png in Resources */,
 				5B2D8204183C274B00BA3365 /* Lat Capt Human-Crawling0018.png in Resources */,
 				5B2D8235183C274B00BA3365 /* Lat Capt Human-Standing.xml in Resources */,
@@ -5033,27 +4989,23 @@
 				5B2D8164183C274B00BA3365 /* CCC DN-Stand&Sniff0073.png in Resources */,
 				5B2D83DE183C274B00BA3365 /* Ant Capt Trainsition-KL0028.png in Resources */,
 				5B2D835E183C274B00BA3365 /* Ant Capt Trainsition-Into DN0036.png in Resources */,
-				5B2D83B3183C274B00BA3365 /* Ant Capt Trainsition-Human0030.png in Resources */,
 				5B2D8300183C274B00BA3365 /* Ant Capt Tranisition-From GF0022.png in Resources */,
 				5B2D828F183C274B00BA3365 /* Lat Capt KL-Jumping0011.png in Resources */,
-				5B2D83C5183C274B00BA3365 /* Ant Capt Trainsition-Human0048.png in Resources */,
-				5B2D83AE183C274B00BA3365 /* Ant Capt Trainsition-Human0025.png in Resources */,
 				3EBD93421833DD6600ABC143 /* Energy Score Bar0047.png in Resources */,
 				3ECB2E8D18257CB800C82177 /* 2Star-Normal-iPad.png in Resources */,
 				5B2743C5182A1C3600942895 /* Ant Capt Trainsition-KL005.png in Resources */,
 				5B2D82D6183C274B00BA3365 /* Ant Capt Transition-From DN0025.png in Resources */,
 				5B2D81EB183C274B00BA3365 /* CCC GF-Walking0025.png in Resources */,
 				5B2D8166183C274B00BA3365 /* CCC DN-Stand&Sniff0075.png in Resources */,
-				5B2D83A2183C274B00BA3365 /* Ant Capt Trainsition-Human0013.png in Resources */,
 				5B2D8114183C274B00BA3365 /* CCC DN-Running0017.png in Resources */,
 				3EC0B9C318255119004CC08D /* Arrow-Normal-iPad.png in Resources */,
 				3EC0B9C618255119004CC08D /* Arrow-Selected-iPad-hd.png in Resources */,
-				5B2D83AA183C274B00BA3365 /* Ant Capt Trainsition-Human0021.png in Resources */,
 				5B2D8175183C274B00BA3365 /* CCC DN-Stand&Sniff0090.png in Resources */,
 				5B2D826E183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0021.png in Resources */,
 				5B2D82FA183C274B00BA3365 /* Ant Capt Tranisition-From GF0016.png in Resources */,
 				5B2D81EC183C274B00BA3365 /* CCC GF-Walking0026.png in Resources */,
 				3EBD93381833DD6600ABC143 /* Energy Score Bar0037.png in Resources */,
+				5B6F77E1183D5D5200D737B2 /* Captain0023.png in Resources */,
 				3EBD93321833DD6600ABC143 /* Energy Score Bar0031.png in Resources */,
 				3EBD93431833DD6600ABC143 /* Energy Score Bar0048.png in Resources */,
 				5B2D81A3183C274B00BA3365 /* CCC DN-Walking0038.png in Resources */,
@@ -5074,6 +5026,7 @@
 				5B2D825D183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0004.png in Resources */,
 				5B2D8371183C274B00BA3365 /* Ant Capt Trainsition-Into DN0055.png in Resources */,
 				5B2D80F7183C274B00BA3365 /* CCC DN-Sniffing&Crawling0008.png in Resources */,
+				5B6F77E4183D5D5200D737B2 /* Captain0026.png in Resources */,
 				5B2D81F3183C274B00BA3365 /* CCC GF-Walking0033.png in Resources */,
 				3ECB2EC518258BAC00C82177 /* Back.png in Resources */,
 				5B2D8354183C274B00BA3365 /* Ant Capt Trainsition-Into DN0026.png in Resources */,
@@ -5107,17 +5060,17 @@
 				5B2743C9182A1C3600942895 /* Ant Capt Trainsition-KL009.png in Resources */,
 				5B2D836C183C274B00BA3365 /* Ant Capt Trainsition-Into DN0050.png in Resources */,
 				5B2D80FF183C274B00BA3365 /* CCC DN-Sniffing&Crawling0016.png in Resources */,
-				5B2D83A8183C274B00BA3365 /* Ant Capt Trainsition-Human0019.png in Resources */,
 				5B2D827F183C274B00BA3365 /* Lat Capt Human-Walking0015.png in Resources */,
 				5B2D815C183C274B00BA3365 /* CCC DN-Stand&Sniff0065.png in Resources */,
 				5B2D8113183C274B00BA3365 /* CCC DN-Running0016.png in Resources */,
+				5B6F77DA183D5D5200D737B2 /* Captain0017.png in Resources */,
 				5B2D8273183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0026.png in Resources */,
 				3EBD93511833DD6600ABC143 /* Owl Icon.png in Resources */,
 				5B2D81BB183C274B00BA3365 /* lat capt gf0005.png in Resources */,
 				5B2D821C183C274B00BA3365 /* Lat Capt Human-Running.xml in Resources */,
 				5B2D826F183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0022.png in Resources */,
+				5B6F77F0183D5D5200D737B2 /* Captain005.png in Resources */,
 				5B2D81C6183C274B00BA3365 /* lat capt gf0016.png in Resources */,
-				5B2D83C0183C274B00BA3365 /* Ant Capt Trainsition-Human0043.png in Resources */,
 				5B2D8313183C274B00BA3365 /* Ant Capt Transition-From Human0020.png in Resources */,
 				3EBD93251833DD6600ABC143 /* Energy Score Bar0018.png in Resources */,
 				3EBD9157182ABD9500ABC143 /* Back Arrow.png in Resources */,
@@ -5142,7 +5095,6 @@
 				5B2D823B183C274B00BA3365 /* Lat Capt Human-Standing006.png in Resources */,
 				5B2D81EA183C274B00BA3365 /* CCC GF-Walking0024.png in Resources */,
 				5B2D8183183C274B00BA3365 /* CCC DN-Walking0006.png in Resources */,
-				5B2D83B4183C274B00BA3365 /* Ant Capt Trainsition-Human0031.png in Resources */,
 				3EBD933A1833DD6600ABC143 /* Energy Score Bar0039.png in Resources */,
 				5B2D83E1183C274B00BA3365 /* Ant Capt Trainsition-KL004.png in Resources */,
 				5B2D813E183C274B00BA3365 /* CCC DN-Stand&Sniff0035.png in Resources */,
@@ -5154,15 +5106,16 @@
 				5B2D8207183C274B00BA3365 /* Lat Capt Human-Crawling0020.png in Resources */,
 				5B2D8123183C274B00BA3365 /* CCC DN-Stand&Sniff0008.png in Resources */,
 				5B2D80F4183C274B00BA3365 /* CCC DN-Sniffing&Crawling0005.png in Resources */,
-				5B2D83A4183C274B00BA3365 /* Ant Capt Trainsition-Human0015.png in Resources */,
 				5B2D816C183C274B00BA3365 /* CCC DN-Stand&Sniff0081.png in Resources */,
 				5B2D80FE183C274B00BA3365 /* CCC DN-Sniffing&Crawling0015.png in Resources */,
 				5B2D82DC183C274B00BA3365 /* Ant Capt Transition-From DN0031.png in Resources */,
 				5B2D829B183C274B00BA3365 /* Lat Capt KL-Jumping0022.png in Resources */,
 				5B2D82AD183C274B00BA3365 /* Lat Capt KL-Running001.png in Resources */,
 				5B2D826C183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0019.png in Resources */,
+				5B6F77DD183D5D5200D737B2 /* Captain002.png in Resources */,
 				5B2D81C5183C274B00BA3365 /* lat capt gf0015.png in Resources */,
 				5B2D8192183C274B00BA3365 /* CCC DN-Walking0021.png in Resources */,
+				5B6F77D6183D5D5200D737B2 /* Captain0013.png in Resources */,
 				3EBD93281833DD6600ABC143 /* Energy Score Bar0021.png in Resources */,
 				5B2D836A183C274B00BA3365 /* Ant Capt Trainsition-Into DN0048.png in Resources */,
 				5B2D8327183C274B00BA3365 /* Ant Capt Transistion-From KL0014.png in Resources */,
@@ -5179,7 +5132,6 @@
 				5B2D8277183C274B00BA3365 /* Lat Capt Human-Wait to Crawl.xml in Resources */,
 				5B274394182A1C3600942895 /* Ant Capt Transistion-From KL001.png in Resources */,
 				5B2D8306183C274B00BA3365 /* Ant Capt Tranisition-From GF0028.png in Resources */,
-				5B2D83BE183C274B00BA3365 /* Ant Capt Trainsition-Human0041.png in Resources */,
 				5B27439C182A1C3600942895 /* Ant Capt Transistion-From KL0017.png in Resources */,
 				5B2D82F1183C274B00BA3365 /* Ant Capt Tranisition-From GF0007.png in Resources */,
 				5BB6250418360001001E8571 /* ActionsSheet.plist in Resources */,
@@ -5210,7 +5162,6 @@
 				5B2D8248183C274B00BA3365 /* Lat Capt Human-Stand Up0012.png in Resources */,
 				5B2D819C183C274B00BA3365 /* CCC DN-Walking0031.png in Resources */,
 				5B2D8291183C274B00BA3365 /* Lat Capt KL-Jumping0013.png in Resources */,
-				5B2D83B7183C274B00BA3365 /* Ant Capt Trainsition-Human0034.png in Resources */,
 				5B2D810D183C274B00BA3365 /* CCC DN-Running0010.png in Resources */,
 				5B2D81E7183C274B00BA3365 /* CCC GF-Walking0021.png in Resources */,
 				3EBD932E1833DD6600ABC143 /* Energy Score Bar0027.png in Resources */,
@@ -5244,6 +5195,7 @@
 				5B2D815F183C274B00BA3365 /* CCC DN-Stand&Sniff0068.png in Resources */,
 				5B2D8368183C274B00BA3365 /* Ant Capt Trainsition-Into DN0046.png in Resources */,
 				5B2D8302183C274B00BA3365 /* Ant Capt Tranisition-From GF0024.png in Resources */,
+				5B6F77E3183D5D5200D737B2 /* Captain0025.png in Resources */,
 				5B27439E182A1C3600942895 /* Ant Capt Transistion-From KL0019.png in Resources */,
 				5B2D8116183C274B00BA3365 /* CCC DN-Running0019.png in Resources */,
 				3EBD93481833DD6600ABC143 /* Back Arrow.png in Resources */,
@@ -5251,7 +5203,6 @@
 				5B2D826D183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0020.png in Resources */,
 				5B2D812D183C274B00BA3365 /* CCC DN-Stand&Sniff0018.png in Resources */,
 				5B2D8312183C274B00BA3365 /* Ant Capt Transition-From Human002.png in Resources */,
-				5B2D83B1183C274B00BA3365 /* Ant Capt Trainsition-Human0028.png in Resources */,
 				5B2D8366183C274B00BA3365 /* Ant Capt Trainsition-Into DN0044.png in Resources */,
 				3EBD915E182ABD9500ABC143 /* Kangaroo Icon.png in Resources */,
 				3EBD93541833DD6600ABC143 /* .QT-04b2-cea298cc-bfffd0b8-00 in Resources */,
@@ -5264,6 +5215,7 @@
 				5B2743AF182A1C3600942895 /* Ant Capt Trainsition-KL0011.png in Resources */,
 				5B2D83D5183C274B00BA3365 /* Ant Capt Trainsition-KL002.png in Resources */,
 				5B2D80FA183C274B00BA3365 /* CCC DN-Sniffing&Crawling0011.png in Resources */,
+				5B6F77D9183D5D5200D737B2 /* Captain0016.png in Resources */,
 				5B2D81AB183C274B00BA3365 /* CCC DN-Walking0046.png in Resources */,
 				5B2D82F5183C274B00BA3365 /* Ant Capt Tranisition-From GF0011.png in Resources */,
 				5B2D8320183C274B00BA3365 /* Ant Capt Transition-From Human008.png in Resources */,
@@ -5275,6 +5227,7 @@
 				5B2548EA182A42B50015204D /* KangarooIcon.png in Resources */,
 				5B2D8128183C274B00BA3365 /* CCC DN-Stand&Sniff0013.png in Resources */,
 				5B2D8348183C274B00BA3365 /* Ant Capt Trainsition-Into DN0014.png in Resources */,
+				5B6F77D4183D5D5200D737B2 /* Captain0011.png in Resources */,
 				5B2D8361183C274B00BA3365 /* Ant Capt Trainsition-Into DN0039.png in Resources */,
 				5B2D825E183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0005.png in Resources */,
 				5B2D82A4183C274B00BA3365 /* Lat Capt KL-Jumping0030.png in Resources */,
@@ -5285,13 +5238,13 @@
 				3EBD93271833DD6600ABC143 /* Energy Score Bar0020.png in Resources */,
 				3ECB2E8618257CB800C82177 /* 0Star-Normal-iPhone-hd.png in Resources */,
 				5B2D8386183C274B00BA3365 /* Ant Capt Trainsition-GF0014.png in Resources */,
+				5B6F77D7183D5D5200D737B2 /* Captain0014.png in Resources */,
 				5B2D81DD183C274B00BA3365 /* CCC GF-Walking0011.png in Resources */,
 				5B2743A4182A1C3600942895 /* Ant Capt Transistion-From KL0024.png in Resources */,
 				5B2D830C183C274B00BA3365 /* Ant Capt Transition-From Human0014.png in Resources */,
 				3ECB2E9018257CB800C82177 /* 3Star-Normal-iPad-hd.png in Resources */,
 				5B274386182A1C3600942895 /* Lat Capt KL-Jumping0027.png in Resources */,
 				5B2D83D9183C274B00BA3365 /* Ant Capt Trainsition-KL0023.png in Resources */,
-				5B2D839D183C274B00BA3365 /* Ant Capt Trainsition-Human0008.png in Resources */,
 				3EBD93221833DD6600ABC143 /* Energy Score Bar0015.png in Resources */,
 				5B2D82E4183C274B00BA3365 /* Ant Capt Transition-From DN0039.png in Resources */,
 				5B2D8373183C274B00BA3365 /* Ant Capt Trainsition-Into DN0057.png in Resources */,
@@ -5299,7 +5252,7 @@
 				5B2D8290183C274B00BA3365 /* Lat Capt KL-Jumping0012.png in Resources */,
 				5B2D81B7183C274B00BA3365 /* lat capt gf0001.png in Resources */,
 				3EBD915F182ABD9500ABC143 /* Owl Icon.png in Resources */,
-				5B2D83A9183C274B00BA3365 /* Ant Capt Trainsition-Human0020.png in Resources */,
+				5B6F77AC183D5CB800D737B2 /* BetaSheet2.plist in Resources */,
 				3EBD934A1833DD6600ABC143 /* Dog Icon.png in Resources */,
 				5B2743B6182A1C3600942895 /* Ant Capt Trainsition-KL0018.png in Resources */,
 				5B2D837C183C274B00BA3365 /* Ant Capt Trainsition-GF0004.png in Resources */,
@@ -5312,16 +5265,17 @@
 				5B2D831A183C274B00BA3365 /* Ant Capt Transition-From Human0027.png in Resources */,
 				3ECB2E9318257CB800C82177 /* 3Star-Normal-iPhone.png in Resources */,
 				5B2D8236183C274B00BA3365 /* Lat Capt Human-Standing001.png in Resources */,
-				5B2D83C8183C274B00BA3365 /* Ant Capt Trainsition-Human0051.png in Resources */,
 				3EBD93891834280000ABC143 /* energy.plist in Resources */,
 				5B2D8160183C274B00BA3365 /* CCC DN-Stand&Sniff0069.png in Resources */,
+				5B6F77F1183D5D5200D737B2 /* Captain006.png in Resources */,
 				5B2743A7182A1C3600942895 /* Ant Capt Transistion-From KL004.png in Resources */,
-				5B2D83B5183C274B00BA3365 /* Ant Capt Trainsition-Human0032.png in Resources */,
 				5B2D8203183C274B00BA3365 /* Lat Capt Human-Crawling0017.png in Resources */,
+				5B6F77E7183D5D5200D737B2 /* Captain0029.png in Resources */,
 				3EBD933E1833DD6600ABC143 /* Energy Score Bar0043.png in Resources */,
 				5B2D8387183C274B00BA3365 /* Ant Capt Trainsition-GF0015.png in Resources */,
 				3EBD938218341EFB00ABC143 /* test_map.tmx in Resources */,
 				5B2D831E183C274B00BA3365 /* Ant Capt Transition-From Human006.png in Resources */,
+				5B6F77AD183D5CB800D737B2 /* BetaSheet2.png in Resources */,
 				5B2D7DD5183C244F00BA3365 /* BetaSheet.png in Resources */,
 				5B2D8349183C274B00BA3365 /* Ant Capt Trainsition-Into DN0015.png in Resources */,
 				5B2D82E1183C274B00BA3365 /* Ant Capt Transition-From DN0036.png in Resources */,
@@ -5330,6 +5284,7 @@
 				5B2D8256183C274B00BA3365 /* Lat Capt Human-Stand Up0026.png in Resources */,
 				5B2D81F2183C274B00BA3365 /* CCC GF-Walking0032.png in Resources */,
 				5B2D81B3183C274B00BA3365 /* CCC DN-Walking0054.png in Resources */,
+				5B6F77D8183D5D5200D737B2 /* Captain0015.png in Resources */,
 				5B2D8182183C274B00BA3365 /* CCC DN-Walking0005.png in Resources */,
 				5B2D8364183C274B00BA3365 /* Ant Capt Trainsition-Into DN0042.png in Resources */,
 				5B2D8162183C274B00BA3365 /* CCC DN-Stand&Sniff0071.png in Resources */,
@@ -5339,13 +5294,12 @@
 				5BB6250518360001001E8571 /* ActionsSheet.png in Resources */,
 				3EC0B9C718255119004CC08D /* Arrow-Selected-iPad.png in Resources */,
 				5B2D81D4183C274B00BA3365 /* CCC GF-Walking0002.png in Resources */,
+				5B6F77DE183D5D5200D737B2 /* Captain0020.png in Resources */,
 				5B2D8178183C274B00BA3365 /* CCC DN-Stand&Sniff0093.png in Resources */,
-				5B2D83C1183C274B00BA3365 /* Ant Capt Trainsition-Human0044.png in Resources */,
 				3ECB2DEE18256BE500C82177 /* GameData.xml in Resources */,
 				5B2D82D9183C274B00BA3365 /* Ant Capt Transition-From DN0028.png in Resources */,
 				3E452D551824063400B4EFDE /* Icon-72.png in Resources */,
 				5B2D82E7183C274B00BA3365 /* Ant Capt Transition-From DN0042.png in Resources */,
-				5B2D83C7183C274B00BA3365 /* Ant Capt Trainsition-Human0050.png in Resources */,
 				5B2D81E0183C274B00BA3365 /* CCC GF-Walking0014.png in Resources */,
 				5B2D814F183C274B00BA3365 /* CCC DN-Stand&Sniff0052.png in Resources */,
 				5B2D811B183C274B00BA3365 /* CCC DN-Running0024.png in Resources */,
@@ -5365,7 +5319,7 @@
 				5B2D8390183C274B00BA3365 /* Ant Capt Trainsition-GF0024.png in Resources */,
 				5B2D817E183C274B00BA3365 /* CCC DN-Walking0001.png in Resources */,
 				5B2D8251183C274B00BA3365 /* Lat Capt Human-Stand Up0021.png in Resources */,
-				5B2D83B8183C274B00BA3365 /* Ant Capt Trainsition-Human0035.png in Resources */,
+				5B6F77F3183D5D5200D737B2 /* Captain008.png in Resources */,
 				5B2D82C4183C274B00BA3365 /* Ant Capt Transition-From DN0007.png in Resources */,
 				3EBD93581833DD6600ABC143 /* Opening Sequence.mov in Resources */,
 				5B2D82D8183C274B00BA3365 /* Ant Capt Transition-From DN0027.png in Resources */,
@@ -5374,16 +5328,15 @@
 				5B2D8184183C274B00BA3365 /* CCC DN-Walking0007.png in Resources */,
 				3EBD93521833DD6600ABC143 /* Ram Icon.png in Resources */,
 				5B2D81F1183C274B00BA3365 /* CCC GF-Walking0031.png in Resources */,
-				5B2D8399183C274B00BA3365 /* Ant Capt Trainsition-Human0004.png in Resources */,
 				5B2D8155183C274B00BA3365 /* CCC DN-Stand&Sniff0058.png in Resources */,
 				5B2D81D1183C274B00BA3365 /* lat capt gf0027.png in Resources */,
 				3EBD934F1833DD6600ABC143 /* Home icon.png in Resources */,
 				3EBD938A1834280000ABC143 /* energy.pvr.ccz in Resources */,
+				5B6F77DB183D5D5200D737B2 /* Captain0018.png in Resources */,
 				3E452D4D1824063300B4EFDE /* Default.png in Resources */,
 				5B2D81EE183C274B00BA3365 /* CCC GF-Walking0028.png in Resources */,
 				5B2743AA182A1C3600942895 /* Ant Capt Transistion-From KL007.png in Resources */,
 				5B2D817F183C274B00BA3365 /* CCC DN-Walking0002.png in Resources */,
-				5B2D83B2183C274B00BA3365 /* Ant Capt Trainsition-Human0029.png in Resources */,
 				5B2D819E183C274B00BA3365 /* CCC DN-Walking0033.png in Resources */,
 				5B2D832E183C274B00BA3365 /* Ant Capt Transistion-From KL0020.png in Resources */,
 				5B2D831D183C274B00BA3365 /* Ant Capt Transition-From Human005.png in Resources */,
@@ -5396,6 +5349,7 @@
 				5B2D81E5183C274B00BA3365 /* CCC GF-Walking0019.png in Resources */,
 				5B2D82E6183C274B00BA3365 /* Ant Capt Transition-From DN0041.png in Resources */,
 				5B27439B182A1C3600942895 /* Ant Capt Transistion-From KL0016.png in Resources */,
+				5B6F77EA183D5D5200D737B2 /* Captain0031.png in Resources */,
 				5B2D8237183C274B00BA3365 /* Lat Capt Human-Standing002.png in Resources */,
 				5B2D81F5183C274B00BA3365 /* CCC GF-Walking0035.png in Resources */,
 				5B2D822C183C274B00BA3365 /* Lat Capt Human-Running0023.png in Resources */,
@@ -5407,6 +5361,7 @@
 				5B2D814A183C274B00BA3365 /* CCC DN-Stand&Sniff0047.png in Resources */,
 				5B2D8375183C274B00BA3365 /* Ant Capt Trainsition-Into DN0059.png in Resources */,
 				5B2D82FE183C274B00BA3365 /* Ant Capt Tranisition-From GF0020.png in Resources */,
+				5B6F77DF183D5D5200D737B2 /* Captain0021.png in Resources */,
 				5B2D8180183C274B00BA3365 /* CCC DN-Walking0003.png in Resources */,
 				5B2D82CD183C274B00BA3365 /* Ant Capt Transition-From DN0016.png in Resources */,
 				5B2D8213183C274B00BA3365 /* Lat Capt Human-Leaping0001.png in Resources */,
@@ -5418,7 +5373,6 @@
 				5B2D8150183C274B00BA3365 /* CCC DN-Stand&Sniff0053.png in Resources */,
 				3EC0B9C818255119004CC08D /* Arrow-Selected-iPhone-hd.png in Resources */,
 				5B2D8103183C274B00BA3365 /* CCC DN-Sniffing&Crawling0020.png in Resources */,
-				5B2D83BA183C274B00BA3365 /* Ant Capt Trainsition-Human0037.png in Resources */,
 				5B2D83E2183C274B00BA3365 /* Ant Capt Trainsition-KL005.png in Resources */,
 				5B2D824D183C274B00BA3365 /* Lat Capt Human-Stand Up0017.png in Resources */,
 				5B2D8225183C274B00BA3365 /* Lat Capt Human-Running0017.png in Resources */,
@@ -5444,6 +5398,7 @@
 				5B2D82A9183C274B00BA3365 /* Lat Capt KL-Jumping007.png in Resources */,
 				5B2D8284183C274B00BA3365 /* Lat Capt Human-Walking003.png in Resources */,
 				5B2D8382183C274B00BA3365 /* Ant Capt Trainsition-GF0010.png in Resources */,
+				5B6F77EF183D5D5200D737B2 /* Captain004.png in Resources */,
 				5B2D81CB183C274B00BA3365 /* lat capt gf0021.png in Resources */,
 				5B2D8202183C274B00BA3365 /* Lat Capt Human-Crawling0016.png in Resources */,
 				5B2D82FF183C274B00BA3365 /* Ant Capt Tranisition-From GF0021.png in Resources */,
@@ -5460,6 +5415,7 @@
 				5B2D8340183C274B00BA3365 /* Ant Capt Trainsition-Into DN0006.png in Resources */,
 				5B2D8392183C274B00BA3365 /* Ant Capt Trainsition-GF0026.png in Resources */,
 				3ECB2E8F18257CB800C82177 /* 2Star-Normal-iPhone.png in Resources */,
+				5B6F77D3183D5D5200D737B2 /* Captain0010.png in Resources */,
 				5B2D825A183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0001.png in Resources */,
 				5B2D832C183C274B00BA3365 /* Ant Capt Transistion-From KL0019.png in Resources */,
 				5B2D810C183C274B00BA3365 /* CCC DN-Running0009.png in Resources */,
@@ -5480,8 +5436,8 @@
 				5B2D8379183C274B00BA3365 /* Ant Capt Trainsition-GF0001.png in Resources */,
 				5B2D8163183C274B00BA3365 /* CCC DN-Stand&Sniff0072.png in Resources */,
 				5B2D82B9183C274B00BA3365 /* Lat Capt KL-Running007.png in Resources */,
+				5B6F77EE183D5D5200D737B2 /* Captain0035.png in Resources */,
 				5B2D82A1183C274B00BA3365 /* Lat Capt KL-Jumping0028.png in Resources */,
-				5B2D83A1183C274B00BA3365 /* Ant Capt Trainsition-Human0012.png in Resources */,
 				5B2D824E183C274B00BA3365 /* Lat Capt Human-Stand Up0018.png in Resources */,
 				3EBD93351833DD6600ABC143 /* Energy Score Bar0034.png in Resources */,
 				5B2D82D2183C274B00BA3365 /* Ant Capt Transition-From DN0021.png in Resources */,
@@ -5502,6 +5458,7 @@
 				5B2D825B183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0002.png in Resources */,
 				5B2D82B1183C274B00BA3365 /* Lat Capt KL-Running0013.png in Resources */,
 				5B2D81AE183C274B00BA3365 /* CCC DN-Walking0049.png in Resources */,
+				5B6F77E2183D5D5200D737B2 /* Captain0024.png in Resources */,
 				5B2D8323183C274B00BA3365 /* Ant Capt Transistion-From KL0010.png in Resources */,
 				5B2D835D183C274B00BA3365 /* Ant Capt Trainsition-Into DN0035.png in Resources */,
 				5B2D8243183C274B00BA3365 /* Lat Capt Human-Stand Up0007.png in Resources */,
@@ -5509,7 +5466,6 @@
 				3EBD93141833DD6600ABC143 /* Energy Score Bar0001.png in Resources */,
 				5B2D8333183C274B00BA3365 /* Ant Capt Transistion-From KL0025.png in Resources */,
 				5B2D81C7183C274B00BA3365 /* lat capt gf0017.png in Resources */,
-				5B2D83BD183C274B00BA3365 /* Ant Capt Trainsition-Human0040.png in Resources */,
 				3EC0B9CA18255119004CC08D /* StickyNote-iPad-hd.png in Resources */,
 				5B2D827B183C274B00BA3365 /* Lat Capt Human-Walking0011.png in Resources */,
 				5B2D8227183C274B00BA3365 /* Lat Capt Human-Running0019.png in Resources */,
@@ -5524,7 +5480,6 @@
 				5B2D829D183C274B00BA3365 /* Lat Capt KL-Jumping0024.png in Resources */,
 				5B2D8161183C274B00BA3365 /* CCC DN-Stand&Sniff0070.png in Resources */,
 				5B2D81B6183C274B00BA3365 /* CCC DN-Walking0057.png in Resources */,
-				5B2D83A5183C274B00BA3365 /* Ant Capt Trainsition-Human0016.png in Resources */,
 				5B2D83D0183C274B00BA3365 /* Ant Capt Trainsition-KL0015.png in Resources */,
 				5B2D8118183C274B00BA3365 /* CCC DN-Running0021.png in Resources */,
 				5B2D8276183C274B00BA3365 /* Lat Capt Human-Wait to Crawl.png in Resources */,
@@ -5532,7 +5487,6 @@
 				5B2D83D2183C274B00BA3365 /* Ant Capt Trainsition-KL0017.png in Resources */,
 				3ECB2EC118258BAC00C82177 /* pd_dpad-hd.png in Resources */,
 				5B2D8362183C274B00BA3365 /* Ant Capt Trainsition-Into DN0040.png in Resources */,
-				5B2D839F183C274B00BA3365 /* Ant Capt Trainsition-Human0010.png in Resources */,
 				3ECB2E7B18257CB800C82177 /* Maze-Selected-iPhone.png in Resources */,
 				5B2D81D9183C274B00BA3365 /* CCC GF-Walking0007.png in Resources */,
 				5B2D8153183C274B00BA3365 /* CCC DN-Stand&Sniff0056.png in Resources */,
@@ -5545,14 +5499,13 @@
 				3ECB2E0F18257A9800C82177 /* Levels-Chapter1.xml in Resources */,
 				5B2D82BC183C274B00BA3365 /* Lat Capt Kangaroo-Standing.xml in Resources */,
 				5B2D8289183C274B00BA3365 /* Lat Capt Human-Walking008.png in Resources */,
-				5B2D83C3183C274B00BA3365 /* Ant Capt Trainsition-Human0046.png in Resources */,
 				5B2743B9182A1C3600942895 /* Ant Capt Trainsition-KL0020.png in Resources */,
 				5B2D8304183C274B00BA3365 /* Ant Capt Tranisition-From GF0026.png in Resources */,
 				5B2D8344183C274B00BA3365 /* Ant Capt Trainsition-Into DN0010.png in Resources */,
+				5B6F77E8183D5D5200D737B2 /* Captain003.png in Resources */,
 				5B2D831B183C274B00BA3365 /* Ant Capt Transition-From Human003.png in Resources */,
 				5B2D8263183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0010.png in Resources */,
 				5B2D8365183C274B00BA3365 /* Ant Capt Trainsition-Into DN0043.png in Resources */,
-				5B2D83AB183C274B00BA3365 /* Ant Capt Trainsition-Human0022.png in Resources */,
 				5B2D8332183C274B00BA3365 /* Ant Capt Transistion-From KL0024.png in Resources */,
 				5B2D8239183C274B00BA3365 /* Lat Capt Human-Standing004.png in Resources */,
 				5B2D823F183C274B00BA3365 /* Lat Capt Human-Stand Up0003.png in Resources */,
@@ -5562,7 +5515,6 @@
 				5B2D80F8183C274B00BA3365 /* CCC DN-Sniffing&Crawling0009.png in Resources */,
 				3EBD93341833DD6600ABC143 /* Energy Score Bar0033.png in Resources */,
 				3EBD934D1833DD6600ABC143 /* Gecko Icon.png in Resources */,
-				5B2D83BC183C274B00BA3365 /* Ant Capt Trainsition-Human0039.png in Resources */,
 				5B2D8211183C274B00BA3365 /* Lat Capt Human-Leaping.png in Resources */,
 				5B2D824F183C274B00BA3365 /* Lat Capt Human-Stand Up0019.png in Resources */,
 				5B2D82E3183C274B00BA3365 /* Ant Capt Transition-From DN0038.png in Resources */,
@@ -5571,7 +5523,6 @@
 				3EBD93101833DD6600ABC143 /* Bread.png in Resources */,
 				5B2D81C3183C274B00BA3365 /* lat capt gf0013.png in Resources */,
 				5B2D837B183C274B00BA3365 /* Ant Capt Trainsition-GF0003.png in Resources */,
-				5B2D839C183C274B00BA3365 /* Ant Capt Trainsition-Human0007.png in Resources */,
 				5B2D8343183C274B00BA3365 /* Ant Capt Trainsition-Into DN0009.png in Resources */,
 				3ECB2E7718257CB800C82177 /* Maze-Normal-iPhone.png in Resources */,
 				5B2D8228183C274B00BA3365 /* Lat Capt Human-Running002.png in Resources */,
@@ -5587,13 +5538,11 @@
 				5B274388182A1C3600942895 /* Lat Capt KL-Jumping0029.png in Resources */,
 				5B2D8104183C274B00BA3365 /* CCC DN-Running0001.png in Resources */,
 				5B2D81AA183C274B00BA3365 /* CCC DN-Walking0045.png in Resources */,
-				5B2D83B0183C274B00BA3365 /* Ant Capt Trainsition-Human0027.png in Resources */,
 				5B2D8205183C274B00BA3365 /* Lat Capt Human-Crawling0019.png in Resources */,
 				3EBD93561833DD6600ABC143 /* Opening Page.png in Resources */,
 				5B2D838C183C274B00BA3365 /* Ant Capt Trainsition-GF0020.png in Resources */,
 				5B2D83DD183C274B00BA3365 /* Ant Capt Trainsition-KL0027.png in Resources */,
 				5B2D8241183C274B00BA3365 /* Lat Capt Human-Stand Up0005.png in Resources */,
-				5B2D83AD183C274B00BA3365 /* Ant Capt Trainsition-Human0024.png in Resources */,
 				3EBD93501833DD6600ABC143 /* Kangaroo Icon.png in Resources */,
 				5B2D820F183C274B00BA3365 /* Lat Capt Human-Just Crawling.xml in Resources */,
 				5B274378182A1C3500942895 /* Lat Capt KL-Jumping0014.png in Resources */,
@@ -5601,9 +5550,9 @@
 				5B2D8119183C274B00BA3365 /* CCC DN-Running0022.png in Resources */,
 				5B2D8353183C274B00BA3365 /* Ant Capt Trainsition-Into DN0025.png in Resources */,
 				5B2D818F183C274B00BA3365 /* CCC DN-Walking0018.png in Resources */,
+				5B6F77D2183D5D5200D737B2 /* Captain001.png in Resources */,
 				5B27438B182A1C3600942895 /* Lat Capt KL-Jumping0031.png in Resources */,
 				5B2D819D183C274B00BA3365 /* CCC DN-Walking0032.png in Resources */,
-				5B2D83AF183C274B00BA3365 /* Ant Capt Trainsition-Human0026.png in Resources */,
 				3EBD93131833DD6600ABC143 /* Energy Bar.xml in Resources */,
 				5B2D828E183C274B00BA3365 /* Lat Capt KL-Jumping0010.png in Resources */,
 				5B2D82A5183C274B00BA3365 /* Lat Capt KL-Jumping0031.png in Resources */,
@@ -5634,14 +5583,13 @@
 				3EBD931E1833DD6600ABC143 /* Energy Score Bar0011.png in Resources */,
 				5B2D81B5183C274B00BA3365 /* CCC DN-Walking0056.png in Resources */,
 				5B2D835C183C274B00BA3365 /* Ant Capt Trainsition-Into DN0034.png in Resources */,
-				5B2D83B9183C274B00BA3365 /* Ant Capt Trainsition-Human0036.png in Resources */,
 				5B2D82C8183C274B00BA3365 /* Ant Capt Transition-From DN0011.png in Resources */,
 				5B2D8226183C274B00BA3365 /* Lat Capt Human-Running0018.png in Resources */,
 				5B2D81FC183C274B00BA3365 /* Lat Capt Human-Crawling0010.png in Resources */,
 				3EBD93571833DD6600ABC143 /* Opening Sequence.m4v in Resources */,
 				5B2D818E183C274B00BA3365 /* CCC DN-Walking0017.png in Resources */,
-				5B2D8398183C274B00BA3365 /* Ant Capt Trainsition-Human0003.png in Resources */,
 				5B2D8279183C274B00BA3365 /* Lat Capt Human-Walking001.png in Resources */,
+				5B6F77E5183D5D5200D737B2 /* Captain0027.png in Resources */,
 				5B2D833E183C274B00BA3365 /* Ant Capt Trainsition-Into DN0004.png in Resources */,
 				5B2D81E4183C274B00BA3365 /* CCC GF-Walking0018.png in Resources */,
 				5B2D82F0183C274B00BA3365 /* Ant Capt Tranisition-From GF0006.png in Resources */,
@@ -5658,6 +5606,7 @@
 				3EBD9159182ABD9500ABC143 /* Dog Icon.png in Resources */,
 				5B2D8135183C274B00BA3365 /* CCC DN-Stand&Sniff0026.png in Resources */,
 				5B2D81C4183C274B00BA3365 /* lat capt gf0014.png in Resources */,
+				5B6F77F2183D5D5200D737B2 /* Captain007.png in Resources */,
 				5B27439D182A1C3600942895 /* Ant Capt Transistion-From KL0018.png in Resources */,
 				5B2D811F183C274B00BA3365 /* CCC DN-Stand&Sniff0004.png in Resources */,
 				5B2D828C183C274B00BA3365 /* Lat Capt Kangaroo-Jumping.xml in Resources */,
@@ -5680,12 +5629,11 @@
 				5B2D822A183C274B00BA3365 /* Lat Capt Human-Running0021.png in Resources */,
 				5B2D82B4183C274B00BA3365 /* Lat Capt KL-Running002.png in Resources */,
 				5B2D8244183C274B00BA3365 /* Lat Capt Human-Stand Up0008.png in Resources */,
-				5B2D83C2183C274B00BA3365 /* Ant Capt Trainsition-Human0045.png in Resources */,
 				5B2D821E183C274B00BA3365 /* Lat Capt Human-Running0010.png in Resources */,
 				5B2D831C183C274B00BA3365 /* Ant Capt Transition-From Human004.png in Resources */,
 				5B2D82C1183C274B00BA3365 /* Ant Capt Transition-From DN0004.png in Resources */,
 				5B2D8222183C274B00BA3365 /* Lat Capt Human-Running0014.png in Resources */,
-				5B2D83C6183C274B00BA3365 /* Ant Capt Trainsition-Human0049.png in Resources */,
+				5B6F77F4183D5D5200D737B2 /* Captain009.png in Resources */,
 				5B2D81B9183C274B00BA3365 /* lat capt gf0003.png in Resources */,
 				5B2D8179183C274B00BA3365 /* CCC DN-Stand&Sniff0094.png in Resources */,
 				5B2743C7182A1C3600942895 /* Ant Capt Trainsition-KL007.png in Resources */,
@@ -5699,7 +5647,6 @@
 				5B2D817A183C274B00BA3365 /* CCC DN-Stand&Sniff0095.png in Resources */,
 				5B2D8321183C274B00BA3365 /* Ant Capt Transition-From Human009.png in Resources */,
 				3EBD936C1833DEFB00ABC143 /* CustomVideoView.nib in Resources */,
-				5B2D839A183C274B00BA3365 /* Ant Capt Trainsition-Human0005.png in Resources */,
 				5B2D8274183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0027.png in Resources */,
 				5B2D819F183C274B00BA3365 /* CCC DN-Walking0034.png in Resources */,
 				5B2D833D183C274B00BA3365 /* Ant Capt Trainsition-Into DN0003.png in Resources */,
@@ -5711,7 +5658,6 @@
 				5B2D8376183C274B00BA3365 /* Ant Capt Trainsition-Into DN0060.png in Resources */,
 				5B2D8206183C274B00BA3365 /* Lat Capt Human-Crawling002.png in Resources */,
 				5B274377182A1C3500942895 /* Lat Capt KL-Jumping0013.png in Resources */,
-				5B2D83A6183C274B00BA3365 /* Ant Capt Trainsition-Human0017.png in Resources */,
 				5B27437B182A1C3600942895 /* Lat Capt KL-Jumping0017.png in Resources */,
 				5B2D82BE183C274B00BA3365 /* Ant Capt Transition-From DN0001.png in Resources */,
 				5B2D82EE183C274B00BA3365 /* Ant Capt Tranisition-From GF0004.png in Resources */,
@@ -5734,7 +5680,6 @@
 				5B2D8385183C274B00BA3365 /* Ant Capt Trainsition-GF0013.png in Resources */,
 				5B2D8358183C274B00BA3365 /* Ant Capt Trainsition-Into DN0030.png in Resources */,
 				5B2D820E183C274B00BA3365 /* Lat Capt Human-Crawling009.png in Resources */,
-				5B2D83A7183C274B00BA3365 /* Ant Capt Trainsition-Human0018.png in Resources */,
 				5B2D81C1183C274B00BA3365 /* lat capt gf0011.png in Resources */,
 				5B2D83CB183C274B00BA3365 /* Ant Capt Trainsition-KL0010.png in Resources */,
 				5B2D816D183C274B00BA3365 /* CCC DN-Stand&Sniff0082.png in Resources */,
@@ -5759,10 +5704,10 @@
 				5B2D81CF183C274B00BA3365 /* lat capt gf0025.png in Resources */,
 				3EBD93411833DD6600ABC143 /* Energy Score Bar0046.png in Resources */,
 				5B2D8139183C274B00BA3365 /* CCC DN-Stand&Sniff0030.png in Resources */,
+				5B6F77E0183D5D5200D737B2 /* Captain0022.png in Resources */,
 				5B2D82CA183C274B00BA3365 /* Ant Capt Transition-From DN0013.png in Resources */,
 				5B2D815A183C274B00BA3365 /* CCC DN-Stand&Sniff0063.png in Resources */,
 				5B2D82B6183C274B00BA3365 /* Lat Capt KL-Running004.png in Resources */,
-				5B2D83B6183C274B00BA3365 /* Ant Capt Trainsition-Human0033.png in Resources */,
 				5B2D8253183C274B00BA3365 /* Lat Capt Human-Stand Up0023.png in Resources */,
 				5B2D8214183C274B00BA3365 /* Lat Capt Human-Leaping0002.png in Resources */,
 				5B2D80F9183C274B00BA3365 /* CCC DN-Sniffing&Crawling0010.png in Resources */,
@@ -5773,25 +5718,22 @@
 				5B2D8105183C274B00BA3365 /* CCC DN-Running0002.png in Resources */,
 				5B2D82B5183C274B00BA3365 /* Lat Capt KL-Running003.png in Resources */,
 				5B2D8271183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0024.png in Resources */,
-				5B2D83C4183C274B00BA3365 /* Ant Capt Trainsition-Human0047.png in Resources */,
 				5B27437F182A1C3600942895 /* Lat Capt KL-Jumping0020.png in Resources */,
 				5B2D8257183C274B00BA3365 /* Lat Capt Human-Stand Up0027.png in Resources */,
-				5B2D839E183C274B00BA3365 /* Ant Capt Trainsition-Human0009.png in Resources */,
 				5B2D816F183C274B00BA3365 /* CCC DN-Stand&Sniff0084.png in Resources */,
 				5B2D8117183C274B00BA3365 /* CCC DN-Running0020.png in Resources */,
 				5B2D8258183C274B00BA3365 /* Lat Capt Human-Stand Up0028.png in Resources */,
 				5B2D82BB183C274B00BA3365 /* Lat Capt KL-Running009.png in Resources */,
 				5B2D81B4183C274B00BA3365 /* CCC DN-Walking0055.png in Resources */,
+				5B6F77EB183D5D5200D737B2 /* Captain0032.png in Resources */,
 				5B2D81A6183C274B00BA3365 /* CCC DN-Walking0041.png in Resources */,
 				5B2D836B183C274B00BA3365 /* Ant Capt Trainsition-Into DN0049.png in Resources */,
-				5B2D83C9183C274B00BA3365 /* Ant Capt Trainsition-Human0052.png in Resources */,
 				3EBD93231833DD6600ABC143 /* Energy Score Bar0016.png in Resources */,
 				5B2D8314183C274B00BA3365 /* Ant Capt Transition-From Human0021.png in Resources */,
 				5B2D835A183C274B00BA3365 /* Ant Capt Trainsition-Into DN0032.png in Resources */,
 				5B2D8338183C274B00BA3365 /* Ant Capt Transistion-From KL007.png in Resources */,
 				3EBD934C1833DD6600ABC143 /* Forward Arrow (Red).png in Resources */,
 				5B2D82DD183C274B00BA3365 /* Ant Capt Transition-From DN0032.png in Resources */,
-				5B2D83BB183C274B00BA3365 /* Ant Capt Trainsition-Human0038.png in Resources */,
 				3EBD932B1833DD6600ABC143 /* Energy Score Bar0024.png in Resources */,
 				5B2D8380183C274B00BA3365 /* Ant Capt Trainsition-GF0008.png in Resources */,
 				5B2743C1182A1C3600942895 /* Ant Capt Trainsition-KL0028.png in Resources */,
@@ -5799,7 +5741,6 @@
 				5B274389182A1C3600942895 /* Lat Capt KL-Jumping003.png in Resources */,
 				5B2D818A183C274B00BA3365 /* CCC DN-Walking0013.png in Resources */,
 				5B2D8173183C274B00BA3365 /* CCC DN-Stand&Sniff0088.png in Resources */,
-				5B2D83AC183C274B00BA3365 /* Ant Capt Trainsition-Human0023.png in Resources */,
 				5B2D8101183C274B00BA3365 /* CCC DN-Sniffing&Crawling0018.png in Resources */,
 				5B2D82DE183C274B00BA3365 /* Ant Capt Transition-From DN0033.png in Resources */,
 				5B2D820B183C274B00BA3365 /* Lat Capt Human-Crawling006.png in Resources */,
@@ -5816,7 +5757,6 @@
 				3EBD93201833DD6600ABC143 /* Energy Score Bar0013.png in Resources */,
 				5B2D8280183C274B00BA3365 /* Lat Capt Human-Walking0016.png in Resources */,
 				5B2743B1182A1C3600942895 /* Ant Capt Trainsition-KL0013.png in Resources */,
-				5B2D8396183C274B00BA3365 /* Ant Capt Trainsition-Human0001.png in Resources */,
 				5B2D82A2183C274B00BA3365 /* Lat Capt KL-Jumping0029.png in Resources */,
 				3ECB2E9118257CB800C82177 /* 3Star-Normal-iPad.png in Resources */,
 				5B2D83DC183C274B00BA3365 /* Ant Capt Trainsition-KL0026.png in Resources */,
@@ -5843,7 +5783,6 @@
 				3EBD93111833DD6600ABC143 /* Broccoli.png in Resources */,
 				5B2D81D2183C274B00BA3365 /* lat capt gf0028.png in Resources */,
 				3E452D531824063400B4EFDE /* fps_images.png in Resources */,
-				5B2D83A0183C274B00BA3365 /* Ant Capt Trainsition-Human0011.png in Resources */,
 				5B2D83CC183C274B00BA3365 /* Ant Capt Trainsition-KL0011.png in Resources */,
 				5B2D81AD183C274B00BA3365 /* CCC DN-Walking0048.png in Resources */,
 				5B2D8126183C274B00BA3365 /* CCC DN-Stand&Sniff0011.png in Resources */,
@@ -5856,6 +5795,7 @@
 				5B2D818D183C274B00BA3365 /* CCC DN-Walking0016.png in Resources */,
 				5B2D8345183C274B00BA3365 /* Ant Capt Trainsition-Into DN0011.png in Resources */,
 				5B2D8132183C274B00BA3365 /* CCC DN-Stand&Sniff0023.png in Resources */,
+				5B6F77E9183D5D5200D737B2 /* Captain0030.png in Resources */,
 				5B2D82FB183C274B00BA3365 /* Ant Capt Tranisition-From GF0017.png in Resources */,
 				5B274384182A1C3600942895 /* Lat Capt KL-Jumping0025.png in Resources */,
 				5B2D834B183C274B00BA3365 /* Ant Capt Trainsition-Into DN0017.png in Resources */,
@@ -5863,6 +5803,7 @@
 				5B2D8168183C274B00BA3365 /* CCC DN-Stand&Sniff0077.png in Resources */,
 				5B2D82E2183C274B00BA3365 /* Ant Capt Transition-From DN0037.png in Resources */,
 				5B2D8231183C274B00BA3365 /* Lat Capt Human-Running006.png in Resources */,
+				5B6F77DC183D5D5200D737B2 /* Captain0019.png in Resources */,
 				3EBD932D1833DD6600ABC143 /* Energy Score Bar0026.png in Resources */,
 				3ECB2E8818257CB800C82177 /* 1Star-Normal-iPad-hd.png in Resources */,
 				5B2D824C183C274B00BA3365 /* Lat Capt Human-Stand Up0016.png in Resources */,
@@ -5888,6 +5829,7 @@
 				5B2D8265183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0012.png in Resources */,
 				3EBD931F1833DD6600ABC143 /* Energy Score Bar0012.png in Resources */,
 				5B2D82A7183C274B00BA3365 /* Lat Capt KL-Jumping005.png in Resources */,
+				5B6F77EC183D5D5200D737B2 /* Captain0033.png in Resources */,
 				5B2D8171183C274B00BA3365 /* CCC DN-Stand&Sniff0086.png in Resources */,
 				5B2D81C2183C274B00BA3365 /* lat capt gf0012.png in Resources */,
 				5B2D8121183C274B00BA3365 /* CCC DN-Stand&Sniff0006.png in Resources */,
@@ -5924,10 +5866,8 @@
 				5B274374182A1C3500942895 /* Lat Capt KL-Jumping0010.png in Resources */,
 				5B2D8342183C274B00BA3365 /* Ant Capt Trainsition-Into DN0008.png in Resources */,
 				5B2D8140183C274B00BA3365 /* CCC DN-Stand&Sniff0037.png in Resources */,
-				5B2D8397183C274B00BA3365 /* Ant Capt Trainsition-Human0002.png in Resources */,
 				5B2743A1182A1C3600942895 /* Ant Capt Transistion-From KL0021.png in Resources */,
 				3EBD93301833DD6600ABC143 /* Energy Score Bar0029.png in Resources */,
-				5B2D83BF183C274B00BA3365 /* Ant Capt Trainsition-Human0042.png in Resources */,
 				5B2D80FB183C274B00BA3365 /* CCC DN-Sniffing&Crawling0012.png in Resources */,
 				5B2D82FD183C274B00BA3365 /* Ant Capt Tranisition-From GF0019.png in Resources */,
 				3E452F2C1824063800B4EFDE /* blocks.png in Resources */,

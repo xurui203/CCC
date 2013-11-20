@@ -67,7 +67,7 @@
     CCMenu *menu= [CCMenu menuWithItems:kangarooItem, captainItem, nil];
     //CCMenu *menu2= [CCMenu menuWithItems:captainItem, nil];
 
-    menu.position = ccp(430, 270);
+    menu.position = ccp(380, 280);
  //   menu2.position = ccp(300, 270);
     [menu alignItemsHorizontally];
     [self addChild: menu z:100];

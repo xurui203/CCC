@@ -55,13 +55,13 @@
 }
 
 
-# define NUM_TRANSFORM_INTO 1
+# define NUM_TRANSFORM_INTO 35
 
 - (CCAnimation *) makeTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
     //action animation - runs once and then returns to idle
     CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_INTO];
     for (int i = 1; i <= NUM_TRANSFORM_INTO; i++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Transition-From Human00%d.png", i]];
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Captain00%d.png", i]];
         [superPowerActionFrames addObject:frame];
     }
     CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
