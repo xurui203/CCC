@@ -26,8 +26,13 @@
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
         humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
+<<<<<<< HEAD
         [self addChild:humanSpriteSheet z:2];
 
+=======
+        [self addChild:humanSpriteSheet z:3];
+        
+>>>>>>> d19cef126ded972e09b60805e5728b4ce46098ce
         [self drawCollisionTiles];
         [self initCaptain];
         
@@ -101,7 +106,7 @@
         bodyDef.userData = collectible;
         [self addChild:collectible];
         collectible.scale = .5;
-        collectible.zOrder = 5000;
+        collectible.zOrder = 2;
         
         NSLog(@"done creating collectible tile");
     }
@@ -219,7 +224,7 @@
 		w = [[objPoint valueForKey:@"width"] intValue]/2;
 		h = [[objPoint valueForKey:@"height"] intValue]/2;
         
-		CGPoint _point=ccp(x+w/2,y+h);
+		CGPoint _point=ccp(x+w/2,y+h/2);
 		CGPoint _size=ccp(w,h);
 
         
@@ -297,6 +302,7 @@
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
     firstTouch = location;
+<<<<<<< HEAD
     SuperpowerManager *spm = [SuperpowerManager alloc];
     NSMutableArray *SPArray = spm.iconsArrayCopy;
     
@@ -309,6 +315,9 @@
         }
     }
     
+=======
+    if (player.actionState == kActionStateIdle){
+>>>>>>> d19cef126ded972e09b60805e5728b4ce46098ce
     if (location.x <= screenSize.width && location.y >= 150) {
         [player walk];
     }
@@ -324,7 +333,7 @@
         
     }
     // [player jump];
-    
+    }
 	return TRUE;
 }
 
