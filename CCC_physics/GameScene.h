@@ -12,15 +12,11 @@
 #import "HudLayer.h"
 #import "ContactListener.h"
 #import "SimpleAudioEngine.h"
-#import "IconDrawer.h"
-@class MazeLayer;
-@class IconDrawer;
-@class SuperpowerManager;
 
 @interface GameScene : CCLayer {
     b2World *world;
     GLESDebugDraw *debugDraw;
-
+    
 
 }
 
@@ -29,7 +25,6 @@
 
 @property (nonatomic)MazeLayer *mazeLayer;
 @property(nonatomic)HudLayer *hudLayer;
-@property(nonatomic)    SuperpowerManager *spM;
 
-@property(nonatomic)IconDrawer *icondrawer;
+
 @end

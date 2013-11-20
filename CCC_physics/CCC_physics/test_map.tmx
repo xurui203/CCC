@@ -11,9 +11,6 @@
  </tileset>
  <tileset firstgid="4416" name="Apple" tilewidth="32" tileheight="32">
   <image source="Apple.png" width="62" height="69"/>
-  <terraintypes>
-   <terrain name="New Terrain" tile="-1"/>
-  </terraintypes>
  </tileset>
  <layer name="back" width="100" height="20">
   <data encoding="base64" compression="zlib">
@@ -28,7 +25,7 @@
  <objectgroup name="collisions" width="100" height="20">
   <object x="31" y="481" width="831" height="60"/>
   <object x="1045" y="482" width="1677" height="68"/>
-  <object x="2146" y="74" width="537" height="335"/>
+  <object x="2146" y="92" width="537" height="335"/>
  </objectgroup>
  <objectgroup name="gameOverLayer" width="100" height="20">
   <object x="480" y="608" width="1152" height="32"/>
@@ -37,9 +34,9 @@
   <object x="2723" y="483" width="356" height="81"/>
  </objectgroup>
  <objectgroup name="collectibles" width="100" height="20">
-  <object x="596" y="384"/>
-  <object x="1208" y="354"/>
-  <object x="1576" y="358"/>
-  <object x="2026" y="356"/>
+  <object x="1136" y="146" width="48" height="36"/>
+  <object x="1424" y="282" width="50" height="40"/>
+  <object x="636" y="309" width="55" height="186"/>
  </objectgroup>
+ <imagelayer name="Image Layer 1" width="100" height="20" visible="0"/>
 </map>

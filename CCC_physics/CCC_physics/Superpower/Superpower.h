@@ -7,7 +7,7 @@
 #import "cocos2d.h"
 #import "Player.h"
 
-@interface Superpower : CCLayer
+@interface Superpower : NSObject
 
 @property(strong, nonatomic) NSString* name;
 @property(strong, nonatomic) CCAnimation* transformIntoAnimation; //transforms into superpower
@@ -17,16 +17,12 @@
 
 @property(strong, nonatomic) CCAnimation* walkAnimation; // walk transformation
 @property(strong, nonatomic) CCAnimation* crawlAnimation; //crawl transformation
-@property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
+//@property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
 @property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
 
-@property(strong, nonatomic) NSString *disabledIconImage;
-@property(strong, nonatomic) NSString* icon;
+
+@property(strong, nonatomic) UIImage* icon;
 @property(nonatomic) BOOL isLocked;
-@property(nonatomic) BOOL canWalk;
-@property(nonatomic) BOOL canCrawl;
-@property(nonatomic) BOOL canJump;
-@property(nonatomic) BOOL canFly;
 
 
 //- (void*) useSuperpower;
@@ -36,9 +32,9 @@
 
 - (CCAnimation*) makeWalkAnimation;
 - (CCAnimation*) makeCrawlAnimation;
-- (CCAnimation*) makeJumpAnimation;
+//- (CCAnimation*) makeJumpAnimation;
 - (CCAnimation*) makeIdleAnimation;
-- (CCAnimation*) spAnimation;
+
 
 - (void) jump: (Player*) player;
 - (void) moveRight: (Player*) player;

@@ -9,7 +9,7 @@
 
 @implementation MazeLayer
 @synthesize hud;
-@synthesize collectiblesArray;
+
 
 +(id) scene
 {
@@ -65,12 +65,11 @@
         NSLog(@"done creating game over tile");
     }
     if (uniqueID >= 4) {
-        GameObject *collectible= [[GameObject alloc] initWithFile:@"Apple.png"];
+        GameObject *collectible= [[GameObject alloc] init];
         [collectible setType:kGameObjectCollectible];
         bodyDef.userData = collectible;
         [self addChild:collectible];
-        collectible.scale = .5;
-        collectible.zOrder = 5000;
+        collectible.zOrder = -5000;
         
         NSLog(@"done creating collectible tile");
     }
@@ -190,7 +189,10 @@
         
 		CGPoint _point=ccp(x+w/2,y+h);
 		CGPoint _size=ccp(w,h);
-
+        CGRect testRect = CGRectMake(w, h, x, y);
+        [[UIColor redColor] set]; // red team color
+        UIRectFill(testRect); // this will fill the upper rect all red,
+        //        [self addChild:testRect];
         
 		[self makeBox2dObjAt:_point
 					withSize:_size
@@ -204,14 +206,6 @@
         
         num++;
 	}
-    
-//    collectiblesArray = [CCArray arrayWithCapacity:num-4];
-//    for(int i=0; i<num-4; i++)
-//    {
-//        for (objPoint in [objects objects])
-//        {
-//            GameObject *collectItem = [[GameObject alloc] initWithSpriteFrameName:@"Apple.png"];
-//        }}
     
 }
 -(void) removeBody:(b2Body*) b {
@@ -242,7 +236,7 @@
 -(void)initCaptain {
     
     NSLog(@"initizaling captain");
-    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing0001.png"];
     
     NSLog(@"init human");
     [humanSpriteSheet addChild:player];
@@ -254,6 +248,24 @@
     [player idle];
 
 }
+
+
+//-(void) initMenu {
+//    CCMenuItem *kangarooItem = [CCMenuItemImage
+//                                itemFromNormalImage:@"KangarooIcon.png"
+//                                selectedImage:@"KangarooIcon.png"
+//                                target:self selector:@selector(kangarooButtonTapped:)];
+//    CCMenu *menu= [CCMenu menuWithItems:kangarooItem, nil];
+//    menu.position = ccp(500, 300);
+//    [self addChild: menu z:100];
+//}
+//
+//-(void)kangarooButtonTapped:(id) sender{
+//    NSLog(@"kangaroo selected");
+//    //Superpower *power = [Superpower init];
+//    //    _human.superPowerAction = power.superpowerAction;
+//    [player superPower];
+//}
 
 
 -(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -276,6 +288,7 @@
     
 	return TRUE;
 }
+
 
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -309,28 +322,15 @@
         [self setupPhysicsWorld];
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"CCC_first.plist"];
         
-
-
-        //[[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
-       // [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
-//
-        [[CCTextureCache sharedTextureCache] addImage:@"CCC_first.png"];
-//        [[CCTextureCache sharedTextureCache] addImage:@"ActionsSheet.png"];
-        
-      //  humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
-      //  CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
-          humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"CCC_first.png"];
-
-       [humanSpriteSheet.texture setAliasTexParameters];
-        //[actionSpriteSheet.texture setAliasTexParameters];
-
+        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"CCC_first.png"];
+        [humanSpriteSheet.texture setAliasTexParameters];
         [self addChild:humanSpriteSheet];
-       // [self addChild:sheet2];
-
         [self drawCollisionTiles];
         [self initCaptain];
-
+//        [self initMenu];
+        // just added this in here brah
         [self drawGameOverTiles];
         [self drawEndTiles];
         [self drawCollectibles];
