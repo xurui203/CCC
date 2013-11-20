@@ -318,9 +318,9 @@
 
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
-    if (player.actionState ==kActionStateWalk) {
-        [player idle];
-    }
+//    if (player.actionState == kActionStateIdle) {
+//        [player idle];
+//    }
     NSSet *allTouches = [event allTouches];
         UITouch * currentTouch = [[allTouches allObjects] objectAtIndex:0];
         CGPoint location = [currentTouch locationInView: [currentTouch view]];
