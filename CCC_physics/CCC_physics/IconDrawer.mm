@@ -25,7 +25,7 @@
         [self addChild:BGmenu z:90];
         CCLOG(@"added iconDrawer");
         BGmenu.position = ccp(300, 340);
-        //        [self initMenu];
+//                [self initMenu];
         open = NO;
        
         
@@ -107,9 +107,10 @@
         
         [spIconMenu addChild:item];
     }
-    
+//    CCLOG(spIconMenu.);
     [spIconMenu alignItemsHorizontallyWithPadding:3.0];
-    spIconMenu.position = ccp(400, 285);
+    spIconMenu.position = ccp(300, 185);
+    spIconMenu.zOrder = 5000;
 //    [self addChild: spIconMenu z:100];
         spIconMenu.visible = NO;
 }

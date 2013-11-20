@@ -123,7 +123,7 @@
 	
 	// Run the intro Scene
 //	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
-    [SceneManager goMainMenu];
+    [SceneManager goOpeningSequence];
     
     
     CGSize screenSize = [CCDirector sharedDirector].winSize;

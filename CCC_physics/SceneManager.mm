@@ -14,6 +14,9 @@
 @implementation SceneManager
 
 
++(void) goOpeningSequence {
+    [SceneManager go:[OpeningSequence node]];
+}
 
 +(void) goLevelComplete {
     [SceneManager go:[LevelCompleteScene node]];

@@ -9,7 +9,8 @@
 @implementation MainMenu
 @synthesize iPad;
 
-- (void)onPlay: (id) sender {
+
+-(void) onPlay: (id) sender {
     [SceneManager goLevelSelect];
 }
 
@@ -22,40 +23,6 @@
     [SceneManager goLearningModulesMenu];
 }
 
-- (void)addBackButton {
-    
-    if (self.iPad) {
-        // Create a menu image button for iPad
-        CCMenuItemImage *goBack = [CCMenuItemImage itemFromNormalImage:@"Arrow-Normal-iPad.png"
-                                                         selectedImage:@"Arrow-Selected-iPad.png"
-                                                                target:self
-                                                              selector:@selector(onBack:)];
-        // Add menu image to menu
-        CCMenu *back = [CCMenu menuWithItems: goBack, nil];
-        
-        // position menu in the bottom left of the screen (0,0 starts bottom left)
-        back.position = ccp(64, 64);
-        
-        // Add menu to this scene
-        [self addChild: back];
-    }
-    else {
-        // Create a menu image button for iPhone / iPod Touch
-        CCMenuItemImage *goBack = [CCMenuItemImage itemFromNormalImage:@"Back Arrow.png"
-                                                         selectedImage:@"Back Arrow.png"
-                                                                target:self
-                                                              selector:@selector(onBack:)];
-        goBack.scale = .5;
-        // Add menu image to menu
-        CCMenu *back = [CCMenu menuWithItems: goBack, nil];
-        
-        // position menu in the bottom left of the screen (0,0 starts bottom left)
-        back.position = ccp(32, 32);
-        
-        // Add menu to this scene
-        [self addChild: back];
-    }
-}
 
 - (id)init {
     
@@ -74,38 +41,38 @@
         [CCMenuItemFont setFontName:@"Marker Felt"];
         [CCMenuItemFont setFontSize:smallFont];
         
-        // Create font based items ready for CCMenu
+        CCMenuItemImage *learn = [CCMenuItemImage itemFromNormalImage:@"learn.png"
+                                                        selectedImage:@"learn.png"
+                                                               target:self
+                                                             selector:@selector(onLearningModules:)];
+        learn.scale = .5;
+        learn.zOrder = -50;
         
-//
-//        CCMenuItemImage *learn = [CCMenuItemImage itemFromNormalImage:@"learn.png"
-//                                                        selectedImage:@"learn.png"
-//                                                               target:self
-//                                                             selector:@selector(onLearningModules:)];
-//        learn.scale = .5;
-//        learn.zOrder = -50;
-//        
-//        CCMenu *learnMenu = [CCMenu menuWithItems: learn, nil];
-//        [self addChild:learnMenu];
-//        learnMenu.position = ccp(0,0);
-//        
-        CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"Opening Page.png"
-                                                          selectedImage:@"Opening Page.png"
+        CCMenu *learnMenu = [CCMenu menuWithItems: learn, nil];
+        [self addChild:learnMenu];
+        learnMenu.position = ccp(0,0);
+        
+        CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"explore.png"
+                                                          selectedImage:@"explore.png"
                                                                  target:self
                                                                selector:@selector(onPlay:)];
-//
-//        
+        //
+        //
         explore.zOrder = -50;
         CCMenu *exploreMenu = [CCMenu menuWithItems: explore, nil];
         [self addChild:exploreMenu];
         explore.scale = .5;
-        exploreMenu.position = ccp(screenSize.width/2+70,screenSize.height/2-60);
+        exploreMenu.position = ccp(screenSize.width,screenSize.height/2);
         
-//        ADD BACKGROUND IMAGE
-//        CCSprite *background = [CCSprite spriteWithFile:@"Opening Page.png"];
-//        background.position = ccp(screenSize.width/2+70, screenSize.height/2-60);
-//        background.scale = .5;
-//        background.zOrder = -100;
-//        [self addChild:background];
+        //        ADD BACKGROUND IMAGE
+        CCSprite *background = [CCSprite spriteWithFile:@"mainBackground.jpg"];
+        background.position = ccp(screenSize.width/2, screenSize.height/2);
+        background.scale = .5;
+        background.zOrder = -100;
+        [self addChild:background];
+        
+        
+
         
         // Testing GameData
         
@@ -121,9 +88,6 @@
         //        gameData.sound = 0;
         
         [GameDataParser saveData:gameData];
-        
-        [CCVideoPlayer setDelegate: self];
-        [CCVideoPlayer playMovieWithFile:@"Opening Sequence.m4v"];
 
         
         self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
@@ -132,15 +96,6 @@
     return self;
 }
 
-- (void) moviePlaybackFinished {
-    //    [[CCDirector sharedDirector] startAnimation];
-    CCLOG(@"movieplaybackfinished");
-}
-
--(void) movieStartsPlaying {
-    [[CCDirector sharedDirector] stopAnimation];
-    CCLOG(@"moviestarts");
-}
 
 
 @end

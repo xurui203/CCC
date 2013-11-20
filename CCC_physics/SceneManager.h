@@ -22,6 +22,7 @@
 #import "GameOverLayer.h"
 #import "LevelCompleteScene.h"
 #import "LearningModulesMenu.h"
+#import "OpeningSequence.h"
 @interface SceneManager : NSObject {
     
 }
@@ -43,4 +44,5 @@
 +(void) goLevelComplete;
 +(void) goGameOverLayer;
 +(void) goLearningModulesMenu;
++(void) goOpeningSequence;
 @end

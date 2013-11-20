@@ -167,6 +167,7 @@
 		3E452F231824063800B4EFDE /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E452F221824063800B4EFDE /* RootViewController.mm */; };
 		3E452F291824063800B4EFDE /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E452F281824063800B4EFDE /* GLES-Render.mm */; };
 		3E452F2C1824063800B4EFDE /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E452F2B1824063800B4EFDE /* blocks.png */; };
+		3E4B0A1A183C56E4006F8D4F /* OpeningSequence.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */; };
 		3E97293B1828379A00F988F1 /* practice_map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E97293A1828379A00F988F1 /* practice_map.tmx */; };
 		3E97293D182837AC00F988F1 /* Boundaries.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E97293C182837AC00F988F1 /* Boundaries.png */; };
 		3EBD9144182AA47C00ABC143 /* LevelCompleteScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9143182AA47C00ABC143 /* LevelCompleteScene.mm */; };
@@ -1533,6 +1534,8 @@
 		3E452F281824063800B4EFDE /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		3E452F2A1824063800B4EFDE /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		3E452F2B1824063800B4EFDE /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		3E4B0A18183C56E4006F8D4F /* OpeningSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningSequence.h; sourceTree = "<group>"; };
+		3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpeningSequence.mm; sourceTree = "<group>"; };
 		3E97293A1828379A00F988F1 /* practice_map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = practice_map.tmx; sourceTree = "<group>"; };
 		3E97293C182837AC00F988F1 /* Boundaries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boundaries.png; sourceTree = "<group>"; };
 		3EBD9142182AA47C00ABC143 /* LevelCompleteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCompleteScene.h; sourceTree = "<group>"; };
@@ -3540,6 +3543,8 @@
 				3ECB2DFD18256F2B00C82177 /* ChapterSelect.mm */,
 				3EC0B9DB182554B8004CC08D /* MainMenu.h */,
 				3EC0B9DA182554B8004CC08D /* MainMenu.mm */,
+				3E4B0A18183C56E4006F8D4F /* OpeningSequence.h */,
+				3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */,
 				312341FF182A3F21001BC4B7 /* GameOverScene.h */,
 				31234200182A3F21001BC4B7 /* GameOverScene.mm */,
 			);
@@ -6048,6 +6053,7 @@
 				3E452E091824063500B4EFDE /* CCTMXLayer.m in Sources */,
 				3ECB2E1418257A9800C82177 /* Levels.m in Sources */,
 				3E452ECE1824063700B4EFDE /* b2Island.cpp in Sources */,
+				3E4B0A1A183C56E4006F8D4F /* OpeningSequence.mm in Sources */,
 				3ECB2EA01825866D00C82177 /* GB2ShapeCache.mm in Sources */,
 				3E452E441824063600B4EFDE /* MacWindow.m in Sources */,
 				3E452DC91824063400B4EFDE /* CCParticleBatchNode.m in Sources */,
