@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3114C8D7183C5F170091AE4F /* LearningModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModule.m */; };
+		3114C8D7183C5F170091AE4F /* LearningModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModule.mm */; };
 		31234201182A3F21001BC4B7 /* GameOverScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234200182A3F21001BC4B7 /* GameOverScene.mm */; };
 		31234209182A95B4001BC4B7 /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234208182A95B4001BC4B7 /* GameOverLayer.mm */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
@@ -1212,7 +1212,7 @@
 
 /* Begin PBXFileReference section */
 		3114C8D5183C5F170091AE4F /* LearningModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningModule.h; sourceTree = "<group>"; };
-		3114C8D6183C5F170091AE4F /* LearningModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningModule.m; sourceTree = "<group>"; };
+		3114C8D6183C5F170091AE4F /* LearningModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModule.mm; sourceTree = "<group>"; };
 		312341FF182A3F21001BC4B7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		31234200182A3F21001BC4B7 /* GameOverScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameOverScene.mm; sourceTree = "<group>"; };
 		31234207182A95B4001BC4B7 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = ../Sprites/GameOverLayer.h; sourceTree = "<group>"; };
@@ -4753,7 +4753,7 @@
 				3EBD9168182AE15400ABC143 /* LearningModulesMenu.h */,
 				3EBD9169182AE15400ABC143 /* LearningModulesMenu.mm */,
 				3114C8D5183C5F170091AE4F /* LearningModule.h */,
-				3114C8D6183C5F170091AE4F /* LearningModule.m */,
+				3114C8D6183C5F170091AE4F /* LearningModule.mm */,
 			);
 			name = "Learning Modules";
 			sourceTree = "<group>";
@@ -5993,7 +5993,7 @@
 				5B4D45211835D2A700F2855E /* SuperpowerManager.mm in Sources */,
 				3ECB2DF218256BE500C82177 /* TemplateDataParser.m in Sources */,
 				3ECB2DEF18256BE500C82177 /* GameDataParser.m in Sources */,
-				3114C8D7183C5F170091AE4F /* LearningModule.m in Sources */,
+				3114C8D7183C5F170091AE4F /* LearningModule.mm in Sources */,
 				3E452DB31824063400B4EFDE /* CCLabelTTF.m in Sources */,
 				3E452E641824063600B4EFDE /* ZipUtils.m in Sources */,
 				3E452DCF1824063400B4EFDE /* CCParticleSystem.m in Sources */,

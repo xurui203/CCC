@@ -112,7 +112,7 @@
     spIconMenu.position = ccp(300, 185);
     spIconMenu.zOrder = 5000;
 //    [self addChild: spIconMenu z:100];
-        spIconMenu.visible = NO;
+        spIconMenu.visible = YES;
 }
 
 -(Superpower *) iconButtonTapped:(id) sender
@@ -123,7 +123,6 @@
     CCMenuItemFont *itm = (CCMenuItemFont *)sender;
        Superpower *s =  (Superpower *)itm.userData;
     [captain transform: s];
-    
     
 }
 

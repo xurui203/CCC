@@ -17,7 +17,7 @@
 
 @property(strong, nonatomic) NSString* animationFile;
 @property(strong, nonatomic) NSString* animalPicture;
-@property(strong, nonatomic) BOOL isLocked;
+@property(nonatomic) BOOL isLocked;
 @property(nonatomic) BOOL hasBeenWatched;
 
 
