@@ -7,9 +7,11 @@
 #import "ContactListener.h"
 #import "HudLayer.h"
 #import "SimpleAudioEngine.h"
+#import "IconDrawer.h"
 #import "CocosDenshion.h"
 
 @class HudLayer;
+@class IconDrawer;
 @interface MazeLayer : CCLayer <DirectionPadDelegate> {
     CCTMXTiledMap *_tileMap;
     CCSpriteBatchNode *_actors;
@@ -21,6 +23,9 @@
     NSMutableDictionary *_endTilesDictionary;
     NSMutableArray *_collisionArray;
     CCSpriteBatchNode *humanSpriteSheet;
+    CCLayer *actionSpriteSheet;
+    CCTextureCache *sharedCache;
+
     CGPoint firstTouch;
     CGPoint lastTouch;
     HudLayer *hud;
@@ -30,8 +35,8 @@
 -(void) removeBody:(b2Body*) b;;
 
 @property(nonatomic)HudLayer *hud;
-@property(nonatomic)CCArray *collisions;
-
+@property(nonatomic)CCArray *collectiblesArray;
+@property(nonatomic)IconDrawer *drawer;
 -(CGRect)collisionBoundingBox;
 
 +(id) scene;

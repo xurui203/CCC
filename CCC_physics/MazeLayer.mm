@@ -9,6 +9,38 @@
 
 @implementation MazeLayer
 @synthesize hud;
+@synthesize collectiblesArray;
+
+
+
+
+-(id)init {
+    if ((self = [super init])) {
+        self.isTouchEnabled = YES;
+        [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
+        
+        [self setupPhysicsWorld];
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
+        [self initTileMap];
+        
+        NSLog(@"LOADING PLISTS!!!");
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
+        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
+        [humanSpriteSheet.texture setAliasTexParameters];
+        [self addChild:humanSpriteSheet z:-5];
+        
+        [self drawCollisionTiles];
+        [self initCaptain];
+        
+        [self drawGameOverTiles];
+        [self drawEndTiles];
+        [self drawCollectibles];
+        [self scheduleUpdate];
+        numCollected = 0;
+        
+    }
+    return self;
+}
 
 
 +(id) scene
@@ -65,11 +97,12 @@
         NSLog(@"done creating game over tile");
     }
     if (uniqueID >= 4) {
-        GameObject *collectible= [[GameObject alloc] init];
+        GameObject *collectible= [[GameObject alloc] initWithFile:@"Apple.png"];
         [collectible setType:kGameObjectCollectible];
         bodyDef.userData = collectible;
         [self addChild:collectible];
-        collectible.zOrder = -5000;
+        collectible.scale = .5;
+        collectible.zOrder = 5000;
         
         NSLog(@"done creating collectible tile");
     }
@@ -189,10 +222,7 @@
         
 		CGPoint _point=ccp(x+w/2,y+h);
 		CGPoint _size=ccp(w,h);
-        CGRect testRect = CGRectMake(w, h, x, y);
-        [[UIColor redColor] set]; // red team color
-        UIRectFill(testRect); // this will fill the upper rect all red,
-        //        [self addChild:testRect];
+
         
 		[self makeBox2dObjAt:_point
 					withSize:_size
@@ -206,6 +236,14 @@
         
         num++;
 	}
+    
+//    collectiblesArray = [CCArray arrayWithCapacity:num-4];
+//    for(int i=0; i<num-4; i++)
+//    {
+//        for (objPoint in [objects objects])
+//        {
+//            GameObject *collectItem = [[GameObject alloc] initWithSpriteFrameName:@"Apple.png"];
+//        }}
     
 }
 -(void) removeBody:(b2Body*) b {
@@ -236,10 +274,12 @@
 -(void)initCaptain {
     
     NSLog(@"initizaling captain");
-    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing0001.png"];
     
-    NSLog(@"init human");
+    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+    
+    NSLog(@"adding player to spritesheet");
     [humanSpriteSheet addChild:player];
+    NSLog(@"didnt die at add player to humanspritesheet...");
 
     player.scale = 0.7;
     player.position = ccp(100, 400);
@@ -248,24 +288,6 @@
     [player idle];
 
 }
-
-
-//-(void) initMenu {
-//    CCMenuItem *kangarooItem = [CCMenuItemImage
-//                                itemFromNormalImage:@"KangarooIcon.png"
-//                                selectedImage:@"KangarooIcon.png"
-//                                target:self selector:@selector(kangarooButtonTapped:)];
-//    CCMenu *menu= [CCMenu menuWithItems:kangarooItem, nil];
-//    menu.position = ccp(500, 300);
-//    [self addChild: menu z:100];
-//}
-//
-//-(void)kangarooButtonTapped:(id) sender{
-//    NSLog(@"kangaroo selected");
-//    //Superpower *power = [Superpower init];
-//    //    _human.superPowerAction = power.superpowerAction;
-//    [player superPower];
-//}
 
 
 -(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -288,7 +310,6 @@
     
 	return TRUE;
 }
-
 
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -314,32 +335,7 @@
 
 
 
--(id)init {
-    if ((self = [super init])) {
-        self.isTouchEnabled = YES;
-        [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
 
-        [self setupPhysicsWorld];
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
-        [self initTileMap];
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"CCC_first.plist"];
-        
-        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"CCC_first.png"];
-        [humanSpriteSheet.texture setAliasTexParameters];
-        [self addChild:humanSpriteSheet];
-        [self drawCollisionTiles];
-        [self initCaptain];
-//        [self initMenu];
-        // just added this in here brah
-        [self drawGameOverTiles];
-        [self drawEndTiles];
-        [self drawCollectibles];
-        [self scheduleUpdate];
-        numCollected = 0;
-
-    }
-    return self;
-}
 -(void)update:(ccTime)dt {
 //    [player update:dt];
 //    float posX = MAX(_tileMap.mapSize.width * _tileMap.tileSize.width - player.centerToSides, MAX(player.centerToSides, player.desiredPosition.x));

@@ -11,7 +11,7 @@
 
 
 @implementation GameScene  
-@synthesize iPad, device;
+@synthesize iPad, device, spM;
 
 - (void) setupPhysicsWorld {
     
@@ -120,7 +120,12 @@
         //  Put a 'back' button in the scene
         [self addBackButton];
         [self initMenu];
+        
+
+        
+        
         [self createScene];
+        spM = [[SuperpowerManager alloc] init];
         [self setupPhysicsWorld];
 //        [self limitWorldToScreen];
         
@@ -132,14 +137,14 @@
         [self addChild:background];
         
         
-        
+        //Initialize a superpower manager instance
+ 
         // schedule Box2D updates
 //        [self schedule: @selector(tick:)];
 
     }
     return self;
 }
-
 
 -(void) createScene {
     
@@ -148,10 +153,14 @@
     _hudLayer = [HudLayer node];
     [self addChild:_hudLayer z:1];
     
-    _hudLayer.dPad.delegate = _mazeLayer;
+    
+    _icondrawer = [IconDrawer node];
+    [self addChild:_icondrawer z:2];
     _mazeLayer.hud = _hudLayer;
     
+    _mazeLayer.drawer = _icondrawer;
 }
+
 +(CCScene *) scene
 {
 	// 'scene' is an autorelease object.
@@ -160,7 +169,7 @@
 	// 'layer' is an autorelease object.
 	GameScene *layer = [GameScene node];
 	
-	// add layer as a child to scene
+	// add layer as a chisld to scene
 	[scene addChild: layer];
 	
 	// return the scene
