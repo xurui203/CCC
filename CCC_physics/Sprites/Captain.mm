@@ -9,17 +9,11 @@
 
 -(id)init {
     NSLog(@"CAPTAIN: INIT");
-   // if ((self = [super initWithFile:@"Lat Capt Human-Standing001.png"])){
     if (self = [super init]){
 
         NSLog(@"init human");
-//        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
-//        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
-//        [humanSpriteSheet.texture setAliasTexParameters];
-//        //[self addChild:humanSpriteSheet z:-5];
-//        [humanSpriteSheet addChild:self];
 
-        //Set default suerpower to captain
+        //Set default superpower to captain
         self.currentSuperpower = [CaptainSP alloc];
         [self.currentSuperpower init];
         
@@ -36,7 +30,7 @@
         
         self.jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.jumpAnimation], nil];
         
-        self.superPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.spAnimation], nil];
+        self.specialPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.spAnimation], nil];
         
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
@@ -60,7 +54,7 @@
     
     NSLog(@"old position is %f", self.position.x);
     
-    if (_actionState == kActionStateSuperPower){
+    if (_actionState == kActionStateSpecialAction){
         NSLog(@"JUMP EXECUTING");
         [super kangarooJump];
     }
@@ -83,15 +77,15 @@
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation]]]; //Transform into superpower state
     self.currentSuperpower = superpower;
     if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
-        _actionState = kActionStateSuperPower;
+        _actionState = kActionStateSpecialAction;
     }
 }
 
--(void)superPower {
-    if (_actionState == kActionStateIdle || _actionState == kActionStateSuperPower){ //|| _actionState == kActionStateWalk) {
+-(void)specialAction {
+    if (_actionState!= kActionStateSpecialAction){ //|| _actionState == kActionStateWalk) {
         [self stopAllActions];
-        [self runAction:_superPowerAction];
-        _actionState = kActionStateSuperPower;
+        [self runAction:_specialPowerAction];
+        _actionState = kActionStateSpecialAction;
         NSLog(@"state changed to superpower");
         
     }
@@ -101,7 +95,6 @@
 
 
 -(void)walk {
-    //if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower || _actionState == kActionStateCrawl) {
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){
         [self stopAllActions];
@@ -116,7 +109,6 @@
 }
 
 -(void)jump {
-    //if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower || _actionState == kActionStateCrawl) {
     if (!self.currentSuperpower.canJump) return;
     if (_actionState != kActionStateJump){
         [self stopAllActions];
@@ -130,17 +122,6 @@
     }
 }
 -(void)crawl {
-//    if (_actionState == kActionStateIdle|| _actionState == kActionStateSuperPower ||_actionState == kActionStateWalk) {
-//        [self stopAllActions];
-//        [self runAction:_crawlAction];
-//        _actionState = kActionStateCrawl;
-//        self.position = ccp(self.position.x, self.position.y-200);
-//    }
-//    
-//    if (_actionState == kActionStateCrawl) {
-//        _velocity = ccp(2.0, 0);
-//        [self.currentSuperpower moveRight:self];
-//    }
     if (!self.currentSuperpower.canCrawl) return;
 
     if (_actionState != kActionStateCrawl){
@@ -157,8 +138,9 @@
 
 -(void)update:(ccTime)dt {
     NSLog(@"captain updating");
-  //  if (_actionState == kActionStateWalk | _actionState == kActionStateSuperPower) {
-        _desiredPosition = ccpAdd(position_, ccpMult(_velocity, dt));
-//    }
+    if (_actionState != kActionStateIdle){
+    _desiredPosition = ccpAdd(position_, ccpMult(_velocity, dt));
+    }
+
 }
 @end

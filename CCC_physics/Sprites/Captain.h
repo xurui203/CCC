@@ -15,7 +15,7 @@
 
 //actions
 @property(nonatomic,strong) CCAction *idleAction;
-@property(nonatomic,strong)id superPowerAction;
+@property(nonatomic,strong)id specialPowerAction;
 @property(nonatomic,strong)id walkAction;
 @property(nonatomic,strong)id failAction;
 @property(nonatomic,strong)id crawlAction;
