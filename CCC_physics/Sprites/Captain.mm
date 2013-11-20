@@ -62,6 +62,8 @@
     else {//(_actionState != kActionStateIdle){
         NSLog(@"STATE IS NOT IDLE");
         [self stopAllActions];
+        _idleAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.idleAnimation], nil];
+
         [self runAction:_idleAction];
         _actionState = kActionStateIdle;
         _velocity = CGPointZero;
@@ -72,10 +74,13 @@
 - (void)transform:(Superpower*) superpower{
     
     [self stopAllActions];
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation]]]; //Transform from current state
     
     [self runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation]]]; //Transform into superpower state
     self.currentSuperpower = superpower;
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+
     if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
         _actionState = kActionStateSpecialAction;
     }
@@ -98,6 +103,8 @@
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){
         [self stopAllActions];
+        _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.walkAnimation], nil];
+
         [self runAction:_walkAction];
         _actionState = kActionStateWalk;
     }
@@ -106,20 +113,26 @@
         _velocity = ccp(2.0, 0);
         [self.currentSuperpower moveRight:self];
     }
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+
 }
 
 -(void)jump {
     if (!self.currentSuperpower.canJump) return;
     if (_actionState != kActionStateJump){
         [self stopAllActions];
+        _jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.jumpAnimation], nil];
+
         [self runAction:_jumpAction];
         _actionState = kActionStateJump;
     }
     
     if (_actionState == kActionStateWalk) {
         _velocity = ccp(2.0, 0);
-        [self.currentSuperpower moveRight:self];
+        [self.currentSuperpower jump:self];
     }
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+
 }
 -(void)crawl {
     if (!self.currentSuperpower.canCrawl) return;
@@ -134,6 +147,8 @@
         _velocity = ccp(2.0, 0);
         [self.currentSuperpower crawl:self];
     }
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+
 }
 
 -(void)update:(ccTime)dt {

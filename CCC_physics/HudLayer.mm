@@ -38,11 +38,11 @@
 {
     // 1 - Change current health
     currentHealth = health;
-    CCLOG(@"setHealth");
-    CCLOG(@"%d", currentHealth);
+  //  CCLOG(@"setHealth");
+  //  CCLOG(@"%d", currentHealth);
     NSString* newSprite = [NSString stringWithFormat:@"Energy Score Bar00%d.png", currentHealth];
     
-    CCLOG(@"Energy Score Bar00%d.png", currentHealth);
+  //  CCLOG(@"Energy Score Bar00%d.png", currentHealth);
         CCSpriteFrameCache* cache = [CCSpriteFrameCache sharedSpriteFrameCache];
         [energyBar setDisplayFrame:[cache spriteFrameByName:newSprite]];
     energyBar.position = ccp(50, 300);

@@ -32,8 +32,8 @@
     if (health > MAX_HEALTH) {
         health = MAX_HEALTH;
     }
-    CCLOG(@"updating health");
-    CCLOG(@"%d", health);
+   // CCLOG(@"updating health");
+   // CCLOG(@"%d", health);
 }
 
 

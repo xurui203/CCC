@@ -48,10 +48,11 @@
 @property(nonatomic,assign)float centerToBottom;
 
 //action methods
--(void)idle;
 -(void)superPower;//attack
 //-(void)hurtWithDamage:(float)damage;
+-(void)idle;
 -(void)walk;
 -(void) crawl;
+-(void) jump;
 -(void) transform:(Superpower *)sp;
 @end

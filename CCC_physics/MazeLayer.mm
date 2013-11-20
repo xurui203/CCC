@@ -297,14 +297,19 @@
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
     firstTouch = location;
-    if (location.x <=screenSize.width && location.y >= 150) {
+    if (location.x <= screenSize.width && location.y >= 150) {
         [player walk];
     }
-    if (location.x <= screenSize.width && location.y < 150) {
+    if (location.y < 100) {
         //player.position = ccp(player.position.x, player.position.y-50);
         [player crawl];
         ;
-
+    }
+    if (location.x >= screenSize.width*(3/4) && location.y > 250) {
+        //player.position = ccp(player.position.x, player.position.y-50);
+        [player jump];
+        ;
+        
     }
     // [player jump];
     
@@ -356,12 +361,12 @@
         //        }
         numCollected ++;
         [player updateHealth];
-        CCLOG(@"updating player health");
+        //CCLOG(@"updating player health");
         //    world->DestroyBody(contactListener->collectible);
     }
     [hud setHealth:player.health];
     
-    CCLOG(@"player health: %d", player.health);
+   // CCLOG(@"player health: %d", player.health);
     
 
     
