@@ -72,7 +72,7 @@
 
 //Use this method to reset superpower. This method should be called whenever an icon is clicked from the superpower menu.
 - (void)transform:(Superpower*) superpower{
-    
+    if ([self numberOfRunningActions] ==0){
     [self stopAllActions];
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
     [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation], nil]]; //Transform from current state
@@ -81,8 +81,7 @@
     self.currentSuperpower = superpower;
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
 
-    if (superpower.name != [NSString stringWithString: (NSString* )@"captain"]){
-        _actionState = kActionStateSpecialAction;
+    _actionState = kActionStateIdle;
     }
 }
 
@@ -101,7 +100,7 @@
 
 -(void)walk {
     if (!self.currentSuperpower.canWalk) return;
-    if (_actionState != kActionStateWalk){
+    if (_actionState != kActionStateWalk && [self numberOfRunningActions] ==0){
         [self stopAllActions];
         _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.walkAnimation], nil];
         [self runAction:_walkAction];
@@ -130,12 +129,13 @@
         [self.currentSuperpower jump:self];
     }
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+    _actionState = kActionStateIdle;
 
 }
 -(void)crawl {
     if (!self.currentSuperpower.canCrawl) return;
 
-    if (_actionState != kActionStateCrawl){
+    if (_actionState != kActionStateCrawl && [self numberOfRunningActions] ==0){
         [self stopAllActions];
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;
@@ -146,6 +146,7 @@
         [self.currentSuperpower crawl:self];
     }
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+    _actionState = kActionStateIdle;
 
 }
 
