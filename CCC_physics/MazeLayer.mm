@@ -26,13 +26,7 @@
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
         humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
-<<<<<<< HEAD
         [self addChild:humanSpriteSheet z:2];
-
-=======
-        [self addChild:humanSpriteSheet z:3];
-        
->>>>>>> d19cef126ded972e09b60805e5728b4ce46098ce
         [self drawCollisionTiles];
         [self initCaptain];
         
@@ -302,22 +296,20 @@
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
     firstTouch = location;
-<<<<<<< HEAD
-    SuperpowerManager *spm = [SuperpowerManager alloc];
-    NSMutableArray *SPArray = spm.iconsArrayCopy;
+//    SuperpowerManager *spm = [SuperpowerManager alloc];
+//    NSMutableArray *SPArray = spm.iconsArrayCopy;
+//    
+//    for (int x=0; x<SPArray.count; x++) {
+//
+//        CCSprite *icon = [SPArray objectAtIndex:x];
+//        
+//        if (CGRectContainsPoint(icon.boundingBox, location)) {
+//            CCLOG(@"touched icon");
+//        }
+//    }
     
-    for (int x=0; x<SPArray.count; x++) {
-
-        CCSprite *icon = [SPArray objectAtIndex:x];
-        
-        if (CGRectContainsPoint(icon.boundingBox, location)) {
-            CCLOG(@"touched icon");
-        }
-    }
-    
-=======
     if (player.actionState == kActionStateIdle){
->>>>>>> d19cef126ded972e09b60805e5728b4ce46098ce
+
     if (location.x <= screenSize.width && location.y >= 150) {
         [player walk];
     }
