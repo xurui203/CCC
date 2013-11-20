@@ -43,6 +43,18 @@
     return self;
 }
 
+
+-(CCAnimation*) spAnimation{
+    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:31];
+    for (int k = 1; k <= 31; k++  ) {
+        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Lat Capt KL-Jumping00%d.png", k]];
+        [superPowerActionFrames addObject:frame];
+    }
+    CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
+    return actionAnimation;
+}
+
+
 # define NUM_TRANSFORM_INTO 1
 
 - (CCAnimation *) makeTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png

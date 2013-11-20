@@ -36,6 +36,8 @@
         
         self.jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.jumpAnimation], nil];
         
+        self.superPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.spAnimation], nil];
+        
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
         self.centerToSides = 29.0;

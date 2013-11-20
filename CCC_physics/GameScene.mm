@@ -97,6 +97,7 @@
     NSLog(@"kangaroo selected");
     //Superpower *power = [Superpower init];
     //    _human.superPowerAction = power.superpowerAction;
+    _mazeLayer.getPlayer.currentSuperpower = [[Kangaroo alloc] init];
     [_mazeLayer.getPlayer superPower];
 }
 
