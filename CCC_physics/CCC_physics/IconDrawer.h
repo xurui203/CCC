@@ -24,14 +24,19 @@
     NSArray *SuperpowersToDisplayArray;
     bool open;
     Captain *captain;
+   
+    CCSprite *iconDrawer;
 }
 -(void) initMenu: (NSArray *) spArray;
 
 
 //INSTANCE VARIBABLES (PUBLIC AKA OTHER CLASSES CAN USE) - MUST BE SYNTHESIZED
-
-@property (nonatomic) CCMenu *BGmenu;
-@property (nonatomic) CCMenu *spIconMenu;
-@property (nonatomic) CCMenuItemImage *iconDrawerImage;
-
+@property (strong, nonatomic) NSMutableArray *SPMutableArray;
+@property (strong, nonatomic) CCMenu *BGmenu;
+@property (strong, nonatomic) CCMenu *spIconMenu;
+@property (strong, nonatomic) CCMenuItemImage *iconDrawerImage;
+@property (strong, nonatomic) NSMutableArray *iconsArray;
+-(void) addSuperpowersToDrawer: (NSMutableArray *)SPArray;
+-(NSMutableArray *) getIconsArray;
+- (CCMenu*) getIconsMenu;
 @end

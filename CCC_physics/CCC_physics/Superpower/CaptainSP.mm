@@ -27,7 +27,7 @@
         
         NSString *myName = @"captainSP";
         self.name = myName;
-        
+         self.LMVideo =  @"Opening Sequence.mov";
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
         self.canJump = TRUE;
@@ -36,7 +36,7 @@
 //        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
 //        CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
 //        [self addChild:sheet2];
-        self.icon = @"CCC Icon.png";
+        self.icon = @"CCC icon.png";
         NSLog(@"Making transformation animations");
 
     }

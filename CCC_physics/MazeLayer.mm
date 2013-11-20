@@ -22,13 +22,12 @@
         [self setupPhysicsWorld];
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap];
-        
         NSLog(@"LOADING PLISTS!!!");
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
         humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
         [self addChild:humanSpriteSheet z:2];
-        
+
         [self drawCollisionTiles];
         [self initCaptain];
         
@@ -279,6 +278,7 @@
     
     NSLog(@"adding player to spritesheet");
     [humanSpriteSheet addChild:player];
+    player.zOrder = 500;
     NSLog(@"didnt die at add player to humanspritesheet...");
 
     player.scale = 0.4;
@@ -297,6 +297,18 @@
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
     firstTouch = location;
+    SuperpowerManager *spm = [SuperpowerManager alloc];
+    NSMutableArray *SPArray = spm.iconsArrayCopy;
+    
+    for (int x=0; x<SPArray.count; x++) {
+
+        CCSprite *icon = [SPArray objectAtIndex:x];
+        
+        if (CGRectContainsPoint(icon.boundingBox, location)) {
+            CCLOG(@"touched icon");
+        }
+    }
+    
     if (location.x <= screenSize.width && location.y >= 150) {
         [player walk];
     }

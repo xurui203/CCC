@@ -22,6 +22,7 @@
         self.isLocked = YES;
         self.spAnimation = self.makeJumpAnimation;
         self.disabledIconImage = @"Kangaroo Icon.png";
+        self.LMVideo =  @"Opening Sequence.mov";
     }
     return self;
 }

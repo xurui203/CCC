@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3114C8D7183C5F170091AE4F /* LearningModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModule.mm */; };
+		3114C8D7183C5F170091AE4F /* LearningModuleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */; };
 		31234201182A3F21001BC4B7 /* GameOverScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234200182A3F21001BC4B7 /* GameOverScene.mm */; };
 		31234209182A95B4001BC4B7 /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234208182A95B4001BC4B7 /* GameOverLayer.mm */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
@@ -169,6 +169,7 @@
 		3E452F291824063800B4EFDE /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E452F281824063800B4EFDE /* GLES-Render.mm */; };
 		3E452F2C1824063800B4EFDE /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E452F2B1824063800B4EFDE /* blocks.png */; };
 		3E4B0A1A183C56E4006F8D4F /* OpeningSequence.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */; };
+		3E4B0A26183D091F006F8D4F /* LearningModuleLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B0A25183D091E006F8D4F /* LearningModuleLayer.mm */; };
 		3E97293B1828379A00F988F1 /* practice_map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E97293A1828379A00F988F1 /* practice_map.tmx */; };
 		3E97293D182837AC00F988F1 /* Boundaries.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E97293C182837AC00F988F1 /* Boundaries.png */; };
 		3EBD9144182AA47C00ABC143 /* LevelCompleteScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9143182AA47C00ABC143 /* LevelCompleteScene.mm */; };
@@ -1211,8 +1212,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3114C8D5183C5F170091AE4F /* LearningModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningModule.h; sourceTree = "<group>"; };
-		3114C8D6183C5F170091AE4F /* LearningModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModule.mm; sourceTree = "<group>"; };
+		3114C8D5183C5F170091AE4F /* LearningModuleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningModuleScene.h; sourceTree = "<group>"; };
+		3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModuleScene.mm; sourceTree = "<group>"; };
 		312341FF182A3F21001BC4B7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		31234200182A3F21001BC4B7 /* GameOverScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameOverScene.mm; sourceTree = "<group>"; };
 		31234207182A95B4001BC4B7 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = ../Sprites/GameOverLayer.h; sourceTree = "<group>"; };
@@ -1539,6 +1540,8 @@
 		3E452F2B1824063800B4EFDE /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
 		3E4B0A18183C56E4006F8D4F /* OpeningSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningSequence.h; sourceTree = "<group>"; };
 		3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpeningSequence.mm; sourceTree = "<group>"; };
+		3E4B0A24183D091E006F8D4F /* LearningModuleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningModuleLayer.h; sourceTree = "<group>"; };
+		3E4B0A25183D091E006F8D4F /* LearningModuleLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModuleLayer.mm; sourceTree = "<group>"; };
 		3E97293A1828379A00F988F1 /* practice_map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = practice_map.tmx; sourceTree = "<group>"; };
 		3E97293C182837AC00F988F1 /* Boundaries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boundaries.png; sourceTree = "<group>"; };
 		3EBD9142182AA47C00ABC143 /* LevelCompleteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCompleteScene.h; sourceTree = "<group>"; };
@@ -4752,8 +4755,10 @@
 			children = (
 				3EBD9168182AE15400ABC143 /* LearningModulesMenu.h */,
 				3EBD9169182AE15400ABC143 /* LearningModulesMenu.mm */,
-				3114C8D5183C5F170091AE4F /* LearningModule.h */,
-				3114C8D6183C5F170091AE4F /* LearningModule.mm */,
+				3E4B0A24183D091E006F8D4F /* LearningModuleLayer.h */,
+				3E4B0A25183D091E006F8D4F /* LearningModuleLayer.mm */,
+				3114C8D5183C5F170091AE4F /* LearningModuleScene.h */,
+				3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */,
 			);
 			name = "Learning Modules";
 			sourceTree = "<group>";
@@ -5993,7 +5998,7 @@
 				5B4D45211835D2A700F2855E /* SuperpowerManager.mm in Sources */,
 				3ECB2DF218256BE500C82177 /* TemplateDataParser.m in Sources */,
 				3ECB2DEF18256BE500C82177 /* GameDataParser.m in Sources */,
-				3114C8D7183C5F170091AE4F /* LearningModule.mm in Sources */,
+				3114C8D7183C5F170091AE4F /* LearningModuleScene.mm in Sources */,
 				3E452DB31824063400B4EFDE /* CCLabelTTF.m in Sources */,
 				3E452E641824063600B4EFDE /* ZipUtils.m in Sources */,
 				3E452DCF1824063400B4EFDE /* CCParticleSystem.m in Sources */,
@@ -6059,6 +6064,7 @@
 				3E452E091824063500B4EFDE /* CCTMXLayer.m in Sources */,
 				3ECB2E1418257A9800C82177 /* Levels.m in Sources */,
 				3E452ECE1824063700B4EFDE /* b2Island.cpp in Sources */,
+				3E4B0A26183D091F006F8D4F /* LearningModuleLayer.mm in Sources */,
 				3E4B0A1A183C56E4006F8D4F /* OpeningSequence.mm in Sources */,
 				3ECB2EA01825866D00C82177 /* GB2ShapeCache.mm in Sources */,
 				3E452E441824063600B4EFDE /* MacWindow.m in Sources */,

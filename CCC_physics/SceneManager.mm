@@ -13,6 +13,10 @@
 
 @implementation SceneManager
 
++(void) goLearningModuleScene {
+    [SceneManager go:[LearningModuleScene node]];
+}
+
 
 +(void) goOpeningSequence {
     [SceneManager go:[OpeningSequence node]];

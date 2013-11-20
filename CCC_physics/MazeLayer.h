@@ -25,7 +25,6 @@
     CCSpriteBatchNode *humanSpriteSheet;
     CCLayer *actionSpriteSheet;
     CCTextureCache *sharedCache;
-
     CGPoint firstTouch;
     CGPoint lastTouch;
     HudLayer *hud;

@@ -10,8 +10,11 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "Player.h"
+#import "SceneManager.h"
+#import "LearningModuleLayer.h"
+#import "CCVideoPlayer.h"
 
-@interface LearningModule : CCLayer
+@interface LearningModuleScene : CCLayer <CCVideoPlayerDelegate>
 
 @property(strong, nonatomic) NSString* moduleName;
 
@@ -19,6 +22,10 @@
 @property(strong, nonatomic) NSString* animalPicture;
 @property(nonatomic) BOOL isLocked;
 @property(nonatomic) BOOL hasBeenWatched;
+
+@property (nonatomic, assign) BOOL iPad;
+@property (nonatomic, assign) NSString *device;
+@property (nonatomic)LearningModuleLayer *LMLayer;
 
 
 @end

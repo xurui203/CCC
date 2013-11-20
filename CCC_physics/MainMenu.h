@@ -8,7 +8,7 @@
 #import "SceneManager.h"
 
 @interface MainMenu : CCLayer {
-    
+
 }
 
 @property (nonatomic, assign) BOOL iPad;

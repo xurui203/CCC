@@ -10,12 +10,13 @@
 @class Player;
 @implementation SuperpowerManager
 //
-@synthesize superpowers, currentSuperPower, iconDrawer, initiatedSPs;
+@synthesize superpowers, currentSuperPower, iconDrawer, initiatedSPs, iconsArrayCopy;
 
 -(id) init {
     if ([super init]) {
         //add new superpower classes to this array
         superpowers = [[NSMutableArray alloc] initWithObjects: @"CaptainSP", @"Kangaroo", nil];
+
         
         int spNum = 3;
         initiatedSPs = [[NSMutableArray alloc] initWithCapacity:spNum];
@@ -35,19 +36,13 @@
         NSLog(@"array: %@", superpowers);
     }
     for (int x=0; x< 2; x++) {
-//        o = [self initSP: (NSString *)[superpowers objectAtIndex:x]];
+
         //initialize an instance of the selected superpower class
         CCLOG([superpowers objectAtIndex:x]);
+        
         NSString *tempClassName = [superpowers objectAtIndex:x];
         o = [[NSClassFromString(tempClassName) alloc] init];
-//        o = [[[superpowers objectAtIndex:x] alloc] init];
-        
-//        o = [[superpowers[x] alloc] init];
-        //add the instance variable to initiatedSPs array
-//        [initiatedSPs addObject:o];
-//        Superpower* tempSuperpower = [initiatedSPs objectAtIndex:x];
-//        tempSuperpower = o;
-        
+        [initiatedSPs addObject:o];
     }
     
     if( o != nullptr )
@@ -61,7 +56,13 @@
     
     iconDrawer = [[IconDrawer alloc] init];
     [iconDrawer initMenu:initiatedSPs];
+    
+    iconsArrayCopy = [iconDrawer getIconsArray];
 //    return o;
+}
+
+-(CCMenu *) getIconsMenu {
+    return [iconDrawer getIconsMenu];
 }
 
 @end

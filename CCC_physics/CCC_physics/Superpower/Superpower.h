@@ -29,6 +29,8 @@
 @property(nonatomic) BOOL canFly;
 
 
+@property(strong, nonatomic) NSString* LMVideo;
+
 //- (void*) useSuperpower;
 
 - (CCAnimation*) makeTransformIntoAnimation;

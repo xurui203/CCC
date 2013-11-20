@@ -21,6 +21,8 @@
     NSArray *superpowersArray;
     Kangaroo *kangaroo;
     CaptainSP *captainSP;
+
+
 }
 
 -(Superpower*) initSP: (NSString *) s;
@@ -29,5 +31,6 @@
 @property(strong, nonatomic) NSMutableArray* superpowers;
 @property(strong, nonatomic) IconDrawer *iconDrawer;
 @property(strong, nonatomic) NSMutableArray* initiatedSPs;
-
+@property(strong, nonatomic) NSMutableArray* iconsArrayCopy;
+- (CCMenu *) getIconsMenu;
 @end
