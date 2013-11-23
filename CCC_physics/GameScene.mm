@@ -116,7 +116,7 @@
         
         
         [self createScene];
-        spM = [[SuperpowerManager alloc] init];
+         spM = [SuperpowerManager sharedManager];
         [self setupPhysicsWorld];
 //        [self limitWorldToScreen];
         

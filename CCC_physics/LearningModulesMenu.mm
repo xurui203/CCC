@@ -84,7 +84,7 @@
         //  Put a 'back' button in the scene
         [self addBackButton];
         
-        spM = [[SuperpowerManager alloc] init];
+        spM = [SuperpowerManager sharedManager];
         menuu = [spM getIconsMenu];
         menuu.zOrder = 5000;
 //        [self addChild:menuu];

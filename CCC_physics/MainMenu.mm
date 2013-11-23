@@ -28,6 +28,7 @@
     
     if( (self=[super init])) {
         
+        NSLog(@"MAIN MENU INIT");
         // Determine Device
         self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
         
@@ -36,6 +37,8 @@
         
         // Calculate Large Font Size
         int smallFont = screenSize.height / kFontScaleSmall;
+    
+        
         
         // Set font settings
         [CCMenuItemFont setFontName:@"Marker Felt"];
@@ -95,10 +98,6 @@
     }
     return self;
 }
-
-//-(CCSpriteBatchNode *) getHumanSpriteSheet {
-//    return humanSpriteSheet;
-//}
 
 
 

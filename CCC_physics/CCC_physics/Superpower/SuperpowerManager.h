@@ -33,4 +33,6 @@
 @property(strong, nonatomic) NSMutableArray* initiatedSPs;
 @property(strong, nonatomic) NSMutableArray* iconsArrayCopy;
 - (CCMenu *) getIconsMenu;
+
++(id) sharedManager;
 @end

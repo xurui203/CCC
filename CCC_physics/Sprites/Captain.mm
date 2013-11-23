@@ -20,17 +20,17 @@
         NSLog(@"Got HERE after loading current superpower!");
         
         //Set idle action
-        self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:self.currentSuperpower.idleAnimation]];
+        self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getIdleAnimation]]];
                            
           //Set walk action
-        self.walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.walkAnimation]];
+        self.walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]]];
                            
         //Set crawl action
-        self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: self.currentSuperpower.crawlAnimation]];
+        self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]]];
         
-        self.jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.jumpAnimation], nil];
+        self.jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil];
         
-        self.specialPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.spAnimation], nil];
+        self.specialPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil];
         
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;

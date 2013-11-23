@@ -29,7 +29,7 @@
 
 @property (nonatomic)MazeLayer *mazeLayer;
 @property(nonatomic)HudLayer *hudLayer;
-@property(nonatomic)    SuperpowerManager *spM;
+@property(nonatomic) SuperpowerManager *spM;
 
 @property(nonatomic)IconDrawer *icondrawer;
 @end

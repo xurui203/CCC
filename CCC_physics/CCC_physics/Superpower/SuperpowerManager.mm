@@ -4,20 +4,31 @@
 //
 //  Created by Xu Rui on 14/11/13.
 //
-//
+// Singleton class to be shared amongst game scenes and learning modules.
+
 
 #import "SuperpowerManager.h"
 @class Player;
+
+
 @implementation SuperpowerManager
 //
 @synthesize superpowers, currentSuperPower, iconDrawer, initiatedSPs, iconsArrayCopy;
 
++ (id)sharedManager {
+    static SuperpowerManager *sharedMyManager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedMyManager = [[self alloc] init];
+    });
+    return sharedMyManager;
+}
+
+
 -(id) init {
-    if ([super init]) {
+    if (self =[super init]) {
         //add new superpower classes to this array
         superpowers = [[NSMutableArray alloc] initWithObjects: @"CaptainSP", @"Kangaroo", nil];
-
-        
         int spNum = 3;
         initiatedSPs = [[NSMutableArray alloc] initWithCapacity:spNum];
         [self addSPs];

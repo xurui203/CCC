@@ -19,6 +19,7 @@
 @property(strong, nonatomic) CCAnimation* crawlAnimation; //crawl transformation
 @property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
 @property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
+@property(strong, nonatomic) CCAnimation* spAnimation; //special transformation
 
 @property(strong, nonatomic) NSString *disabledIconImage;
 @property(strong, nonatomic) NSString* icon;
@@ -33,14 +34,14 @@
 
 //- (void*) useSuperpower;
 
-- (CCAnimation*) makeTransformIntoAnimation;
-- (CCAnimation*) makeTransformFromAnimation;
+- (CCAnimation*) getTransformIntoAnimation;
+- (CCAnimation*) getTransformFromAnimation;
 
-- (CCAnimation*) makeWalkAnimation;
-- (CCAnimation*) makeCrawlAnimation;
-- (CCAnimation*) makeJumpAnimation;
-- (CCAnimation*) makeIdleAnimation;
-- (CCAnimation*) spAnimation;
+- (CCAnimation*) getWalkAnimation;
+- (CCAnimation*) getCrawlAnimation;
+- (CCAnimation*) getJumpAnimation;
+- (CCAnimation*) getIdleAnimation;
+- (CCAnimation*) getSpAnimation;
 
 - (void) jump: (Player*) player;
 - (void) moveRight: (Player*) player;

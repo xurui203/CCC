@@ -8,31 +8,33 @@
 @implementation Superpower
 
 -(id)init{
-    self.transformFromAnimation = self.makeTransformFromAnimation;
-    self.transformIntoAnimation = self.makeTransformIntoAnimation;
-
-    self.walkAnimation = self.makeWalkAnimation;
-    self.crawlAnimation = self.makeCrawlAnimation;
-    self.jumpAnimation = self.makeJumpAnimation;
-    self.idleAnimation = self.makeIdleAnimation;
+//    self.transformFromAnimation = self.makeTransformFromAnimation;
+//    self.transformIntoAnimation = self.makeTransformIntoAnimation;
+//
+//    self.crawlAnimation = self.makeCrawlAnimation;
+//    self.jumpAnimation = self.makeJumpAnimation;
+//    self.idleAnimation = self.makeIdleAnimation;
     return self;
 }
 
 
-- (CCAnimation *) makeTransformFromAnimation{
+- (CCAnimation *) getTransformFromAnimation{
     return nil;
 }
 
-- (CCAnimation *) makeTransformIntoAnimation{
+- (CCAnimation *) getTransformIntoAnimation{
     return nil;
 }
 
-- (CCAnimation *) makeJumpAnimation{
+- (CCAnimation *) getJumpAnimation{
     return nil;
 }
 
+- (CCAnimation *) getSpAnimation{
+    return nil;
+}
 
-- (CCAnimation *) makeCrawlAnimation{
+- (CCAnimation *) getCrawlAnimation{
     return nil;
 }
 - (void) jump:(Player *)player{
