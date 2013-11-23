@@ -10,18 +10,19 @@
 #import "SuperpowerManager.h"
 @class Player;
 
+static SuperpowerManager *sharedMyManager = nil;
 
 @implementation SuperpowerManager
 //
 @synthesize superpowers, currentSuperPower, iconDrawer, initiatedSPs, iconsArrayCopy;
 
 + (id)sharedManager {
-    static SuperpowerManager *sharedMyManager = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedMyManager = [[self alloc] init];
-    });
+    @synchronized(self) {
+        if(sharedMyManager == nil)
+            sharedMyManager = [[super allocWithZone:NULL] init];
+    }
     return sharedMyManager;
+
 }
 
 
@@ -74,6 +75,36 @@
 
 -(CCMenu *) getIconsMenu {
     return [iconDrawer getIconsMenu];
+}
+
++ (id)allocWithZone:(NSZone *)zone {
+    return [[self sharedManager] retain];
+}
+- (id)copyWithZone:(NSZone *)zone {
+    return self;
+}
+- (id)retain {
+    return self;
+}
+- (unsigned)retainCount {
+    return UINT_MAX; //denotes an object that cannot be released
+}
+- (oneway void)release {
+    // never release
+}
+- (id)autorelease {
+    return self;
+}
+
+- (void)dealloc {
+    // Should never be called, but just here for clarity really.
+    [superpowers release];
+    [currentSuperPower release];
+    [iconDrawer release];
+    [initiatedSPs release];
+    [iconsArrayCopy release];
+
+    [super dealloc];
 }
 
 @end
