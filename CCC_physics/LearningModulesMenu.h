@@ -14,11 +14,14 @@
 #import "SuperpowerManager.h"
 
 @class SuperpowerManager;
+@class IconDrawer;
+
 @interface LearningModulesMenu : CCLayer {
     CCSpriteBatchNode *humanSpriteSheet;
     CCLayer *actionSpriteSheet;
     CCTextureCache *sharedCache;
     CCMenu *menuu;
+    IconDrawer *iconsDrawer;
 }
 @property (nonatomic, assign) BOOL iPad;
 

@@ -55,6 +55,7 @@ static SuperpowerManager *sharedMyManager = nil;
         NSString *tempClassName = [superpowers objectAtIndex:x];
         o = [[NSClassFromString(tempClassName) alloc] init];
         [initiatedSPs addObject:o];
+        CCLOG(@"%d", initiatedSPs.count);
     }
     
     if( o != nullptr )
@@ -66,11 +67,6 @@ static SuperpowerManager *sharedMyManager = nil;
     
     //initialize icon drawer
     
-    iconDrawer = [[IconDrawer alloc] init];
-    [iconDrawer initMenu:initiatedSPs];
-    
-    iconsArrayCopy = [iconDrawer getIconsArray];
-//    return o;
 }
 
 -(CCMenu *) getIconsMenu {
@@ -102,6 +98,7 @@ static SuperpowerManager *sharedMyManager = nil;
     [currentSuperPower release];
     [iconDrawer release];
     [initiatedSPs release];
+
     [iconsArrayCopy release];
 
     [super dealloc];

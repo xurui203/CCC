@@ -14,10 +14,10 @@
 #import "LearningModuleLayer.h"
 #import "CCVideoPlayer.h"
 
+
 @interface LearningModuleScene : CCLayer <CCVideoPlayerDelegate>
 
 @property(strong, nonatomic) NSString* moduleName;
-
 @property(strong, nonatomic) NSString* animationFile;
 @property(strong, nonatomic) NSString* animalPicture;
 @property(nonatomic) BOOL isLocked;
