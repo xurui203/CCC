@@ -5,7 +5,7 @@
 //  Created by Ann Niou on 11/26/13.
 //
 //
-
+//now you can call things like myworld.player.health etc. and it will be the same for all
 
 #import "World.h"
 
