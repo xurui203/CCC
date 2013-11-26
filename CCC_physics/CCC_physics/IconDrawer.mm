@@ -14,9 +14,15 @@
 @synthesize BGmenu, spIconMenu, SPMutableArray, iconsArray;
 @synthesize iconDrawerImage;
 
--(id)init {
+
+-(id) init {
     if ((self = [super init])) {
-        
+    }
+        return self;
+}
+-(void)initDrawer {
+    
+        spIconMenu.visible = NO;
         //        ADD ICON DRAWER
         
         iconDrawerImage = [CCMenuItemImage itemFromNormalImage:@"Icon Drawer.png" selectedImage:@"Icon Drawer.png" target:self selector:@selector(pressed:)];
@@ -25,13 +31,10 @@
         [self addChild:BGmenu z:0];
         CCLOG(@"added iconDrawer");
         BGmenu.position = ccp(300, 340);
-//                [self initMenu];
         open = NO;
-       
-        
-    }
+    BGmenu.zOrder = 5;
     
-    return self;
+    
 }
 
 -(void) pressed:(id)sender {
@@ -89,7 +92,7 @@
     iconsArray = [[NSMutableArray alloc] initWithCapacity:SParray.count];
     
     //add to scene
-    [self addChild:spIconMenu];
+//    [self addChild:spIconMenu];
     CCLOG(@"%d", SParray.count);
     //go through every superpower instance variable in the initialized array and add its icon to the menu
     for(int i = 0; i < SParray.count; i++)
@@ -115,9 +118,7 @@
 
     }
     [spIconMenu alignItemsHorizontallyWithPadding:3.0];
-    spIconMenu.position = ccp(200, 175);
-    spIconMenu.zOrder = 5000;
-        spIconMenu.visible = NO;
+
   
     return spIconMenu;
     

@@ -31,14 +31,19 @@
         [self addBackButton];
         
         spM = [SuperpowerManager sharedManager];
-        iconsDrawer = [[IconDrawer alloc] init];
-        NSMutableArray *getMenuItems = [iconsDrawer getIconsArray];
-        CCMenu *IconsMenu = [CCMenu menuWithItems: nil];
-        for (int x=0; x<getMenuItems.count; x++) {
-            CCMenuItemImage *item = [getMenuItems objectAtIndex:x];
-            [IconsMenu addChild:item];
-        }
-        [self addChild:IconsMenu]; 
+        iconsDrawer = [IconDrawer node];
+        CCLOG(@"alsdjlaksdf: %d", spM.initiatedSPs.count);
+        CCMenu *IconsMenu = [iconsDrawer initMenu:spM.initiatedSPs];
+                [self addChild:IconsMenu];
+        IconsMenu.position = ccp(170,100);
+        IconsMenu.scale = .7;
+        IconsMenu.visible = YES;
+//        CCLOG(@"IDJAODSFKLASDJFAD: %d", IconsMenu.contentSize);
+//        for (int x=0; x<getMenuItems.count; x++) {
+//            CCMenuItemImage *item = [getMenuItems objectAtIndex:x];
+//            [IconsMenu addChild:item];
+//        }
+
 
 //        CCMenu *iconsMenu = [iconsDrawer initMenu:spM.initiatedSPs];
 //        [self addChild:iconsMenu];

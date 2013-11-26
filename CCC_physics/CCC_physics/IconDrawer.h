@@ -17,7 +17,7 @@
 #import "CocosDenshion.h"
 #import "GameScene.h"
 #import "SuperpowerManager.h"
-
+#import "World.h"
 @interface IconDrawer : CCLayer {
     
     //INSTANCE VARIABLE DECLARATION (PRIVATE)
@@ -36,5 +36,6 @@
 @property (strong, nonatomic) NSMutableArray *iconsArray;
 -(NSMutableArray *) getIconsArray;
 - (CCMenu*) getIconsMenu;
+- (void) initDrawer;
 -(CCMenu*) initMenu:(NSMutableArray *)SParray;
 @end

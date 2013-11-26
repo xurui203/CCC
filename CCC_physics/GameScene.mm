@@ -153,8 +153,13 @@
     CCLOG(@"%lu", (unsigned long)spM.initiatedSPs.count);
     if(spM.initiatedSPs != nil) {
         CCLOG(@"hereee");
-        [_icondrawer initMenu:spM.initiatedSPs];
-//        [self addChild:iconMenu z:3];
+        CCMenu *iconMenu = [_icondrawer initMenu:spM.initiatedSPs];
+        [_icondrawer initDrawer];
+//        [self addChild:iconMenu z:5];
+        iconMenu.position = ccp(200, 175);
+        iconMenu.zOrder = 5000;
+
+        [self addChild:iconMenu z:5];
 //        iconMenu.position = ccp(self.contentSize.width/2, self.contentSize.height/2);
 //        CCLOG(@"%hhd", iconMenu.visible);
 //        
