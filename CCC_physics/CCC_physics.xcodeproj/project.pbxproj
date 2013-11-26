@@ -344,6 +344,7 @@
 		3ECB2EC518258BAC00C82177 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EB718258BAC00C82177 /* Back.png */; };
 		3ECB2ECD1825C9A400C82177 /* MazeLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */; };
 		3ECB2ECE1825C9A400C82177 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECC1825C9A400C82177 /* HudLayer.mm */; };
+		3EDC409C18452B97000EF77D /* World.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC409B18452B97000EF77D /* World.mm */; };
 		5B2548EA182A42B50015204D /* KangarooIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2548E9182A42B50015204D /* KangarooIcon.png */; };
 		5B274315182A154A00942895 /* Captain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B274314182A154A00942895 /* Captain.mm */; };
 		5B274373182A1C3500942895 /* Lat Capt KL-Jumping001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B27431A182A1C3500942895 /* Lat Capt KL-Jumping001.png */; };
@@ -1734,6 +1735,8 @@
 		3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MazeLayer.mm; path = ../MazeLayer.mm; sourceTree = "<group>"; };
 		3ECB2ECB1825C9A400C82177 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HudLayer.h; path = ../HudLayer.h; sourceTree = "<group>"; };
 		3ECB2ECC1825C9A400C82177 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HudLayer.mm; path = ../HudLayer.mm; sourceTree = "<group>"; };
+		3EDC409A18452B96000EF77D /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = CCC_physics/World.h; sourceTree = "<group>"; };
+		3EDC409B18452B97000EF77D /* World.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = World.mm; path = CCC_physics/World.mm; sourceTree = "<group>"; };
 		5B2548E9182A42B50015204D /* KangarooIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KangarooIcon.png; sourceTree = "<group>"; };
 		5B274313182A154900942895 /* Captain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Captain.h; sourceTree = "<group>"; };
 		5B274314182A154A00942895 /* Captain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Captain.mm; sourceTree = "<group>"; };
@@ -2654,11 +2657,10 @@
 				3E452F211824063800B4EFDE /* RootViewController.h */,
 				3E452F221824063800B4EFDE /* RootViewController.mm */,
 				3E452F2A1824063800B4EFDE /* GameConfig.h */,
+				3ECB2EC618258BF800C82177 /* GamePlay */,
 				5B4D45231835DBC500F2855E /* Learning Modules */,
 				5B4D45151835C59D00F2855E /* Superpower */,
 				5BCB887D1829E6A4009D6DBF /* Sprites */,
-				5B4D45221835DB9400F2855E /* Mazes */,
-				3ECB2EC618258BF800C82177 /* GamePlay */,
 				3E452D4B1824063300B4EFDE /* Resources */,
 				3E452F1A1824063800B4EFDE /* Supporting Files */,
 			);
@@ -3509,6 +3511,8 @@
 		3ECB2EC618258BF800C82177 /* GamePlay */ = {
 			isa = PBXGroup;
 			children = (
+				3EDC409A18452B96000EF77D /* World.h */,
+				3EDC409B18452B97000EF77D /* World.mm */,
 				3EBD9142182AA47C00ABC143 /* LevelCompleteScene.h */,
 				3EBD9143182AA47C00ABC143 /* LevelCompleteScene.mm */,
 				3ECB2E1718257B6B00C82177 /* LevelSelect.h */,
@@ -3523,6 +3527,7 @@
 				3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */,
 				312341FF182A3F21001BC4B7 /* GameOverScene.h */,
 				31234200182A3F21001BC4B7 /* GameOverScene.mm */,
+				5B4D45221835DB9400F2855E /* Mazes */,
 			);
 			name = GamePlay;
 			path = ..;
@@ -4659,6 +4664,7 @@
 				5BCB88801829E6A4009D6DBF /* ContactListener.mm */,
 			);
 			name = Mazes;
+			path = CCC_physics;
 			sourceTree = "<group>";
 		};
 		5B4D45231835DBC500F2855E /* Learning Modules */ = {
@@ -6039,6 +6045,7 @@
 				3E452E701824063600B4EFDE /* CocosDenshion.m in Sources */,
 				5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */,
 				3E452F0D1824063700B4EFDE /* b2RopeJoint.cpp in Sources */,
+				3EDC409C18452B97000EF77D /* World.mm in Sources */,
 				3E452EFB1824063700B4EFDE /* b2GearJoint.cpp in Sources */,
 				3E452EFE1824063700B4EFDE /* b2Joint.cpp in Sources */,
 				3E452E331824063600B4EFDE /* ES1Renderer.m in Sources */,
