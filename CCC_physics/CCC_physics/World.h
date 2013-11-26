@@ -19,7 +19,7 @@
 
 +(id) sharedWorld;
 
-@property(nonatomic, retain) Player* CCCplayer;
-@property(nonatomic, retain) NSInteger *currentLevel;
+@property(nonatomic, retain) Captain* CCCplayer;
+@property(nonatomic) NSInteger *currentLevel;
 
 @end

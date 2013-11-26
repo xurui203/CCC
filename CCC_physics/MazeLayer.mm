@@ -273,8 +273,8 @@
     
     NSLog(@"initizaling captain");
     
-    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
-    
+//    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+    player = [[World sharedWorld] CCCplayer];
     NSLog(@"adding player to spritesheet");
     [humanSpriteSheet addChild:player];
     player.zOrder = 500;

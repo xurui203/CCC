@@ -13,7 +13,7 @@ static World *sharedMyWorld = nil;
 
 @implementation World
 
-@synthesize CCCplayer;
+@synthesize CCCplayer, currentLevel;
 
 #pragma mark Singleton Methods
 
@@ -31,7 +31,7 @@ static World *sharedMyWorld = nil;
         
         //INIT CAPTAIN
         CCCplayer = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
-        
+//        currentLevel = 1;
     
     }
     return self;
@@ -39,7 +39,7 @@ static World *sharedMyWorld = nil;
 
 
 + (id)allocWithZone:(NSZone *)zone {
-    return [[self sharedMyWorld] retain];
+    return [[self sharedWorld] retain];
 }
 - (id)copyWithZone:(NSZone *)zone {
     return self;
@@ -60,6 +60,7 @@ static World *sharedMyWorld = nil;
 - (void)dealloc {
     // Should never be called, but just here for clarity really.
     [CCCplayer release];
+    
     [super dealloc];
 }
 

@@ -9,6 +9,8 @@
 #import "SimpleAudioEngine.h"
 #import "IconDrawer.h"
 #import "CocosDenshion.h"
+#import "World.h"
+
 
 @class HudLayer;
 @class IconDrawer;
