@@ -25,8 +25,12 @@
         NSLog(@"LOADING PLISTS!!!");
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet2.plist"];
         humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet2.png"];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
+         geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
         [self addChild:humanSpriteSheet z:2];
+        [self addChild:geckoSpriteSheet z:2];
+
         [self drawCollisionTiles];
         [self initCaptain];
         
@@ -277,14 +281,14 @@
     player = [[World sharedWorld] CCCplayer];
    
     NSLog(@"adding player to spritesheet");
-    [humanSpriteSheet addChild:player];
+    //[humanSpriteSheet addChild:player];
     player.zOrder = 500;
     NSLog(@"didnt die at add player to humanspritesheet...");
 
     player.scale = 0.4;
     player.position = ccp(100, 400);
     [player createBox2dObject:world];
-    //[self addChild:player];
+    [self addChild:player];
     [player idle];
 
 }

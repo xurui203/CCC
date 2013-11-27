@@ -49,20 +49,30 @@
 # define NUM_TRANSFORM_INTO 29
 -(CCAnimation*) getTransformIntoAnimation{
     if (self.transformIntoAnimation == nil){
-
-    CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_INTO];
-    for (int j = 1; j <= NUM_TRANSFORM_INTO; j++  ) {
-        CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Trainsition-KL00%d.png", j]];
-        //CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"lat capt gf000%d.png", j]];
-
-        [superPowerActionFrames addObject:frame];
-    }
-    CCAnimation *transformInto = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
+        CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_INTO];
+        for (int j = 1; j <= NUM_TRANSFORM_INTO; j++  ) {
+            CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Ant Capt Trainsition-KL00%d.png", j]];
+            //CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"lat capt gf000%d.png", j]];
+            [superPowerActionFrames addObject:frame];
+        }
+        CCAnimation *transformInto = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
         self.transformIntoAnimation = transformInto;
     }
     return self.transformIntoAnimation;
-    
 }
+
+//# define NUM_TRANSFORM_INTO 9
+//-(CCAnimation*) getTransformIntoAnimation{
+//    if (self.transformIntoAnimation == nil){
+//        CCAnimation *transformInto = [CCAnimation animation];
+//        [transformInto setDelayPerUnit: 1.0/24.0];
+//        for (int j = 1; j <= NUM_TRANSFORM_INTO; j++  ) {
+//            [transformInto addFrameWithFilename:[NSString stringWithFormat:@"lat capt gf000%d.png", j]];
+//        }
+//        self.transformIntoAnimation = transformInto;
+//    }
+//    return self.transformIntoAnimation;
+//}
 
 # define NUM_TRANSFORM_WALK 15
 
