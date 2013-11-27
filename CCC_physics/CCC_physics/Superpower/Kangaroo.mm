@@ -46,7 +46,7 @@
 
 //Ant Capt Trainsition-KL0001
 
-# define NUM_TRANSFORM_INTO 9
+# define NUM_TRANSFORM_INTO 29
 -(CCAnimation*) getTransformIntoAnimation{
     if (self.transformIntoAnimation == nil){
 
