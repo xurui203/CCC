@@ -20,7 +20,6 @@
     CCSpriteBatchNode *humanSpriteSheet;
     CCLayer *actionSpriteSheet;
     CCTextureCache *sharedCache;
-    CCMenu *menuu;
     IconDrawer *iconsDrawer;
 }
 @property (nonatomic, assign) BOOL iPad;
@@ -29,6 +28,5 @@
 @property(nonatomic)    SuperpowerManager *spM;
 @property(nonatomic) NSMutableArray *iconsArray;
 @property(nonatomic) CCMenu *menu;
--(void) createMenu: (NSMutableArray *) array;
--(void) iconButtonTapped:(id) sender;
+//-(void) createMenu: (NSMutableArray *) array;
 @end

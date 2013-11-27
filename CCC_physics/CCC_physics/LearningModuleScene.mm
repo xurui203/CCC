@@ -72,7 +72,7 @@
     if( (self=[super init])) {
         
         // Determine Device
-        self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+      //  self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
         if (self.iPad) {
             self.device = @"iPad";
         }
@@ -88,8 +88,9 @@
         [self addBackButton];
         
         [self createScene];
-//        [CCVideoPlayer setDelegate: self];
-//        [CCVideoPlayer playMovieWithFile:@"Opening Sequence.m4v"];
+        
+        [CCVideoPlayer setDelegate: self];
+        [CCVideoPlayer playMovieWithFile:@"Opening Sequence.m4v"];
     }
     return self;
 }
@@ -121,5 +122,16 @@
 	// return the scene
 	return scene;
 }
+
+- (void) moviePlaybackFinished {
+    //    [[CCDirector sharedDirector] startAnimation];
+    CCLOG(@"movieplaybackfinished");
+}
+
+-(void) movieStartsPlaying {
+    [[CCDirector sharedDirector] stopAnimation];
+    CCLOG(@"moviestarts");
+}
+
 
 @end

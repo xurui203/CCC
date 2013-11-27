@@ -32,8 +32,9 @@
         
         spM = [SuperpowerManager sharedManager];
         iconsDrawer = [IconDrawer node];
-        CCLOG(@"alsdjlaksdf: %d", spM.initiatedSPs.count);
-        CCMenu *IconsMenu = [iconsDrawer initMenu:spM.initiatedSPs];
+        [self addChild:iconsDrawer];
+//        CCLOG(@"alsdjlaksdf: %d", spM.initiatedSPs.count);
+        CCMenu *IconsMenu = [iconsDrawer initLMMenu:spM.initiatedSPs];
                 [self addChild:IconsMenu];
         IconsMenu.position = ccp(170,100);
         IconsMenu.scale = .7;
@@ -52,43 +53,43 @@
     return self;
 }
 
--(void) createMenu{
+//-(void) createMenu{
+//
+//    CCMenuItemImage *CCCicon = [CCMenuItemImage itemFromNormalImage:@"CCC icon.png" selectedImage:@"CCC icon.png" disabledImage:@"CCC icon.png" target:self selector:@selector(iconButtonTapped:)];
+//    CCCicon.tag = 1;
+//        CCMenuItemImage *Kangarooicon = [CCMenuItemImage itemFromNormalImage:@"Kangaroo Icon.png" selectedImage:@"Kangaroo Icon.png" disabledImage:@"Kangaroo Icon.png" target:self selector:@selector(iconButtonTapped:)];
+//    Kangarooicon.tag = 2;
+//        CCMenuItemImage *Dogicon = [CCMenuItemImage itemFromNormalImage:@"Dog Icon.png" selectedImage:@"Dog Icon.png" disabledImage:@"Dog Icon.png" target:self selector:@selector(iconButtonTapped:)];
+//    
+//    Dogicon.tag = 3;
+//       menu = [CCMenu menuWithItems: CCCicon, Kangarooicon, Dogicon, nil];
+//    
+//    
+//    [menu alignItemsHorizontallyWithPadding:20];
+//    [self addChild:menu];
+//}
 
-    CCMenuItemImage *CCCicon = [CCMenuItemImage itemFromNormalImage:@"CCC icon.png" selectedImage:@"CCC icon.png" disabledImage:@"CCC icon.png" target:self selector:@selector(iconButtonTapped:)];
-    CCCicon.tag = 1;
-        CCMenuItemImage *Kangarooicon = [CCMenuItemImage itemFromNormalImage:@"Kangaroo Icon.png" selectedImage:@"Kangaroo Icon.png" disabledImage:@"Kangaroo Icon.png" target:self selector:@selector(iconButtonTapped:)];
-    Kangarooicon.tag = 2;
-        CCMenuItemImage *Dogicon = [CCMenuItemImage itemFromNormalImage:@"Dog Icon.png" selectedImage:@"Dog Icon.png" disabledImage:@"Dog Icon.png" target:self selector:@selector(iconButtonTapped:)];
-    
-    Dogicon.tag = 3;
-       menu = [CCMenu menuWithItems: CCCicon, Kangarooicon, Dogicon, nil];
-    
-    
-    [menu alignItemsHorizontallyWithPadding:20];
-    [self addChild:menu];
-}
-
-
--(void) iconButtonTapped:(id) sender {
-//    LearningModuleScene *LMScene;
-    NSString *movieName;
-    if ([(CCMenuItemImage *)sender tag] == 1) {
-        movieName = @"Opening Sequence.mov";
-    }if ([(CCMenuItemImage *)sender tag] == 2) {
-        movieName = @"Opening Sequence.mov";
-    }if ([(CCMenuItemImage *)sender tag] == 3) {
-        movieName = @"Opening Sequence.mov";
-    }
- 
-//    LMScene = [[LearningModuleScene alloc] initWithMovie:movieName];
-    [SceneManager goLearningModuleScene];
-}
--(void) KangarooiconButtonTapped:(id) sender {
-    [SceneManager goLearningModuleScene];
-}
--(void) DogiconButtonTapped:(id) sender {
-    [SceneManager goLearningModuleScene];
-}
+//
+//-(void) iconButtonTapped:(id) sender {
+////    LearningModuleScene *LMScene;
+//    NSString *movieName;
+//    if ([(CCMenuItemImage *)sender tag] == 1) {
+//        movieName = @"Opening Sequence.mov";
+//    }if ([(CCMenuItemImage *)sender tag] == 2) {
+//        movieName = @"Opening Sequence.mov";
+//    }if ([(CCMenuItemImage *)sender tag] == 3) {
+//        movieName = @"Opening Sequence.mov";
+//    }
+// 
+////    LMScene = [[LearningModuleScene alloc] initWithMovie:movieName];
+//    [SceneManager goLearningModuleScene];
+//}
+//-(void) KangarooiconButtonTapped:(id) sender {
+//    [SceneManager goLearningModuleScene];
+//}
+//-(void) DogiconButtonTapped:(id) sender {
+//    [SceneManager goLearningModuleScene];
+//}
 
 
 

@@ -6,10 +6,12 @@
 //
 //
 
-#import "CCLayer.h"
+
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "Player.h"
+#import "CCLayer.h"
+#import "Defines.h"
 #import "SceneManager.h"
 #import "LearningModuleLayer.h"
 #import "CCVideoPlayer.h"

@@ -11,7 +11,7 @@
 
 @implementation IconDrawer
 
-@synthesize BGmenu, spIconMenu, SPMutableArray, iconsArray;
+@synthesize BGmenu, spIconMenu, SPMutableArray, iconsArray, LMiconsArray, LMspIconMenu;
 @synthesize iconDrawerImage;
 
 
@@ -125,9 +125,61 @@
     
 }
 
+- (CCMenu *) initLMMenu:(NSMutableArray *) SParray{
+    //create an empty menu
+    LMspIconMenu = [CCMenu menuWithItems:nil];
+    LMiconsArray = [[NSMutableArray alloc] initWithCapacity:SParray.count];
+    
+    //add to scene
+    //    [self addChild:spIconMenu];
+    CCLOG(@"%d", SParray.count);
+    //go through every superpower instance variable in the initialized array and add its icon to the menu
+    for(int i = 0; i < SParray.count; i++)
+    {
+        Superpower *sp = [SParray objectAtIndex: i];
+        
+        CCMenuItemFont *item = [CCMenuItemImage
+                                itemFromNormalImage:sp.icon
+                                selectedImage:sp.icon
+                                disabledImage:sp.disabledIconImage
+                                target:self selector:@selector(LMiconButtonTapped:)];
+        item.userData = sp;
+        //make item enabled or disabled based on whether or not it is locked
+        if (sp.isLocked) {
+            item.isEnabled = NO;
+        } else if (sp.isLocked == NO) {
+            item.isEnabled = YES;
+        }
+        [LMspIconMenu addChild:item];
+        LMspIconMenu.scale = .3;
+        //add menu item to icons array
+        [LMiconsArray addObject:item];
+        CCLOG(@"here in lmmenuinit");
+    }
+    [LMspIconMenu alignItemsHorizontallyWithPadding:3.0];
+    CCLOG(@"init LMMenu finished");
+    
+    return LMspIconMenu;
+    
+}
+
+
+-(void) LMiconButtonTapped:(CCMenuItemImage *) sender
+{
+    
+    CCLOG(@"superpower icon pressed");
+    CCMenuItemFont *itm = (CCMenuItemFont *)sender;
+    Superpower *s =  (Superpower *)itm.userData;
+    CCLOG(@"%@", s.name);
+    NSString *movieName = s.LMVideo;
+//        LMScene = [[LearningModuleScene alloc] initWithMovie:movieName];
+    [SceneManager goLearningModuleScene:movieName];
+    
+}
 
 -(void) iconButtonTapped:(CCMenuItemFont *) sender
 {
+    
     CCLOG(@"superpower icon pressed");
     CCMenuItemFont *itm = (CCMenuItemFont *)sender;
        Superpower *s =  (Superpower *)itm.userData;

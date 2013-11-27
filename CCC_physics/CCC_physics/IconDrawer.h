@@ -32,10 +32,15 @@
 @property (strong, nonatomic) NSMutableArray *SPMutableArray;
 @property (strong, nonatomic) CCMenu *BGmenu;
 @property (strong, nonatomic) CCMenu *spIconMenu;
+
+@property (strong, nonatomic) CCMenu *LMspIconMenu;
 @property (strong, nonatomic) CCMenuItemImage *iconDrawerImage;
 @property (strong, nonatomic) NSMutableArray *iconsArray;
+@property (strong, nonatomic) NSMutableArray *LMiconsArray;
 -(NSMutableArray *) getIconsArray;
 - (CCMenu*) getIconsMenu;
 - (void) initDrawer;
 -(CCMenu*) initMenu:(NSMutableArray *)SParray;
+-(void) LMiconButtonTapped:(CCMenuItemFont *) sender;
+-(CCMenu*) initLMMenu:(NSMutableArray *)SParray;
 @end
