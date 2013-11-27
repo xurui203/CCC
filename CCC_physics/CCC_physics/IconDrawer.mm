@@ -171,10 +171,7 @@
     CCMenuItemFont *itm = (CCMenuItemFont *)sender;
     Superpower *s =  (Superpower *)itm.userData;
     CCLOG(@"%@", s.name);
-    NSString *movieName = s.LMVideo;
-//        LMScene = [[LearningModuleScene alloc] initWithMovie:movieName];
-    [SceneManager goLearningModuleScene:movieName];
-    
+    [SceneManager goLearningModuleScene];
 }
 
 -(void) iconButtonTapped:(CCMenuItemFont *) sender

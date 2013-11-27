@@ -12,7 +12,7 @@
 @synthesize iPad, device, LMLayer;
 
 - (void)onBack: (id) sender {
-    [SceneManager goMainMenu];
+    [SceneManager goLearningModulesMenu];
 }
 
 
@@ -39,40 +39,11 @@
 }
 
 //}
-//- (id) initWithMovie: (NSString *) movie {
-//    if( (self=[super init])) {
-//        
-//        // Determine Device
-//        self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
-//        if (self.iPad) {
-//            self.device = @"iPad";
-//        }
-//        else {
-//            self.device = @"iPhone";
-//        }
-//        
-//        // Determine Screen Size
-//        CGSize screenSize = [CCDirector sharedDirector].winSize;
-//        
-//        
-//        //  Put a 'back' button in the scene
-//        [self addBackButton];
-//        
-//        [self createScene];
-//        
-//
-//
-//        
-//    }
-//    return self;
-//
-//}
-- (id) init {
-    
+-(id) init {
     if( (self=[super init])) {
         
         // Determine Device
-      //  self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+        //  self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
         if (self.iPad) {
             self.device = @"iPad";
         }
@@ -83,27 +54,19 @@
         // Determine Screen Size
         CGSize screenSize = [CCDirector sharedDirector].winSize;
         
-        
         //  Put a 'back' button in the scene
         [self addBackButton];
-        
+        CCLOG(@"here in learning module scene init");
+
         [self createScene];
         
-        [CCVideoPlayer setDelegate: self];
-        [CCVideoPlayer playMovieWithFile:@"Opening Sequence.m4v"];
     }
     return self;
 }
 
 
-
-
-
 -(void) createScene {
-    
     LMLayer = [LearningModuleLayer node];
-//    LMLayer.videoName = x;
-    
     [self addChild:LMLayer z:0];
     
 }
@@ -123,15 +86,6 @@
 	return scene;
 }
 
-- (void) moviePlaybackFinished {
-    //    [[CCDirector sharedDirector] startAnimation];
-    CCLOG(@"movieplaybackfinished");
-}
-
--(void) movieStartsPlaying {
-    [[CCDirector sharedDirector] stopAnimation];
-    CCLOG(@"moviestarts");
-}
 
 
 @end

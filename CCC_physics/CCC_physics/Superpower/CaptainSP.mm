@@ -27,7 +27,7 @@
         
         NSString *myName = @"captainSP";
         self.name = myName;
-         self.LMVideo =  @"Opening Sequence.mov";
+         self.LMVideo =  @"Opening Sequence.m4v";
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
         self.canJump = TRUE;

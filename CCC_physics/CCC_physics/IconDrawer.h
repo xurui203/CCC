@@ -18,6 +18,7 @@
 #import "GameScene.h"
 #import "SuperpowerManager.h"
 #import "World.h"
+#import "LearningModuleScene.h"
 @interface IconDrawer : CCLayer {
     
     //INSTANCE VARIABLE DECLARATION (PRIVATE)

@@ -20,7 +20,7 @@
         self.icon = @"Kangaroo Icon.png";
         self.isLocked = NO;
         self.disabledIconImage = @"Kangaroo Icon.png";
-        self.LMVideo =  @"Opening Sequence.mov";
+        self.LMVideo =  @"Opening Sequence.m4v";
     }
     return self;
 }

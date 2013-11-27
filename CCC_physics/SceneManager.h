@@ -47,5 +47,5 @@
 +(void) goGameOverLayer;
 +(void) goLearningModulesMenu;
 +(void) goOpeningSequence;
-+(NSString *) goLearningModuleScene: (NSString *)moviename;
++(void) goLearningModuleScene;
 @end

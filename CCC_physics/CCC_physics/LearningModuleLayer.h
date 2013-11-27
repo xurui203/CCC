@@ -8,10 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-
-@interface LearningModuleLayer : CCLayer {
-//    NSString *videoName;
+#import "CCVideoPlayer.h"
+#import "World.h"
+@interface LearningModuleLayer : CCLayer <CCVideoPlayerDelegate> {
 }
 
-@property (nonatomic) NSString* videoName;
 @end

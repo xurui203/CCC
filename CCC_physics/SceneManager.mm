@@ -13,10 +13,8 @@
 
 @implementation SceneManager
 
-+(NSString *) goLearningModuleScene: (NSString *)moviename{
++(void) goLearningModuleScene {
     [SceneManager go:[LearningModuleScene node]];
-    
-    return moviename;
 }
 
 

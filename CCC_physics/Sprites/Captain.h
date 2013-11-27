@@ -27,6 +27,7 @@
 //@property(nonatomic, strong) CCAnimation* transformFromAnimation; //transform from captain
 //@property(nonatomic, strong) CCAnimation* transformIntoAnimation; //transform into captain
 @property(nonatomic, strong) Superpower* currentSuperpower;
+- (void)changeSuperpower:(Superpower *) superpower;
 
 
 //states

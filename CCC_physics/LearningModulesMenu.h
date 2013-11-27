@@ -28,5 +28,4 @@
 @property(nonatomic)    SuperpowerManager *spM;
 @property(nonatomic) NSMutableArray *iconsArray;
 @property(nonatomic) CCMenu *menu;
-//-(void) createMenu: (NSMutableArray *) array;
 @end
