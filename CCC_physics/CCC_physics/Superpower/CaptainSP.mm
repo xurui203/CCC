@@ -62,7 +62,7 @@
 
 - (CCAnimation *) getTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
     //action animation - runs once and then returns to idle
-    if (self.transformFromAnimation == nil){
+    if (self.transformIntoAnimation == nil){
     CCArray *superPowerActionFrames = [CCArray arrayWithCapacity:NUM_TRANSFORM_INTO];
     for (int i = 1; i <= NUM_TRANSFORM_INTO; i++  ) {
         CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"Captain00%d.png", i]];

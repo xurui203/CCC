@@ -75,9 +75,9 @@
     if ([[[World sharedWorld] CCCplayer] numberOfRunningActions] ==0){
     [self stopAllActions];
     NSLog(@"Current superpower is: %@", [[World sharedWorld] CCCplayer].currentSuperpower.name);
-    [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation], nil]]; //Transform from current state
+    [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformFromAnimation]], nil]]; //Transform from current state
     
-    [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation], nil]]; //Transform into superpower state
+    [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformIntoAnimation]], nil]]; //Transform into superpower state
     self.currentSuperpower = superpower;
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
 
@@ -102,7 +102,7 @@
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
-        _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.walkAnimation], nil];
+        _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
         [self runAction:_walkAction];
         _actionState = kActionStateWalk;
     }
@@ -119,7 +119,7 @@
     if (!self.currentSuperpower.canJump) return;
     if (_actionState != kActionStateJump){
         [self stopAllActions];
-        _jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.jumpAnimation], nil];
+        _jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil];
 
         [self runAction:_jumpAction];
         _actionState = kActionStateJump;
@@ -137,6 +137,8 @@
 
     if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
+        _crawlAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
+
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;
     }
