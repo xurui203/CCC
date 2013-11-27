@@ -37,7 +37,7 @@
 //        CCSpriteBatchNode *sheet2 = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
 //        [self addChild:sheet2];
         self.icon = @"CCC icon.png";
-        NSLog(@"Making transformation animations");
+        CCLOG(@"Making transformation animations");
 
     }
     return self;
@@ -69,6 +69,7 @@
         [superPowerActionFrames addObject:frame];
     }
     CCAnimation *actionAnimation = [CCAnimation animationWithFrames:[superPowerActionFrames getNSArray] delay:1.0/24.0];
+//        actionAnimation.restoreOriginalFrame = YES;
     self.transformIntoAnimation = actionAnimation;
     }
     return self.transformIntoAnimation;

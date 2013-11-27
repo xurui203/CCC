@@ -81,8 +81,8 @@
         
         GameData *gameData = [GameDataParser loadData];
         
-        CCLOG(@"Read from XML 'Selected Chapter' = %i", gameData.selectedChapter);
-        CCLOG(@"Read from XML 'Selected Level' = %i", gameData.selectedLevel);
+//        CCLOG(@"Read from XML 'Selected Chapter' = %i", gameData.selectedChapter);
+//        CCLOG(@"Read from XML 'Selected Level' = %i", gameData.selectedLevel);
         
         
         gameData.selectedChapter = 7;

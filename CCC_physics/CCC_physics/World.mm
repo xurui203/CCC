@@ -30,7 +30,8 @@ static World *sharedMyWorld = nil;
         
         
         //INIT CAPTAIN
-        CCCplayer = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+        CCCplayer = [[Captain alloc] initWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+        CCLOG(@"world inits captain");
 //        currentLevel = 1;
     
     }

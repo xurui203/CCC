@@ -58,8 +58,9 @@
          
          [CCSequence actions:
           [CCSpawn actions:
+                    [CCCallFunc actionWithTarget:self selector:@selector(makeVisible)],
            [CCMoveBy actionWithDuration:1.0f position:ccp(0, -70)], nil],
-          [CCCallFunc actionWithTarget:self selector:@selector(makeVisible)],
+ 
           nil]
          ];
         open = YES;
@@ -124,19 +125,13 @@
     
 }
 
-- (CCMenu*) getIconsMenu {
-    return spIconMenu;
-}
 
-
-
-
--(Superpower *) iconButtonTapped:(id) sender
+-(void) iconButtonTapped:(CCMenuItemFont *) sender
 {
-
-//    CCMenuItemFont *itm = (CCMenuItemFont *)sender;
-//       Superpower *s =  (Superpower *)itm.userData;
-//    [captain transform: s];
+    CCLOG(@"superpower icon pressed");
+    CCMenuItemFont *itm = (CCMenuItemFont *)sender;
+       Superpower *s =  (Superpower *)itm.userData;
+    [[[World sharedWorld] CCCplayer] transform: s];
     
 }
 
