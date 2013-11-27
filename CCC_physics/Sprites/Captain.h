@@ -6,7 +6,7 @@
 #import "Superpower.h"
 #import "CaptainSP.h"
 #import "Kangaroo.h"
-
+#import "World.h"
 
 @interface Captain : Player {
     CCSpriteBatchNode *humanSpriteSheet;

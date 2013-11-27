@@ -12,6 +12,7 @@
 #import "Player.h"
 #import "Captain.h"
 
+@class Captain;
 @interface World : NSObject {
 
 }
@@ -19,7 +20,7 @@
 
 +(id) sharedWorld;
 
-@property(nonatomic, retain) Captain* CCCplayer;
+@property(nonatomic, retain) Captain *CCCplayer;
 @property(nonatomic) NSInteger *currentLevel;
 
 @end

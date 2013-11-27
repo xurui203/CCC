@@ -8,16 +8,16 @@
 
 
 -(id)init {
-    NSLog(@"CAPTAIN: INIT");
+    CCLOG(@"CAPTAIN: INIT");
     if (self = [super init]){
 
-        NSLog(@"init human");
+        CCLOG(@"init human");
 
         //Set default superpower to captain
         self.currentSuperpower = [CaptainSP alloc];
         [self.currentSuperpower init];
         
-        NSLog(@"Got HERE after loading current superpower!");
+        CCLOG(@"Got HERE after loading current superpower!");
         
         //Set idle action
         self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getIdleAnimation]]];
@@ -40,7 +40,7 @@
         self.walkSpeed = 80;
         
     }
-    NSLog(@"captain init but without frame");
+    CCLOG(@"captain init but without frame");
     return self;
 }
 
@@ -50,9 +50,9 @@
 #define JUMP_TAG 1001
 
 -(void)idle {
-    NSLog(@"IDLING");
+    CCLOG(@"IDLING");
     
-    NSLog(@"old position is %f", self.position.x);
+    CCLOG(@"old position is %f", self.position.x);
     
     if (_actionState == kActionStateSpecialAction){
         NSLog(@"JUMP EXECUTING");
@@ -72,9 +72,9 @@
 
 //Use this method to reset superpower. This method should be called whenever an icon is clicked from the superpower menu.
 - (void)transform:(Superpower*) superpower{
-    if ([self numberOfRunningActions] ==0){
+    if ([[[World sharedWorld] CCCplayer] numberOfRunningActions] ==0){
     [self stopAllActions];
-    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+    NSLog(@"Current superpower is: %@", [[World sharedWorld] CCCplayer].currentSuperpower.name);
     [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: self.currentSuperpower.transformFromAnimation], nil]]; //Transform from current state
     
     [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: superpower.transformIntoAnimation], nil]]; //Transform into superpower state
