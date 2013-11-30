@@ -479,6 +479,10 @@
 -(void)dealloc {
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
+//    [player dealloc];
+[self removeChild:player cleanup:YES];
+    [player.currentSuperpower dealloc];
+    [super dealloc];
 }
 
 @end
