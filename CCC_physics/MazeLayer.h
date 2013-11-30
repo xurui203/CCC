@@ -40,6 +40,7 @@
 @property(nonatomic)HudLayer *hud;
 @property(nonatomic)CCArray *collectiblesArray;
 @property(nonatomic)IconDrawer *drawer;
+@property(nonatomic)bool paused;
 -(CGRect)collisionBoundingBox;
 
 +(id) scene;

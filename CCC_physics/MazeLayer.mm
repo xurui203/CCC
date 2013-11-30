@@ -9,7 +9,7 @@
 
 @implementation MazeLayer
 @synthesize hud;
-@synthesize collectiblesArray;
+@synthesize collectiblesArray, paused;
 
 
 
@@ -366,7 +366,7 @@
 //    player.position = ccp(posX, posY);
 //
 
-    
+    if (!paused) {
     int32 velocityIterations = 8;
 	int32 positionIterations = 1;
     
@@ -447,7 +447,7 @@
         world->DestroyBody(body);
     }
     
-    
+    }
 
 }
 

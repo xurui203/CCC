@@ -22,34 +22,40 @@
     
 }
 
-
-- (void)onBack: (id) sender {
-    [SceneManager goLevelSelect];
-}
-
-
-- (void)addBackButton {
+- (void)pauseButtonWasPressed:(id)sender {
     
-    NSString *normal = [NSString stringWithFormat:@"Back Arrow.png"];
-    NSString *selected = [NSString stringWithFormat:@"Back Arrow.png"];        
-    CCMenuItemImage *goBack = [CCMenuItemImage itemFromNormalImage:normal 
-                                                     selectedImage:selected
-                                                            target:self 
-                                                          selector:@selector(onBack:)];
-    goBack.scale = .5;
-    CCMenu *back = [CCMenu menuWithItems: goBack, nil];
-    back.zOrder = 10;
-    if (self.iPad) {
-        back.position = ccp(64, 64);
-        
-    }
-    else {
-        back.position = ccp(32, 270);
-    }
+    // pause the game
+    _mazeLayer.paused = YES;
     
-    [self addChild:back];        
+    // hide the pause button
+    [pauseButton runAction:[CCFadeOut actionWithDuration:0.5]];
+    
+    // bring the sprite that shows the word 'Paused' into view
+    [pausedSprite runAction:[CCMoveTo actionWithDuration:0.5
+                                                position:ccp([CCDirector sharedDirector].winSize.width/2-10, [CCDirector sharedDirector].winSize.height/2+50)]];
+    // bring the paued menu into view
+    [pausedMenu runAction:[CCMoveTo actionWithDuration:0.5
+                                              position:ccp([CCDirector sharedDirector].winSize.width/2, [CCDirector sharedDirector].winSize.height/2-100)]];
 }
-
+- (void)createPauseButton {
+    
+    // create sprite for the pause button
+    pauseButton = [CCSprite spriteWithFile:@"PauseButton.png"];
+    
+    // create menu item for the pause button from the pause sprite
+    CCMenuItemSprite *item = [CCMenuItemSprite itemFromNormalSprite:pauseButton
+                                                     selectedSprite:nil
+                                                             target:self
+                                                           selector:@selector(pauseButtonWasPressed:)];
+    
+    // create menu for the pause button and put the menu item on the menu
+    CCMenu *menu = [CCMenu menuWithItems: item, nil];
+    [menu setAnchorPoint:ccp(0, 0)];
+    [menu setIsRelativeAnchorPoint:NO];
+    [menu setPosition:ccp([CCDirector sharedDirector].winSize.width/5, [CCDirector sharedDirector].winSize.height-30)];
+    [menu setScale:0.3];
+    [self addChild:menu];
+}
 //-(void) initMenu {
 //    CCMenuItem *kangarooItem = [CCMenuItemImage
 //                                itemFromNormalImage:@"Kangaroo Icon.png"
@@ -90,6 +96,70 @@
 //    CaptainSP *captainSP = [[CaptainSP alloc] init];
 //    [_mazeLayer.getPlayer transform: captainSP];
 //}
+- (void)createPausedMenu {
+    CGSize screenSize = [CCDirector sharedDirector].winSize;
+    // create a sprite that says simply 'Paused'
+    pausedSprite = [CCSprite spriteWithFile:@"Paused.png"];
+    
+    // create the quit button
+    CCMenuItemSprite *item1 =
+    [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"QuitButton.png"]
+                            selectedSprite:nil
+                                    target:self selector:@selector(quitButtonWasPressed:)];
+    // create the restart button
+    CCMenuItemSprite *item2 =
+    [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"RestartButton.png"]
+                            selectedSprite:nil
+                                    target:self
+                                  selector:@selector(restartButtonWasPressed:)];
+    // create the resume button
+    CCMenuItemSprite *item3 =
+    [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"ResumeButton.png"]
+                            selectedSprite:nil
+                                    target:self
+                                  selector:@selector(resumeButtonWasPressed:)];
+    
+    // put all those three buttons on the menu
+    pausedMenu = [CCMenu menuWithItems:item1, item2, item3, nil];
+    
+    // align the menu
+    [pausedMenu alignItemsInRows:
+     [NSNumber numberWithInt:1],
+     [NSNumber numberWithInt:1],
+     [NSNumber numberWithInt:1],
+     nil];
+    
+    // create the paused sprite and paused menu buttons off screen
+    [pausedSprite setPosition:ccp(screenSize.width/2-10, screenSize.height + 200)];
+    [pausedMenu setPosition:ccp(screenSize.width/2, -300)];
+    
+    // add the Paused sprite and menu to the current layer
+    [self addChild:pausedSprite z:100];
+    [self addChild:pausedMenu z:100];
+}
+
+- (void)quitButtonWasPressed:(id)sender {
+    [SceneManager goLevelSelect];
+}
+- (void)restartButtonWasPressed:(id)sender {
+    [SceneManager goGameScene];
+}
+- (void)resumeButtonWasPressed:(id)sender {
+    
+    // unpause the game
+    _mazeLayer.paused = NO;
+    
+    // show the pause button
+    [pauseButton runAction:[CCFadeIn actionWithDuration:0.5]];
+    
+    // hide the sprite that shows the word 'Paused' from view
+    [pausedSprite runAction:[CCMoveTo actionWithDuration:0.5
+                                                position:ccp([CCDirector sharedDirector].winSize.width/2-10, [CCDirector sharedDirector].winSize.height + 200)]];
+    // hide the paued menu from view
+    [pausedMenu runAction:[CCMoveTo actionWithDuration:0.5
+                                              position:ccp([CCDirector sharedDirector].winSize.width/2, -300)]];
+    
+}
 
 - (id)init {
     
@@ -109,8 +179,9 @@
         
   
         //  Put a 'back' button in the scene
-        [self addBackButton];
-//        [self initMenu];
+        [self createPauseButton];
+
+        [self createPausedMenu];
         
 
         
@@ -120,9 +191,7 @@
         [self createScene];
         CCLOG(@"%d", spM.initiatedSPs.count);
         [self setupPhysicsWorld];
-        
-//        [self limitWorldToScreen];
-        
+                
     
         
         CCSprite *background = [CCSprite spriteWithFile:@"Sky.png"];

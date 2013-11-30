@@ -20,6 +20,9 @@
 @interface GameScene : CCLayer {
     b2World *world;
     GLESDebugDraw *debugDraw;
+    CCSprite *pauseButton;
+    CCSprite *pausedSprite;
+    CCMenu *pausedMenu;
 
 
 }
