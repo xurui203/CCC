@@ -26,7 +26,7 @@
     [GameDataParser saveData:gameData];
     
  // load the game scene
-    [SceneManager goGameScene];
+    [SceneManager goMaze: 1];
 }
 
 - (void)onBack: (id) sender {

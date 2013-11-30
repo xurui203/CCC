@@ -13,6 +13,7 @@
 #import "SceneName.h"
  
 */
+#import "Defines.h"
 #import "MainMenu.h"
 #import "OptionsMenu.h"
 #import "ChapterSelect.h"
@@ -24,6 +25,11 @@
 #import "LearningModulesMenu.h"
 #import "OpeningSequence.h"
 #import "LearningModuleScene.h"
+#import "MazeLayer.h"
+#import "KangarooMaze.h"
+//#import "GceckMaze.h"
+//#import "MainMazeOne.h"
+
 
 @interface SceneManager : NSObject {
     
@@ -42,10 +48,11 @@
 +(void) goOptionsMenu;
 +(void) goChapterSelect;
 +(void) goLevelSelect;
-+(void) goGameScene;
+//+(void) goGameScene;
 +(void) goLevelComplete;
 +(void) goGameOverLayer;
 +(void) goLearningModulesMenu;
 +(void) goOpeningSequence;
 +(void) goLearningModuleScene;
++(void) goMaze: (int) mazeID;
 @end

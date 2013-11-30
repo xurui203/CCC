@@ -23,7 +23,7 @@
 //        self.crawlAnimation = self.makeCrawlAnimation;
 //        //self.jumpAnimation = self.makeJumpAnimation;
 //        self.idleAnimation = self.makeIdleAnimation;
-//        
+//
         
         NSString *myName = @"captainSP";
         self.name = myName;

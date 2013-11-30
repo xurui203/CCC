@@ -1152,6 +1152,7 @@
 		5B4D451D1835C59D00F2855E /* Kangaroo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45191835C59D00F2855E /* Kangaroo.mm */; };
 		5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D451B1835C59D00F2855E /* Superpower.mm */; };
 		5B4D45211835D2A700F2855E /* SuperpowerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45201835D2A700F2855E /* SuperpowerManager.mm */; };
+		5B6A4337184A8ECF003CD115 /* KangarooMaze.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4336184A8ECF003CD115 /* KangarooMaze.mm */; };
 		5B6F77AC183D5CB800D737B2 /* BetaSheet2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */; };
 		5B6F77AD183D5CB800D737B2 /* BetaSheet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */; };
 		5B6F77D2183D5D5200D737B2 /* Captain001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AF183D5D5200D737B2 /* Captain001.png */; };
@@ -2554,6 +2555,9 @@
 		5B4D451B1835C59D00F2855E /* Superpower.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpower.mm; sourceTree = "<group>"; };
 		5B4D451F1835D2A600F2855E /* SuperpowerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpowerManager.h; sourceTree = "<group>"; };
 		5B4D45201835D2A700F2855E /* SuperpowerManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpowerManager.mm; sourceTree = "<group>"; };
+		5B6A4334184A8931003CD115 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = Sprites/Defines.h; sourceTree = "<group>"; };
+		5B6A4335184A8ECF003CD115 /* KangarooMaze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KangarooMaze.h; path = Mazes/KangarooMaze.h; sourceTree = SOURCE_ROOT; };
+		5B6A4336184A8ECF003CD115 /* KangarooMaze.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = KangarooMaze.mm; path = Mazes/KangarooMaze.mm; sourceTree = SOURCE_ROOT; };
 		5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BetaSheet2.plist; sourceTree = "<group>"; };
 		5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaSheet2.png; sourceTree = "<group>"; };
 		5B6F77AF183D5D5200D737B2 /* Captain001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain001.png; sourceTree = "<group>"; };
@@ -3526,6 +3530,7 @@
 		3ECB2EC618258BF800C82177 /* GamePlay */ = {
 			isa = PBXGroup;
 			children = (
+				5B6A4334184A8931003CD115 /* Defines.h */,
 				3EDC409A18452B96000EF77D /* World.h */,
 				3EDC409B18452B97000EF77D /* World.mm */,
 				3EBD9142182AA47C00ABC143 /* LevelCompleteScene.h */,
@@ -4778,6 +4783,8 @@
 		5BBA6EF41835DE5000E21408 /* PracMazeLayers */ = {
 			isa = PBXGroup;
 			children = (
+				5B6A4335184A8ECF003CD115 /* KangarooMaze.h */,
+				5B6A4336184A8ECF003CD115 /* KangarooMaze.mm */,
 			);
 			name = PracMazeLayers;
 			sourceTree = "<group>";
@@ -6065,6 +6072,7 @@
 				3E452E701824063600B4EFDE /* CocosDenshion.m in Sources */,
 				5B4D451E1835C59D00F2855E /* Superpower.mm in Sources */,
 				3E452F0D1824063700B4EFDE /* b2RopeJoint.cpp in Sources */,
+				5B6A4337184A8ECF003CD115 /* KangarooMaze.mm in Sources */,
 				3EDC409C18452B97000EF77D /* World.mm in Sources */,
 				3E452EFB1824063700B4EFDE /* b2GearJoint.cpp in Sources */,
 				3E452EFE1824063700B4EFDE /* b2Joint.cpp in Sources */,

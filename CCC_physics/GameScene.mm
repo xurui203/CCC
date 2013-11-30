@@ -161,7 +161,7 @@
     
 }
 
-- (id)init {
+- (id)initWithMaze: (MazeLayer *) maze{
     
     if( (self=[super init])) {
 
@@ -188,7 +188,7 @@
          spM = [SuperpowerManager sharedManager];
         
         
-        [self createScene];
+        [self createScene: maze];
         CCLOG(@"%d", spM.initiatedSPs.count);
         [self setupPhysicsWorld];
                 
@@ -209,9 +209,10 @@
     return self;
 }
 
--(void) createScene {
+//EDIT: create scene with maze layer parameter
+-(void) createScene: (MazeLayer *) maze {
     
-    _mazeLayer = [MazeLayer node];
+    _mazeLayer = maze;
     [self addChild:_mazeLayer z:0];
     _hudLayer = [HudLayer node];
     [self addChild:_hudLayer z:1];

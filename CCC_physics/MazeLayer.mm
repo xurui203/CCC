@@ -3,15 +3,15 @@
 #import "MazeLayer.h"
 #import "SimpleAudioEngine.h"
 
-@interface MazeLayer(Private)
--(void) setupPhysicsWorld;
-@end
+//@interface MazeLayer(Private)
+//-(void) setupPhysicsWorld;
+//@end
 
 @implementation MazeLayer
+
+
 @synthesize hud;
 @synthesize collectiblesArray, paused;
-
-
 
 
 -(id)init {

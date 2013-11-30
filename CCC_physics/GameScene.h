@@ -17,7 +17,7 @@
 @class IconDrawer;
 @class SuperpowerManager;
 
-@interface GameScene : CCLayer {
+@interface GameScene : CCScene {
     b2World *world;
     GLESDebugDraw *debugDraw;
     CCSprite *pauseButton;
@@ -35,4 +35,6 @@
 @property(nonatomic) SuperpowerManager *spM;
 
 @property(nonatomic)IconDrawer *icondrawer;
+
+- (id) initWithMaze: (MazeLayer*) maze;
 @end

@@ -14,7 +14,7 @@
 
 @class HudLayer;
 @class IconDrawer;
-@interface MazeLayer : CCLayer <DirectionPadDelegate> {
+@interface MazeLayer : CCLayer {
     CCTMXTiledMap *_tileMap;
     CCSpriteBatchNode *_actors;
     Captain *player;

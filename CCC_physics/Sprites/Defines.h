@@ -29,6 +29,14 @@
 #define kFontScaleTiny 14;
 
 
+//Maze IDs
+# define KL_MAZE_ID 1
+# define GECKO_MAZE_ID 2
+# define RAM_MAZE_ID 3
+
+# define MAIN_ONE_ID 101
+# define MAIN_TWO_ID 102
+
 // 3 - enumerations
 typedef enum _ActionState {
     kActionStateNone = 0,
