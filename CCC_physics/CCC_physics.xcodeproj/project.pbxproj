@@ -2679,6 +2679,7 @@
 				3E452F211824063800B4EFDE /* RootViewController.h */,
 				3E452F221824063800B4EFDE /* RootViewController.mm */,
 				3E452F2A1824063800B4EFDE /* GameConfig.h */,
+				5B4D45221835DB9400F2855E /* Mazes */,
 				3ECB2EC618258BF800C82177 /* GamePlay */,
 				5B4D45231835DBC500F2855E /* Learning Modules */,
 				5B4D45151835C59D00F2855E /* Superpower */,
@@ -3555,7 +3556,6 @@
 				3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */,
 				312341FF182A3F21001BC4B7 /* GameOverScene.h */,
 				31234200182A3F21001BC4B7 /* GameOverScene.mm */,
-				5B4D45221835DB9400F2855E /* Mazes */,
 			);
 			name = GamePlay;
 			path = ..;
@@ -3716,7 +3716,6 @@
 				5BCB88801829E6A4009D6DBF /* ContactListener.mm */,
 			);
 			name = Mazes;
-			path = CCC_physics;
 			sourceTree = "<group>";
 		};
 		5B4D45231835DBC500F2855E /* Learning Modules */ = {

@@ -29,8 +29,8 @@ static SuperpowerManager *sharedMyManager = nil;
 -(id) init {
     if (self =[super init]) {
         //add new superpower classes to this array
-        superpowers = [[NSMutableArray alloc] initWithObjects: @"CaptainSP", @"Kangaroo", nil];
-        int spNum = 3;
+        superpowers = [[NSMutableArray alloc] initWithObjects: @"CaptainSP", @"Kangaroo", @"Gecko", nil];
+        int spNum = 4;
         initiatedSPs = [[NSMutableArray alloc] initWithCapacity:spNum];
         [self addSPs];
     }

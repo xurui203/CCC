@@ -54,8 +54,6 @@
     
 }
 
-
-
 # define NUM_TRANSFORM_IDLE 1
 - (CCAnimation *) getIdleAnimation {
     if (self.idleAnimation == nil){
