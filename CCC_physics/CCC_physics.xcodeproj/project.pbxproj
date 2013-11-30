@@ -10,6 +10,11 @@
 		3114C8D7183C5F170091AE4F /* LearningModuleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */; };
 		31234201182A3F21001BC4B7 /* GameOverScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234200182A3F21001BC4B7 /* GameOverScene.mm */; };
 		31234209182A95B4001BC4B7 /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234208182A95B4001BC4B7 /* GameOverLayer.mm */; };
+		3E09A1D4184A67750006672B /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1CF184A67740006672B /* PauseButton.png */; };
+		3E09A1D5184A67750006672B /* Paused.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D0184A67740006672B /* Paused.png */; };
+		3E09A1D6184A67750006672B /* QuitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D1184A67740006672B /* QuitButton.png */; };
+		3E09A1D7184A67750006672B /* RestartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D2184A67740006672B /* RestartButton.png */; };
+		3E09A1D8184A67750006672B /* ResumeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D3184A67750006672B /* ResumeButton.png */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
 		3E452D3D1824063300B4EFDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3C1824063300B4EFDE /* OpenGLES.framework */; };
 		3E452D3F1824063300B4EFDE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3E1824063300B4EFDE /* OpenAL.framework */; };
@@ -1204,6 +1209,11 @@
 		31234200182A3F21001BC4B7 /* GameOverScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameOverScene.mm; sourceTree = "<group>"; };
 		31234207182A95B4001BC4B7 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = ../Sprites/GameOverLayer.h; sourceTree = "<group>"; };
 		31234208182A95B4001BC4B7 /* GameOverLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameOverLayer.mm; path = ../Sprites/GameOverLayer.mm; sourceTree = "<group>"; };
+		3E09A1CF184A67740006672B /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		3E09A1D0184A67740006672B /* Paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paused.png; sourceTree = "<group>"; };
+		3E09A1D1184A67740006672B /* QuitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuitButton.png; sourceTree = "<group>"; };
+		3E09A1D2184A67740006672B /* RestartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartButton.png; sourceTree = "<group>"; };
+		3E09A1D3184A67750006672B /* ResumeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResumeButton.png; sourceTree = "<group>"; };
 		3E452D371824063300B4EFDE /* CCC_physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC_physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E452D3A1824063300B4EFDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E452D3C1824063300B4EFDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -2670,6 +2680,11 @@
 		3E452D4B1824063300B4EFDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3E09A1CF184A67740006672B /* PauseButton.png */,
+				3E09A1D0184A67740006672B /* Paused.png */,
+				3E09A1D1184A67740006672B /* QuitButton.png */,
+				3E09A1D2184A67740006672B /* RestartButton.png */,
+				3E09A1D3184A67750006672B /* ResumeButton.png */,
 				5B2D83E7183C275D00BA3365 /* Animations */,
 				3EBD92B91833DD6500ABC143 /* Energy */,
 				3EBD92F81833DD6500ABC143 /* App Format */,
@@ -5173,6 +5188,7 @@
 				3EBD932E1833DD6600ABC143 /* Energy Score Bar0027.png in Resources */,
 				5B27438E182A1C3600942895 /* Lat Capt KL-Jumping006.png in Resources */,
 				5B2D8378183C274B00BA3365 /* Ant Capt Trainsition-Into DN0062.png in Resources */,
+				3E09A1D7184A67750006672B /* RestartButton.png in Resources */,
 				3ECB2E9518257CB800C82177 /* Locked-iPad.png in Resources */,
 				5B2D8270183C274B00BA3365 /* Lat Capt Human-To Crawl Transition0023.png in Resources */,
 				5B2D817C183C274B00BA3365 /* CCC DN-Stand&Sniff0097.png in Resources */,
@@ -5342,6 +5358,7 @@
 				3E452D4D1824063300B4EFDE /* Default.png in Resources */,
 				5B2D81EE183C274B00BA3365 /* CCC GF-Walking0028.png in Resources */,
 				5B2743AA182A1C3600942895 /* Ant Capt Transistion-From KL007.png in Resources */,
+				3E09A1D5184A67750006672B /* Paused.png in Resources */,
 				5B2D817F183C274B00BA3365 /* CCC DN-Walking0002.png in Resources */,
 				5B2D819E183C274B00BA3365 /* CCC DN-Walking0033.png in Resources */,
 				5B2D832E183C274B00BA3365 /* Ant Capt Transistion-From KL0020.png in Resources */,
@@ -5358,6 +5375,7 @@
 				5B6F77EA183D5D5200D737B2 /* Captain0031.png in Resources */,
 				5B2D8237183C274B00BA3365 /* Lat Capt Human-Standing002.png in Resources */,
 				5B2D81F5183C274B00BA3365 /* CCC GF-Walking0035.png in Resources */,
+				3E09A1D8184A67750006672B /* ResumeButton.png in Resources */,
 				5B2D822C183C274B00BA3365 /* Lat Capt Human-Running0023.png in Resources */,
 				3EBD916E182AE43E00ABC143 /* learn.png in Resources */,
 				5B2D824B183C274B00BA3365 /* Lat Capt Human-Stand Up0015.png in Resources */,
@@ -5590,6 +5608,7 @@
 				5B2D81B5183C274B00BA3365 /* CCC DN-Walking0056.png in Resources */,
 				5B2D835C183C274B00BA3365 /* Ant Capt Trainsition-Into DN0034.png in Resources */,
 				5B2D82C8183C274B00BA3365 /* Ant Capt Transition-From DN0011.png in Resources */,
+				3E09A1D4184A67750006672B /* PauseButton.png in Resources */,
 				5B2D8226183C274B00BA3365 /* Lat Capt Human-Running0018.png in Resources */,
 				5B2D81FC183C274B00BA3365 /* Lat Capt Human-Crawling0010.png in Resources */,
 				3EBD93571833DD6600ABC143 /* Opening Sequence.m4v in Resources */,
@@ -5822,6 +5841,7 @@
 				3EBD936E1833DEFB00ABC143 /* README.md in Resources */,
 				5B2D8107183C274B00BA3365 /* CCC DN-Running0004.png in Resources */,
 				5B2D82A3183C274B00BA3365 /* Lat Capt KL-Jumping003.png in Resources */,
+				3E09A1D6184A67750006672B /* QuitButton.png in Resources */,
 				5B2D816B183C274B00BA3365 /* CCC DN-Stand&Sniff0080.png in Resources */,
 				5B2D81E2183C274B00BA3365 /* CCC GF-Walking0016.png in Resources */,
 				5B274397182A1C3600942895 /* Ant Capt Transistion-From KL0012.png in Resources */,

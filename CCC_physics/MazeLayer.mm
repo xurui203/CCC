@@ -480,8 +480,8 @@
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
 //    [player dealloc];
-[self removeChild:player cleanup:YES];
-    [player.currentSuperpower dealloc];
+    [self removeChild:player cleanup:YES];
+//    [player.currentSuperpower relea=se];
     [super dealloc];
 }
 
