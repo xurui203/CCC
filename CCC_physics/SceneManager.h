@@ -26,7 +26,6 @@
 #import "OpeningSequence.h"
 #import "LearningModuleScene.h"
 #import "MazeLayer.h"
-#import "KangarooMaze.h"
 //#import "GceckMaze.h"
 //#import "MainMazeOne.h"
 

@@ -23,10 +23,10 @@
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap];
         NSLog(@"LOADING PLISTS!!!");
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet2.plist"];
-        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet2.png"];
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"ActionsSheet.plist"];
-         geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"ActionsSheet.png"];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
+        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Human_Kangaroo.png"];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Dog_Gecko.plist"];
+         geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
         [self addChild:humanSpriteSheet z:2];
         [self addChild:geckoSpriteSheet z:2];

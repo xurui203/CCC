@@ -71,7 +71,7 @@
 +(void) goMaze: (int) mazeID {
     MazeLayer *maze;
     if (mazeID == KL_MAZE_ID ){
-       maze = [KangarooMaze node];
+       maze = [MazeLayer node];
     }
 //    if (mazeID == GECKO_MAZE_ID ){
 //        maze = [GeckoMaze node];

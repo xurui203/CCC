@@ -47,5 +47,6 @@
 - (void) moveRight: (Player*) player;
 - (void) crawl: (Player*) player;
 
-
+# define NUM_TRANSFORM_JUMP 31
+-(CCAnimation*) makeAnimation: (int) numFrames : (NSString*) filename;
 @end
