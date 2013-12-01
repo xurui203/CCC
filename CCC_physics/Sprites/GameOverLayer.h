@@ -12,6 +12,7 @@
 #import "Defines.h"
 #import "SceneManager.h"
 #import "Constants.h"
+#import "MazeManager.h"
 
 @interface GameOverLayer : CCLayer
 @property (nonatomic, assign) BOOL iPad;

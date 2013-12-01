@@ -57,46 +57,6 @@
     [menu setScale:0.3];
     [self addChild:menu];
 }
-//-(void) initMenu {
-//    CCMenuItem *kangarooItem = [CCMenuItemImage
-//                                itemFromNormalImage:@"Kangaroo Icon.png"
-//                                selectedImage:@"Kangaroo Icon.png"
-//                                target:self selector:@selector(kangarooButtonTapped:)];
-//    kangarooItem.scale = 0.3;
-//    
-//    CCMenuItem *captainItem = [CCMenuItemImage
-//                                itemFromNormalImage:@"CCC icon.png"
-//                                selectedImage:@"CCC icon.png"
-//                                target:self selector:@selector(humanButtonTapped:)];
-//    captainItem.scale = 0.3;
-//
-//    
-//    CCMenu *menu= [CCMenu menuWithItems:kangarooItem, captainItem, nil];
-//    //CCMenu *menu2= [CCMenu menuWithItems:captainItem, nil];
-//
-//    menu.position = ccp(380, 280);
-// //   menu2.position = ccp(300, 270);
-//    [menu alignItemsHorizontally];
-//    [self addChild: menu z:100];
-//  //  [self addChild: menu2 z:101];
-//
-//}
-//
-//-(void)kangarooButtonTapped:(id) sender{
-//    NSLog(@"kangaroo selected");
-//    //Superpower *power = [Superpower init];
-//    //    _human.superPowerAction = power.superpowerAction;
-//    Kangaroo *kangarooSP = [[Kangaroo alloc] init];
-//    [_mazeLayer.getPlayer transform: kangarooSP];
-//}
-//
-//-(void)humanButtonTapped:(id) sender{
-//    NSLog(@"kangaroo selected");
-//    //Superpower *power = [Superpower init];
-//    //    _human.superPowerAction = power.superpowerAction;
-//    CaptainSP *captainSP = [[CaptainSP alloc] init];
-//    [_mazeLayer.getPlayer transform: captainSP];
-//}
 - (void)createPausedMenu {
     CGSize screenSize = [CCDirector sharedDirector].winSize;
     // create a sprite that says simply 'Paused'
@@ -187,7 +147,7 @@
 
         
          spM = [SuperpowerManager sharedManager];
-        
+//        [[MazeManager sharedInstance] currentMazeID] = currentMazeID;
         currentMazeID = mazeID;
         [self createScene: mazeID];
         CCLOG(@"%d", spM.initiatedSPs.count);
@@ -255,6 +215,13 @@
 	
 	// return the scene
 	return scene;
+}
+
+-(void) dealloc {
+    [_mazeLayer dealloc];
+    [_icondrawer dealloc];
+    [_hudLayer dealloc];
+//    [super dealloc];
 }
 
 

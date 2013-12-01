@@ -17,5 +17,5 @@
 - (void)reset;
 
 - (CCTMXTiledMap*) getMapWithID: (int) mapID;
-
+@property(nonatomic, readwrite) int currentMazeID;
 @end
