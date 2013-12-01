@@ -21,7 +21,7 @@
         self.canJump = TRUE;
         
         self.isLocked = NO;
-        self.icon = @"Gecko icon.png";
+        self.icon = @"Gecko Icon.png";
         CCLOG(@"Making transformation animations");
         
     }
