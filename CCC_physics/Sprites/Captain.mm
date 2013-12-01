@@ -45,6 +45,10 @@
 }
 
 
+- (void) reset {
+    self.currentSuperpower = [CaptainSP alloc];
+    [self.currentSuperpower init];
+}
 
 
 #define JUMP_TAG 1001
