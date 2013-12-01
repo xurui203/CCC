@@ -1192,7 +1192,7 @@
 		5B6A492D184AA3C8003CD115 /* Dog_Gecko.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4929184AA3C8003CD115 /* Dog_Gecko.png */; };
 		5B6A492E184AA3C8003CD115 /* Human_Kangaroo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A492A184AA3C8003CD115 /* Human_Kangaroo.plist */; };
 		5B6A492F184AA3C8003CD115 /* Human_Kangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A492B184AA3C8003CD115 /* Human_Kangaroo.png */; };
-		5B6A4932184AAC21003CD115 /* MazeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4931184AAC21003CD115 /* MazeManager.m */; };
+		5B6A4932184AAC21003CD115 /* MazeManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4931184AAC21003CD115 /* MazeManager.mm */; };
 		5B6A4938184AB8E2003CD115 /* kangaroo.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4936184AB8E2003CD115 /* kangaroo.tmx */; };
 		5B6A4939184AB8E2003CD115 /* gecko.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4937184AB8E2003CD115 /* gecko.tmx */; };
 		5B6A493B184ABEC6003CD115 /* kangaroo 2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A493A184ABEC6003CD115 /* kangaroo 2.tmx */; };
@@ -2606,7 +2606,7 @@
 		5B6A492A184AA3C8003CD115 /* Human_Kangaroo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Human_Kangaroo.plist; sourceTree = "<group>"; };
 		5B6A492B184AA3C8003CD115 /* Human_Kangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human_Kangaroo.png; sourceTree = "<group>"; };
 		5B6A4930184AAC21003CD115 /* MazeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MazeManager.h; path = Mazes/MazeManager.h; sourceTree = SOURCE_ROOT; };
-		5B6A4931184AAC21003CD115 /* MazeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MazeManager.m; path = Mazes/MazeManager.m; sourceTree = SOURCE_ROOT; };
+		5B6A4931184AAC21003CD115 /* MazeManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MazeManager.mm; path = Mazes/MazeManager.mm; sourceTree = SOURCE_ROOT; };
 		5B6A4936184AB8E2003CD115 /* kangaroo.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kangaroo.tmx; sourceTree = "<group>"; };
 		5B6A4937184AB8E2003CD115 /* gecko.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gecko.tmx; sourceTree = "<group>"; };
 		5B6A493A184ABEC6003CD115 /* kangaroo 2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "kangaroo 2.tmx"; sourceTree = "<group>"; };
@@ -3724,7 +3724,7 @@
 				5BCB887F1829E6A4009D6DBF /* ContactListener.h */,
 				5BCB88801829E6A4009D6DBF /* ContactListener.mm */,
 				5B6A4930184AAC21003CD115 /* MazeManager.h */,
-				5B6A4931184AAC21003CD115 /* MazeManager.m */,
+				5B6A4931184AAC21003CD115 /* MazeManager.mm */,
 			);
 			name = Mazes;
 			sourceTree = "<group>";
@@ -6006,7 +6006,7 @@
 				5BCB88831829E6A4009D6DBF /* ContactListener.mm in Sources */,
 				3E452E5F1824063600B4EFDE /* TransformUtils.m in Sources */,
 				3E452E8D1824063600B4EFDE /* b2BroadPhase.cpp in Sources */,
-				5B6A4932184AAC21003CD115 /* MazeManager.m in Sources */,
+				5B6A4932184AAC21003CD115 /* MazeManager.mm in Sources */,
 				3E452EE51824063700B4EFDE /* b2ContactSolver.cpp in Sources */,
 				3E452DD81824063500B4EFDE /* CCPhysicsDebugNode.m in Sources */,
 				3E452D8B1824063400B4EFDE /* CCAnimation.m in Sources */,

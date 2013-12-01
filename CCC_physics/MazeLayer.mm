@@ -47,6 +47,23 @@
     return self;
 }
 
+//-(void)restart {
+//        self.isTouchEnabled = YES;
+//        [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
+//        [self setupPhysicsWorld];
+//        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
+//        [self removeChild:_tileMap cleanup: TRUE];
+//        [self removeChild:player cleanup: TRUE];
+//        [self initTileMap: _tileMap];
+//        NSLog(@"restarting");
+//        [self drawCollisionTiles];
+//        [self initCaptain];
+//        [self drawGameOverTiles];
+//        [self drawEndTiles];
+//        [self drawCollectibles];
+//        [self scheduleUpdate];
+//        numCollected = 0;
+//}
 
 +(id) scene
 {
@@ -277,12 +294,14 @@
 }
 
 
+#define CAPTAIN_TAG 1234
 -(void)initCaptain {
     
-    NSLog(@"initizaling captain");
+    NSLog(@"initializing captain");
     
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     player = [[World sharedWorld] CCCplayer];
+    player.tag = CAPTAIN_TAG;
    
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
@@ -292,7 +311,16 @@
     player.scale = 0.4;
     player.position = ccp(100, 400);
     [player createBox2dObject:world];
-    [self addChild:player];
+    NSLog(@"add child not a world problem");
+    if ([self getChildByTag:player.tag] == nil){
+        NSLog(@"adding player to maze");
+
+        [self addChild:player];
+
+    }
+    //[self addChild:player];
+    NSLog(@"add child not a add player problem");
+
     [player idle];
 
 }

@@ -57,46 +57,7 @@
     [menu setScale:0.3];
     [self addChild:menu];
 }
-//-(void) initMenu {
-//    CCMenuItem *kangarooItem = [CCMenuItemImage
-//                                itemFromNormalImage:@"Kangaroo Icon.png"
-//                                selectedImage:@"Kangaroo Icon.png"
-//                                target:self selector:@selector(kangarooButtonTapped:)];
-//    kangarooItem.scale = 0.3;
-//    
-//    CCMenuItem *captainItem = [CCMenuItemImage
-//                                itemFromNormalImage:@"CCC icon.png"
-//                                selectedImage:@"CCC icon.png"
-//                                target:self selector:@selector(humanButtonTapped:)];
-//    captainItem.scale = 0.3;
-//
-//    
-//    CCMenu *menu= [CCMenu menuWithItems:kangarooItem, captainItem, nil];
-//    //CCMenu *menu2= [CCMenu menuWithItems:captainItem, nil];
-//
-//    menu.position = ccp(380, 280);
-// //   menu2.position = ccp(300, 270);
-//    [menu alignItemsHorizontally];
-//    [self addChild: menu z:100];
-//  //  [self addChild: menu2 z:101];
-//
-//}
-//
-//-(void)kangarooButtonTapped:(id) sender{
-//    NSLog(@"kangaroo selected");
-//    //Superpower *power = [Superpower init];
-//    //    _human.superPowerAction = power.superpowerAction;
-//    Kangaroo *kangarooSP = [[Kangaroo alloc] init];
-//    [_mazeLayer.getPlayer transform: kangarooSP];
-//}
-//
-//-(void)humanButtonTapped:(id) sender{
-//    NSLog(@"kangaroo selected");
-//    //Superpower *power = [Superpower init];
-//    //    _human.superPowerAction = power.superpowerAction;
-//    CaptainSP *captainSP = [[CaptainSP alloc] init];
-//    [_mazeLayer.getPlayer transform: captainSP];
-//}
+
 - (void)createPausedMenu {
     CGSize screenSize = [CCDirector sharedDirector].winSize;
     // create a sprite that says simply 'Paused'
@@ -107,12 +68,12 @@
     [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"QuitButton.png"]
                             selectedSprite:nil
                                     target:self selector:@selector(quitButtonWasPressed:)];
-    // create the restart button
-    CCMenuItemSprite *item2 =
-    [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"RestartButton.png"]
-                            selectedSprite:nil
-                                    target:self
-                                  selector:@selector(restartButtonWasPressed:)];
+//    // create the restart button
+//    CCMenuItemSprite *item2 =
+//    [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"RestartButton.png"]
+//                            selectedSprite:nil
+//                                    target:self
+//                                  selector:@selector(restartButtonWasPressed:)];
     // create the resume button
     CCMenuItemSprite *item3 =
     [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"ResumeButton.png"]
@@ -121,11 +82,10 @@
                                   selector:@selector(resumeButtonWasPressed:)];
     
     // put all those three buttons on the menu
-    pausedMenu = [CCMenu menuWithItems:item1, item2, item3, nil];
+    pausedMenu = [CCMenu menuWithItems:item1, item3, nil];
     
     // align the menu
     [pausedMenu alignItemsInRows:
-     [NSNumber numberWithInt:1],
      [NSNumber numberWithInt:1],
      [NSNumber numberWithInt:1],
      nil];
@@ -142,9 +102,13 @@
 - (void)quitButtonWasPressed:(id)sender {
     [SceneManager goLevelSelect];
 }
-- (void)restartButtonWasPressed:(id)sender {
-    [SceneManager goMaze: currentMazeID];
-}
+//- (void)restartButtonWasPressed:(id)sender {
+//    //[self removeChild:_mazeLayer cleanup:YES];
+//
+//    NSLog(@"Current maze ID is %d", currentMazeID);
+//    [self removeChild:_mazeLayer cleanup:YES];
+//
+//}
 - (void)resumeButtonWasPressed:(id)sender {
     
     // unpause the game
@@ -256,6 +220,8 @@
 	// return the scene
 	return scene;
 }
+
+
 
 
 @end
