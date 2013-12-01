@@ -69,26 +69,9 @@
 
 //Maze methods
 +(void) goMaze: (int) mazeID {
-    MazeLayer *maze;
-    if (mazeID == KL_MAZE_ID ){
-       maze = [MazeLayer node];
-    }
-//    if (mazeID == GECKO_MAZE_ID ){
-//        maze = [GeckoMaze node];
-//    }
-//    if (mazeID == MAIN_ONE_ID ){
-//        maze = [MainMazeOne node];
-//    }
-   // [SceneManager goToScene:[[[GameScene alloc] initWithMaze: _levels[levelNum] ] autorelease]];
-    [SceneManager goToScene:[[[GameScene alloc] initWithMaze: maze] autorelease]];
+    [SceneManager goToScene:[[[GameScene alloc] initWithMaze: mazeID] autorelease]];
 
 }
-
-+(void) goPracticeMaze: (NSString*) superpower  {
-    MazeLayer *maze = [MazeLayer node];
-    [SceneManager goToScene:[[[GameScene alloc] initWithMaze: maze] autorelease]];
-}
-
 
 //Go to methods
 

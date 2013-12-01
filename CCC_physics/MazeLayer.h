@@ -46,6 +46,7 @@
 +(id) scene;
 
 - (Captain*) getPlayer;
+-(id)initWithTileMap: (CCTMXTiledMap*) tileMap;
 
 
 @end

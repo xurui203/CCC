@@ -23,6 +23,7 @@
     CCSprite *pauseButton;
     CCSprite *pausedSprite;
     CCMenu *pausedMenu;
+    int currentMazeID;
 
 
 }
@@ -36,5 +37,5 @@
 
 @property(nonatomic)IconDrawer *icondrawer;
 
-- (id) initWithMaze: (MazeLayer*) maze;
+- (id) initWithMaze: (int) mazeID;
 @end

@@ -8,6 +8,7 @@
 #import "LevelParser.h"
 #import "Levels.h"
 #import "Level.h"
+#import "MazeManager.h"
 
 
 @implementation GameScene  
@@ -142,7 +143,7 @@
     [SceneManager goLevelSelect];
 }
 - (void)restartButtonWasPressed:(id)sender {
-    [SceneManager goGameScene];
+    [SceneManager goMaze: currentMazeID];
 }
 - (void)resumeButtonWasPressed:(id)sender {
     
@@ -161,7 +162,7 @@
     
 }
 
-- (id)initWithMaze: (MazeLayer *) maze{
+- (id)initWithMaze: (int) mazeID{
     
     if( (self=[super init])) {
 
@@ -187,8 +188,8 @@
         
          spM = [SuperpowerManager sharedManager];
         
-        
-        [self createScene: maze];
+        currentMazeID = mazeID;
+        [self createScene: mazeID];
         CCLOG(@"%d", spM.initiatedSPs.count);
         [self setupPhysicsWorld];
                 
@@ -210,9 +211,9 @@
 }
 
 //EDIT: create scene with maze layer parameter
--(void) createScene: (MazeLayer *) maze {
-    
-    _mazeLayer = maze;
+-(void) createScene: (int) mazeID {
+    CCTMXTiledMap *map = [[MazeManager sharedInstance] getMapWithID:mazeID];
+    _mazeLayer = [[[MazeLayer alloc] initWithTileMap: map] autorelease] ;
     [self addChild:_mazeLayer z:0];
     _hudLayer = [HudLayer node];
     [self addChild:_hudLayer z:1];

@@ -14,14 +14,14 @@
 @synthesize collectiblesArray, paused;
 
 
--(id)init {
+-(id)initWithTileMap: (CCTMXTiledMap*) tileMap {
     if ((self = [super init])) {
         self.isTouchEnabled = YES;
         [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
         
         [self setupPhysicsWorld];
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
-        [self initTileMap];
+        [self initTileMap: tileMap];
         NSLog(@"LOADING PLISTS!!!");
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
         humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Human_Kangaroo.png"];
@@ -264,9 +264,10 @@
 }
 
 
--(void)initTileMap {
+-(void)initTileMap: (CCTMXTiledMap*) tileMap {
    
-    _tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"test_map.tmx"];
+    //_tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"test_map.tmx"];
+    _tileMap = tileMap;
     _tileMap.scale = .5;
 	_tileMap.anchorPoint = ccp(0, 0);
 	[self addChild:_tileMap];
