@@ -1193,7 +1193,6 @@
 		5B6A492E184AA3C8003CD115 /* Human_Kangaroo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A492A184AA3C8003CD115 /* Human_Kangaroo.plist */; };
 		5B6A492F184AA3C8003CD115 /* Human_Kangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A492B184AA3C8003CD115 /* Human_Kangaroo.png */; };
 		5B6A4932184AAC21003CD115 /* MazeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4931184AAC21003CD115 /* MazeManager.m */; };
-		5B6A4935184AAD6C003CD115 /* MazeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4934184AAD6C003CD115 /* MazeMap.m */; };
 		5B6F77AC183D5CB800D737B2 /* BetaSheet2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */; };
 		5B6F77AD183D5CB800D737B2 /* BetaSheet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */; };
 		5BB581F3183330BF00A9F330 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F0183330BF00A9F330 /* hurt.wav */; };
@@ -2605,8 +2604,6 @@
 		5B6A492B184AA3C8003CD115 /* Human_Kangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human_Kangaroo.png; sourceTree = "<group>"; };
 		5B6A4930184AAC21003CD115 /* MazeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MazeManager.h; path = Mazes/MazeManager.h; sourceTree = SOURCE_ROOT; };
 		5B6A4931184AAC21003CD115 /* MazeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MazeManager.m; path = Mazes/MazeManager.m; sourceTree = SOURCE_ROOT; };
-		5B6A4933184AAD6C003CD115 /* MazeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MazeMap.h; path = Mazes/MazeMap.h; sourceTree = SOURCE_ROOT; };
-		5B6A4934184AAD6C003CD115 /* MazeMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MazeMap.m; path = Mazes/MazeMap.m; sourceTree = SOURCE_ROOT; };
 		5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BetaSheet2.plist; sourceTree = "<group>"; };
 		5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaSheet2.png; sourceTree = "<group>"; };
 		5BB581F0183330BF00A9F330 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
@@ -3722,8 +3719,6 @@
 				5BCB88801829E6A4009D6DBF /* ContactListener.mm */,
 				5B6A4930184AAC21003CD115 /* MazeManager.h */,
 				5B6A4931184AAC21003CD115 /* MazeManager.m */,
-				5B6A4933184AAD6C003CD115 /* MazeMap.h */,
-				5B6A4934184AAD6C003CD115 /* MazeMap.m */,
 			);
 			name = Mazes;
 			sourceTree = "<group>";
@@ -5993,7 +5988,6 @@
 				3E452DBD1824063400B4EFDE /* CCMenuItem.m in Sources */,
 				3E452ED21824063700B4EFDE /* b2World.cpp in Sources */,
 				3E452E181824063500B4EFDE /* CCTransitionPageTurn.m in Sources */,
-				5B6A4935184AAD6C003CD115 /* MazeMap.m in Sources */,
 				3E452E541824063600B4EFDE /* ccUtils.c in Sources */,
 				3E452DF11824063500B4EFDE /* CCSpriteBatchNode.m in Sources */,
 				3E452E6D1824063600B4EFDE /* CDOpenALSupport.m in Sources */,

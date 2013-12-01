@@ -14,21 +14,7 @@
 @end
 
 
-@implementation SceneManager{
-//    NSArray * _levels;
-//    int _currentLevel;
-}
-
-//- (id)init {
-//    if ((self = [super init])) {
-//        _currentLevel = 0;
-//        MainMaze * level1 = [[[MainMaze alloc] initWithLevelNum:1 secsPerSpawn:2 backgroundColor:ccc4(255, 255, 255, 255)] autorelease];
-//        MainMaze * level2 = [[[MainMaze alloc] initWithLevelNum:2 secsPerSpawn:1 backgroundColor:ccc4(100, 150, 20, 255)] autorelease];
-//        _levels = [@[level1, level2] retain];
-//    }
-//    return self;
-//}
-
+@implementation SceneManager
 
 //General Game Play
 +(void) goOpeningSequence {

@@ -30,12 +30,15 @@
 
 
 //Maze IDs
-# define KL_MAZE_ID 1
-# define GECKO_MAZE_ID 2
-# define RAM_MAZE_ID 3
+//To add new maze, define its ID.
 
-# define MAIN_ONE_ID 101
-# define MAIN_TWO_ID 102
+# define KL_MAZE_ID 1001
+# define GECKO_MAZE_ID 1002
+# define RAM_MAZE_ID 1003
+# define DOG_MAZE_ID 1003
+
+# define MAIN_ONE_ID 1
+# define MAIN_TWO_ID 2
 
 // 3 - enumerations
 typedef enum _ActionState {
