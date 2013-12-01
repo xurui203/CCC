@@ -18,7 +18,7 @@
         self.LMVideo =  @"Opening Sequence.m4v";
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
-        self.canJump = TRUE;
+        self.canJump = FALSE;
         self.mazeID = GECKO_MAZE_ID;
         self.isLocked = NO;
         self.icon = @"Gecko Icon.png";
