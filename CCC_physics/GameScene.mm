@@ -57,7 +57,10 @@
     [menu setScale:0.3];
     [self addChild:menu];
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 960f5ab1aeb5d1ec1f6186d64af871bcfbf601e9
 - (void)createPausedMenu {
     CGSize screenSize = [CCDirector sharedDirector].winSize;
     // create a sprite that says simply 'Paused'
@@ -151,7 +154,7 @@
 
         
          spM = [SuperpowerManager sharedManager];
-        
+//        [[MazeManager sharedInstance] currentMazeID] = currentMazeID;
         currentMazeID = mazeID;
         [self createScene: mazeID];
         CCLOG(@"%d", spM.initiatedSPs.count);
@@ -219,6 +222,13 @@
 	
 	// return the scene
 	return scene;
+}
+
+-(void) dealloc {
+    [_mazeLayer dealloc];
+    [_icondrawer dealloc];
+    [_hudLayer dealloc];
+//    [super dealloc];
 }
 
 

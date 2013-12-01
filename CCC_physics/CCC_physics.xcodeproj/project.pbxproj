@@ -15,6 +15,15 @@
 		3E09A1D6184A67750006672B /* QuitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D1184A67740006672B /* QuitButton.png */; };
 		3E09A1D7184A67750006672B /* RestartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D2184A67740006672B /* RestartButton.png */; };
 		3E09A1D8184A67750006672B /* ResumeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1D3184A67750006672B /* ResumeButton.png */; };
+		3E09A1EB184BE7A20006672B /* kangarooMaze.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1EA184BE7A20006672B /* kangarooMaze.tmx */; };
+		3E09A1ED184BEAB60006672B /* kangarooMaze1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1EC184BEAB60006672B /* kangarooMaze1.tmx */; };
+		3E09A1F6184BEC050006672B /* Back Graphics-KL 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1EF184BEC040006672B /* Back Graphics-KL 1.png */; };
+		3E09A1F7184BEC050006672B /* Back Graphics-KL 2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1F0184BEC040006672B /* Back Graphics-KL 2 copy.png */; };
+		3E09A1F8184BEC050006672B /* Back Graphics-KL 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1F1184BEC050006672B /* Back Graphics-KL 2.png */; };
+		3E09A1F9184BEC050006672B /* Boundaries-KL 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1F2184BEC050006672B /* Boundaries-KL 1.png */; };
+		3E09A1FA184BEC050006672B /* Boundaries-KL 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1F3184BEC050006672B /* Boundaries-KL 2.png */; };
+		3E09A1FB184BEC050006672B /* Fore Graphics KL-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1F4184BEC050006672B /* Fore Graphics KL-2.png */; };
+		3E09A1FC184BEC050006672B /* Fore graphics-KL 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A1F5184BEC050006672B /* Fore graphics-KL 1.png */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
 		3E452D3D1824063300B4EFDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3C1824063300B4EFDE /* OpenGLES.framework */; };
 		3E452D3F1824063300B4EFDE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3E1824063300B4EFDE /* OpenAL.framework */; };
@@ -1223,6 +1232,15 @@
 		3E09A1D1184A67740006672B /* QuitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuitButton.png; sourceTree = "<group>"; };
 		3E09A1D2184A67740006672B /* RestartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartButton.png; sourceTree = "<group>"; };
 		3E09A1D3184A67750006672B /* ResumeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResumeButton.png; sourceTree = "<group>"; };
+		3E09A1EA184BE7A20006672B /* kangarooMaze.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kangarooMaze.tmx; sourceTree = "<group>"; };
+		3E09A1EC184BEAB60006672B /* kangarooMaze1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kangarooMaze1.tmx; sourceTree = "<group>"; };
+		3E09A1EF184BEC040006672B /* Back Graphics-KL 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Graphics-KL 1.png"; sourceTree = "<group>"; };
+		3E09A1F0184BEC040006672B /* Back Graphics-KL 2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Graphics-KL 2 copy.png"; sourceTree = "<group>"; };
+		3E09A1F1184BEC050006672B /* Back Graphics-KL 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Graphics-KL 2.png"; sourceTree = "<group>"; };
+		3E09A1F2184BEC050006672B /* Boundaries-KL 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boundaries-KL 1.png"; sourceTree = "<group>"; };
+		3E09A1F3184BEC050006672B /* Boundaries-KL 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boundaries-KL 2.png"; sourceTree = "<group>"; };
+		3E09A1F4184BEC050006672B /* Fore Graphics KL-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fore Graphics KL-2.png"; sourceTree = "<group>"; };
+		3E09A1F5184BEC050006672B /* Fore graphics-KL 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fore graphics-KL 1.png"; sourceTree = "<group>"; };
 		3E452D371824063300B4EFDE /* CCC_physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC_physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E452D3A1824063300B4EFDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E452D3C1824063300B4EFDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -2647,6 +2665,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E09A1EE184BEC040006672B /* Path-KL */ = {
+			isa = PBXGroup;
+			children = (
+				3E09A1EF184BEC040006672B /* Back Graphics-KL 1.png */,
+				3E09A1F0184BEC040006672B /* Back Graphics-KL 2 copy.png */,
+				3E09A1F1184BEC050006672B /* Back Graphics-KL 2.png */,
+				3E09A1F2184BEC050006672B /* Boundaries-KL 1.png */,
+				3E09A1F3184BEC050006672B /* Boundaries-KL 2.png */,
+				3E09A1F4184BEC050006672B /* Fore Graphics KL-2.png */,
+				3E09A1F5184BEC050006672B /* Fore graphics-KL 1.png */,
+			);
+			path = "Path-KL";
+			sourceTree = "<group>";
+		};
 		3E452D2E1824063300B4EFDE = {
 			isa = PBXGroup;
 			children = (
@@ -4798,6 +4830,9 @@
 		5BCB88711829E412009D6DBF /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				3E09A1EA184BE7A20006672B /* kangarooMaze.tmx */,
+				3E09A1EC184BEAB60006672B /* kangarooMaze1.tmx */,
+				3E09A1EE184BEC040006672B /* Path-KL */,
 				5B6A493A184ABEC6003CD115 /* kangaroo 2.tmx */,
 				5B6A4936184AB8E2003CD115 /* kangaroo.tmx */,
 				5B6A4937184AB8E2003CD115 /* gecko.tmx */,
@@ -5096,6 +5131,7 @@
 				5B6A4920184AA01B003CD115 /* Ant Capt Trainsition-KL0025.png in Resources */,
 				5B6A4918184AA01B003CD115 /* Ant Capt Trainsition-KL0017.png in Resources */,
 				5B6A468C184AA01B003CD115 /* CCC DN-Stand&Sniff0034.png in Resources */,
+				3E09A1F8184BEC050006672B /* Back Graphics-KL 2.png in Resources */,
 				5B6A4687184AA01B003CD115 /* CCC DN-Stand&Sniff0029.png in Resources */,
 				5B274390182A1C3600942895 /* Lat Capt KL-Jumping008.png in Resources */,
 				5B6A4672184AA01B003CD115 /* CCC DN-Stand&Sniff0008.png in Resources */,
@@ -5201,6 +5237,7 @@
 				5B6A4689184AA01B003CD115 /* CCC DN-Stand&Sniff0031.png in Resources */,
 				5B6A4654184AA01B003CD115 /* CCC DN-Running0002.png in Resources */,
 				5B6A478E184AA01B003CD115 /* Lat Capt Human-Stand Up0003.png in Resources */,
+				3E09A1ED184BEAB60006672B /* kangarooMaze1.tmx in Resources */,
 				5B6A478B184AA01B003CD115 /* Lat Capt Human-Stand Up.xml in Resources */,
 				5B6A467F184AA01B003CD115 /* CCC DN-Stand&Sniff0021.png in Resources */,
 				5B6A48BB184AA01B003CD115 /* Ant Capt Trainsition-Into DN0050.png in Resources */,
@@ -5221,6 +5258,7 @@
 				5B6A47FF184AA01B003CD115 /* Lat Capt KL-Running0004.png in Resources */,
 				5B6A48D5184AA01B003CD115 /* Ant Capt Trainsition-GF0014.png in Resources */,
 				5B6A469E184AA01B003CD115 /* CCC DN-Stand&Sniff0052.png in Resources */,
+				3E09A1F9184BEC050006672B /* Boundaries-KL 1.png in Resources */,
 				5B6A468D184AA01B003CD115 /* CCC DN-Stand&Sniff0035.png in Resources */,
 				5B6A470B184AA01B003CD115 /* lat capt gf0006.png in Resources */,
 				5B6A4815184AA01B003CD115 /* Ant Capt Transition-From DN0009.png in Resources */,
@@ -5288,6 +5326,7 @@
 				5B6A46BC184AA01B003CD115 /* CCC DN-Stand&Sniff0082.png in Resources */,
 				5B6A468E184AA01B003CD115 /* CCC DN-Stand&Sniff0036.png in Resources */,
 				3EBD934A1833DD6600ABC143 /* Dog Icon.png in Resources */,
+				3E09A1FB184BEC050006672B /* Fore Graphics KL-2.png in Resources */,
 				5B6A4769184AA01B003CD115 /* Lat Capt Human-Leaping0008.png in Resources */,
 				5B2743B6182A1C3600942895 /* Ant Capt Trainsition-KL0018.png in Resources */,
 				5B6A4805184AA01B003CD115 /* Lat Capt KL-Running0010.png in Resources */,
@@ -5297,6 +5336,7 @@
 				5B6A468A184AA01B003CD115 /* CCC DN-Stand&Sniff0032.png in Resources */,
 				5B6A4794184AA01B003CD115 /* Lat Capt Human-Stand Up0009.png in Resources */,
 				5B6A482C184AA01B003CD115 /* Ant Capt Transition-From DN0032.png in Resources */,
+				3E09A1F7184BEC050006672B /* Back Graphics-KL 2 copy.png in Resources */,
 				5B2743AC182A1C3600942895 /* Ant Capt Transistion-From KL009.png in Resources */,
 				5B6A4728184AA01B003CD115 /* CCC GF-Walking0007.png in Resources */,
 				5B6A471E184AA01B003CD115 /* lat capt gf0025.png in Resources */,
@@ -5442,6 +5482,7 @@
 				5B6A467B184AA01B003CD115 /* CCC DN-Stand&Sniff0017.png in Resources */,
 				5B6A47F3184AA01B003CD115 /* Lat Capt KL-Jumping0024.png in Resources */,
 				5B6A481C184AA01B003CD115 /* Ant Capt Transition-From DN0016.png in Resources */,
+				3E09A1F6184BEC050006672B /* Back Graphics-KL 1.png in Resources */,
 				5B6A4735184AA01B003CD115 /* CCC GF-Walking0020.png in Resources */,
 				5B6A47E6184AA01B003CD115 /* Lat Capt KL-Jumping0011.png in Resources */,
 				5B6A4715184AA01B003CD115 /* lat capt gf0016.png in Resources */,
@@ -5630,6 +5671,7 @@
 				5B6A4803184AA01B003CD115 /* Lat Capt KL-Running0008.png in Resources */,
 				5B274392182A1C3600942895 /* CCC_first.plist in Resources */,
 				5B27439F182A1C3600942895 /* Ant Capt Transistion-From KL002.png in Resources */,
+				3E09A1FA184BEC050006672B /* Boundaries-KL 2.png in Resources */,
 				5B6A48BD184AA01B003CD115 /* Ant Capt Trainsition-Into DN0052.png in Resources */,
 				5B6A4677184AA01B003CD115 /* CCC DN-Stand&Sniff0013.png in Resources */,
 				3EBD93291833DD6600ABC143 /* Energy Score Bar0022.png in Resources */,
@@ -5805,6 +5847,7 @@
 				5B6A4753184AA01B003CD115 /* Lat Capt Human-Crawling0010.png in Resources */,
 				5B6A48EE184AA01B003CD115 /* Captain0010.png in Resources */,
 				5B6A477A184AA01B003CD115 /* Lat Capt Human-Running0015.png in Resources */,
+				3E09A1EB184BE7A20006672B /* kangarooMaze.tmx in Resources */,
 				5B6A4663184AA01B003CD115 /* CCC DN-Running0017.png in Resources */,
 				3EBD916D182AE43E00ABC143 /* explore.png in Resources */,
 				5B6A4873184AA01B003CD115 /* Ant Capt Transistion-From KL0003.png in Resources */,
@@ -5914,6 +5957,7 @@
 				5B2743A0182A1C3600942895 /* Ant Capt Transistion-From KL0020.png in Resources */,
 				5B6A47A9184AA01B003CD115 /* Lat Capt Human-To Crawl Transition0001.png in Resources */,
 				5B274374182A1C3500942895 /* Lat Capt KL-Jumping0010.png in Resources */,
+				3E09A1FC184BEC050006672B /* Fore graphics-KL 1.png in Resources */,
 				5B2743A1182A1C3600942895 /* Ant Capt Transistion-From KL0021.png in Resources */,
 				5B6A48D7184AA01B003CD115 /* Ant Capt Trainsition-GF0016.png in Resources */,
 				5B6A47DD184AA01B003CD115 /* Lat Capt KL-Jumping0002.png in Resources */,
