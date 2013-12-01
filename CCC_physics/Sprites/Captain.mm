@@ -62,7 +62,7 @@
     else {//(_actionState != kActionStateIdle){
         NSLog(@"STATE IS NOT IDLE");
         [self stopAllActions];
-        _idleAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.idleAnimation], nil];
+        _idleAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.getIdleAnimation], nil];
 
         [self runAction:_idleAction];
         _actionState = kActionStateIdle;
