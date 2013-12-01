@@ -14,7 +14,7 @@
     int currentMapID;
 }
 
-@synthesize currentMazeID;
+
 
 + (MazeManager *)sharedInstance {
     static dispatch_once_t once;
@@ -27,14 +27,15 @@
 - (id)init {
     if ((self = [super init])) {
         currentMapID = 0;
-        currentMazeID = 1;
+//        currentMazeID = 1;
+
     }
     return self;
 }
 
 - (CCTMXTiledMap*) getMapWithID: (int) mapID {
     if (mapID == KL_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangarooMaze1.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangaroo 2.tmx"];
     }
     if (mapID == GECKO_MAZE_ID) {
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];

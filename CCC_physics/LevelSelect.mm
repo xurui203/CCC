@@ -27,6 +27,7 @@
     NSLog(@"Selected level is %d", selectedLevel);
  // load the game scene
     [SceneManager goMaze: selectedLevel];
+
 }
 
 - (void)onBack: (id) sender {

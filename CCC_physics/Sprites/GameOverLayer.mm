@@ -35,7 +35,7 @@
 //    
 //}
 - (void)onReplay: (id) sender {
-      [SceneManager goMaze: [[MazeManager sharedInstance] currentMazeID]];
+    [SceneManager goGameScene];
 }
 - (id)init {
     

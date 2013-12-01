@@ -21,7 +21,7 @@
 
         
         [self setupPhysicsWorld];
-//        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap: tileMap];
         NSLog(@"LOADING PLISTS!!!");
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
@@ -364,21 +364,33 @@
 
 
 -(void)update:(ccTime)dt {
+//    [player update:dt];
+//    float posX = MAX(_tileMap.mapSize.width * _tileMap.tileSize.width - player.centerToSides, MAX(player.centerToSides, player.desiredPosition.x));
+//    float posY = MAX(3 * _tileMap.tileSize.height + player.centerToBottom, MAX(player.centerToBottom, player.desiredPosition.y));
+//    player.position = ccp(posX, posY);
+//
 
     if (!paused) {
     int32 velocityIterations = 8;
 	int32 positionIterations = 1;
     
     if (contactListener->collected > numCollected) {
-       
+        //        if (contactListener->collectible != nil) {
+        //            CCLOG(@"contact listener -> collectible: %u",  );
+        ////            [self removeBody:contactListener->collectible];
+        
+        //
+        //        }
         numCollected ++;
         [player updateHealth];
-        
+        //CCLOG(@"updating player health");
+        //    world->DestroyBody(contactListener->collectible);
     }
     [hud setHealth:player.health];
     
    // CCLOG(@"player health: %d", player.health);
     
+
     
 	// Instruct the world to perform a single step of simulation. It is
 	// generally best to keep the time step and iterations fixed.
@@ -471,9 +483,10 @@
 -(void)dealloc {
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
+//    [player dealloc];
     [self removeChild:player cleanup:YES];
-//    [player release];
-//    [super dealloc];
+//    [player.currentSuperpower relea=se];
+    [super dealloc];
 }
 
 @end
