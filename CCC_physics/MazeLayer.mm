@@ -18,6 +18,7 @@
     if ((self = [super init])) {
         self.isTouchEnabled = YES;
         [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
+
         
         [self setupPhysicsWorld];
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
@@ -28,6 +29,8 @@
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Dog_Gecko.plist"];
          geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
+        [geckoSpriteSheet.texture setAliasTexParameters];
+
         [self addChild:humanSpriteSheet z:2];
         [self addChild:geckoSpriteSheet z:2];
 
