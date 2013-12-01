@@ -14,21 +14,12 @@
 
 -(id)init {
     if ((self = [super init])) {
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"energy.plist"];
-//        _dPad = [DirectionPad dPadWithFile:@"pd_dpad.png" radius:500];
-//        _dPad.position = ccp(250.0, 64.0);
-//        _dPad.opacity = 0;
-//        [self addChild:_dPad];
-        
-        
 //        ADD ENERGY BAR
         energyBar = [CCSprite spriteWithFile:@"Energy Score Bar0010.png"];
         [self addChild:energyBar];
         CCLOG(@"added energy bar");
         energyBar.position = ccp(50,300);
-        energyBar.scale = .5;
-
-
+        energyBar.scale = .4;
     }
     return self;
 }
@@ -41,12 +32,10 @@
   //  CCLOG(@"setHealth");
   //  CCLOG(@"%d", currentHealth);
     NSString* newSprite = [NSString stringWithFormat:@"Energy Score Bar00%d.png", currentHealth];
-    
-  //  CCLOG(@"Energy Score Bar00%d.png", currentHealth);
-        CCSpriteFrameCache* cache = [CCSpriteFrameCache sharedSpriteFrameCache];
-        [energyBar setDisplayFrame:[cache spriteFrameByName:newSprite]];
+    CCTexture2D *tex = [[CCTextureCache sharedTextureCache] addImage: newSprite];
+    [energyBar setTexture: tex];
     energyBar.position = ccp(50, 300);
-    energyBar.scale = .5;
+    energyBar.scale = .4;
 }
 
 
