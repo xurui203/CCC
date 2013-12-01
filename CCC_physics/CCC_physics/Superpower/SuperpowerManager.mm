@@ -55,7 +55,7 @@ static SuperpowerManager *sharedMyManager = nil;
         CCLOG(@"not nil");
         NSLog(@"array: %@", superpowers);
     }
-    for (int x=0; x< 2; x++) {
+    for (int x=0; x< 3; x++) {
 
         //initialize an instance of the selected superpower class
         CCLOG([superpowers objectAtIndex:x]);

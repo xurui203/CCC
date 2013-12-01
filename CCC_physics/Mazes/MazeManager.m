@@ -33,7 +33,7 @@
 
 - (CCTMXTiledMap*) getMapWithID: (int) mapID {
     if (mapID == KL_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangaroo.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangaroo 2.tmx"];
     }
     if (mapID == GECKO_MAZE_ID) {
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];
