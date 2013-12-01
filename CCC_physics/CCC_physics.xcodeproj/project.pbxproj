@@ -4775,24 +4775,8 @@
 				3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */,
 				3EC20BF8183AB97C00085879 /* IconDrawer.h */,
 				3EC20BF9183AB97C00085879 /* IconDrawer.mm */,
-				5BBA6EF41835DE5000E21408 /* PracMazeLayers */,
-				5BBA6EF31835DE3F00E21408 /* MainMazeLayers */,
 			);
 			name = Layers;
-			sourceTree = "<group>";
-		};
-		5BBA6EF31835DE3F00E21408 /* MainMazeLayers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = MainMazeLayers;
-			sourceTree = "<group>";
-		};
-		5BBA6EF41835DE5000E21408 /* PracMazeLayers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = PracMazeLayers;
 			sourceTree = "<group>";
 		};
 		5BCB88711829E412009D6DBF /* Map */ = {
