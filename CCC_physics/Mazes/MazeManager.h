@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "MazeMap.h"
 
 @interface MazeManager : NSObject
 + (MazeManager *)sharedInstance;

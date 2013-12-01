@@ -1193,6 +1193,8 @@
 		5B6A492E184AA3C8003CD115 /* Human_Kangaroo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A492A184AA3C8003CD115 /* Human_Kangaroo.plist */; };
 		5B6A492F184AA3C8003CD115 /* Human_Kangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A492B184AA3C8003CD115 /* Human_Kangaroo.png */; };
 		5B6A4932184AAC21003CD115 /* MazeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4931184AAC21003CD115 /* MazeManager.m */; };
+		5B6A4938184AB8E2003CD115 /* kangaroo.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4936184AB8E2003CD115 /* kangaroo.tmx */; };
+		5B6A4939184AB8E2003CD115 /* gecko.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4937184AB8E2003CD115 /* gecko.tmx */; };
 		5B6F77AC183D5CB800D737B2 /* BetaSheet2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */; };
 		5B6F77AD183D5CB800D737B2 /* BetaSheet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */; };
 		5BB581F3183330BF00A9F330 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F0183330BF00A9F330 /* hurt.wav */; };
@@ -2604,6 +2606,8 @@
 		5B6A492B184AA3C8003CD115 /* Human_Kangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human_Kangaroo.png; sourceTree = "<group>"; };
 		5B6A4930184AAC21003CD115 /* MazeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MazeManager.h; path = Mazes/MazeManager.h; sourceTree = SOURCE_ROOT; };
 		5B6A4931184AAC21003CD115 /* MazeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MazeManager.m; path = Mazes/MazeManager.m; sourceTree = SOURCE_ROOT; };
+		5B6A4936184AB8E2003CD115 /* kangaroo.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kangaroo.tmx; sourceTree = "<group>"; };
+		5B6A4937184AB8E2003CD115 /* gecko.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gecko.tmx; sourceTree = "<group>"; };
 		5B6F77AA183D5CB800D737B2 /* BetaSheet2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BetaSheet2.plist; sourceTree = "<group>"; };
 		5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaSheet2.png; sourceTree = "<group>"; };
 		5BB581F0183330BF00A9F330 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
@@ -4792,6 +4796,8 @@
 		5BCB88711829E412009D6DBF /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				5B6A4936184AB8E2003CD115 /* kangaroo.tmx */,
+				5B6A4937184AB8E2003CD115 /* gecko.tmx */,
 				3ECB2EB718258BAC00C82177 /* Back.png */,
 				3E97293C182837AC00F988F1 /* Boundaries.png */,
 				3E97293A1828379A00F988F1 /* practice_map.tmx */,
@@ -5064,6 +5070,7 @@
 				5B6A47EF184AA01B003CD115 /* Lat Capt KL-Jumping0020.png in Resources */,
 				3ECB2E8A18257CB800C82177 /* 1Star-Normal-iPhone-hd.png in Resources */,
 				3ECB2E8718257CB800C82177 /* 0Star-Normal-iPhone.png in Resources */,
+				5B6A4938184AB8E2003CD115 /* kangaroo.tmx in Resources */,
 				5B274376182A1C3500942895 /* Lat Capt KL-Jumping0012.png in Resources */,
 				5B6A46C4184AA01B003CD115 /* CCC DN-Stand&Sniff0090.png in Resources */,
 				5B6A4738184AA01B003CD115 /* CCC GF-Walking0023.png in Resources */,
@@ -5678,6 +5685,7 @@
 				5B6A48CC184AA01B003CD115 /* Ant Capt Trainsition-GF0005.png in Resources */,
 				3EBD93451833DD6600ABC143 /* Energy Score Bar0050.png in Resources */,
 				5B6A481A184AA01B003CD115 /* Ant Capt Transition-From DN0014.png in Resources */,
+				5B6A4939184AB8E2003CD115 /* gecko.tmx in Resources */,
 				5B6A46F1184AA01B003CD115 /* CCC DN-Walking0037.png in Resources */,
 				5B6A4825184AA01B003CD115 /* Ant Capt Transition-From DN0025.png in Resources */,
 				5B6A48B2184AA01B003CD115 /* Ant Capt Trainsition-Into DN0041.png in Resources */,
