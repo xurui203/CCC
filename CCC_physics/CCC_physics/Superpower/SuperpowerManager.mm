@@ -30,7 +30,7 @@ static SuperpowerManager *sharedMyManager = nil;
     if (self =[super init]) {
         //add new superpower classes to this array
         superpowers = [[NSMutableArray alloc] initWithObjects: @"CaptainSP", @"Kangaroo", @"Gecko", nil];
-        int spNum = superpowers.count;
+        int spNum = 4;
         initiatedSPs = [[NSMutableArray alloc] initWithCapacity:spNum];
         [self addSPs];
     }
@@ -55,7 +55,7 @@ static SuperpowerManager *sharedMyManager = nil;
         CCLOG(@"not nil");
         NSLog(@"array: %@", superpowers);
     }
-    for (int x=0; x< superpowers.count; x++) {
+    for (int x=0; x< 3; x++) {
 
         //initialize an instance of the selected superpower class
         CCLOG([superpowers objectAtIndex:x]);

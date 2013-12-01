@@ -75,7 +75,6 @@
 
 +(void) goToScene: (CCScene *) scene {
     CCDirector *director = [CCDirector sharedDirector];
-    
     if ([director runningScene]) {
         
         [director replaceScene:scene];
