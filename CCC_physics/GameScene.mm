@@ -149,6 +149,7 @@
          spM = [SuperpowerManager sharedManager];
         
         currentMazeID = mazeID;
+        [MazeManager sharedInstance].currentMapID = currentMazeID;
         [self createScene: mazeID];
         CCLOG(@"%d", spM.initiatedSPs.count);
         [self setupPhysicsWorld];

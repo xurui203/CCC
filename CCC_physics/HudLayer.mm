@@ -46,7 +46,7 @@
         CCSpriteFrameCache* cache = [CCSpriteFrameCache sharedSpriteFrameCache];
         [energyBar setDisplayFrame:[cache spriteFrameByName:newSprite]];
     energyBar.position = ccp(50, 300);
-    energyBar.scale = .5;
+    energyBar.scale = .7;
 }
 
 

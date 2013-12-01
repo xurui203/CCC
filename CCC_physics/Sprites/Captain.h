@@ -56,4 +56,5 @@
 -(void) crawl;
 -(void) jump;
 -(void) transform:(Superpower *)sp;
+- (void) reset;
 @end

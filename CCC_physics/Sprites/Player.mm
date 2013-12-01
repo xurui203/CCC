@@ -10,7 +10,7 @@
 	if ((self = [super init])) {
 		type = kGameObjectPlayer;
         health = 11;
-
+        self.isDead = NO;
 	}
 	return self;
 }
@@ -36,7 +36,16 @@
    // CCLOG(@"%d", health);
 }
 
-
+-(void) decreaseHealth {
+    
+    health -= 5;
+    if (health <= 0) {
+        self.isDead = YES;
+//        [SceneManager goGameOverLayer];
+    }
+    // CCLOG(@"updating health");
+    // CCLOG(@"%d", health);
+}
 
 -(void)startContact {
     contactingGameOver = true;

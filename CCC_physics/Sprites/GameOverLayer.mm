@@ -35,7 +35,7 @@
 //    
 //}
 - (void)onReplay: (id) sender {
-    [SceneManager goGameScene];
+    [SceneManager goLevelSelect];
 }
 - (id)init {
     

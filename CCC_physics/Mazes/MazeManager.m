@@ -10,10 +10,9 @@
 #import "Defines.h"
 
 @implementation MazeManager{
-   // NSArray * _levels;
-    int currentMapID;
-}
 
+}
+@synthesize currentMapID;
 
 
 + (MazeManager *)sharedInstance {
@@ -31,6 +30,11 @@
 
     }
     return self;
+}
+
+-(int) nextLevel {
+    currentMapID ++;
+    return currentMapID;
 }
 
 - (CCTMXTiledMap*) getMapWithID: (int) mapID {
