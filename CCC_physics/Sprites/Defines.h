@@ -31,7 +31,7 @@
 
 //Maze IDs
 //To add new maze, define its ID.
-
+# define CAPTAIN_MAZE_ID 1000
 # define KL_MAZE_ID 1001
 # define GECKO_MAZE_ID 1002
 # define RAM_MAZE_ID 1003

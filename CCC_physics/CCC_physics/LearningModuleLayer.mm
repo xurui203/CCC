@@ -7,7 +7,7 @@
 //
 
 #import "LearningModuleLayer.h"
-
+#import "SceneManager.h"
 
 @implementation LearningModuleLayer
 -(id) init {
@@ -48,7 +48,9 @@
 }
 
 -(void) onPractice:(id) sender {
-    
+    int mazeID = [[World sharedWorld] CCCplayer].currentSuperpower.mazeID;
+    [SceneManager goMaze: mazeID];
+
 }
 
 -(void) onPlayVideo:(id) sender {

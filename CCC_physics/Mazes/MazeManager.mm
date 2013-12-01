@@ -27,7 +27,7 @@
 - (id)init {
     if ((self = [super init])) {
         currentMapID = 0;
-//        currentMazeID = 1;
+        currentMazeID = 1;
     }
     return self;
 }
@@ -40,6 +40,8 @@
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];
     }
     if (mapID == MAIN_ONE_ID) {
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
+    } if (mapID == CAPTAIN_MAZE_ID) {
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
     }
     else {

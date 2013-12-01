@@ -21,6 +21,7 @@
         self.isLocked = NO;
         self.disabledIconImage = @"Kangaroo Icon.png";
         self.LMVideo =  @"Opening Sequence.m4v";
+        self.mazeID = KL_MAZE_ID;
     }
     return self;
 }

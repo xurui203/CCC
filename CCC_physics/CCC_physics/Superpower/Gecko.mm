@@ -19,7 +19,7 @@
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
         self.canJump = TRUE;
-        
+        self.mazeID = GECKO_MAZE_ID;
         self.isLocked = NO;
         self.icon = @"Gecko Icon.png";
         CCLOG(@"Making transformation animations");

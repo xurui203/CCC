@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "Player.h"
-
+#import "Defines.h"
 @interface Superpower : CCLayer
 
 @property(strong, nonatomic) NSString* name;
@@ -28,6 +28,7 @@
 @property(nonatomic) BOOL canCrawl;
 @property(nonatomic) BOOL canJump;
 @property(nonatomic) BOOL canFly;
+@property(nonatomic) int mazeID;
 
 
 @property(strong, nonatomic) NSString* LMVideo;

@@ -18,7 +18,7 @@
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
         self.canJump = TRUE;
-        
+        self.mazeID = CAPTAIN_MAZE_ID;
         self.isLocked = NO;
         self.icon = @"CCC icon.png";
         CCLOG(@"Making transformation animations");

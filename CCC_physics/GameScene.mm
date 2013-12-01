@@ -144,7 +144,6 @@
 
         [self createPausedMenu];
         
-
         
          spM = [SuperpowerManager sharedManager];
 //        [[MazeManager sharedInstance] currentMazeID] = currentMazeID;
