@@ -32,6 +32,7 @@
 @property (nonatomic, readwrite) b2FixtureDef fixtureDef;
 @property bool contactingGameOver;
 @property bool inLearningModules;
+@property bool breakingWall;
 -(void)restoreHealth:(float)amount;
 
 -(void) setUpright: (Boolean) wantUpright;

@@ -39,6 +39,7 @@
         
         [self drawGameOverTiles];
         [self drawEndTiles];
+        [self drawRamWall];
         [self drawCollectibles];
         [self scheduleUpdate];
         numCollected = 0;
@@ -107,7 +108,7 @@
         bodyDef.userData = endTile;
         NSLog(@"done creating game over tile");
     }
-    if (uniqueID >= 4) {
+    if (uniqueID >= 4 && uniqueID < 40) {
         GameObject *collectible= [[GameObject alloc] initWithFile:@"Apple.png"];
         [collectible setType:kGameObjectCollectible];
         bodyDef.userData = collectible;
@@ -116,6 +117,17 @@
         collectible.zOrder = 2;
         
         NSLog(@"done creating collectible tile");
+    }
+    if (uniqueID >= 40) {
+        GameObject *wall= [[GameObject alloc] initWithFile:@"Back wall0001.png"];
+        
+        [wall setType:kGameObjectWall];
+        bodyDef.userData = wall;
+         [self addChild:wall];
+        wall.scale = .5;
+        wall.zOrder = 2;
+        NSLog(@"done creating ram walls");
+        
     }
     
     
@@ -248,7 +260,7 @@
         num++;
 	}
     
-//    collectiblesArray = [CCArray arrayWithCapacity:num-4];
+  //    collectiblesArray = [CCArray arrayWithCapacity:num-4];
 //    for(int i=0; i<num-4; i++)
 //    {
 //        for (objPoint in [objects objects])
@@ -260,6 +272,51 @@
 -(void) removeBody:(b2Body*) b {
     world->DestroyBody(b);;
 }
+
+
+
+
+- (void) drawRamWall {
+	CCTMXObjectGroup *objects = [_tileMap objectGroupNamed:@"wall"];
+	NSMutableDictionary * objPoint;
+    
+	int x, y, w, h;
+    int num = 40;
+	for (objPoint in [objects objects]) {
+        NSLog(@"wall detected");
+		x = [[objPoint valueForKey:@"x"] intValue]/2;
+		y = [[objPoint valueForKey:@"y"] intValue]/2;
+		w = [[objPoint valueForKey:@"width"] intValue]/2;
+		h = [[objPoint valueForKey:@"height"] intValue]/2;
+        
+		CGPoint _point=ccp(x+w/2,y+h/2);
+		CGPoint _size=ccp(w,h);
+        
+        
+		[self makeBox2dObjAt:_point
+					withSize:_size
+					 dynamic:false
+					rotation:0
+					friction:1.5f
+					 density:0.0f
+				 restitution:0
+					   boxId:-1
+                    uniqueID:num];
+        
+        num++;
+	}
+    
+    //    collectiblesArray = [CCArray arrayWithCapacity:num-4];
+    //    for(int i=0; i<num-4; i++)
+    //    {
+    //        for (objPoint in [objects objects])
+    //        {
+    //            GameObject *collectItem = [[GameObject alloc] initWithSpriteFrameName:@"Apple.png"];
+    //        }}
+    
+}
+
+
 
 
 
@@ -276,6 +333,10 @@
    
     //_tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"test_map.tmx"];
     _tileMap = tileMap;
+    CCTMXLayer *fore = [_tileMap layerNamed:@"fore"];
+    CCTMXLayer *back = [_tileMap layerNamed:@"back"];
+    back.zOrder = -1;
+    fore.zOrder = 50;
     _tileMap.scale = .5;
 	_tileMap.anchorPoint = ccp(0, 0);
 	[self addChild:_tileMap];
@@ -291,9 +352,9 @@
     [player reset];
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
-    player.zOrder = 500;
+    player.zOrder = 100;
     NSLog(@"didnt die at add player to humanspritesheet...");
-    player.scale = 0.4;
+    player.scale = .4;
     player.position = ccp(100, 400);
     [player createBox2dObject:world];
     [self addChild:player];
@@ -452,6 +513,18 @@
                     toDestroy.push_back(bodyA);
                 }
             }
+            if (spriteA.type == kGameObjectBroken) {
+                if (std::find(toDestroy.begin(), toDestroy.end(), bodyA) == toDestroy.end()) {
+                    toDestroy.push_back(bodyA);
+                }
+            }
+            
+            if (spriteB.type == kGameObjectBroken) {
+                if (std::find(toDestroy.begin(), toDestroy.end(), bodyA) == toDestroy.end()) {
+                    toDestroy.push_back(bodyB);
+                }
+            }
+
             
             else if (spriteB.type == kGameObjectEaten) {
                 if (std::find(toDestroy.begin(), toDestroy.end(), bodyB) == toDestroy.end()) {
@@ -505,7 +578,7 @@
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
 //    [player dealloc];
-    [self removeChild:player cleanup:YES];
+    [_tileMap removeChild:player cleanup:YES];
 //    [player.currentSuperpower relea=se];
     [super dealloc];
 }

@@ -50,4 +50,7 @@
  <objectgroup name="end" width="125" height="20">
   <object x="3570" y="204" width="96" height="440"/>
  </objectgroup>
+ <objectgroup name="wall" width="125" height="20">
+  <object x="467" y="352"/>
+ </objectgroup>
 </map>

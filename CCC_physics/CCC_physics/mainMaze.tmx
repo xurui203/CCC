@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="400" height="50" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Back Graphics-KL 1" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Kangaroo Legs/Path-KL/Back Graphics-KL 1.png" width="4086" height="400"/>
+  <image source="Back Graphics-KL 1.png" width="4086" height="400"/>
  </tileset>
  <tileset firstgid="1477" name="Back Graphics-KL 2" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Kangaroo Legs/Path-KL/Back Graphics-KL 2.png" width="7015" height="767"/>
+  <image source="Back Graphics-KL 2.png" width="7015" height="767"/>
  </tileset>
  <tileset firstgid="6353" name="Fore graphics-KL 1" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Kangaroo Legs/Path-KL/Fore graphics-KL 1.png" width="3932" height="400"/>
+  <image source="Fore graphics-KL 1.png" width="3932" height="400"/>
  </tileset>
  <tileset firstgid="7781" name="Fore Graphics KL-2" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Kangaroo Legs/Path-KL/Fore Graphics KL-2.png" width="5073" height="702"/>
+  <image source="Fore Graphics KL-2.png" width="5073" height="702"/>
  </tileset>
  <tileset firstgid="10994" name="Map of Gecko Feet Pm" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Gecko Feet/Map of Gecko Feet Pm.png" width="1179" height="528"/>
+  <image source="Map of Gecko Feet Pm.png" width="1179" height="528"/>
  </tileset>
  <layer name="back" width="400" height="50">
   <data encoding="base64" compression="zlib">

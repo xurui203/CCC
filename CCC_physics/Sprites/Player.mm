@@ -4,7 +4,7 @@
 #import "ContactListener.h"
 @implementation Player
 @synthesize body;
-@synthesize health, inLearningModules;
+@synthesize health, inLearningModules, breakingWall;
 
 - (id) init {
 	if ((self = [super init])) {
@@ -13,6 +13,7 @@
         self.isDead = NO;
         self.inLearningModules = NO;
         self.levelComplete = NO;
+        self.breakingWall = NO;
 	}
 	return self;
 }

@@ -41,6 +41,7 @@
 @property(nonatomic)CCArray *collectiblesArray;
 @property(nonatomic)IconDrawer *drawer;
 @property(nonatomic)bool paused;
+- (void) drawRamWall;
 -(CGRect)collisionBoundingBox;
 
 +(id) scene;

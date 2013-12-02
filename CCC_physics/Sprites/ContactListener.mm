@@ -18,6 +18,8 @@
 #define IS_GAMEOVERTILE(x, y)   (x.type == kGameObjectGameOverTile || y.type == kGameObjectGameOverTile)
 #define IS_ENDTILE(x, y)   (x.type == kGameObjectEndTile || y.type == kGameObjectEndTile)
 #define IS_COLLECTIBLE(x,y)     (x.type == kGameObjectCollectible || y.type == kGameObjectCollectible)
+#define IS_WALL(x,y)     (x.type == kGameObjectWall || y.type == kGameObjectWall)
+
 const int32 k_maxNuke = 6;
 
 b2Body* nuke[k_maxNuke];
@@ -56,18 +58,35 @@ void ContactListener::BeginContact(b2Contact *contact) {
         
     } if (IS_COLLECTIBLE(o1, o2) && IS_PLAYER(o1, o2)) {
         if (o1.type == kGameObjectCollectible) {
-
             o1.type = kGameObjectEaten;
             collected++;
         }
-        
         if (o2.type == kGameObjectCollectible) {
-            
             o2.type = kGameObjectEaten;
             CCLOG(@"o2");
             collected++;
         }
 
+
+    }
+    if (IS_WALL(o1, o2) && IS_WALL(o1, o2)) {
+        CCLOG(@"PLAYER REACHED wall");
+        if (o1.type == kGameObjectWall) {
+            o1.type = kGameObjectBroken;
+            CCLOG(@"o1 wall broken");
+            
+        }
+        
+        if (o2.type == kGameObjectWall) {
+            o2.type = kGameObjectBroken;
+            CCLOG(@"o2 wall broken");
+        }
+        if (o1.type == kGameObjectPlayer) {
+            [[World sharedWorld] CCCplayer].breakingWall = YES;
+        }
+        if (o2.type == kGameObjectPlayer) {
+            [[World sharedWorld] CCCplayer].breakingWall = YES;
+        }
 
     }
 }
