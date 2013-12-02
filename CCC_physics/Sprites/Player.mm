@@ -65,12 +65,24 @@
 	b2PolygonShape polygonShape;
     polygonShape.SetAsBox(1.0f, 1.0f);
 	//polygonShape.m_radius = 0.7;
-	b2FixtureDef fixtureDef;
-	fixtureDef.shape = &polygonShape;
-	fixtureDef.density = 1.0f;
-	fixtureDef.friction = 1.0f;
-	fixtureDef.restitution =  0.0f;
-	body->CreateFixture(&fixtureDef);
+//	b2FixtureDef fixtureDef;
+	_fixtureDef.shape = &polygonShape;
+	_fixtureDef.density = 1.0f;
+	_fixtureDef.friction = 1.0f;
+	_fixtureDef.restitution =  0.0f;
+	body->CreateFixture(&_fixtureDef);
+    
+    b2PolygonShape crawlPolygonShape;
+    crawlPolygonShape.SetAsBox(1.0f, 0.5f);
+    // Radius? idk
+//    b2FixtureDef crawlFixtureDef;
+    _crawlFixtureDef.shape = &crawlPolygonShape;
+    _crawlFixtureDef.density = 1.0f;
+    _crawlFixtureDef.friction = 1.0f;
+    _crawlFixtureDef.restitution = 0.0f;
+    _crawlFixtureDef.isSensor = true;
+    body->CreateFixture(&_crawlFixtureDef);
+    
     
     NSLog(@"Player created in world");
 }

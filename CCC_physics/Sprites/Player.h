@@ -28,6 +28,8 @@
 
 
 @property (nonatomic, readwrite) b2Body *body;
+@property (nonatomic, readwrite) b2FixtureDef crawlFixtureDef;
+@property (nonatomic, readwrite) b2FixtureDef fixtureDef;
 @property bool contactingGameOver;
 @property bool inLearningModules;
 -(void)restoreHealth:(float)amount;
