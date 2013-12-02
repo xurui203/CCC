@@ -21,7 +21,7 @@
 
         
         [self setupPhysicsWorld];
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
+//        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap: tileMap];
         NSLog(@"LOADING PLISTS!!!");
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];

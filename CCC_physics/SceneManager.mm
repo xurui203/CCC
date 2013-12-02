@@ -37,6 +37,8 @@
 }
 //
 +(void) goLevelSelect {
+    [[World sharedWorld] CCCplayer].inLearningModules = NO;
+
     [SceneManager go:[LevelSelect node]];
 }
 
@@ -46,10 +48,13 @@
 
 //Learning Module Methods
 +(void) goLearningModuleScene {
+    [[World sharedWorld] CCCplayer].inLearningModules = YES;
+
     [SceneManager go:[LearningModuleScene node]];
 }
 
 +(void) goLearningModulesMenu {
+    [[World sharedWorld] CCCplayer].inLearningModules = YES;
     [SceneManager go:[LearningModulesMenu node]];
 }
 

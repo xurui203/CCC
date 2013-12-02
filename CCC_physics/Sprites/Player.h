@@ -28,7 +28,7 @@
 
 @property (nonatomic, readwrite) b2Body *body;
 @property bool contactingGameOver;
-
+@property bool inLearningModules;
 -(void)restoreHealth:(float)amount;
 
 

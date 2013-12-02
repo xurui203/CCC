@@ -101,7 +101,11 @@
 }
 
 - (void)quitButtonWasPressed:(id)sender {
-    [SceneManager goLevelSelect];
+    if ([[World sharedWorld] CCCplayer].inLearningModules == YES) {
+        [SceneManager goLearningModuleScene];
+    }else if ([[World sharedWorld] CCCplayer].inLearningModules == NO) {
+        [SceneManager goLevelSelect];
+    }
 }
 //- (void)restartButtonWasPressed:(id)sender {
 //    [SceneManager goMaze: currentMazeID];
