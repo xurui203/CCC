@@ -83,6 +83,7 @@
 - (void) moviePlaybackFinished {
     //    [[CCDirector sharedDirector] startAnimation];
     CCLOG(@"movieplaybackfinished");
+    [SceneManager goLearningModuleScene];
 }
 
 -(void) movieStartsPlaying {
