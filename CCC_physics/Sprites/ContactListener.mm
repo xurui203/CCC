@@ -95,9 +95,12 @@ void ContactListener::EndContact(b2Contact *contact) {
     }
     if (IS_GAMEOVERTILE(o1, o2) && IS_PLAYER(o1, o2)) {
         CCLOG(@"~!~!~!~ Player lost contact with death tiles brah");
+         [SceneManager goGameOverLayer];
+        [[World sharedWorld] CCCplayer].isDead = YES;
+        CCLOG(@"%@", [[World sharedWorld] CCCplayer].isDead ? @"YES" : @"NO");
     }if (IS_ENDTILE(o1, o2) && IS_PLAYER(o1, o2)) {
         CCLOG(@"PLAYER REACHED ENdD");
-        //        [SceneManager goLevelComplete];
+                [SceneManager goLevelComplete];
         
     }if (IS_COLLECTIBLE(o1, o2) && IS_PLAYER(o1, o2)) {
         CCLOG(@"player collected item");

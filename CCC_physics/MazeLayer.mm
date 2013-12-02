@@ -43,6 +43,12 @@
         [self scheduleUpdate];
         numCollected = 0;
         
+        CCSprite *background = [CCSprite spriteWithFile:@"Fore.png"];
+        background.position = ccp(0, 0);
+        background.zOrder = 100;
+        [self addChild:background];
+
+        
     }
     return self;
 }
@@ -373,9 +379,10 @@
 //    float posY = MAX(3 * _tileMap.tileSize.height + player.centerToBottom, MAX(player.centerToBottom, player.desiredPosition.y));
 //    player.position = ccp(posX, posY);
 //
-    if (player.isDead) {
+    if (player.isDead == YES) {
         [SceneManager goGameOverLayer];
     }
+    
     if (player.levelComplete) {
         if (player.inLearningModules) {
             [SceneManager goLearningModuleScene];

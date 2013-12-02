@@ -53,7 +53,6 @@
         return nil;
     }
 }
-
 - (int) currentMapID{
     return currentMapID;
 }
