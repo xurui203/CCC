@@ -62,6 +62,7 @@
 	
 	body = world->CreateBody(&playerBodyDef);
 	
+    // Standing Fixture Initialization
 	b2PolygonShape polygonShape;
     polygonShape.SetAsBox(1.0f, 1.0f);
 	//polygonShape.m_radius = 0.7;
@@ -71,6 +72,18 @@
 	fixtureDef.friction = 1.0f;
 	fixtureDef.restitution =  0.0f;
 	body->CreateFixture(&fixtureDef);
+    
+    // Crawling Fixture Initialization
+    b2PolygonShape crawlPolygonShape;
+    crawlPolygonShape.SetAsBox(1.0f, 0.5f);
+    // radius changes?
+    b2FixtureDef crawlFixtureDef;
+    crawlFixtureDef.shape = &crawlPolygonShape;
+    crawlFixtureDef.density = 1.0f;
+    crawlFixtureDef.friction = 1.0f;
+    crawlFixtureDef.restitution = 0.0f;
+    crawlFixtureDef.isSensor = true; // CRAWLING FIXTURE STARTS OUT AS A SENSOR
+    body->CreateFixture(&crawlFixtureDef);
     
     NSLog(@"Player created in world");
 }
