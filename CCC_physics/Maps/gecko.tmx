@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="gecko" tilewidth="32" tileheight="32">
+  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Gecko Feet/Map of Gecko Feet Pm.png" width="1179" height="528"/>
+ </tileset>
+ <layer name="Background" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0eOvH3YYxuHTU9s2Vtv2kKG23Q4ZatvtkKG23Q4ZatvtkKG23Q7Zdu39ebn82pN8P8n1Bzz3ExUVCoVCoVAoFPo/S0BCEpGYJCQlGclJQUpSkZo0pCUd6clARjKRmSxkJRvZyUFOcpGbPOQlXwRui40VpghFKUZxSlCSUpSmDGUpR3kqUJFKVKYKValGdWpQk1rUpg51eZ4XeJGXInBbbKwe9WlAQxrRmCY0pRnNaUFLWtGaNrSlHe3pQEc60ZkudKUb3enB67zBm7wVgdtiYz3pRW/60Jd+9GcAAxnEYIYwlGEMZwQjGcVoxjCWcYxnAhOZxGTe5wM+5KMI3BYbm8JUpjGdGcxkFrOZw1zmMZ8FLGQRi1nCUpaxnBWsZBWrWcNa1vE5X/AlX0XgttjYejawkU1sZgtb2cZ2drCTXexmD3vZx34OcJBDHOYIRznGcU5wku/5gR/5KQK3xcZOcZoznOUc57nARS5xmStc5RrXucFNbnGbO9zlHvd5wEMe8Zgn/M4f/MlfEbgtNhYdJyoqLvGITwISkojEJCEpyUhOClKSitSkIS3pSE8GMpKJzGQhK9nITg5ykivO07782Sy/XQpQkEIUpghFKUZxSlCSUpSmDGUpR3kqUJFKVKYKValGdWpQk1rUpg51wz9i7GW7vMKrvEY96tOAhjSiMU1oSjOa04KWtKI1bWhLO9rTgY50ojNd6Eo3utMj/CPG3rbLO7zLe/SkF73pQ1/60Z8BDGQQgxnCUIYxnBGMZBSjGcNYxjGeCUxkEpPDP2LsY7t8wqd8xhSmMo3pzGAms5jNHOYyj/ksYCGLWMwSlrKM5axgJatYzRrWsi78I8a+tss3fMt3rGcDG9nEZrawlW1sZwc72cVu9rCXfeznAAc5xGGOcJRjHOcEJ8M/Yuxnu/zCr/zGKU5zhrOc4zwXuMglLnOFq1zjOje4yS1uc4e73OM+D3jIIx7zJPwjxv62yz//bRMdFRWHaOISj/gkICGJSEwSkpKM5KQgJalITRrSko70ZCAjmchMFrKSLfppX/5slscuecnHc+SnAAUpRGGKUJRiFKcEJSlFacpQlnKUpwIVqURlqlCValSnBjXDP0KhUCgUCoVCoVDoqfYvutLiJA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="100" height="30">
+  <object x="3" y="530" width="342" height="35"/>
+  <object x="346" y="351" width="96" height="296"/>
+  <object x="447" y="653" width="427" height="21"/>
+ </objectgroup>
+</map>
