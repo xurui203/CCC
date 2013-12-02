@@ -83,16 +83,16 @@
     //if ([[[World sharedWorld] CCCplayer] numberOfRunningActions] ==0){
     if (self.numberOfRunningActions ==0){
 
-    [self stopAllActions];
-    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
-    [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformFromAnimation]], nil]]; //Transform from current state
-    self.currentSuperpower = superpower;
+        [self stopAllActions];
+        NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+        [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformFromAnimation]], nil]]; //Transform from current state
+        self.currentSuperpower = superpower;
        // if (self.numberOfRunningActions == 0){
-            [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformIntoAnimation]], nil]]; //Transform into superpower state
+        [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformIntoAnimation]], nil]]; //Transform into superpower state
       //  }
-    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+        NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
 
-    _actionState = kActionStateIdle;
+        _actionState = kActionStateIdle;
     }
 }
 
