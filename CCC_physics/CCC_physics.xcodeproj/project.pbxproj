@@ -26,7 +26,6 @@
 		3E09A20B184C4D7C0006672B /* Boundaries-KL 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A204184C4D7C0006672B /* Boundaries-KL 2.png */; };
 		3E09A20C184C4D7C0006672B /* Fore Graphics KL-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A205184C4D7C0006672B /* Fore Graphics KL-2.png */; };
 		3E09A20D184C4D7C0006672B /* Fore graphics-KL 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A206184C4D7C0006672B /* Fore graphics-KL 1.png */; };
-		3E09A20F184CE1BC0006672B /* Kangaroo Legs-LM.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A20E184CE1BC0006672B /* Kangaroo Legs-LM.m4v */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
 		3E452D3D1824063300B4EFDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3C1824063300B4EFDE /* OpenGLES.framework */; };
 		3E452D3F1824063300B4EFDE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3E1824063300B4EFDE /* OpenAL.framework */; };
@@ -1442,7 +1441,6 @@
 		3E09A204184C4D7C0006672B /* Boundaries-KL 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boundaries-KL 2.png"; sourceTree = "<group>"; };
 		3E09A205184C4D7C0006672B /* Fore Graphics KL-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fore Graphics KL-2.png"; sourceTree = "<group>"; };
 		3E09A206184C4D7C0006672B /* Fore graphics-KL 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fore graphics-KL 1.png"; sourceTree = "<group>"; };
-		3E09A20E184CE1BC0006672B /* Kangaroo Legs-LM.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kangaroo Legs-LM.m4v"; sourceTree = "<group>"; };
 		3E452D371824063300B4EFDE /* CCC_physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC_physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E452D3A1824063300B4EFDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E452D3C1824063300B4EFDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -3132,7 +3130,6 @@
 		3E452D4B1824063300B4EFDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3E09A20E184CE1BC0006672B /* Kangaroo Legs-LM.m4v */,
 				3E09A1CF184A67740006672B /* PauseButton.png */,
 				3E09A1D0184A67740006672B /* Paused.png */,
 				3E09A1D1184A67740006672B /* QuitButton.png */,
@@ -6351,7 +6348,6 @@
 				5B6A47FA184AA01B003CD115 /* Lat Capt KL-Jumping0031.png in Resources */,
 				5BE77C0E184C493900C3F755 /* Captain0011.png in Resources */,
 				5B6A4684184AA01B003CD115 /* CCC DN-Stand&Sniff0026.png in Resources */,
-				3E09A20F184CE1BC0006672B /* Kangaroo Legs-LM.m4v in Resources */,
 				5B6A46C3184AA01B003CD115 /* CCC DN-Stand&Sniff0089.png in Resources */,
 				5B6A480F184AA01B003CD115 /* Ant Capt Transition-From DN0003.png in Resources */,
 				5B6A488C184AA01B003CD115 /* Ant Capt Trainsition-Into DN0003.png in Resources */,

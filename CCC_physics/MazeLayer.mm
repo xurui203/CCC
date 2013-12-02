@@ -288,6 +288,7 @@
     
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     player = [[World sharedWorld] CCCplayer];
+    [player reset];
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
     player.zOrder = 500;
