@@ -45,7 +45,9 @@
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];
     }
     if (mapID == MAIN_ONE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
+        //return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"KangarooPractice.tmx"];
+
     } if (mapID == CAPTAIN_MAZE_ID) {
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
     }
