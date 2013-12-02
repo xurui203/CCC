@@ -35,8 +35,11 @@
 //    
 //}
 - (void)onReplay: (id) sender {
-    [SceneManager goGameScene];
-}
+    if ([[World sharedWorld] CCCplayer].inLearningModules == YES) {
+        [SceneManager goLearningModuleScene];
+    }else if ([[World sharedWorld] CCCplayer].inLearningModules == NO) {
+        [SceneManager goLevelSelect];
+    }}
 - (id)init {
     
     if( (self=[super init])) {

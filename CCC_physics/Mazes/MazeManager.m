@@ -10,10 +10,9 @@
 #import "Defines.h"
 
 @implementation MazeManager{
-   // NSArray * _levels;
-    int currentMapID;
-}
 
+}
+@synthesize currentMapID;
 
 
 + (MazeManager *)sharedInstance {
@@ -33,9 +32,14 @@
     return self;
 }
 
+-(int) nextLevel {
+    currentMapID ++;
+    return currentMapID;
+}
+
 - (CCTMXTiledMap*) getMapWithID: (int) mapID {
     if (mapID == KL_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangaroo 2.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangarooMaze1.tmx"];
     }
     if (mapID == GECKO_MAZE_ID) {
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];

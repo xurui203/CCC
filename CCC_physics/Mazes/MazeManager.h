@@ -11,11 +11,11 @@
 
 @interface MazeManager : NSObject
 + (MazeManager *)sharedInstance;
-- (int) currentMapID;
+@property (nonatomic) int currentMapID;
 //- (int)curLevel;
 //- (void)nextLevel;
 - (void)reset;
-
+- (int) nextLevel;
 - (CCTMXTiledMap*) getMapWithID: (int) mapID;
 
 @end

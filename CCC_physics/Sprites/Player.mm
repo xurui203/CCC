@@ -4,13 +4,15 @@
 #import "ContactListener.h"
 @implementation Player
 @synthesize body;
-@synthesize health;
+@synthesize health, inLearningModules;
 
 - (id) init {
 	if ((self = [super init])) {
 		type = kGameObjectPlayer;
         health = 11;
-
+        self.isDead = NO;
+        self.inLearningModules = NO;
+        self.levelComplete = NO;
 	}
 	return self;
 }
@@ -36,7 +38,16 @@
    // CCLOG(@"%d", health);
 }
 
-
+-(void) decreaseHealth {
+    
+    health -= 5;
+    if (health <= 0) {
+        self.isDead = YES;
+//        [SceneManager goGameOverLayer];
+    }
+    // CCLOG(@"updating health");
+    // CCLOG(@"%d", health);
+}
 
 -(void)startContact {
     contactingGameOver = true;

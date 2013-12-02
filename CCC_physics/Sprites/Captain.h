@@ -57,5 +57,5 @@
 -(void) jump;
 -(void) transform:(Superpower *)sp;
 -(void) setUpright: (Boolean) wantUpright;
-
+- (void) reset;
 @end

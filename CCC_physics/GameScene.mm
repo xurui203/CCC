@@ -53,8 +53,9 @@
     CCMenu *menu = [CCMenu menuWithItems: item, nil];
     [menu setAnchorPoint:ccp(0, 0)];
     [menu setIsRelativeAnchorPoint:NO];
-    [menu setPosition:ccp([CCDirector sharedDirector].winSize.width/5, [CCDirector sharedDirector].winSize.height-30)];
+    [menu setPosition:ccp([CCDirector sharedDirector].winSize.width/5+10, [CCDirector sharedDirector].winSize.height-30)];
     [menu setScale:0.3];
+    menu.zOrder = 500;
     [self addChild:menu];
 }
 
@@ -101,11 +102,17 @@
 }
 
 - (void)quitButtonWasPressed:(id)sender {
-    [SceneManager goLevelSelect];
+    if ([[World sharedWorld] CCCplayer].inLearningModules == YES) {
+        [SceneManager goLearningModuleScene];
+    }else if ([[World sharedWorld] CCCplayer].inLearningModules == NO) {
+        [SceneManager goLevelSelect];
+    }
 }
+
 //- (void)restartButtonWasPressed:(id)sender {
 //    [SceneManager goMaze: currentMazeID];
 //}
+
 - (void)resumeButtonWasPressed:(id)sender {
     
     // unpause the game
@@ -149,6 +156,7 @@
          spM = [SuperpowerManager sharedManager];
         
         currentMazeID = mazeID;
+        [MazeManager sharedInstance].currentMapID = currentMazeID;
         [self createScene: mazeID];
         CCLOG(@"%d", spM.initiatedSPs.count);
         [self setupPhysicsWorld];
@@ -161,10 +169,6 @@
         [self addChild:background];
         
         
-        //Initialize a superpower manager instance
- 
-        // schedule Box2D updates
-//        [self schedule: @selector(tick:)];
 
     }
     return self;

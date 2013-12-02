@@ -21,7 +21,7 @@
 
         
         [self setupPhysicsWorld];
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
+//        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap: tileMap];
         NSLog(@"LOADING PLISTS!!!");
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
@@ -30,7 +30,7 @@
          geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
         [geckoSpriteSheet.texture setAliasTexParameters];
-
+        [[World sharedWorld] CCCplayer].levelComplete = NO;
         [self addChild:humanSpriteSheet z:2];
         [self addChild:geckoSpriteSheet z:2];
 
@@ -282,7 +282,7 @@
     
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     player = [[World sharedWorld] CCCplayer];
-   
+    [player reset];
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
     player.zOrder = 500;
@@ -334,7 +334,7 @@
     if (location.x >= screenSize.width/2 && location.y > 230) {
         //player.position = ccp(player.position.x, player.position.y-50);
         [player jump];
-        ;
+        [player decreaseHealth];
         
     }
     // [player jump];
@@ -373,7 +373,17 @@
 //    float posY = MAX(3 * _tileMap.tileSize.height + player.centerToBottom, MAX(player.centerToBottom, player.desiredPosition.y));
 //    player.position = ccp(posX, posY);
 //
+    if (player.isDead) {
+        [SceneManager goGameOverLayer];
+    }
+    if (player.levelComplete) {
+        if (player.inLearningModules) {
+            [SceneManager goLearningModuleScene];
+        }else if (player.inLearningModules == NO) {
+                  [SceneManager goLevelComplete];
+        }
 
+    }
     if (!paused) {
     int32 velocityIterations = 8;
 	int32 positionIterations = 1;

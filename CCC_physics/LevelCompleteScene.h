@@ -11,7 +11,7 @@
 //#import "Constants.h"
 #import "Defines.h"
 #import "SceneManager.h"
-
+#import "MazeManager.h"
 @interface LevelCompleteScene : CCLayer {  
     
 }

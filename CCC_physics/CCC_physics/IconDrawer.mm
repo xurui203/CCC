@@ -30,7 +30,7 @@
         BGmenu = [CCMenu menuWithItems:iconDrawerImage, nil];
         [self addChild:BGmenu z:0];
         CCLOG(@"added iconDrawer");
-        BGmenu.position = ccp(300, 340);
+        BGmenu.position = ccp(360, 340);
         open = NO;
     BGmenu.zOrder = 5;
     

@@ -1216,8 +1216,8 @@
 		3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModuleScene.mm; sourceTree = "<group>"; };
 		312341FF182A3F21001BC4B7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		31234200182A3F21001BC4B7 /* GameOverScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameOverScene.mm; sourceTree = "<group>"; };
-		31234207182A95B4001BC4B7 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = ../Sprites/GameOverLayer.h; sourceTree = "<group>"; };
-		31234208182A95B4001BC4B7 /* GameOverLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameOverLayer.mm; path = ../Sprites/GameOverLayer.mm; sourceTree = "<group>"; };
+		31234207182A95B4001BC4B7 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = Sprites/GameOverLayer.h; sourceTree = "<group>"; };
+		31234208182A95B4001BC4B7 /* GameOverLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameOverLayer.mm; path = Sprites/GameOverLayer.mm; sourceTree = "<group>"; };
 		3E09A1CF184A67740006672B /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
 		3E09A1D0184A67740006672B /* Paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paused.png; sourceTree = "<group>"; };
 		3E09A1D1184A67740006672B /* QuitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuitButton.png; sourceTree = "<group>"; };
@@ -3548,6 +3548,8 @@
 		3ECB2EC618258BF800C82177 /* GamePlay */ = {
 			isa = PBXGroup;
 			children = (
+				31234207182A95B4001BC4B7 /* GameOverLayer.h */,
+				31234208182A95B4001BC4B7 /* GameOverLayer.mm */,
 				5B6A4334184A8931003CD115 /* Defines.h */,
 				3EDC409A18452B96000EF77D /* World.h */,
 				3EDC409B18452B97000EF77D /* World.mm */,
@@ -4767,8 +4769,6 @@
 				5B6F77AB183D5CB800D737B2 /* BetaSheet2.png */,
 				5B2D7DD2183C244F00BA3365 /* BetaSheet.plist */,
 				5B2D7DD3183C244F00BA3365 /* BetaSheet.png */,
-				31234207182A95B4001BC4B7 /* GameOverLayer.h */,
-				31234208182A95B4001BC4B7 /* GameOverLayer.mm */,
 				3ECB2ECB1825C9A400C82177 /* HudLayer.h */,
 				3ECB2ECC1825C9A400C82177 /* HudLayer.mm */,
 				3ECB2EC91825C9A400C82177 /* MazeLayer.h */,

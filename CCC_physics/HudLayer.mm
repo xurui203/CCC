@@ -35,6 +35,7 @@
     CCTexture2D *tex = [[CCTextureCache sharedTextureCache] addImage: newSprite];
     [energyBar setTexture: tex];
     energyBar.position = ccp(50, 300);
+
     energyBar.scale = .4;
 }
 
