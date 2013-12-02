@@ -47,10 +47,12 @@ void ContactListener::BeginContact(b2Contact *contact) {
     }
     if (IS_GAMEOVERTILE(o1, o2) && IS_PLAYER(o1, o2)) {
         CCLOG(@"~!~!~!~ Player made contact with death tiles brah");
-        [SceneManager goGameOverLayer];
+//        [SceneManager goGameOverLayer];
+        [[World sharedWorld] CCCplayer].isDead = YES;
     } if (IS_ENDTILE(o1, o2) && IS_PLAYER(o1, o2)) {
         CCLOG(@"PLAYER REACHED END");
-        [SceneManager goLevelComplete];
+        [[World sharedWorld] CCCplayer].levelComplete = YES;
+//        [SceneManager goLevelComplete];
         
     } if (IS_COLLECTIBLE(o1, o2) && IS_PLAYER(o1, o2)) {
         if (o1.type == kGameObjectCollectible) {

@@ -30,7 +30,7 @@
          geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
         [humanSpriteSheet.texture setAliasTexParameters];
         [geckoSpriteSheet.texture setAliasTexParameters];
-
+        [[World sharedWorld] CCCplayer].levelComplete = NO;
         [self addChild:humanSpriteSheet z:2];
         [self addChild:geckoSpriteSheet z:2];
 
@@ -370,6 +370,14 @@
 //
     if (player.isDead) {
         [SceneManager goGameOverLayer];
+    }
+    if (player.levelComplete) {
+        if (player.inLearningModules) {
+            [SceneManager goLearningModuleScene];
+        }else if (player.inLearningModules == NO) {
+                  [SceneManager goLevelComplete];
+        }
+
     }
     if (!paused) {
     int32 velocityIterations = 8;

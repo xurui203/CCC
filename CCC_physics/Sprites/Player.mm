@@ -12,6 +12,7 @@
         health = 11;
         self.isDead = NO;
         self.inLearningModules = NO;
+        self.levelComplete = NO;
 	}
 	return self;
 }
