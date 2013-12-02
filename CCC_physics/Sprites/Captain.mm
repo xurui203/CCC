@@ -77,22 +77,19 @@
     }
 }
 
-- (void)changeSuperpower:(Superpower *) superpower {
-    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
-    self.currentSuperpower = superpower;
-    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
-}
 
 //Use this method to reset superpower. This method should be called whenever an icon is clicked from the superpower menu.
 - (void)transform:(Superpower*) superpower{
     //if ([[[World sharedWorld] CCCplayer] numberOfRunningActions] ==0){
-        if (self.numberOfRunningActions ==0){
+    if (self.numberOfRunningActions ==0){
 
     [self stopAllActions];
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
     [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformFromAnimation]], nil]]; //Transform from current state
     self.currentSuperpower = superpower;
-    [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformIntoAnimation]], nil]]; //Transform into superpower state
+       // if (self.numberOfRunningActions == 0){
+            [self runAction:[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getTransformIntoAnimation]], nil]]; //Transform into superpower state
+      //  }
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
 
     _actionState = kActionStateIdle;
