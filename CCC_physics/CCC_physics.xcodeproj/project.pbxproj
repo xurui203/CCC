@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31110213184C486C00C52D8B /* GeckoPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 31110210184C486C00C52D8B /* GeckoPractice.tmx */; };
+		31110214184C486C00C52D8B /* KangarooPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 31110211184C486C00C52D8B /* KangarooPractice.tmx */; };
+		31110215184C486C00C52D8B /* mainMaze.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 31110212184C486C00C52D8B /* mainMaze.tmx */; };
 		3114C8D7183C5F170091AE4F /* LearningModuleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */; };
 		31234201182A3F21001BC4B7 /* GameOverScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234200182A3F21001BC4B7 /* GameOverScene.mm */; };
 		31234209182A95B4001BC4B7 /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234208182A95B4001BC4B7 /* GameOverLayer.mm */; };
@@ -1212,6 +1215,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31110210184C486C00C52D8B /* GeckoPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GeckoPractice.tmx; sourceTree = "<group>"; };
+		31110211184C486C00C52D8B /* KangarooPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KangarooPractice.tmx; sourceTree = "<group>"; };
+		31110212184C486C00C52D8B /* mainMaze.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mainMaze.tmx; sourceTree = "<group>"; };
 		3114C8D5183C5F170091AE4F /* LearningModuleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningModuleScene.h; sourceTree = "<group>"; };
 		3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModuleScene.mm; sourceTree = "<group>"; };
 		312341FF182A3F21001BC4B7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
@@ -4782,6 +4788,9 @@
 		5BCB88711829E412009D6DBF /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				31110210184C486C00C52D8B /* GeckoPractice.tmx */,
+				31110211184C486C00C52D8B /* KangarooPractice.tmx */,
+				31110212184C486C00C52D8B /* mainMaze.tmx */,
 				3E09A1FD184BF54A0006672B /* kangarooMaze1.tmx */,
 				5B6A4936184AB8E2003CD115 /* kangaroo.tmx */,
 				5B6A4937184AB8E2003CD115 /* gecko.tmx */,
@@ -4993,6 +5002,7 @@
 				3EBD93881834280000ABC143 /* energy-hd.pvr.ccz in Resources */,
 				5B6A489B184AA01B003CD115 /* Ant Capt Trainsition-Into DN0018.png in Resources */,
 				5B6A46F7184AA01B003CD115 /* CCC DN-Walking0043.png in Resources */,
+				31110214184C486C00C52D8B /* KangarooPractice.tmx in Resources */,
 				5B6A4810184AA01B003CD115 /* Ant Capt Transition-From DN0004.png in Resources */,
 				5B27438C182A1C3600942895 /* Lat Capt KL-Jumping004.png in Resources */,
 				5B6A46BB184AA01B003CD115 /* CCC DN-Stand&Sniff0081.png in Resources */,
@@ -5207,6 +5217,7 @@
 				5B6A48D5184AA01B003CD115 /* Ant Capt Trainsition-GF0014.png in Resources */,
 				5B6A469E184AA01B003CD115 /* CCC DN-Stand&Sniff0052.png in Resources */,
 				5B6A468D184AA01B003CD115 /* CCC DN-Stand&Sniff0035.png in Resources */,
+				31110213184C486C00C52D8B /* GeckoPractice.tmx in Resources */,
 				5B6A470B184AA01B003CD115 /* lat capt gf0006.png in Resources */,
 				5B6A4815184AA01B003CD115 /* Ant Capt Transition-From DN0009.png in Resources */,
 				5B6A479E184AA01B003CD115 /* Lat Capt Human-Stand Up0019.png in Resources */,
@@ -5270,6 +5281,7 @@
 				5B6A474A184AA01B003CD115 /* Lat Capt Human-Crawling0001.png in Resources */,
 				5B6A46FF184AA01B003CD115 /* CCC DN-Walking0051.png in Resources */,
 				5B6A464E184AA01B003CD115 /* CCC DN-Sniffing&Crawling0016.png in Resources */,
+				31110215184C486C00C52D8B /* mainMaze.tmx in Resources */,
 				5B6A46BC184AA01B003CD115 /* CCC DN-Stand&Sniff0082.png in Resources */,
 				5B6A468E184AA01B003CD115 /* CCC DN-Stand&Sniff0036.png in Resources */,
 				3EBD934A1833DD6600ABC143 /* Dog Icon.png in Resources */,
