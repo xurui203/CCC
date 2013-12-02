@@ -334,7 +334,7 @@
             
         }
         [player crawl];
-
+        
     
     }
     if (location.x >= screenSize.width/2 && location.y > 230) {
