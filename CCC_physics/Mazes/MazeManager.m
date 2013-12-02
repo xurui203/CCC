@@ -42,10 +42,12 @@
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangarooMaze1.tmx"];
     }
     if (mapID == GECKO_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"GeckoPratice.tmx"];
     }
     if (mapID == MAIN_ONE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
+        //return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangarooMaze1.tmx"];
+
     } if (mapID == CAPTAIN_MAZE_ID) {
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"test_map.tmx"];
     }
