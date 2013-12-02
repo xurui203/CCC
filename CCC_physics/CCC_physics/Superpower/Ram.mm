@@ -38,19 +38,19 @@
 }
 
 
-# define NUM_TRANSFORM_INTO 48
+# define NUM_TRANSFORM_INTO 52
 
 - (CCAnimation *) getTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
     //action animation - runs once and then returns to idle
     if (self.transformIntoAnimation == nil){
-        self.transformIntoAnimation = [self makeAnimation:NUM_TRANSFORM_INTO :[NSString stringWithFormat:@"IntoRam"]];
+        self.transformIntoAnimation = [self makeAnimation:NUM_TRANSFORM_INTO :[NSString stringWithFormat:@"Captain"]];
     }
     return self.transformIntoAnimation;
 }
 
 
 //Ant Capt Transition-From Human0001
-# define NUM_TRANSFORM_FROM 34
+# define NUM_TRANSFORM_FROM 48
 
 - (CCAnimation *) getTransformFromAnimation { //Ant Capt Transition-From Human0002.png
     //action animation - runs once and then returns to idle

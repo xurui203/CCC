@@ -76,13 +76,13 @@
         _velocity = CGPointZero;
     }
 }
-
-- (void)changeSuperpower:(Superpower *) superpower {
-    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
-    self.currentSuperpower = superpower;
-    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
-
-}
+//
+//- (void)changeSuperpower:(Superpower *) superpower {
+//    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
+//    self.currentSuperpower = superpower;
+//    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
+//
+//}
 //Use this method to reset superpower. This method should be called whenever an icon is clicked from the superpower menu.
 - (void)transform:(Superpower*) superpower{
     //if ([[[World sharedWorld] CCCplayer] numberOfRunningActions] ==0){
