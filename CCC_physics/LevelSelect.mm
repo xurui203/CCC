@@ -26,6 +26,8 @@
     [GameDataParser saveData:gameData];
     NSLog(@"Selected level is %d", selectedLevel);
  // load the game scene
+    [[[World sharedWorld] CCCplayer] reset];
+
     [SceneManager goMaze: selectedLevel];
 
 }

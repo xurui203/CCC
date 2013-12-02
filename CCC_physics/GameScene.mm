@@ -186,19 +186,23 @@
     _icondrawer = [IconDrawer node];
         [self addChild:_icondrawer z:2];
     CCLOG(@"%lu", (unsigned long)spM.initiatedSPs.count);
-    if(spM.initiatedSPs != nil) {
-        CCLOG(@"hereee");
-        CCMenu *iconMenu = [_icondrawer initMenu:spM.initiatedSPs];
-        [_icondrawer initDrawer];
-//        [self addChild:iconMenu z:5];
-        iconMenu.position = ccp(200, 175);
-        iconMenu.zOrder = 5000;
-
-        [self addChild:iconMenu z:5];
-//        iconMenu.position = ccp(self.contentSize.width/2, self.contentSize.height/2);
-//        CCLOG(@"%hhd", iconMenu.visible);
-//        
+    if ([[World sharedWorld] CCCplayer].inLearningModules == NO) {
+        if(spM.initiatedSPs != nil) {
+            CCLOG(@"hereee");
+            
+            CCMenu *iconMenu = [_icondrawer initMenu:spM.initiatedSPs];
+            [_icondrawer initDrawer];
+            //        [self addChild:iconMenu z:5];
+            iconMenu.position = ccp(200, 175);
+            iconMenu.zOrder = 5000;
+            
+            [self addChild:iconMenu z:5];
+            //        iconMenu.position = ccp(self.contentSize.width/2, self.contentSize.height/2);
+            //        CCLOG(@"%hhd", iconMenu.visible);
+            //        
+        }
     }
+ 
 
     _mazeLayer.hud = _hudLayer;
     
