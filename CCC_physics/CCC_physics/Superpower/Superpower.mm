@@ -47,14 +47,18 @@
     if (numFrames > 9){
         for (int k = 1; k <= 9; k++ ) {
             [anim addFrameWithFilename:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
+            NSLog(@"Adding filename %@000%d.png", filename, k);
         }
         for (int k = 10; k <= numFrames; k++ ) {
             [anim addFrameWithFilename:[NSString stringWithFormat:@"%@00%d.png", filename, k]];
+            NSLog(@"Adding filename %@000%d.png", filename, k);
+
         }
         
     } else{
         for (int k = 1; k <= numFrames; k++ ) {
             [anim addFrameWithFilename:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
+            NSLog(@"Adding filename %@000%d.png", filename, k);
         }
     }
 
