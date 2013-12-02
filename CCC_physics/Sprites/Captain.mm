@@ -17,6 +17,7 @@
         self.currentSuperpower = [CaptainSP alloc];
         [self.currentSuperpower init];
         
+        
         CCLOG(@"Got HERE after loading current superpower!");
         
         //Set idle action
@@ -38,6 +39,7 @@
         self.hitPoints = 100.0;
         self.damage = 20.0;
         self.walkSpeed = 80;
+        self.upright = true;
         
     }
     CCLOG(@"captain init but without frame");
@@ -149,7 +151,6 @@
     if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
         _crawlAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
-
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;
     }
@@ -170,4 +171,20 @@
     }
 
 }
+
+//-(void) setUpright: (Boolean) wantUpright{
+//    if (wantUpright && !self.upright){
+//        float32 angle = 1 * CC_DEGREES_TO_RADIANS(90);
+//        self.body->SetTransform(self.body->GetPosition(), angle );
+//        self.upright = true;
+//    }
+//    else if (!wantUpright && self.upright){
+//        float32 angle2 = 1 * CC_DEGREES_TO_RADIANS(90);
+//        self.body->SetTransform(self.body->GetPosition(), angle2);
+//        self.upright = false;
+//    }
+//}
+
+
+
 @end

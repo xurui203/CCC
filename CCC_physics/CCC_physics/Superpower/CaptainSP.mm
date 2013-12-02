@@ -97,6 +97,7 @@
 
 
 -(void) jump: (Player*) player {
+//    [player setUpright:true];
     b2Vec2 impulse = b2Vec2(2.0f, 4.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     NSLog(@"Player jumping");
@@ -104,6 +105,7 @@
 
 
 -(void) moveRight: (Player*) player{
+//    [player setUpright:true];
     b2Vec2 impulse = b2Vec2(2.0f, 0.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     player.body->SetLinearVelocity(b2Vec2(6.5, 0));
@@ -113,6 +115,7 @@
 
 -(void) crawl: (Player*) player {
     b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
+//    [player setUpright:false];
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     player.body->SetLinearVelocity(b2Vec2(5.5, 0));
     NSLog(@"Player crawling");

@@ -27,8 +27,6 @@ static World *sharedMyWorld = nil;
 
 - (id)init {
     if (self = [super init]) {
-        
-        
         //INIT CAPTAIN
         CCCplayer = [[Captain alloc] initWithFile:@"Lat Capt Human-Standing001.png"];
         CCLOG(@"world inits captain");

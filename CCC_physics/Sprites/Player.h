@@ -28,7 +28,9 @@
 @property bool contactingGameOver;
 
 
+
 -(void)restoreHealth:(float)amount;
 
+-(void) setUpright: (Boolean) wantUpright;
 
 @end

@@ -3,9 +3,9 @@
 #import "MazeLayer.h"
 #import "SimpleAudioEngine.h"
 
-//@interface MazeLayer(Private)
-//-(void) setupPhysicsWorld;
-//@end
+@interface MazeLayer(Private)
+-(void) setupPhysicsWorld;
+@end
 
 @implementation MazeLayer
 
@@ -261,7 +261,6 @@
     
     b2Vec2 gravity = b2Vec2(0.0f, -9.8f);
     world = new b2World(gravity);
-
     contactListener = new ContactListener();
     world->SetContactListener(contactListener);
 }
@@ -322,9 +321,15 @@
         [player walk];
     }
     if (location.y < 80) {
+        
         //player.position = ccp(player.position.x, player.position.y-50);
+        
+        if (player.actionState!= kActionStateCrawl){
+            
+        }
         [player crawl];
-        ;
+
+    
     }
     if (location.x >= screenSize.width/2 && location.y > 230) {
         //player.position = ccp(player.position.x, player.position.y-50);

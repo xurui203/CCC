@@ -33,7 +33,7 @@
 //states
 @property(nonatomic,assign)ActionState actionState;
 @property(nonatomic,assign) Boolean reactivated;
-
+@property(nonatomic,assign) Boolean upright;
 
 //attributes
 @property(nonatomic,assign)float walkSpeed;
@@ -56,4 +56,6 @@
 -(void) crawl;
 -(void) jump;
 -(void) transform:(Superpower *)sp;
+-(void) setUpright: (Boolean) wantUpright;
+
 @end

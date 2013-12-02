@@ -51,10 +51,11 @@
 	
 	body = world->CreateBody(&playerBodyDef);
 	
-	b2CircleShape circleShape;
-	circleShape.m_radius = 0.7;
+	b2PolygonShape polygonShape;
+    polygonShape.SetAsBox(1.0f, 1.0f);
+	//polygonShape.m_radius = 0.7;
 	b2FixtureDef fixtureDef;
-	fixtureDef.shape = &circleShape;
+	fixtureDef.shape = &polygonShape;
 	fixtureDef.density = 1.0f;
 	fixtureDef.friction = 1.0f;
 	fixtureDef.restitution =  0.0f;
@@ -76,6 +77,7 @@
     body->SetLinearVelocity(b2Vec2(6.5, 0));
     
 }
+
 
 
 
