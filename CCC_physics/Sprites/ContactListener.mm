@@ -71,13 +71,18 @@ void ContactListener::BeginContact(b2Contact *contact) {
     }
     if (IS_WALL(o1, o2) && IS_WALL(o1, o2)) {
         CCLOG(@"PLAYER REACHED wall");
-        if (o1.type == kGameObjectWall) {
+        NSLog(@"hihihi %@", [[World sharedWorld] CCCplayer].currentSuperpower.name);
+
+        if (o1.type == kGameObjectWall &&  [[[World sharedWorld] CCCplayer].currentSuperpower.name  isEqual:  @"Ram"]) {
+            CCLOG(@"PLAYER breaking wall in contact listener");
+
             o1.type = kGameObjectBroken;
             CCLOG(@"o1 wall broken");
             
         }
         
-        if (o2.type == kGameObjectWall) {
+        if (o2.type == kGameObjectWall &&  [[[World sharedWorld] CCCplayer].currentSuperpower.name  isEqual:  @"Ram"]) {
+            CCLOG(@"PLAYER breaking wall in contact listener");
             o2.type = kGameObjectBroken;
             CCLOG(@"o2 wall broken");
         }

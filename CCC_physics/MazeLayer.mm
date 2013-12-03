@@ -384,28 +384,39 @@
     
     if (player.actionState == kActionStateIdle){
 
-    if (location.x <= screenSize.width && location.y >= 100) {
-        [player walk];
-    }
-    if (location.y < 80) {
-        
-        //player.position = ccp(player.position.x, player.position.y-50);
-        
-        if (player.actionState!= kActionStateCrawl){
-            
+        if (location.x > screenSize.width/2 && location.y >= 100) {
+            [player walk];
         }
-        [player crawl];
+        
+        if (location.x <= screenSize.width/2 && location.y >= 100) {
+            [player moveBackwards];
+        }
         
     
-    }
-    if (location.x >= screenSize.width/2 && location.y > 230) {
-        //player.position = ccp(player.position.x, player.position.y-50);
-        [player jump];
-        [player decreaseHealth];
+        if (location.y < 80) {
         
-    }
+        //player.position = ccp(player.position.x, player.position.y-50);
+        
+            if (player.actionState != kActionStateCrawl){
+                [player crawl];
+            }
+        }
+        
+        if (location.x >= screenSize.width/2 && location.y > 230) {
+        //player.position = ccp(player.position.x, player.position.y-50);
+            if ([player.currentSuperpower.name isEqual:@"Ram"]){
+                [player moveBackwards];
+
+                [player breakWall];
+            }
+            else {[player jump];
+            }
+            [player decreaseHealth];
+        
+        }
     // [player jump];
     }
+
 	return TRUE;
 }
 
@@ -453,6 +464,10 @@
 
     }
     if (!paused) {
+        
+        if (player.breakingWall ) {
+            
+        }
     int32 velocityIterations = 8;
 	int32 positionIterations = 1;
     

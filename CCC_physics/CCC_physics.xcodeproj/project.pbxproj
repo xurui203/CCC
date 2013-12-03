@@ -1421,6 +1421,7 @@
 		5B8A7FF3184D1B3000CCBA87 /* Back wall0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FE8184D1B3000CCBA87 /* Back wall0009.png */; };
 		5B8A7FF4184D1B3000CCBA87 /* Back wall0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FE9184D1B3000CCBA87 /* Back wall0010.png */; };
 		5B8A7FF5184D1B3000CCBA87 /* front wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FEA184D1B3000CCBA87 /* front wall.png */; };
+		5B8A7FF9184D50C600CCBA87 /* Kangaroo Legs-LM.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FF8184D50C600CCBA87 /* Kangaroo Legs-LM.m4v */; };
 		5BB581F3183330BF00A9F330 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F0183330BF00A9F330 /* hurt.wav */; };
 		5BB581F4183330BF00A9F330 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F1183330BF00A9F330 /* jump.wav */; };
 		5BB581F5183330BF00A9F330 /* sbm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BB581F2183330BF00A9F330 /* sbm.mp3 */; };
@@ -3055,6 +3056,7 @@
 		5B8A7FE8184D1B3000CCBA87 /* Back wall0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back wall0009.png"; sourceTree = "<group>"; };
 		5B8A7FE9184D1B3000CCBA87 /* Back wall0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back wall0010.png"; sourceTree = "<group>"; };
 		5B8A7FEA184D1B3000CCBA87 /* front wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front wall.png"; sourceTree = "<group>"; };
+		5B8A7FF8184D50C600CCBA87 /* Kangaroo Legs-LM.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kangaroo Legs-LM.m4v"; sourceTree = "<group>"; };
 		5BB581F0183330BF00A9F330 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
 		5BB581F1183330BF00A9F330 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		5BB581F2183330BF00A9F330 /* sbm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sbm.mp3; sourceTree = "<group>"; };
@@ -3157,6 +3159,7 @@
 		3E452D4B1824063300B4EFDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B8A7FF8184D50C600CCBA87 /* Kangaroo Legs-LM.m4v */,
 				5B8A7843184CF01900CCBA87 /* Animations */,
 				3E09A1CF184A67740006672B /* PauseButton.png */,
 				3E09A1D0184A67740006672B /* Paused.png */,
@@ -6790,6 +6793,7 @@
 				5B8A7E68184CF01D00CCBA87 /* Ant Capt Transition-From DN0013.png in Resources */,
 				5B8A7E58184CF01D00CCBA87 /* DogGecko.tps in Resources */,
 				5B8A7FA7184CF01D00CCBA87 /* Captain Into RH0004.png in Resources */,
+				5B8A7FF9184D50C600CCBA87 /* Kangaroo Legs-LM.m4v in Resources */,
 				5B8A7C34184CF01D00CCBA87 /* CCC DN-Sniffing&Crawling0019.png in Resources */,
 				5B8A7FD5184CF01D00CCBA87 /* Captain Into RH0050.png in Resources */,
 				5B8A7DE4184CF01D00CCBA87 /* Lat Capt KL-Running0006.png in Resources */,

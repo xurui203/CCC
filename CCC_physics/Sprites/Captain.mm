@@ -61,7 +61,7 @@
     
     CCLOG(@"old position is %f", self.position.x);
     
-    if (_actionState == kActionStateSpecialAction){
+    if (_actionState == kActionStateBreak){
         NSLog(@"JUMP EXECUTING");
         [super kangarooJump];
     }
@@ -129,6 +129,23 @@
 
 }
 
+-(void)moveBackwards {
+    if (!self.currentSuperpower.canWalk) return;
+    if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
+        [self stopAllActions];
+        _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
+        [self runAction:_walkAction];
+        _actionState = kActionStateWalk;
+    }
+    
+    if (_actionState == kActionStateWalk) {
+        [self.currentSuperpower moveLeft:self];
+    }
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+    _actionState = kActionStateIdle;
+    
+}
+
 -(void)jump {
     if (!self.currentSuperpower.canJump) return;
     if (_actionState != kActionStateJump){
@@ -146,6 +163,28 @@
     _actionState = kActionStateIdle;
 
 }
+
+-(void)breakWall {
+    NSLog(@"Break wall method reached!!!");
+
+    if (!self.currentSuperpower.canBreak) return;
+    if (_actionState != kActionStateBreak){
+        [self stopAllActions];
+        _breakAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getBreakAnimation]], nil];
+        
+        [self runAction:_breakAction];
+        _actionState = kActionStateBreak;
+        NSLog(@"Captain class: Breaking wall");
+    }
+    
+    if (_actionState == kActionStateBreak) {
+        [self.currentSuperpower breakWall:self];
+    }
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+    _actionState = kActionStateIdle;
+    self.breakingWall = TRUE;
+}
+
 -(void)crawl {
     if (!self.currentSuperpower.canCrawl) return;
 

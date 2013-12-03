@@ -19,6 +19,8 @@
 @property(strong, nonatomic) CCAnimation* crawlAnimation; //crawl transformation
 @property(strong, nonatomic) CCAnimation* jumpAnimation; //jump transformation
 @property(strong, nonatomic) CCAnimation* idleAnimation; //idle transformation
+@property(strong, nonatomic) CCAnimation* breakAnimation; //special transformation
+
 @property(strong, nonatomic) CCAnimation* spAnimation; //special transformation
 
 @property(strong, nonatomic) NSString *disabledIconImage;
@@ -28,6 +30,8 @@
 @property(nonatomic) BOOL canCrawl;
 @property(nonatomic) BOOL canJump;
 @property(nonatomic) BOOL canFly;
+@property(nonatomic) BOOL canBreak;
+
 @property(nonatomic) int mazeID;
 
 
@@ -43,10 +47,15 @@
 - (CCAnimation*) getJumpAnimation;
 - (CCAnimation*) getIdleAnimation;
 - (CCAnimation*) getSpAnimation;
+- (CCAnimation*) getBreakAnimation;
+
 
 - (void) jump: (Player*) player;
+-(void) moveLeft: (Player*) player;
 - (void) moveRight: (Player*) player;
 - (void) crawl: (Player*) player;
+- (void) breakWall: (Player*) player;
+
 
 # define NUM_TRANSFORM_JUMP 31
 -(CCAnimation*) makeAnimation: (int) numFrames : (NSString*) filename;

@@ -20,6 +20,7 @@
 @property(nonatomic,strong)id failAction;
 @property(nonatomic,strong)id crawlAction;
 @property(nonatomic,strong)id jumpAction;
+@property(nonatomic,strong)id breakAction;
 
 @property(nonatomic,strong)id transformAction;
 
@@ -53,8 +54,10 @@
 //-(void)hurtWithDamage:(float)damage;
 -(void)idle;
 -(void)walk;
+-(void) moveBackwards;
 -(void) crawl;
 -(void) jump;
+-(void)breakWall;
 -(void) transform:(Superpower *)sp;
 -(void) setUpright: (Boolean) wantUpright;
 - (void) reset;
