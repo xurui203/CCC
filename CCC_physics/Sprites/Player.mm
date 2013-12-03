@@ -75,7 +75,7 @@
 	body->CreateFixture(&fixtureDef);
     
     b2PolygonShape crawlPolygonShape;
-    crawlPolygonShape.SetAsBox(0.01f, 0.01f);
+    crawlPolygonShape.SetAsBox(1.0f, 0.01f);
     // Radius? idk
 //    b2FixtureDef crawlFixtureDef;
     crawlFixtureDef.shape = &crawlPolygonShape;

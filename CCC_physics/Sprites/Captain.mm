@@ -186,6 +186,13 @@
 
 -(void)crawl {
     if (!self.currentSuperpower.canCrawl) return;
+    NSLog(@"Right before fixture change");
+    fixtureDef.isSensor = true;
+    NSLog(fixtureDef.isSensor ? @"Yes" : @"No");
+    NSLog(@"fixtureDef Should be a sensor now");
+    crawlFixtureDef.isSensor = false;
+    NSLog(crawlFixtureDef.isSensor ? @"Yes" : @"No");
+    NSLog(@"crawlFixture should NOT be a sensor");
     
     if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
@@ -194,8 +201,6 @@
         _actionState = kActionStateCrawl;
     }
     NSLog(@"PLS WORK PLS");
-    crawlFixtureDef.isSensor = false;
-    fixtureDef.isSensor = true;
     
     if (_actionState == kActionStateCrawl) {
         _velocity = ccp(2.0, 0);
