@@ -6,7 +6,6 @@
 @implementation Captain
 
 
-
 -(id)init {
     CCLOG(@"CAPTAIN: INIT");
     if (self = [super init]){
@@ -187,18 +186,22 @@
 
 -(void)crawl {
     if (!self.currentSuperpower.canCrawl) return;
-
+    
     if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
         _crawlAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;
     }
+    NSLog(@"PLS WORK PLS");
+    crawlFixtureDef.isSensor = false;
+    fixtureDef.isSensor = true;
     
     if (_actionState == kActionStateCrawl) {
         _velocity = ccp(2.0, 0);
         [self.currentSuperpower crawl:self];
     }
+    
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
     _actionState = kActionStateIdle;
 

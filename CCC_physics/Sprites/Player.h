@@ -16,6 +16,8 @@
     b2Body          *body;
     BOOL            contactingGameOver;
         int health;
+    b2FixtureDef crawlFixtureDef;
+    b2FixtureDef fixtureDef;
 }
 @property (readonly) int health;
 @property (nonatomic) bool isDead;
@@ -28,8 +30,6 @@
 
 
 @property (nonatomic, readwrite) b2Body *body;
-@property (nonatomic, readwrite) b2FixtureDef crawlFixtureDef;
-@property (nonatomic, readwrite) b2FixtureDef fixtureDef;
 @property bool contactingGameOver;
 @property bool inLearningModules;
 @property bool breakingWall;

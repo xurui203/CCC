@@ -10,7 +10,7 @@
 
 @interface Captain : Player {
     CCSpriteBatchNode *humanSpriteSheet;
-
+    
 }
 
 //actions
@@ -21,6 +21,10 @@
 @property(nonatomic,strong)id crawlAction;
 @property(nonatomic,strong)id jumpAction;
 @property(nonatomic,strong)id breakAction;
+
+// FIXTURE STUFF
+//@property(nonatomic,assign) b2FixtureDef fixtureDef;
+//@property(nonatomic,assign) b2FixtureDef crawlFixtureDef;
 
 @property(nonatomic,strong)id transformAction;
 

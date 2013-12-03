@@ -67,22 +67,23 @@
     polygonShape.SetAsBox(1.0f, 1.0f);
 	//polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
-	_fixtureDef.shape = &polygonShape;
-	_fixtureDef.density = 1.0f;
-	_fixtureDef.friction = 1.0f;
-	_fixtureDef.restitution =  0.0f;
-	body->CreateFixture(&_fixtureDef);
+	fixtureDef.shape = &polygonShape;
+	fixtureDef.density = 1.0f;
+	fixtureDef.friction = 1.0f;
+	fixtureDef.restitution =  0.0f;
+    fixtureDef.isSensor = false;
+	body->CreateFixture(&fixtureDef);
     
     b2PolygonShape crawlPolygonShape;
-    crawlPolygonShape.SetAsBox(1.0f, 0.5f);
+    crawlPolygonShape.SetAsBox(0.01f, 0.01f);
     // Radius? idk
 //    b2FixtureDef crawlFixtureDef;
-    _crawlFixtureDef.shape = &crawlPolygonShape;
-    _crawlFixtureDef.density = 1.0f;
-    _crawlFixtureDef.friction = 1.0f;
-    _crawlFixtureDef.restitution = 0.0f;
-    _crawlFixtureDef.isSensor = true;
-    body->CreateFixture(&_crawlFixtureDef);
+    crawlFixtureDef.shape = &crawlPolygonShape;
+    crawlFixtureDef.density = 1.0f;
+    crawlFixtureDef.friction = 1.0f;
+    crawlFixtureDef.restitution = 0.0f;
+    crawlFixtureDef.isSensor = true;
+    body->CreateFixture(&crawlFixtureDef);
     
     
     NSLog(@"Player created in world");
@@ -96,6 +97,10 @@
 //}
 
 -(void) crawling {
+    
+    fixtureDef.isSensor = true;
+    crawlFixtureDef.isSensor = false;
+    
     b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
     body->ApplyLinearImpulse(impulse, body->GetWorldCenter());
     body->SetLinearVelocity(b2Vec2(6.5, 0));
