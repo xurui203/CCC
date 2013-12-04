@@ -31,9 +31,17 @@
     currentHealth = health;
   //  CCLOG(@"setHealth");
   //  CCLOG(@"%d", currentHealth);
-//    NSString* newSprite = [NSString stringWithFormat:@"Energy Score Bar00%d.png", currentHealth];
-//    CCTexture2D *tex = [[CCTextureCache sharedTextureCache] addImage: newSprite];
-//    [energyBar setTexture: tex];
+    NSString* newSprite;
+    if (currentHealth<10){
+    newSprite = [NSString stringWithFormat:@"Energy Score Bar000%d.png", currentHealth];
+    }
+    if (currentHealth>=10){
+        newSprite = [NSString stringWithFormat:@"Energy Score Bar00%d.png", currentHealth];
+    }
+    
+    
+    CCTexture2D *tex = [[CCTextureCache sharedTextureCache] addImage: newSprite];
+    [energyBar setTexture: tex];
     energyBar.position = ccp(50, 300);
 
     energyBar.scale = .4;

@@ -62,9 +62,8 @@
 	playerBodyDef.fixedRotation = true;
 	
 	body = world->CreateBody(&playerBodyDef);
-	
-	b2PolygonShape polygonShape;
-    polygonShape.SetAsBox(1.0f, 1.0f);
+    b2PolygonShape polygonShape;
+    polygonShape.SetAsBox(1.0f, 0.5f);
     //polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &polygonShape;
@@ -79,8 +78,15 @@
 
 -(void) changeToCrawlFixture {
     b2PolygonShape crawlPolygonShape;
-    crawlPolygonShape.SetAsBox(1.0f, 0.02f);
-    crawlPolygonShape.m_radius = 0.2;
+    crawlPolygonShape.SetAsBox(1.0f, 0.0001f);
+    crawlPolygonShape.m_radius = 0.01;
+    
+//    b2Vec2 move = b2Vec2(0.0f, 2.0f);
+//    for(int32 i=0;i<crawlPolygonShape.m_vertexCount;i++)
+//    {
+//        crawlPolygonShape.m_vertices[i]+=move;
+//    }
+//    crawlPolygonShape.m_centroid+=move;
     b2FixtureDef crawlDef;
     crawlDef.shape = &crawlPolygonShape;
     crawlDef.density = 1.0f;
@@ -93,13 +99,23 @@
         f = f->GetNext();
         body->DestroyFixture(fixtureToDestroy);
     }
+
     body->CreateFixture(&crawlDef);
     self.isCrawling = true;
 }
 
 -(void) changeToStandFixture {
     b2PolygonShape standPolygonShape;
-    standPolygonShape.SetAsBox(1.0f, 1.0f);
+    standPolygonShape.SetAsBox(1.0f, 0.5f);
+    
+//    b2Vec2 move = b2Vec2(0.0f, 1.0f);
+//    for(int32 i=0;i<standPolygonShape.m_vertexCount;i++)
+//    {
+//        standPolygonShape.m_vertices[i]+=move;
+//    }
+//    standPolygonShape.m_centroid+=move;
+
+    
     b2FixtureDef standDef;
     standDef.shape = &standPolygonShape;
     standDef.density = 1.0f;

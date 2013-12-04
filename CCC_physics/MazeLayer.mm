@@ -355,7 +355,7 @@
     player.zOrder = 100;
     NSLog(@"didnt die at add player to humanspritesheet...");
     player.scale = .4;
-    player.position = ccp(100, 400);
+    player.position = ccp(100, 300);
     [player createBox2dObject:world];
     [self addChild:player];
     [player idle];
