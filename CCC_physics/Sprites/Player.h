@@ -23,8 +23,6 @@
 @property (nonatomic) bool isDead;
 @property (nonatomic) bool levelComplete;
 -(void) createBox2dObject:(b2World*)world;
--(void) kangarooJump;
--(void) moveRight;
 -(void) updateHealth;
 -(void) decreaseHealth;
 
