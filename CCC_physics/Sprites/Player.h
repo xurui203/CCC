@@ -31,8 +31,13 @@
 @property bool contactingGameOver;
 @property bool inLearningModules;
 @property bool breakingWall;
+@property bool isCrawling;
+
+
 -(void)restoreHealth:(float)amount;
 
 -(void) setUpright: (Boolean) wantUpright;
+-(void) changeToCrawlFixture;
+-(void) changeToStandFixture;
 
 @end

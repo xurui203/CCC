@@ -65,7 +65,7 @@
 	
 	b2PolygonShape polygonShape;
     polygonShape.SetAsBox(1.0f, 1.0f);
-	//polygonShape.m_radius = 0.7;
+    //polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &polygonShape;
 	fixtureDef.density = 1.0f;
@@ -73,23 +73,49 @@
 	fixtureDef.restitution =  0.0f;
     fixtureDef.isSensor = false;
 	body->CreateFixture(&fixtureDef);
-    
-    b2PolygonShape crawlPolygonShape;
-    crawlPolygonShape.SetAsBox(1.0f, 0.01f);
-    // Radius? idk
-//    b2FixtureDef crawlFixtureDef;
-    crawlFixtureDef.shape = &crawlPolygonShape;
-    crawlFixtureDef.density = 1.0f;
-    crawlFixtureDef.friction = 1.0f;
-    crawlFixtureDef.restitution = 0.0f;
-    crawlFixtureDef.isSensor = true;
-    body->CreateFixture(&crawlFixtureDef);
-    
-    
     NSLog(@"Player created in world");
 }
 
 
+-(void) changeToCrawlFixture {
+    b2PolygonShape crawlPolygonShape;
+    crawlPolygonShape.SetAsBox(1.0f, 0.02f);
+    crawlPolygonShape.m_radius = 0.2;
+    b2FixtureDef crawlDef;
+    crawlDef.shape = &crawlPolygonShape;
+    crawlDef.density = 1.0f;
+    crawlDef.friction = 1.0f;
+    crawlDef.restitution = 0.0f;
+    crawlDef.isSensor = false;
+    
+    for (b2Fixture *f = body->GetFixtureList(); f;){
+        b2Fixture* fixtureToDestroy = f;
+        f = f->GetNext();
+        body->DestroyFixture(fixtureToDestroy);
+    }
+    body->CreateFixture(&crawlDef);
+    self.isCrawling = true;
+}
+
+-(void) changeToStandFixture {
+    b2PolygonShape standPolygonShape;
+    standPolygonShape.SetAsBox(1.0f, 1.0f);
+    b2FixtureDef standDef;
+    standDef.shape = &standPolygonShape;
+    standDef.density = 1.0f;
+    standDef.friction = 1.0f;
+    standDef.restitution = 0.0f;
+    standDef.isSensor = false;
+    
+    for (b2Fixture *f = body->GetFixtureList(); f;){
+        b2Fixture* fixtureToDestroy = f;
+        f = f->GetNext();
+        body->DestroyFixture(fixtureToDestroy);
+    }
+    body->CreateFixture(&standDef);
+    self.isCrawling = false;
+
+}
 
 
 

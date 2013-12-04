@@ -111,6 +111,9 @@
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
+        if (self.isCrawling){
+            [self changeToStandFixture];
+        }
         _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
         [self runAction:_walkAction];
         _actionState = kActionStateWalk;
@@ -129,6 +132,9 @@
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
+        if (self.isCrawling){
+            [self changeToStandFixture];
+        }
         _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
         [self runAction:_walkAction];
         _actionState = kActionStateWalk;
@@ -147,6 +153,9 @@
     if (!self.currentSuperpower.canJump) return;
     if (_actionState != kActionStateJump){
         [self stopAllActions];
+        if (self.isCrawling){
+            [self changeToStandFixture];
+        }
         _jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil];
 
         [self runAction:_jumpAction];
@@ -167,8 +176,10 @@
     if (!self.currentSuperpower.canBreak) return;
     if (_actionState != kActionStateBreak){
         [self stopAllActions];
+        if (self.isCrawling){
+            [self changeToStandFixture];
+        }
         _breakAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getBreakAnimation]], nil];
-        
         [self runAction:_breakAction];
         _actionState = kActionStateBreak;
         NSLog(@"Captain class: Breaking wall");
@@ -185,16 +196,11 @@
 -(void)crawl {
     self.breakingWall = FALSE;
     if (!self.currentSuperpower.canCrawl) return;
-    NSLog(@"Right before fixture change");
-    fixtureDef.isSensor = true;
-    NSLog(fixtureDef.isSensor ? @"Yes" : @"No");
-    NSLog(@"fixtureDef Should be a sensor now");
-    crawlFixtureDef.isSensor = false;
-    NSLog(crawlFixtureDef.isSensor ? @"Yes" : @"No");
-    NSLog(@"crawlFixture should NOT be a sensor");
-    
     if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
+        if (!self.isCrawling){
+        [self changeToCrawlFixture];
+        }
         _crawlAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
         [self runAction:_crawlAction];
         _actionState = kActionStateCrawl;
