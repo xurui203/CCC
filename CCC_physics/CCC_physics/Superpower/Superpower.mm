@@ -57,25 +57,6 @@
             [anim addFrameWithFilename:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
         }
     }
-
-//        CCArray *frames = [CCArray arrayWithCapacity:numFrames];
-//    if (numFrames > 9){
-//        for (int k = 1; k <= 9; k++ ) {
-//            CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
-//            [frames addObject:frame];
-//        }
-//        for (int k = 10; k <= numFrames; k++ ) {
-//            CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"%@00%d.png", filename, k]];
-//            [frames addObject:frame];
-//        }
-//
-//    } else{
-//        for (int k = 1; k <= numFrames; k++ ) {
-//            CCSpriteFrame *frame = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
-//            [frames addObject:frame];
-//        }
-//    }
-//    CCAnimation *animation = [CCAnimation animationWithFrames:[frames getNSArray] delay:1.0/24.0];
     return anim;
 }
 

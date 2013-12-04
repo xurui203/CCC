@@ -15,7 +15,7 @@
         //
         NSString *myName = @"Gecko";
         self.name = myName;
-        self.LMVideo =  @"Opening Sequence.m4v";
+        self.LMVideo =  @"Gecko Feet Rough.m4v";
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
         self.canJump = FALSE;

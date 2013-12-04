@@ -13,5 +13,8 @@
     GameObjectType  type;
 }
 
+-(void) playObjectAnimation: (CCAnimation*) animation;
+-(CCAnimation*) makeAnimation: (int) numFrames : (NSString*) filename;
+
 @property (nonatomic, readwrite) GameObjectType type;
 @end

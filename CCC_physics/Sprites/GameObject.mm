@@ -36,9 +36,34 @@
 
 }
 
+-(void) playObjectAnimation: (CCAnimation*) animation
+{
+    CCAction *animationAction = [CCSequence actions:[CCAnimate actionWithAnimation: animation], nil];
+    [self runAction: animationAction];
+}
+
 - (void)dealloc
 {
     [super dealloc];
+}
+
+-(CCAnimation*) makeAnimation: (int) numFrames : (NSString*) filename{
+    CCAnimation *anim = [CCAnimation animation];
+    [anim setDelayPerUnit: 1.0/24.0];
+    if (numFrames > 9){
+        for (int k = 1; k <= 9; k++ ) {
+            [anim addFrameWithFilename:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
+        }
+        for (int k = 10; k <= numFrames; k++ ) {
+            [anim addFrameWithFilename:[NSString stringWithFormat:@"%@00%d.png", filename, k]];
+        }
+        
+    } else{
+        for (int k = 1; k <= numFrames; k++ ) {
+            [anim addFrameWithFilename:[NSString stringWithFormat:@"%@000%d.png", filename, k]];
+        }
+    }
+    return anim;
 }
 
 @end

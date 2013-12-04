@@ -86,10 +86,10 @@
     return self.idleAnimation;
 }
 
-# define NUM_TRANSFORM_JUMP 9
+# define NUM_TRANSFORM_JUMP 11
 - (CCAnimation *) getJumpAnimation {
     if (self.jumpAnimation == nil){
-        self.jumpAnimation = [self makeAnimation:NUM_TRANSFORM_JUMP :[NSString stringWithFormat:@"Lat Capt Human-Leaping"]];
+        self.jumpAnimation = [self makeAnimation:NUM_TRANSFORM_JUMP :[NSString stringWithFormat:@"lat capt human"]];
     }
     return self.jumpAnimation;
 }
