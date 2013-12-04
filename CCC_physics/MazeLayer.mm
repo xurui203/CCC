@@ -530,13 +530,30 @@
             }
             if (spriteA.type == kGameObjectBroken) {
                 if (std::find(toDestroy.begin(), toDestroy.end(), bodyA) == toDestroy.end()) {
-                    toDestroy.push_back(bodyA);
+                    
+                    if (!spriteA.hasRunAnimation){
+                        CCAnimation *anim = [spriteA makeAnimation:10 :@"Back wall"];
+                        [spriteA playObjectAnimation:anim];
+                    }
+                    spriteA.hasRunAnimation = TRUE;
+                    if ([spriteA numberOfRunningActions] == 0 && spriteA.hasRunAnimation){
+                        toDestroy.push_back(bodyA);
+                    }
+//                    toDestroy.push_back(bodyA);
                 }
             }
             
             if (spriteB.type == kGameObjectBroken) {
-                if (std::find(toDestroy.begin(), toDestroy.end(), bodyA) == toDestroy.end()) {
-                    toDestroy.push_back(bodyB);
+                if (std::find(toDestroy.begin(), toDestroy.end(), bodyB) == toDestroy.end()) {
+                    if (!spriteB.hasRunAnimation){
+                        CCAnimation *anim = [spriteA makeAnimation:10 :@"Back wall"];
+                        [spriteB playObjectAnimation:anim];
+                    }
+                    spriteB.hasRunAnimation = TRUE;
+                    if ([spriteB numberOfRunningActions] == 0 && spriteB.hasRunAnimation){
+                        toDestroy.push_back(bodyB);
+                    }
+//                    toDestroy.push_back(bodyB);
                 }
             }
 

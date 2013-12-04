@@ -76,16 +76,11 @@
     }
 }
 
-- (void)changeSuperpower:(Superpower *) superpower {
-    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
-    self.currentSuperpower = superpower;
-    CCLOG(@"Current superpower is: %@", self.currentSuperpower.name);
-}
-
 //Use this method to reset superpower. This method should be called whenever an icon is clicked from the superpower menu.
 - (void)transform:(Superpower*) superpower{
+    self.breakingWall = FALSE;
     //if ([[[World sharedWorld] CCCplayer] numberOfRunningActions] ==0){
-        if (self.numberOfRunningActions ==0){
+    if (self.numberOfRunningActions ==0){
 
     [self stopAllActions];
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
@@ -112,6 +107,7 @@
 
 
 -(void)walk {
+    self.breakingWall = FALSE;
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
@@ -129,6 +125,7 @@
 }
 
 -(void)moveBackwards {
+    self.breakingWall = FALSE;
     if (!self.currentSuperpower.canWalk) return;
     if (_actionState != kActionStateWalk){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
@@ -146,6 +143,7 @@
 }
 
 -(void)jump {
+    self.breakingWall = FALSE;
     if (!self.currentSuperpower.canJump) return;
     if (_actionState != kActionStateJump){
         [self stopAllActions];
@@ -185,6 +183,7 @@
 }
 
 -(void)crawl {
+    self.breakingWall = FALSE;
     if (!self.currentSuperpower.canCrawl) return;
     NSLog(@"Right before fixture change");
     fixtureDef.isSensor = true;

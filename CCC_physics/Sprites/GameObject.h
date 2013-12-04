@@ -17,4 +17,6 @@
 -(CCAnimation*) makeAnimation: (int) numFrames : (NSString*) filename;
 
 @property (nonatomic, readwrite) GameObjectType type;
+@property (nonatomic) BOOL hasRunAnimation;
+
 @end

@@ -88,6 +88,7 @@
 }
 
 
+
 -(void) moveRight: (Player*) player{
     [player setUpright:true];
     b2Vec2 impulse = b2Vec2(2.0f, 0.0f);
@@ -97,13 +98,27 @@
     
 }
 
--(void) crawl: (Player*) player {
+//-(void) crawl: (Player*) player {
+//    [player setUpright:false];
+//    b2World *world = player.body->GetWorld();
+//    b2Vec2 gravityVal = b2Vec2(0.0f, 0.0f);
+//    world->SetGravity(gravityVal);
+//    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
+//    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+//    player.body->SetLinearVelocity(b2Vec2(5.5, 0));
+//    NSLog(@"Player crawling");
+//    
+//}
+
+-(void) climb: (Player*) player {
     [player setUpright:false];
+    b2World *world = player.body->GetWorld();
+    b2Vec2 gravityVal = b2Vec2(0.0f, 0.0f);
+    world->SetGravity(gravityVal);
     b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     player.body->SetLinearVelocity(b2Vec2(5.5, 0));
     NSLog(@"Player crawling");
-    
     
 }
 @end
