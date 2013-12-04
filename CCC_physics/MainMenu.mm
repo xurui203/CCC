@@ -18,6 +18,11 @@
     [SceneManager goOptionsMenu];
 }
 
+
+- (void)onParents: (id) sender {
+    [SceneManager goMainMenu];
+}
+
 - (void)onLearningModules: (id) sender {
     //    [SceneManager goLearningModulesMenu];
     [SceneManager goLearningModulesMenu];
@@ -44,33 +49,43 @@
         [CCMenuItemFont setFontName:@"Marker Felt"];
         [CCMenuItemFont setFontSize:smallFont];
         
-        CCMenuItemImage *learn = [CCMenuItemImage itemFromNormalImage:@"learn.png"
-                                                        selectedImage:@"learn.png"
+        CCMenuItemImage *learn = [CCMenuItemImage itemFromNormalImage:@"Back Arrow.png"
+                                                        selectedImage:@"Back Arrow.png"
                                                                target:self
                                                              selector:@selector(onLearningModules:)];
-        learn.scale = .5;
         learn.zOrder = -50;
-        
+        learn.scale = 1.2;
         CCMenu *learnMenu = [CCMenu menuWithItems: learn, nil];
         [self addChild:learnMenu];
-        learnMenu.position = ccp(0,0);
+        learnMenu.position = ccp(screenSize.width/4,screenSize.height/2);
         
-        CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"explore.png"
-                                                          selectedImage:@"explore.png"
+        CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"Forward Arrow (Green).png"
+                                                          selectedImage:@"Forward Arrow (Green).png"
                                                                  target:self
                                                                selector:@selector(onPlay:)];
-        //
-        //
         explore.zOrder = -50;
+        explore.scale = 1.2;
         CCMenu *exploreMenu = [CCMenu menuWithItems: explore, nil];
         [self addChild:exploreMenu];
-        explore.scale = .5;
-        exploreMenu.position = ccp(screenSize.width,screenSize.height/2);
+        exploreMenu.position = ccp(screenSize.width-(screenSize.width/4),screenSize.height/2);
+        
+        
+        CCMenuItemImage *parents = [CCMenuItemImage itemFromNormalImage:@"Forward Arrow (Red).png"
+                                                          selectedImage:@"Forward Arrow (Red).png"
+                                                                 target:self
+                                                               selector:@selector(onParents:)];
+        parents.zOrder = -50;
+        CCMenu *parentMenu = [CCMenu menuWithItems: parents, nil];
+        [self addChild:parentMenu];
+        parents.scale = .5;
+        parentMenu.position = ccp(150,20);
+        
+        
         
         //        ADD BACKGROUND IMAGE
-        CCSprite *background = [CCSprite spriteWithFile:@"mainBackground.jpg"];
+        CCSprite *background = [CCSprite spriteWithFile:@"Home Page.png"];
         background.position = ccp(screenSize.width/2, screenSize.height/2);
-        background.scale = .5;
+        background.scale = .6;
         background.zOrder = -100;
         [self addChild:background];
         

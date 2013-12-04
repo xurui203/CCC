@@ -38,6 +38,19 @@
         IconsMenu.position = ccp(170,100);
         IconsMenu.scale = .7;
         IconsMenu.visible = YES;
+        
+        
+        
+        //        ADD BACKGROUND IMAGE
+        CCSprite *background = [CCSprite spriteWithFile:@"Icon Page.png"];
+                background.scale = .6;
+        background.position = ccp(screenSize.width/2-80, screenSize.height/2-90);
+
+        background.zOrder = -100;
+        [self addChild:background];
+
+        
+        
 
     }
     return self;

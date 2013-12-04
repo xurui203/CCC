@@ -15,7 +15,7 @@
         //
         NSString *myName = @"Ram";
         self.name = myName;
-        self.LMVideo =  @"Opening Sequence.m4v";
+        self.LMVideo =  @"Ram Horn Rough.m4v";
         self.canWalk = TRUE;
         self.canCrawl = FALSE;
         //self.canJump = TRUE;
