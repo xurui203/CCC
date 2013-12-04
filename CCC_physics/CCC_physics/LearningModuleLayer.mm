@@ -38,7 +38,7 @@
          CCMenuItemFont *practice = [CCMenuItemFont itemFromString:@"Practice" target:self selector:@selector(onPractice:)];
          
          CCMenu *LMOptionsMenu = [CCMenu menuWithItems:playVideo, practice, nil];
-         [LMOptionsMenu alignItemsHorizontallyWithPadding:3.0];
+         [LMOptionsMenu alignItemsHorizontallyWithPadding:6.0];
          
          [self addChild:LMOptionsMenu];
          LMOptionsMenu.position = ccp( screenSize.width/2, screenSize.height/2 -20);

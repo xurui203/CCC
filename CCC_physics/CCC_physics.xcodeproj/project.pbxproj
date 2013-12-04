@@ -26,7 +26,6 @@
 		3E09A20C184C4D7C0006672B /* Fore Graphics KL-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A205184C4D7C0006672B /* Fore Graphics KL-2.png */; };
 		3E09A20D184C4D7C0006672B /* Fore graphics-KL 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A206184C4D7C0006672B /* Fore graphics-KL 1.png */; };
 		3E09A215184F1D1D0006672B /* Cliff copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A214184F1D1D0006672B /* Cliff copy.png */; };
-		3E09A219184F20C20006672B /* mainMaze2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A218184F20C20006672B /* mainMaze2.tmx */; };
 		3E09A21B184F9D230006672B /* Ram Horn Rough.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A21A184F9D230006672B /* Ram Horn Rough.m4v */; };
 		3E09A237184F9E0B0006672B /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A230184F9E0B0006672B /* Lock.png */; };
 		3E09A238184F9E0B0006672B /* Maze 3 Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A231184F9E0B0006672B /* Maze 3 Icon.png */; };
@@ -34,7 +33,10 @@
 		3E09A23A184F9E0B0006672B /* Maze 1 icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A233184F9E0B0006672B /* Maze 1 icon.png */; };
 		3E09A23B184F9E0B0006672B /* Maze Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A234184F9E0B0006672B /* Maze Page.png */; };
 		3E09A23C184F9E0B0006672B /* Icon Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A235184F9E0B0006672B /* Icon Page.png */; };
-		3E09A23D184F9E0B0006672B /* Home Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A236184F9E0B0006672B /* Home Page.png */; };
+		3E09A247184FB8FF0006672B /* Home Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A246184FB8FF0006672B /* Home Page.png */; };
+		3E09A249184FB92C0006672B /* Home Page without arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A248184FB92C0006672B /* Home Page without arrows.png */; };
+		3E09A24C184FB9DF0006672B /* ParentPage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E09A24B184FB9DF0006672B /* ParentPage.mm */; };
+		3E09A24E184FBCFC0006672B /* mainMaze2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A24D184FBCFC0006672B /* mainMaze2.tmx */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
 		3E452D3D1824063300B4EFDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3C1824063300B4EFDE /* OpenGLES.framework */; };
 		3E452D3F1824063300B4EFDE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3E1824063300B4EFDE /* OpenAL.framework */; };
@@ -1415,7 +1417,6 @@
 		5B8A7FD7184CF01D00CCBA87 /* Captain Into RH0052.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7C21184CF01D00CCBA87 /* Captain Into RH0052.png */; };
 		5B8A7FDA184CF02F00CCBA87 /* Ram.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A7FD9184CF02F00CCBA87 /* Ram.mm */; };
 		5B8A7FDC184D11FF00CCBA87 /* Map of Gecko Feet Pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FDB184D11FF00CCBA87 /* Map of Gecko Feet Pm.png */; };
-		5B8A7FDE184D181700CCBA87 /* mainMaze1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FDD184D181700CCBA87 /* mainMaze1.tmx */; };
 		5B8A7FEB184D1B3000CCBA87 /* Back wall0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FE0184D1B3000CCBA87 /* Back wall0001.png */; };
 		5B8A7FEC184D1B3000CCBA87 /* Back wall0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FE1184D1B3000CCBA87 /* Back wall0002.png */; };
 		5B8A7FED184D1B3000CCBA87 /* Back wall0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7FE2184D1B3000CCBA87 /* Back wall0003.png */; };
@@ -1460,7 +1461,6 @@
 		3E09A205184C4D7C0006672B /* Fore Graphics KL-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fore Graphics KL-2.png"; sourceTree = "<group>"; };
 		3E09A206184C4D7C0006672B /* Fore graphics-KL 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fore graphics-KL 1.png"; sourceTree = "<group>"; };
 		3E09A214184F1D1D0006672B /* Cliff copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cliff copy.png"; sourceTree = "<group>"; };
-		3E09A218184F20C20006672B /* mainMaze2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mainMaze2.tmx; sourceTree = "<group>"; };
 		3E09A21A184F9D230006672B /* Ram Horn Rough.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ram Horn Rough.m4v"; sourceTree = "<group>"; };
 		3E09A230184F9E0B0006672B /* Lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lock.png; sourceTree = "<group>"; };
 		3E09A231184F9E0B0006672B /* Maze 3 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maze 3 Icon.png"; sourceTree = "<group>"; };
@@ -1468,7 +1468,11 @@
 		3E09A233184F9E0B0006672B /* Maze 1 icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maze 1 icon.png"; sourceTree = "<group>"; };
 		3E09A234184F9E0B0006672B /* Maze Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maze Page.png"; sourceTree = "<group>"; };
 		3E09A235184F9E0B0006672B /* Icon Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon Page.png"; sourceTree = "<group>"; };
-		3E09A236184F9E0B0006672B /* Home Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Page.png"; sourceTree = "<group>"; };
+		3E09A246184FB8FF0006672B /* Home Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Page.png"; sourceTree = "<group>"; };
+		3E09A248184FB92C0006672B /* Home Page without arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Page without arrows.png"; sourceTree = "<group>"; };
+		3E09A24A184FB9DF0006672B /* ParentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPage.h; sourceTree = "<group>"; };
+		3E09A24B184FB9DF0006672B /* ParentPage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ParentPage.mm; sourceTree = "<group>"; };
+		3E09A24D184FBCFC0006672B /* mainMaze2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mainMaze2.tmx; path = "Path-KL/mainMaze2.tmx"; sourceTree = "<group>"; };
 		3E452D371824063300B4EFDE /* CCC_physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC_physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E452D3A1824063300B4EFDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E452D3C1824063300B4EFDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -3053,7 +3057,6 @@
 		5B8A7FD8184CF02F00CCBA87 /* Ram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ram.h; sourceTree = "<group>"; };
 		5B8A7FD9184CF02F00CCBA87 /* Ram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ram.mm; sourceTree = "<group>"; };
 		5B8A7FDB184D11FF00CCBA87 /* Map of Gecko Feet Pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map of Gecko Feet Pm.png"; sourceTree = "<group>"; };
-		5B8A7FDD184D181700CCBA87 /* mainMaze1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mainMaze1.tmx; sourceTree = "<group>"; };
 		5B8A7FE0184D1B3000CCBA87 /* Back wall0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back wall0001.png"; sourceTree = "<group>"; };
 		5B8A7FE1184D1B3000CCBA87 /* Back wall0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back wall0002.png"; sourceTree = "<group>"; };
 		5B8A7FE2184D1B3000CCBA87 /* Back wall0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back wall0003.png"; sourceTree = "<group>"; };
@@ -3705,7 +3708,8 @@
 				3E09A233184F9E0B0006672B /* Maze 1 icon.png */,
 				3E09A234184F9E0B0006672B /* Maze Page.png */,
 				3E09A235184F9E0B0006672B /* Icon Page.png */,
-				3E09A236184F9E0B0006672B /* Home Page.png */,
+				3E09A246184FB8FF0006672B /* Home Page.png */,
+				3E09A248184FB92C0006672B /* Home Page without arrows.png */,
 				3EBD92F91833DD6500ABC143 /* Buttons */,
 				3EBD93091833DD6600ABC143 /* Page Backgrounds */,
 			);
@@ -3974,6 +3978,8 @@
 				3ECB2DFD18256F2B00C82177 /* ChapterSelect.mm */,
 				3EC0B9DB182554B8004CC08D /* MainMenu.h */,
 				3EC0B9DA182554B8004CC08D /* MainMenu.mm */,
+				3E09A24A184FB9DF0006672B /* ParentPage.h */,
+				3E09A24B184FB9DF0006672B /* ParentPage.mm */,
 				3E4B0A18183C56E4006F8D4F /* OpeningSequence.h */,
 				3E4B0A19183C56E4006F8D4F /* OpeningSequence.mm */,
 				312341FF182A3F21001BC4B7 /* GameOverScene.h */,
@@ -5529,9 +5535,8 @@
 			children = (
 				31110210184C486C00C52D8B /* GeckoPractice.tmx */,
 				3E09A214184F1D1D0006672B /* Cliff copy.png */,
-				5B8A7FDD184D181700CCBA87 /* mainMaze1.tmx */,
-				3E09A218184F20C20006672B /* mainMaze2.tmx */,
 				5B8A7FDB184D11FF00CCBA87 /* Map of Gecko Feet Pm.png */,
+				3E09A24D184FBCFC0006672B /* mainMaze2.tmx */,
 				3E09A1FF184C4D7C0006672B /* Path-KL */,
 				31110211184C486C00C52D8B /* KangarooPractice.tmx */,
 				31110212184C486C00C52D8B /* mainMaze.tmx */,
@@ -5804,7 +5809,6 @@
 				5B8A7F33184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0043.png in Resources */,
 				5B02062D184EC982008E9C19 /* Lat Capt Ram-Running0009.png in Resources */,
 				5B8A7F63184CF01D00CCBA87 /* Ant Capt Trainsition-GF0029.png in Resources */,
-				5B8A7FDE184D181700CCBA87 /* mainMaze1.tmx in Resources */,
 				5B020474184EC982008E9C19 /* CCC DN-Stand&Sniff0043.png in Resources */,
 				5B0205E3184EC982008E9C19 /* Lat Capt KL-Running0009.png in Resources */,
 				5B6A4938184AB8E2003CD115 /* kangaroo.tmx in Resources */,
@@ -6086,6 +6090,7 @@
 				5B8A7F82184CF01D00CCBA87 /* Captain0031.png in Resources */,
 				5B02051C184EC982008E9C19 /* CCC GF-Walking0028.png in Resources */,
 				5B02062F184EC982008E9C19 /* Lat Capt Ram-Running0011.png in Resources */,
+				3E09A247184FB8FF0006672B /* Home Page.png in Resources */,
 				5BB581F5183330BF00A9F330 /* sbm.mp3 in Resources */,
 				5B020467184EC982008E9C19 /* CCC DN-Stand&Sniff0030.png in Resources */,
 				5B8A7E9E184CF01D00CCBA87 /* Ant Capt Tranisition-From GF0022.png in Resources */,
@@ -6387,7 +6392,6 @@
 				5B8A7F88184CF01D00CCBA87 /* Ant Capt Trainsition-KL0002.png in Resources */,
 				5B274385182A1C3600942895 /* Lat Capt KL-Jumping0026.png in Resources */,
 				5B020586184EC982008E9C19 /* Lat Capt Human-Stand Up0028.png in Resources */,
-				3E09A23D184F9E0B0006672B /* Home Page.png in Resources */,
 				5B0204A9184EC982008E9C19 /* CCC DN-Stand&Sniff0096.png in Resources */,
 				5B8A7FAF184CF01D00CCBA87 /* Captain Into RH0012.png in Resources */,
 				5B8A7EDC184CF01D00CCBA87 /* Captain From RH0004.png in Resources */,
@@ -6580,6 +6584,7 @@
 				3E09A238184F9E0B0006672B /* Maze 3 Icon.png in Resources */,
 				5B8A7F59184CF01D00CCBA87 /* Ant Capt Trainsition-GF0019.png in Resources */,
 				5B8A7ED6184CF01D00CCBA87 /* Ant Capt Transistion-From KL0023.png in Resources */,
+				3E09A24E184FBCFC0006672B /* mainMaze2.tmx in Resources */,
 				5B02047D184EC982008E9C19 /* CCC DN-Stand&Sniff0052.png in Resources */,
 				5B020454184EC982008E9C19 /* CCC DN-Stand&Sniff0011.png in Resources */,
 				5B8A7F54184CF01D00CCBA87 /* Ant Capt Trainsition-GF0014.png in Resources */,
@@ -6604,6 +6609,7 @@
 				5B27437E182A1C3600942895 /* Lat Capt KL-Jumping002.png in Resources */,
 				3ECB2E8518257CB800C82177 /* 0Star-Normal-iPad.png in Resources */,
 				5B274377182A1C3500942895 /* Lat Capt KL-Jumping0013.png in Resources */,
+				3E09A249184FB92C0006672B /* Home Page without arrows.png in Resources */,
 				5B8A7F3D184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0053.png in Resources */,
 				5B8A7F18184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0016.png in Resources */,
 				5B27437B182A1C3600942895 /* Lat Capt KL-Jumping0017.png in Resources */,
@@ -6728,7 +6734,6 @@
 				5B0204E7184EC982008E9C19 /* lat capt gf0003.png in Resources */,
 				5B02044D184EC982008E9C19 /* CCC DN-Stand&Sniff0004.png in Resources */,
 				5B020443184EC982008E9C19 /* CCC DN-Running0018.png in Resources */,
-				3E09A219184F20C20006672B /* mainMaze2.tmx in Resources */,
 				5B8A7EB8184CF01D00CCBA87 /* Ant Capt Transition-From Human0020.png in Resources */,
 				5B0205FD184EC982008E9C19 /* Lat Capt Ram-Bounce Off0018.png in Resources */,
 				3EBD915B182ABD9500ABC143 /* Help Button.png in Resources */,
@@ -7055,6 +7060,7 @@
 				3E452EFB1824063700B4EFDE /* b2GearJoint.cpp in Sources */,
 				3E452EFE1824063700B4EFDE /* b2Joint.cpp in Sources */,
 				3E452E331824063600B4EFDE /* ES1Renderer.m in Sources */,
+				3E09A24C184FB9DF0006672B /* ParentPage.mm in Sources */,
 				3ECB2DE918256BE500C82177 /* Chapter.m in Sources */,
 				31234201182A3F21001BC4B7 /* GameOverScene.mm in Sources */,
 				3E452F201824063800B4EFDE /* AppDelegate.mm in Sources */,

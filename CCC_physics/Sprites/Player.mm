@@ -63,7 +63,7 @@
 	
 	body = world->CreateBody(&playerBodyDef);
     b2PolygonShape polygonShape;
-    polygonShape.SetAsBox(1.0f, 0.5f);
+    polygonShape.SetAsBox(1.0f, 1.0f);
     //polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &polygonShape;
@@ -106,7 +106,7 @@
 
 -(void) changeToStandFixture {
     b2PolygonShape standPolygonShape;
-    standPolygonShape.SetAsBox(1.0f, 0.5f);
+    standPolygonShape.SetAsBox(1.0f, 1.0f);
     
 //    b2Vec2 move = b2Vec2(0.0f, 1.0f);
 //    for(int32 i=0;i<standPolygonShape.m_vertexCount;i++)

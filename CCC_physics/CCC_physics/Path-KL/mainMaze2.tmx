@@ -40,11 +40,8 @@
   <object x="2968" y="481" width="136" height="172"/>
   <object x="3276" y="484" width="630" height="157"/>
   <object x="877" y="365" width="91" height="117"/>
-  <object x="1079" y="59" width="531" height="263"/>
+  <object x="1079" y="101" width="531" height="263"/>
   <object x="3427" y="99" width="213" height="385"/>
-  <object x="460" y="486">
-   <polyline points="0,0 300,-52 300,16 2,2"/>
-  </object>
  </objectgroup>
  <objectgroup name="collectibles" width="125" height="20">
   <object x="920" y="249"/>

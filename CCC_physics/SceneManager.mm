@@ -64,6 +64,10 @@
 
 }
 
++(void) goParentPage {
+    [SceneManager go:[ParentPage node]];
+}
+
 //Go to methods
 
 +(void) go: (CCLayer *) layer {

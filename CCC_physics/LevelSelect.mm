@@ -17,18 +17,18 @@
 
 - (void) onPlay: (CCMenuItemImage*) sender {
 
-// // the selected level is determined by the tag in the menu item 
-//    int selectedLevel = sender.tag;
-//    
-// // store the selected level in GameData
-//    GameData *gameData = [GameDataParser loadData];
-//    gameData.selectedLevel = selectedLevel;
-//    [GameDataParser saveData:gameData];
-//    NSLog(@"Selected level is %d", selectedLevel);
-// // load the game scene
-//    [SceneManager goMaze: selectedLevel];
+ // the selected level is determined by the tag in the menu item 
+    int selectedLevel = sender.tag;
     
-    [SceneManager goMaze:1];
+ // store the selected level in GameData
+    GameData *gameData = [GameDataParser loadData];
+//    gameData.selectedLevel = selectedLevel;
+    [GameDataParser saveData:gameData];
+    NSLog(@"Selected level is %d", selectedLevel);
+ // load the game scene
+    [SceneManager goMaze: selectedLevel];
+    
+//    [SceneManager goMaze:selectedLevel];
 
 }
 
@@ -90,16 +90,17 @@
                                                              selectedImage:@"Maze 1 icon.png"
                                                                     target:self
                                                                   selector:@selector(onPlay:)];
-        
+        lvl1.tag = 1;
         CCMenuItemImage *lvl2 = [CCMenuItemImage itemFromNormalImage:@"Maze 2 Icon.png"
                                                          selectedImage:@"Maze 2 Icon.png"
                                                                 target:self
                                                               selector:@selector(onPlay:)];
-        
+        lvl2.tag = 2;
         CCMenuItemImage *lvl3 = [CCMenuItemImage itemFromNormalImage:@"Maze 3 Icon.png"
                                                          selectedImage:@"Maze 3 Icon.png"
                                                                 target:self
                                                               selector:@selector(onPlay:)];
+        lvl3.tag = 3;
 //        }
      
 

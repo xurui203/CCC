@@ -26,6 +26,7 @@
 #import "OpeningSequence.h"
 #import "LearningModuleScene.h"
 #import "MazeLayer.h"
+#import "ParentPage.h"
 //#import "GceckMaze.h"
 //#import "MainMazeOne.h"
 
@@ -47,6 +48,7 @@
 +(void) goOptionsMenu;
 +(void) goChapterSelect;
 +(void) goLevelSelect;
++(void) goParentPage;
 //+(void) goGameScene;
 +(void) goLevelComplete;
 +(void) goGameOverLayer;
