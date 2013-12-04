@@ -93,14 +93,18 @@
         lvl1.tag = 1;
         CCMenuItemImage *lvl2 = [CCMenuItemImage itemFromNormalImage:@"Maze 2 Icon.png"
                                                          selectedImage:@"Maze 2 Icon.png"
+                                 
                                                                 target:self
                                                               selector:@selector(onPlay:)];
+        
         lvl2.tag = 2;
         CCMenuItemImage *lvl3 = [CCMenuItemImage itemFromNormalImage:@"Maze 3 Icon.png"
                                                          selectedImage:@"Maze 3 Icon.png"
+                                 disabledImage:@"Lock.png"
                                                                 target:self
                                                               selector:@selector(onPlay:)];
         lvl3.tag = 3;
+        lvl3.isEnabled = NO;
 //        }
      
 

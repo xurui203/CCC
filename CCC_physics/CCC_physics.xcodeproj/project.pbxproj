@@ -37,6 +37,7 @@
 		3E09A249184FB92C0006672B /* Home Page without arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A248184FB92C0006672B /* Home Page without arrows.png */; };
 		3E09A24C184FB9DF0006672B /* ParentPage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E09A24B184FB9DF0006672B /* ParentPage.mm */; };
 		3E09A24E184FBCFC0006672B /* mainMaze2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A24D184FBCFC0006672B /* mainMaze2.tmx */; };
+		3E09A250184FC2FE0006672B /* mainMaze1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E09A24F184FC2FE0006672B /* mainMaze1.tmx */; };
 		3E452D3B1824063300B4EFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3A1824063300B4EFDE /* QuartzCore.framework */; };
 		3E452D3D1824063300B4EFDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3C1824063300B4EFDE /* OpenGLES.framework */; };
 		3E452D3F1824063300B4EFDE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E452D3E1824063300B4EFDE /* OpenAL.framework */; };
@@ -1473,6 +1474,7 @@
 		3E09A24A184FB9DF0006672B /* ParentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPage.h; sourceTree = "<group>"; };
 		3E09A24B184FB9DF0006672B /* ParentPage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ParentPage.mm; sourceTree = "<group>"; };
 		3E09A24D184FBCFC0006672B /* mainMaze2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mainMaze2.tmx; path = "Path-KL/mainMaze2.tmx"; sourceTree = "<group>"; };
+		3E09A24F184FC2FE0006672B /* mainMaze1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mainMaze1.tmx; sourceTree = "<group>"; };
 		3E452D371824063300B4EFDE /* CCC_physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC_physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E452D3A1824063300B4EFDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E452D3C1824063300B4EFDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -5533,6 +5535,7 @@
 		5BCB88711829E412009D6DBF /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				3E09A24F184FC2FE0006672B /* mainMaze1.tmx */,
 				31110210184C486C00C52D8B /* GeckoPractice.tmx */,
 				3E09A214184F1D1D0006672B /* Cliff copy.png */,
 				5B8A7FDB184D11FF00CCBA87 /* Map of Gecko Feet Pm.png */,
@@ -5969,6 +5972,7 @@
 				5B8A7F7A184CF01D00CCBA87 /* Captain0023.png in Resources */,
 				5B8A7F4D184CF01D00CCBA87 /* Ant Capt Trainsition-GF0007.png in Resources */,
 				5B8A7ECA184CF01D00CCBA87 /* Ant Capt Transistion-From KL0011.png in Resources */,
+				3E09A250184FC2FE0006672B /* mainMaze1.tmx in Resources */,
 				5B0204F8184EC982008E9C19 /* lat capt gf0020.png in Resources */,
 				5B2743BB182A1C3600942895 /* Ant Capt Trainsition-KL0022.png in Resources */,
 				3ECB2E8E18257CB800C82177 /* 2Star-Normal-iPhone-hd.png in Resources */,

@@ -100,6 +100,7 @@
 }
 
 -(void) onNextLevel:(id)selector {
+
     [SceneManager goMaze:[[MazeManager sharedInstance] nextLevel]];
 }
 
