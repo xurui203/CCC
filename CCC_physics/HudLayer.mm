@@ -18,7 +18,7 @@
         energyBar = [CCSprite spriteWithFile:@"Energy Score Bar0010.png"];
         [self addChild:energyBar];
         CCLOG(@"added energy bar");
-        energyBar.position = ccp(50,300);
+        energyBar.position = ccp(60,295);
         energyBar.scale = .4;
     }
     return self;
@@ -45,7 +45,7 @@
     
     CCTexture2D *tex = [[CCTextureCache sharedTextureCache] addImage: newSprite];
     [energyBar setTexture: tex];
-    energyBar.position = ccp(50, 300);
+    energyBar.position = ccp(60, 295);
 
     energyBar.scale = .4;
 }

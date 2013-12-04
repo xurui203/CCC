@@ -32,7 +32,7 @@
         spM = [SuperpowerManager sharedManager];
         iconsDrawer = [IconDrawer node];
         [self addChild:iconsDrawer];
-        
+        [[World sharedWorld] CCCplayer].inLearningModules = YES;
         CCMenu *IconsMenu = [iconsDrawer initLMMenu:spM.initiatedSPs];
         [self addChild:IconsMenu];
         IconsMenu.position = ccp(170,100);

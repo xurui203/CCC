@@ -77,7 +77,7 @@
         NSString *selectedChapterName = @"Maze";
 //        Chapters *selectedChapters = [ChapterParser loadData];
 
-        
+        [[World sharedWorld] CCCplayer].inLearningModules = NO;
         
      // Read in selected chapter levels
         CCMenu *levelMenu = [CCMenu menuWithItems: nil]; 

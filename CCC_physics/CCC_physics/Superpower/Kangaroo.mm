@@ -82,7 +82,7 @@
 
 -(void) jump: (Player*) player {
     [player setUpright:true];
-    b2Vec2 impulse = b2Vec2(3.0f, 35.0f);
+    b2Vec2 impulse = b2Vec2(0.0f, 25.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     NSLog(@"PHYSICS JUMPING");
 

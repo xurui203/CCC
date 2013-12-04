@@ -53,7 +53,7 @@
     CCMenu *menu = [CCMenu menuWithItems: item, nil];
     [menu setAnchorPoint:ccp(0, 0)];
     [menu setIsRelativeAnchorPoint:NO];
-    [menu setPosition:ccp([CCDirector sharedDirector].winSize.width/5+10, [CCDirector sharedDirector].winSize.height-30)];
+    [menu setPosition:ccp(20, 20)];
     [menu setScale:0.3];
     menu.zOrder = 500;
     [self addChild:menu];
@@ -186,23 +186,27 @@
     _icondrawer = [IconDrawer node];
         [self addChild:_icondrawer z:2];
     CCLOG(@"%lu", (unsigned long)spM.initiatedSPs.count);
-    if(spM.initiatedSPs != nil) {
-        CCLOG(@"hereee");
-        CCMenu *iconMenu = [_icondrawer initMenu:spM.initiatedSPs];
-        [_icondrawer initDrawer];
-//        [self addChild:iconMenu z:5];
-        iconMenu.position = ccp(200, 175);
-        iconMenu.zOrder = 5000;
-
-        [self addChild:iconMenu z:5];
-//        iconMenu.position = ccp(self.contentSize.width/2, self.contentSize.height/2);
-//        CCLOG(@"%hhd", iconMenu.visible);
-//        
-    }
-
-    _mazeLayer.hud = _hudLayer;
     
-    _mazeLayer.drawer = _icondrawer;
+    
+    if ([[World sharedWorld] CCCplayer].inLearningModules == NO) {
+        if(spM.initiatedSPs != nil) {
+            CCMenu *iconMenu = [_icondrawer initMenu:spM.initiatedSPs];
+            [_icondrawer initDrawer];
+            //        [self addChild:iconMenu z:5];
+            iconMenu.position = ccp(200, 175);
+            iconMenu.zOrder = 5000;
+            
+            [self addChild:iconMenu z:5];
+            //        iconMenu.position = ccp(self.contentSize.width/2, self.contentSize.height/2);
+            //        CCLOG(@"%hhd", iconMenu.visible);
+            //        
+        }
+        _mazeLayer.drawer = _icondrawer;
+    }
+    
+    _mazeLayer.hud = _hudLayer;
+   
+
 
 }
 

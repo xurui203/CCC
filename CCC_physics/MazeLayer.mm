@@ -349,7 +349,10 @@
     
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     player = [[World sharedWorld] CCCplayer];
-    [player reset];
+    if (player.inLearningModules == NO) {
+            [player reset];
+    }
+
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
     player.zOrder = 100;
@@ -440,6 +443,9 @@
 //    float posY = MAX(3 * _tileMap.tileSize.height + player.centerToBottom, MAX(player.centerToBottom, player.desiredPosition.y));
 //    player.position = ccp(posX, posY);
 //
+    
+    
+    
     if (player.isDead == YES) {
         [SceneManager goGameOverLayer];
     }
