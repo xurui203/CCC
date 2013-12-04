@@ -29,14 +29,17 @@
 {
     // 1 - Change current health
     currentHealth = health;
-  //  CCLOG(@"setHealth");
-  //  CCLOG(@"%d", currentHealth);
+   CCLOG(@"setHealth");
+  CCLOG(@"%d", currentHealth);
     NSString* newSprite;
     if (currentHealth<10){
     newSprite = [NSString stringWithFormat:@"Energy Score Bar000%d.png", currentHealth];
     }
     if (currentHealth>=10){
         newSprite = [NSString stringWithFormat:@"Energy Score Bar00%d.png", currentHealth];
+    }
+    if (currentHealth>50){
+        newSprite = [NSString stringWithFormat:@"Energy Score Bar0050.png"];
     }
     
     
