@@ -31,6 +31,7 @@
 @property(nonatomic) BOOL canJump;
 @property(nonatomic) BOOL canFly;
 @property(nonatomic) BOOL canBreak;
+@property(nonatomic) BOOL canClimb;
 
 @property(nonatomic) int mazeID;
 
@@ -55,6 +56,7 @@
 - (void) moveRight: (Player*) player;
 - (void) crawl: (Player*) player;
 - (void) breakWall: (Player*) player;
+- (void) climb: (Player*) player: (b2Vec2) direction;
 
 
 # define NUM_TRANSFORM_JUMP 31

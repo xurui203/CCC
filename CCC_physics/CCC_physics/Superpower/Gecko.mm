@@ -19,6 +19,7 @@
         self.canWalk = TRUE;
         self.canCrawl = TRUE;
         self.canJump = FALSE;
+        self.canClimb = TRUE;
         self.mazeID = GECKO_MAZE_ID;
         self.isLocked = NO;
         self.icon = @"Gecko Icon.png";
@@ -98,7 +99,16 @@
     
 }
 
-//-(void) crawl: (Player*) player {
+-(void) moveLeft: (Player*) player{
+    //    [player setUpright:true];
+    b2Vec2 impulse = b2Vec2(-2.0f, 0.0f);
+    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+    player.body->SetLinearVelocity(b2Vec2(-3.5, 0));
+    NSLog(@"Player moving right");
+    
+}
+
+-(void) crawl: (Player*) player {
 //    [player setUpright:false];
 //    b2World *world = player.body->GetWorld();
 //    b2Vec2 gravityVal = b2Vec2(0.0f, 0.0f);
@@ -107,18 +117,31 @@
 //    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
 //    player.body->SetLinearVelocity(b2Vec2(5.5, 0));
 //    NSLog(@"Player crawling");
-//    
-//}
-
--(void) climb: (Player*) player {
+    
+    //cancel out gravity
     [player setUpright:false];
-    b2World *world = player.body->GetWorld();
-    b2Vec2 gravityVal = b2Vec2(0.0f, 0.0f);
-    world->SetGravity(gravityVal);
-    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
+    b2Vec2 antigravity = b2Vec2(-9.8f, 0.0f);
+    b2Vec2 center = player.body->GetLocalCenter();
+    player.body->ApplyForce( player.body->GetMass()*antigravity, center );
+    
+    b2Vec2 impulse = b2Vec2(1.0f, 1.57f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
-    player.body->SetLinearVelocity(b2Vec2(5.5, 0));
+    player.body->SetLinearVelocity(b2Vec2(2.5, 0));
     NSLog(@"Player crawling");
+
+}
+
+-(void) climb: (Player*) player: (b2Vec2) direction {
+    
+    [player setUpright:false];
+    b2Vec2 antigravity = b2Vec2(-9.8f, 0.0f);
+    b2Vec2 center = player.body->GetLocalCenter();
+    player.body->ApplyForce( player.body->GetMass()*antigravity, center );
+    
+    //b2Vec2 impulse = b2Vec2(1.0f, 1.57f);
+    player.body->ApplyLinearImpulse(direction, player.body->GetWorldCenter());
+    player.body->SetLinearVelocity(b2Vec2(2.5, 0));
+    NSLog(@"Player climbing");
     
 }
 @end

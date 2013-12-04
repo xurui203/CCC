@@ -97,4 +97,13 @@
 }
 
 
+-(void) moveLeft: (Player*) player{
+    //    [player setUpright:true];
+    b2Vec2 impulse = b2Vec2(-2.0f, 0.0f);
+    player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
+    player.body->SetLinearVelocity(b2Vec2(-3.5, 0));
+    NSLog(@"Player moving right");
+    
+}
+
 @end

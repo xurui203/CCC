@@ -21,6 +21,8 @@
 @property(nonatomic,strong)id crawlAction;
 @property(nonatomic,strong)id jumpAction;
 @property(nonatomic,strong)id breakAction;
+@property(nonatomic,strong)id climbAction;
+
 
 // FIXTURE STUFF
 //@property(nonatomic,assign) b2FixtureDef fixtureDef;
@@ -61,6 +63,7 @@
 -(void) moveBackwards;
 -(void) crawl;
 -(void) jump;
+-(void) climb: (b2Vec2) direction;
 -(void)breakWall;
 -(void) transform:(Superpower *)sp;
 -(void) setUpright: (Boolean) wantUpright;

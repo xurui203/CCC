@@ -370,52 +370,36 @@
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
     firstTouch = location;
-//    SuperpowerManager *spm = [SuperpowerManager alloc];
-//    NSMutableArray *SPArray = spm.iconsArrayCopy;
-//    
-//    for (int x=0; x<SPArray.count; x++) {
-//
-//        CCSprite *icon = [SPArray objectAtIndex:x];
-//        
-//        if (CGRectContainsPoint(icon.boundingBox, location)) {
-//            CCLOG(@"touched icon");
-//        }
-//    }
     
     if (player.actionState == kActionStateIdle){
-
         if (location.x > screenSize.width/2 && location.y >= 100) {
             [player walk];
         }
-        
         if (location.x <= screenSize.width/2 && location.y >= 100) {
             [player moveBackwards];
         }
-        
-    
         if (location.y < 80) {
-        
-        //player.position = ccp(player.position.x, player.position.y-50);
-        
-            if (player.actionState != kActionStateCrawl){
+            if (player.actionState != kActionStateCrawl && ![player.currentSuperpower.name isEqual: @"Gecko"]){
                 [player crawl];
             }
+//            if ([player.currentSuperpower.name isEqual:@"Gecko"] ){
+//                [player climb: b2Vec2(2.5, 1.57)];
+//            }
         }
-        
         if (location.x >= screenSize.width/2 && location.y > 230) {
         //player.position = ccp(player.position.x, player.position.y-50);
             if ([player.currentSuperpower.name isEqual:@"Ram"]){
                 [player moveBackwards];
-
                 [player breakWall];
             }
             else {[player jump];
             }
             [player decreaseHealth];
-        
         }
-    // [player jump];
+        
+
     }
+    
 
 	return TRUE;
 }
@@ -425,6 +409,7 @@
 //    if (player.actionState == kActionStateIdle) {
 //        [player idle];
 //    }
+    
     NSSet *allTouches = [event allTouches];
         UITouch * currentTouch = [[allTouches allObjects] objectAtIndex:0];
         CGPoint location = [currentTouch locationInView: [currentTouch view]];
@@ -434,12 +419,16 @@
         lastTouch = location;
     
         //Minimum length of the swipe
-        float swipeLength = ccpDistance(firstTouch, lastTouch);
-    
+        //float swipeLength = ccpDistance(firstTouch, lastTouch);
+        float angle = ccpAngle(firstTouch, lastTouch);
         //Check if the swipe is a left swipe and long enough
-        if (firstTouch.x > lastTouch.x && swipeLength > 60) {
-        [player crawl];
+        if ([player.currentSuperpower.name isEqual:@"Gecko"]){
+            [player climb: b2Vec2(2.5, angle)];
         }
+//        if (firstTouch.x > lastTouch.x && swipeLength > 60) {
+//        [player crawl];
+//        }
+
 }
 
 

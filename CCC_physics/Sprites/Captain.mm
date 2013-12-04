@@ -211,6 +211,26 @@
 
 }
 
+-(void)climb: (b2Vec2) direction {
+    self.breakingWall = FALSE;
+    if (!self.currentSuperpower.canClimb) return;    
+    if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
+        [self stopAllActions];
+        _climbAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
+        [self runAction:_crawlAction];
+        _actionState = kActionStateClimb;
+    }
+    NSLog(@"PLS WORK PLS");
+    
+    if (_actionState == kActionStateClimb) {
+        [self.currentSuperpower climb:self: direction];
+    }
+    
+    NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
+    _actionState = kActionStateIdle;
+    
+}
+
 -(void)update:(ccTime)dt {
     NSLog(@"captain updating");
     if (_actionState != kActionStateIdle){

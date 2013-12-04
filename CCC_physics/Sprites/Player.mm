@@ -89,23 +89,7 @@
     NSLog(@"Player created in world");
 }
 
-//-(void) moveRight {
-//    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
-//    body->ApplyLinearImpulse(impulse, body->GetWorldCenter());
-//    body->SetLinearVelocity(b2Vec2(6.5, 0));
-//
-//}
 
--(void) crawling {
-    
-    fixtureDef.isSensor = true;
-    crawlFixtureDef.isSensor = false;
-    
-    b2Vec2 impulse = b2Vec2(1.0f, 0.0f);
-    body->ApplyLinearImpulse(impulse, body->GetWorldCenter());
-    body->SetLinearVelocity(b2Vec2(6.5, 0));
-    
-}
 
 
 

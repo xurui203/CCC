@@ -48,6 +48,7 @@ typedef enum _ActionState {
     kActionStateSpecialAction,
     kActionStateWalk,
     kActionStateCrawl,
+    kActionStateClimb,
     kActionStateJump,
     kActionStateBreak,
     kActionStateFail
