@@ -45,9 +45,9 @@
         return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];
     }
     if (mapID == MAIN_ONE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze1.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"];
     } if (mapID == CAPTAIN_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze1.tmx"];
+        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"];
     }
     else {
         return nil;
