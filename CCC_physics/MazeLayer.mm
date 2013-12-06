@@ -11,7 +11,7 @@
 
 
 @synthesize hud;
-@synthesize collectiblesArray, paused;
+@synthesize collectiblesArray, paused, player;
 
 
 -(id)initWithTileMap: (CCTMXTiledMap*) tileMap {
@@ -346,22 +346,24 @@
 -(void)initCaptain {
     
     NSLog(@"initizaling captain");
-    
+    if ((player = [player.superclass init])) {
+        
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     player = [[World sharedWorld] CCCplayer];
     if (player.inLearningModules == NO) {
             [player reset];
     }
-
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
     player.zOrder = 100;
+
     NSLog(@"didnt die at add player to humanspritesheet...");
     player.scale = .4;
     player.position = ccp(100, 300);
     [player createBox2dObject:world];
     [self addChild:player];
     [player idle];
+    }
 
 }
 

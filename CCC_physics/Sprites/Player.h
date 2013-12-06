@@ -26,7 +26,6 @@
 -(void) updateHealth;
 -(void) decreaseHealth;
 
-
 @property (nonatomic, readwrite) b2Body *body;
 @property bool contactingGameOver;
 @property bool inLearningModules;

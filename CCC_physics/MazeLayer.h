@@ -17,7 +17,7 @@
 @interface MazeLayer : CCLayer {
     CCTMXTiledMap *_tileMap;
     CCSpriteBatchNode *_actors;
-    Captain *player;
+//    Captain *player;
     ContactListener *contactListener;
     b2World* world;
     CCTMXLayer *_obstacles;
@@ -45,7 +45,7 @@
 -(CGRect)collisionBoundingBox;
 
 +(id) scene;
-
+@property(retain, nonatomic) Captain *player;
 - (Captain*) getPlayer;
 -(id)initWithTileMap: (CCTMXTiledMap*) tileMap;
 

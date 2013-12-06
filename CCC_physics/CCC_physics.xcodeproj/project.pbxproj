@@ -304,6 +304,7 @@
 		3ECB2ECD1825C9A400C82177 /* MazeLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */; };
 		3ECB2ECE1825C9A400C82177 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECC1825C9A400C82177 /* HudLayer.mm */; };
 		3EDC409C18452B97000EF77D /* World.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC409B18452B97000EF77D /* World.mm */; };
+		3EE1DC7A1851891700DCC098 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC791851891700DCC098 /* Sky.png */; };
 		5B0201CF184EC05C008E9C19 /* Gecko Feet Rough.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201CE184EC05C008E9C19 /* Gecko Feet Rough.m4v */; };
 		5B02041E184EC982008E9C19 /* CCC DN-Sniffing&Crawling0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201D7184EC980008E9C19 /* CCC DN-Sniffing&Crawling0001.png */; };
 		5B02041F184EC982008E9C19 /* CCC DN-Sniffing&Crawling0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201D8184EC980008E9C19 /* CCC DN-Sniffing&Crawling0002.png */; };
@@ -1830,6 +1831,7 @@
 		3ECB2ECC1825C9A400C82177 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HudLayer.mm; path = ../HudLayer.mm; sourceTree = "<group>"; };
 		3EDC409A18452B96000EF77D /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = CCC_physics/World.h; sourceTree = "<group>"; };
 		3EDC409B18452B97000EF77D /* World.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = World.mm; path = CCC_physics/World.mm; sourceTree = "<group>"; };
+		3EE1DC791851891700DCC098 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
 		5B0201CE184EC05C008E9C19 /* Gecko Feet Rough.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gecko Feet Rough.m4v"; sourceTree = "<group>"; };
 		5B0201D7184EC980008E9C19 /* CCC DN-Sniffing&Crawling0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC DN-Sniffing&Crawling0001.png"; sourceTree = "<group>"; };
 		5B0201D8184EC980008E9C19 /* CCC DN-Sniffing&Crawling0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC DN-Sniffing&Crawling0002.png"; sourceTree = "<group>"; };
@@ -3525,6 +3527,7 @@
 		3EBD93091833DD6600ABC143 /* Page Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				3EE1DC791851891700DCC098 /* Sky.png */,
 				3E09A248184FB92C0006672B /* Home Page without arrows.png */,
 				3E09A234184F9E0B0006672B /* Maze Page.png */,
 				3E09A235184F9E0B0006672B /* Icon Page.png */,
@@ -5816,6 +5819,7 @@
 				5B0204CA184EC982008E9C19 /* CCC DN-Walking0031.png in Resources */,
 				5B020640184EC982008E9C19 /* Lat Capt Ram-Sprinting0004.png in Resources */,
 				5B8A7F6A184CF01D00CCBA87 /* Captain0007.png in Resources */,
+				3EE1DC7A1851891700DCC098 /* Sky.png in Resources */,
 				3ECB2DEE18256BE500C82177 /* GameData.xml in Resources */,
 				3E452D551824063400B4EFDE /* Icon-72.png in Resources */,
 				5B020531184EC982008E9C19 /* Lat Capt Human-Crawling0009.png in Resources */,
