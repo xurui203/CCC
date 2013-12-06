@@ -17,8 +17,8 @@
 //         self.iPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
          
          // Determine Screen Size
-         CGSize screenSize = [CCDirector sharedDirector].winSize;
-//         
+//         CGSize screenSize = [CCDirector sharedDirector].winSize;
+//
 //         // Calculate Large Font Size
 //         int largeFont = screenSize.height / 9;
 ////                 [self playMovie];

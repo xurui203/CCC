@@ -56,7 +56,8 @@
 - (void) moveRight: (Player*) player;
 - (void) crawl: (Player*) player;
 - (void) breakWall: (Player*) player;
-- (void) climb: (Player*) player: (b2Vec2) direction;
+- (void) climb: (Player*) p
+              dir: (b2Vec2) direction;
 
 
 # define NUM_TRANSFORM_JUMP 31

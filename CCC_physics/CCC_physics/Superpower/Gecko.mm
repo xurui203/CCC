@@ -131,7 +131,8 @@
 
 }
 
--(void) climb: (Player*) player: (b2Vec2) direction {
+-(void) climb: (Player*) player
+             dir:(b2Vec2)direction {
     
     [player setUpright:false];
     b2Vec2 antigravity = b2Vec2(-9.8f, 0.0f);

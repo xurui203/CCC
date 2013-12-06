@@ -21,6 +21,7 @@ static World *sharedMyWorld = nil;
     @synchronized(self) {
         if(sharedMyWorld == nil)
             sharedMyWorld = [[super allocWithZone:NULL] init];
+        
     }
     return sharedMyWorld;
 }
@@ -28,10 +29,10 @@ static World *sharedMyWorld = nil;
 - (id)init {
     if (self = [super init]) {
         //INIT CAPTAIN
-        CCCplayer = [[Captain alloc] initWithFile:@"Lat Capt Human-Standing001.png"];
+        CCCplayer = [[Captain alloc] initWithFile:@"Lat Capt Human-Standing0001.png"];
         CCLOG(@"world inits captain");
 //        currentLevel = 1;
-    
+        NSLog(@"%@", CCCplayer.currentSuperpower);
     }
     return self;
 }

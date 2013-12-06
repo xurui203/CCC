@@ -48,11 +48,11 @@ static SuperpowerManager *sharedMyManager = nil;
 
 -(void) addSPs
 {
-    CCLOG(@"adding instantiated superpowers to array");
+//    CCLOG(@"adding instantiated superpowers to array");
     // create the Player object
     
     if (superpowers != nil) {
-        CCLOG(@"not nil");
+//        CCLOG(@"not nil");
         NSLog(@"array: %@", superpowers);
     }
     for (int x=0; x< superpowers.count; x++) {
@@ -62,7 +62,7 @@ static SuperpowerManager *sharedMyManager = nil;
         
         NSString *tempClassName = [superpowers objectAtIndex:x];
         CCLOG(@"tempClassName = %@", tempClassName);
-       Superpower* o = [[NSClassFromString(tempClassName) alloc] init];
+       Superpower* o = [[[NSClassFromString(tempClassName) alloc] init] autorelease];
         [initiatedSPs addObject:o];
 //        CCLOG(@"%d", initiatedSPs.count);
     }

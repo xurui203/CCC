@@ -14,27 +14,27 @@
 }
 
 //actions
-@property(nonatomic,strong) CCAction *idleAction;
-@property(nonatomic,strong)id specialPowerAction;
-@property(nonatomic,strong)id walkAction;
-@property(nonatomic,strong)id failAction;
-@property(nonatomic,strong)id crawlAction;
-@property(nonatomic,strong)id jumpAction;
-@property(nonatomic,strong)id breakAction;
-@property(nonatomic,strong)id climbAction;
+@property(nonatomic,retain) CCAction *idleAction;
+@property(nonatomic,retain)id specialPowerAction;
+@property(nonatomic,retain)id walkAction;
+@property(nonatomic,retain)id failAction;
+@property(nonatomic,retain)id crawlAction;
+@property(nonatomic,retain)id jumpAction;
+@property(nonatomic,retain)id breakAction;
+@property(nonatomic,retain)id climbAction;
 
 
 // FIXTURE STUFF
 //@property(nonatomic,assign) b2FixtureDef fixtureDef;
 //@property(nonatomic,assign) b2FixtureDef crawlFixtureDef;
 
-@property(nonatomic,strong)id transformAction;
+@property(nonatomic,retain)id transformAction;
 
 //transform animations
 //@property(nonatomic, strong) CCAnimation* transformFromAnimation; //transform from captain
 //@property(nonatomic, strong) CCAnimation* transformIntoAnimation; //transform into captain
-@property(nonatomic, strong) Superpower* currentSuperpower;
-- (void)changeSuperpower:(Superpower *) superpower;
+@property(nonatomic, retain) Superpower* currentSuperpower;
+//- (void)changeSuperpower:(Superpower *) superpower;
 
 
 //states
@@ -56,7 +56,7 @@
 @property(nonatomic,assign)float centerToBottom;
 
 //action methods
--(void)superPower;//attack
+//-(void)superPower;//attack
 //-(void)hurtWithDamage:(float)damage;
 -(void)idle;
 -(void)walk;

@@ -37,14 +37,14 @@
 }
 -(void) removeBody:(b2Body*) b;;
 
-@property(nonatomic)HudLayer *hud;
-@property(nonatomic)CCArray *collectiblesArray;
-@property(nonatomic)IconDrawer *drawer;
+@property(nonatomic, retain)HudLayer *hud;
+@property(nonatomic, retain)CCArray *collectiblesArray;
+@property(nonatomic, retain)IconDrawer *drawer;
 @property(nonatomic)bool paused;
 - (void) drawRamWall;
--(CGRect)collisionBoundingBox;
+//-(CGRect)collisionBoundingBox;
 
-+(id) scene;
+//+(id) scene;
 @property(retain, nonatomic) Captain *player;
 - (Captain*) getPlayer;
 -(id)initWithTileMap: (CCTMXTiledMap*) tileMap;

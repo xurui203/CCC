@@ -20,7 +20,7 @@
 
 
 }
-@property(nonatomic)DirectionPad *dPad;
+@property(nonatomic, retain)DirectionPad *dPad;
 
 
 -(void) setHealth:(int) health;

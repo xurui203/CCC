@@ -91,7 +91,11 @@
 
 - (CCMenu *) initMenu:(NSMutableArray *) SParray{
     //create an empty menu
-    spIconMenu = [CCMenu menuWithItems:nil];
+    
+    iconsArray = [iconsArray.superclass init];
+      spIconMenu = [spIconMenu.superclass init];
+            spIconMenu = [CCMenu menuWithItems:nil];
+
     iconsArray = [[NSMutableArray alloc] initWithCapacity:SParray.count];
     
     //add to scene
@@ -122,13 +126,16 @@
     }
     [spIconMenu alignItemsHorizontallyWithPadding:3.0];
 
-  
     return spIconMenu;
+            
     
 }
 
 - (CCMenu *) initLMMenu:(NSMutableArray *) SParray{
     //create an empty menu
+    
+    [LMiconsArray.superclass init];
+    [LMspIconMenu.superclass init];
     LMspIconMenu = [CCMenu menuWithItems:nil];
     LMiconsArray = [[NSMutableArray alloc] initWithCapacity:SParray.count];
     
@@ -160,7 +167,7 @@
     }
     [LMspIconMenu alignItemsHorizontallyWithPadding:3.0];
     CCLOG(@"init LMMenu finished");
-    
+        
     return LMspIconMenu;
     
 }

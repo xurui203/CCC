@@ -11,7 +11,7 @@
 
 
 @synthesize hud;
-@synthesize collectiblesArray, paused, player;
+@synthesize collectiblesArray, paused, player, drawer;
 
 
 -(id)initWithTileMap: (CCTMXTiledMap*) tileMap {
@@ -35,8 +35,7 @@
         [self addChild:geckoSpriteSheet z:2];
 
         [self drawCollisionTiles];
-        [self initCaptain];
-        
+
         [self drawGameOverTiles];
         [self drawEndTiles];
         [self drawRamWall];
@@ -49,25 +48,10 @@
         background.zOrder = 100;
         [self addChild:background];
 
+        [self initCaptain];
         
     }
     return self;
-}
-
-
-+(id) scene
-{
-	// 'scene' is an autorelease object.
-	CCScene *scene = [CCScene node];
-    
-	// 'layer' is an autorelease object.
-	MazeLayer *layer = [MazeLayer node];
-    
-	// add layer as a child to scene
-	[scene addChild: layer];
-    
-	// return the scene
-	return scene;
 }
 
 
@@ -344,10 +328,12 @@
 
 
 -(void)initCaptain {
+//    if ((player = [player.superclass init])) {
+    
     
     NSLog(@"initizaling captain");
-    if ((player = [player.superclass init])) {
-        
+//    if ((player = [player.superclass init])) {
+    
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
     player = [[World sharedWorld] CCCplayer];
     if (player.inLearningModules == NO) {
@@ -363,7 +349,32 @@
     [player createBox2dObject:world];
     [self addChild:player];
     [player idle];
-    }
+//    }
+//    } else {
+//        player = [player.superclass init];
+//        player = [[World sharedWorld] CCCplayer];
+//        NSLog(@"%@", [[World sharedWorld] CCCplayer].currentSuperpower);
+//        if (player.inLearningModules == NO) {
+//            [player reset];
+//        }
+//        NSLog(@"adding player to spritesheet");
+//        //[humanSpriteSheet addChild:player];
+//        player.zOrder = 100;
+//        
+//        NSLog(@"didnt die at add player to humanspritesheet...");
+//        player.scale = .4;
+//        player.position = ccp(100, 300);
+//        [player createBox2dObject:world];
+//        NSLog(@"created box2d object");
+////        NSLog(@"%@", player.currentSuperpower);
+//        if (player == Nil) {
+//            NSLog(@"fml");
+//        }
+//        [self addChild:player];
+//        NSLog(@"never reaches here");
+//        [player idle];
+//
+//    }
 
 }
 
@@ -607,7 +618,12 @@
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
 //    [player dealloc];
-    [_tileMap removeChild:player cleanup:YES];
+    [collectiblesArray release];
+//    [humanSpriteSheet release];
+    [self removeChild:player cleanup:YES];
+    [self removeChild:player.superclass cleanup:YES];
+    [hud release];
+    [drawer release];
 //    [player.currentSuperpower relea=se];
     [super dealloc];
 }

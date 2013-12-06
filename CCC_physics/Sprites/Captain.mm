@@ -5,7 +5,7 @@
 
 @implementation Captain
 
-
+@synthesize currentSuperpower, idleAction, walkAction, jumpAction, crawlAction, specialPowerAction;
 -(id)init {
     CCLOG(@"CAPTAIN: INIT");
     if (self = [super init]){
@@ -13,24 +13,24 @@
         CCLOG(@"init human");
 
         //Set default superpower to captain
-        self.currentSuperpower = [[[CaptainSP alloc] init] autorelease];
-//        [self.currentSuperpower init];
+        currentSuperpower = [[CaptainSP alloc] init];
+//        [currentSuperpower init];
         
         
 //        CCLOG(@"Got HERE after loading current superpower!");
         
         //Set idle action
-        self.idleAction = [[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getIdleAnimation]]] autorelease];
+        idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [currentSuperpower getIdleAnimation]]] ;
                            
           //Set walk action
-        self.walkAction = [[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]]] autorelease];
+        walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [currentSuperpower getWalkAnimation]]];
                            
         //Set crawl action
-        self.crawlAction = [[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]]] autorelease];
+        crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [currentSuperpower getCrawlAnimation]]] ;
         
-        self.jumpAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil] autorelease];
+        jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [currentSuperpower getJumpAnimation]], nil] ;
         
-        self.specialPowerAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil] autorelease];
+        specialPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation: [currentSuperpower getSpAnimation]], nil];
         
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
@@ -62,15 +62,15 @@
     
     if (_actionState == kActionStateBreak){
         NSLog(@"JUMP EXECUTING");
-        [super kangarooJump];
+//        [super kangarooJump];
     }
     
     else {//(_actionState != kActionStateIdle){
         NSLog(@"STATE IS NOT IDLE");
         [self stopAllActions];
-        _idleAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.getIdleAnimation], nil];
+        idleAction = [CCSequence actions:[CCAnimate actionWithAnimation:self.currentSuperpower.getIdleAnimation], nil];
 
-        [self runAction:_idleAction];
+        [self runAction:idleAction];
         _actionState = kActionStateIdle;
         _velocity = CGPointZero;
     }
@@ -96,7 +96,9 @@
 -(void)specialAction {
     if (_actionState!= kActionStateSpecialAction){ //|| _actionState == kActionStateWalk) {
         [self stopAllActions];
-        [self runAction:_specialPowerAction];
+        [self runAction:specialPowerAction
+         
+         ];
         _actionState = kActionStateSpecialAction;
         NSLog(@"state changed to superpower");
         
@@ -114,8 +116,8 @@
         if (self.isCrawling){
             [self changeToStandFixture];
         }
-        _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
-        [self runAction:_walkAction];
+        walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
+        [self runAction:walkAction];
         _actionState = kActionStateWalk;
     }
     
@@ -135,8 +137,8 @@
         if (self.isCrawling){
             [self changeToStandFixture];
         }
-        _walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
-        [self runAction:_walkAction];
+        walkAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]], nil];
+        [self runAction:walkAction];
         _actionState = kActionStateWalk;
     }
     
@@ -156,9 +158,9 @@
         if (self.isCrawling){
             [self changeToStandFixture];
         }
-        _jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil];
+        jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil];
 
-        [self runAction:_jumpAction];
+        [self runAction:jumpAction];
         _actionState = kActionStateJump;
     }
     
@@ -201,8 +203,8 @@
         if (!self.isCrawling){
         [self changeToCrawlFixture];
         }
-        _crawlAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
-        [self runAction:_crawlAction];
+        crawlAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
+        [self runAction:crawlAction];
         _actionState = kActionStateCrawl;
     }
     NSLog(@"PLS WORK PLS");
@@ -223,7 +225,7 @@
     if (_actionState != kActionStateCrawl){ //&& [self numberOfRunningActions] ==0){
         [self stopAllActions];
         _climbAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]], nil];
-        [self runAction:_crawlAction];
+        [self runAction:crawlAction];
         _actionState = kActionStateClimb;
     }
     NSLog(@"PLS WORK PLS");
@@ -259,7 +261,7 @@
 //}
 
 -(void) dealloc {
-    
+    [super dealloc];
 }
 
 @end

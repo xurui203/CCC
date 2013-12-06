@@ -39,7 +39,7 @@
 @property (strong, nonatomic) NSMutableArray *iconsArray;
 @property (strong, nonatomic) NSMutableArray *LMiconsArray;
 -(NSMutableArray *) getIconsArray;
-- (CCMenu*) getIconsMenu;
+//- (CCMenu*) getIconsMenu;
 - (void) initDrawer;
 -(CCMenu*) initMenu:(NSMutableArray *)SParray;
 -(void) LMiconButtonTapped:(CCMenuItemFont *) sender;

@@ -305,6 +305,7 @@
 		3ECB2ECE1825C9A400C82177 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECC1825C9A400C82177 /* HudLayer.mm */; };
 		3EDC409C18452B97000EF77D /* World.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC409B18452B97000EF77D /* World.mm */; };
 		3EE1DC7A1851891700DCC098 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC791851891700DCC098 /* Sky.png */; };
+		3EE1DC7C185267AE00DCC098 /* Lat Capt Human-Standing0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC7B185267AE00DCC098 /* Lat Capt Human-Standing0001.png */; };
 		5B0201CF184EC05C008E9C19 /* Gecko Feet Rough.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201CE184EC05C008E9C19 /* Gecko Feet Rough.m4v */; };
 		5B02041E184EC982008E9C19 /* CCC DN-Sniffing&Crawling0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201D7184EC980008E9C19 /* CCC DN-Sniffing&Crawling0001.png */; };
 		5B02041F184EC982008E9C19 /* CCC DN-Sniffing&Crawling0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201D8184EC980008E9C19 /* CCC DN-Sniffing&Crawling0002.png */; };
@@ -864,7 +865,6 @@
 		5B02064B184EC982008E9C19 /* Lat Capt Ram-Sprinting0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B02041C184EC982008E9C19 /* Lat Capt Ram-Sprinting0015.png */; };
 		5B02064C184EC982008E9C19 /* Lat Capt Ram-Sprinting0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B02041D184EC982008E9C19 /* Lat Capt Ram-Sprinting0016.png */; };
 		5B274315182A154A00942895 /* Captain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B274314182A154A00942895 /* Captain.mm */; };
-		5B274392182A1C3600942895 /* CCC_first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B274339182A1C3500942895 /* CCC_first.plist */; };
 		5B274393182A1C3600942895 /* CCC_first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B27433A182A1C3500942895 /* CCC_first.png */; };
 		5B2F4FBE184F79C400E2A182 /* Energy Score Bar0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2F4F8C184F79C400E2A182 /* Energy Score Bar0001.png */; };
 		5B2F4FBF184F79C400E2A182 /* Energy Score Bar0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2F4F8D184F79C400E2A182 /* Energy Score Bar0002.png */; };
@@ -1832,6 +1832,7 @@
 		3EDC409A18452B96000EF77D /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = CCC_physics/World.h; sourceTree = "<group>"; };
 		3EDC409B18452B97000EF77D /* World.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = World.mm; path = CCC_physics/World.mm; sourceTree = "<group>"; };
 		3EE1DC791851891700DCC098 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
+		3EE1DC7B185267AE00DCC098 /* Lat Capt Human-Standing0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0001.png"; sourceTree = "<group>"; };
 		5B0201CE184EC05C008E9C19 /* Gecko Feet Rough.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gecko Feet Rough.m4v"; sourceTree = "<group>"; };
 		5B0201D7184EC980008E9C19 /* CCC DN-Sniffing&Crawling0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC DN-Sniffing&Crawling0001.png"; sourceTree = "<group>"; };
 		5B0201D8184EC980008E9C19 /* CCC DN-Sniffing&Crawling0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC DN-Sniffing&Crawling0002.png"; sourceTree = "<group>"; };
@@ -2394,7 +2395,6 @@
 		5B02041D184EC982008E9C19 /* Lat Capt Ram-Sprinting0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Ram-Sprinting0016.png"; sourceTree = "<group>"; };
 		5B274313182A154900942895 /* Captain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Captain.h; sourceTree = "<group>"; };
 		5B274314182A154A00942895 /* Captain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Captain.mm; sourceTree = "<group>"; };
-		5B274339182A1C3500942895 /* CCC_first.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CCC_first.plist; path = ../CCC_physics/KangarooTransform/CCC_first.plist; sourceTree = "<group>"; };
 		5B27433A182A1C3500942895 /* CCC_first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCC_first.png; path = ../CCC_physics/KangarooTransform/CCC_first.png; sourceTree = "<group>"; };
 		5B2F4F8C184F79C400E2A182 /* Energy Score Bar0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Energy Score Bar0001.png"; sourceTree = "<group>"; };
 		5B2F4F8D184F79C400E2A182 /* Energy Score Bar0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Energy Score Bar0002.png"; sourceTree = "<group>"; };
@@ -3493,6 +3493,7 @@
 		3EBD92F81833DD6500ABC143 /* App Format */ = {
 			isa = PBXGroup;
 			children = (
+				3EE1DC7B185267AE00DCC098 /* Lat Capt Human-Standing0001.png */,
 				3EBD92F91833DD6500ABC143 /* Buttons */,
 				3EBD93091833DD6600ABC143 /* Page Backgrounds */,
 			);
@@ -5249,7 +5250,6 @@
 				5B274313182A154900942895 /* Captain.h */,
 				5B274314182A154A00942895 /* Captain.mm */,
 				5BCB887E1829E6A4009D6DBF /* Constants.h */,
-				5B274339182A1C3500942895 /* CCC_first.plist */,
 				5B27433A182A1C3500942895 /* CCC_first.png */,
 			);
 			path = Sprites;
@@ -6130,7 +6130,6 @@
 				5B8A7F86184CF01D00CCBA87 /* Captain0035.png in Resources */,
 				5B020521184EC982008E9C19 /* CCC GF-Walking0033.png in Resources */,
 				5B8A7F5F184CF01D00CCBA87 /* Ant Capt Trainsition-GF0025.png in Resources */,
-				5B274392182A1C3600942895 /* CCC_first.plist in Resources */,
 				5B8A7F47184CF01D00CCBA87 /* Ant Capt Trainsition-GF0001.png in Resources */,
 				5B020627184EC982008E9C19 /* Lat Capt Ram-Running0003.png in Resources */,
 				5B0205FB184EC982008E9C19 /* Lat Capt Ram-Bounce Off0016.png in Resources */,
@@ -6237,6 +6236,7 @@
 				5B0204DC184EC982008E9C19 /* CCC DN-Walking0049.png in Resources */,
 				5B020509184EC982008E9C19 /* CCC GF-Walking0009.png in Resources */,
 				5B020431184EC982008E9C19 /* CCC DN-Sniffing&Crawling0020.png in Resources */,
+				3EE1DC7C185267AE00DCC098 /* Lat Capt Human-Standing0001.png in Resources */,
 				5B02059C184EC982008E9C19 /* Lat Capt Human-To Crawl Transition0021.png in Resources */,
 				5B0205C6184EC982008E9C19 /* Lat Capt KL-Jumping0012.png in Resources */,
 				5B0204F0184EC982008E9C19 /* lat capt gf0012.png in Resources */,

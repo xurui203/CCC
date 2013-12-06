@@ -177,7 +177,7 @@
 //EDIT: create scene with maze layer parameter
 -(void) createScene: (int) mazeID {
     CCTMXTiledMap *map = [[MazeManager sharedInstance] getMapWithID:mazeID];
-    _mazeLayer = [[[MazeLayer alloc] initWithTileMap: map] autorelease] ;
+    _mazeLayer = [[MazeLayer alloc] initWithTileMap: map];
     [self addChild:_mazeLayer z:0];
     _hudLayer = [HudLayer node];
     [self addChild:_hudLayer z:1];
@@ -192,11 +192,11 @@
         if(spM.initiatedSPs != nil) {
             CCMenu *iconMenu = [_icondrawer initMenu:spM.initiatedSPs];
             [_icondrawer initDrawer];
-            //        [self addChild:iconMenu z:5];
+                    [self addChild:iconMenu z:5];
             iconMenu.position = ccp(200, 175);
             iconMenu.zOrder = 5000;
             
-            [self addChild:iconMenu z:5];
+//            [self addChild:iconMenu z:5];
             //        iconMenu.position = ccp(self.contentSize.width/2, self.contentSize.height/2);
             //        CCLOG(@"%hhd", iconMenu.visible);
             //        
