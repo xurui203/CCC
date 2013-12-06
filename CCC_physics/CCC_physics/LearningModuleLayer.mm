@@ -18,76 +18,69 @@
          
          // Determine Screen Size
          CGSize screenSize = [CCDirector sharedDirector].winSize;
+//         
+//         // Calculate Large Font Size
+//         int largeFont = screenSize.height / 9;
+////                 [self playMovie];
+//         // Create a label
+//         CCLabelTTF *label = [CCLabelTTF labelWithString:@"Learning Module"
+//                                                fontName:@"Marker Felt"
+//                                                fontSize:largeFont];
+//         // Center label
+//         label.position = ccp( screenSize.width/2, screenSize.height/2+30);
+//         //        IconDrawer *
+//         // Add label to this scene
+//        [self addChild:label z:0];
+//
+//         
+//         CCMenuItemFont *playVideo = [CCMenuItemFont itemFromString:@"Video" target:self selector:@selector(onPlayVideo:)];
+//         
+//         CCMenuItemFont *practice = [CCMenuItemFont itemFromString:@"Practice" target:self selector:@selector(onPractice:)];
+//         
+//         CCMenu *LMOptionsMenu = [CCMenu menuWithItems:playVideo, practice, nil];
+//         [LMOptionsMenu alignItemsHorizontallyWithPadding:10.0];
+//         
+//         [self addChild:LMOptionsMenu];
+//         LMOptionsMenu.position = ccp( screenSize.width/2, screenSize.height/2 -20);
          
-         // Calculate Large Font Size
-         int largeFont = screenSize.height / 9;
-//                 [self playMovie];
-         // Create a label
-         CCLabelTTF *label = [CCLabelTTF labelWithString:@"Learning Module"
-                                                fontName:@"Marker Felt"
-                                                fontSize:largeFont];
-         // Center label
-         label.position = ccp( screenSize.width/2, screenSize.height/2+30);
-         //        IconDrawer *
-         // Add label to this scene
-        [self addChild:label z:0];
-       
-         
-         CCMenuItemFont *playVideo = [CCMenuItemFont itemFromString:@"Video" target:self selector:@selector(onPlayVideo:)];
-         
-         CCMenuItemFont *practice = [CCMenuItemFont itemFromString:@"Practice" target:self selector:@selector(onPractice:)];
-         
-         CCMenu *LMOptionsMenu = [CCMenu menuWithItems:playVideo, practice, nil];
-         [LMOptionsMenu alignItemsHorizontallyWithPadding:6.0];
-         
-         [self addChild:LMOptionsMenu];
-         LMOptionsMenu.position = ccp( screenSize.width/2, screenSize.height/2 -20);
+         [CCVideoPlayer setDelegate: self];
+         NSString* moviename = [[World sharedWorld] CCCplayer].currentSuperpower.LMVideo;
+         CCLOG(@"moviename = %@ ", moviename);
+         [CCVideoPlayer playMovieWithFile:moviename];
+
  
      }
     return self;
 }
 
--(void) onPractice:(id) sender {
-    int mazeID = [[World sharedWorld] CCCplayer].currentSuperpower.mazeID;
-    [SceneManager goMaze: mazeID];
+//-(void) onPractice:(id) sender {
+//    int mazeID = [[World sharedWorld] CCCplayer].currentSuperpower.mazeID;
+//    [SceneManager goMaze: mazeID];
+//
+//}
 
-}
-
--(void) onPlayVideo:(id) sender {
-    [self playMovie];
-}
+//-(void) onPlayVideo:(id) sender {
+//    [self playMovie];
+//}
 
 
--(void) playMovie {
-    [CCVideoPlayer setDelegate: self];
-    NSString* moviename = [[World sharedWorld] CCCplayer].currentSuperpower.LMVideo;
-    CCLOG(@"moviename = %@ ", moviename);
-    [CCVideoPlayer playMovieWithFile:moviename];
-}
-+(id) scene
-{
-	// 'scene' is an autorelease object.
-	CCScene *scene = [CCScene node];
-    
-	// 'layer' is an autorelease object.
-	LearningModuleLayer *layer = [LearningModuleLayer node];
-    
-	// add layer as a child to scene
-	[scene addChild: layer];
-    
-	// return the scene
-	return scene;
-}
-
+//-(void) playMovie {
+//    [CCVideoPlayer setDelegate: self];
+//    NSString* moviename = [[World sharedWorld] CCCplayer].currentSuperpower.LMVideo;
+//    CCLOG(@"moviename = %@ ", moviename);
+//    [CCVideoPlayer playMovieWithFile:moviename];
+//}
 
 - (void) moviePlaybackFinished {
-    //    [[CCDirector sharedDirector] startAnimation];
+    [[CCDirector sharedDirector] startAnimation];
     CCLOG(@"movieplaybackfinished");
     [SceneManager goLearningModuleScene];
 }
 
 -(void) movieStartsPlaying {
     [[CCDirector sharedDirector] stopAnimation];
+    [SceneManager goLearningModuleScene];
+
     CCLOG(@"moviestarts");
 }
 

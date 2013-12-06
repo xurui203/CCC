@@ -14,7 +14,7 @@
 #import "Defines.h"
 #import "SceneManager.h"
 #import "LearningModuleLayer.h"
-
+//#import "CCVideoPlayer.h"
 
 
 @interface LearningModuleScene : CCLayer 
@@ -27,7 +27,7 @@
 
 @property (nonatomic, assign) BOOL iPad;
 @property (nonatomic, assign) NSString *device;
-@property (nonatomic)LearningModuleLayer *LMLayer;
+//@property (nonatomic)LearningModuleLayer *LMLayer;
 -(void)initWithSuperpower:(NSString *)moviename;
 
 @end

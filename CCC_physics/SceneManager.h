@@ -27,6 +27,7 @@
 #import "LearningModuleScene.h"
 #import "MazeLayer.h"
 #import "ParentPage.h"
+#import "LearningModuleLayer.h"
 //#import "GceckMaze.h"
 //#import "MainMazeOne.h"
 
@@ -56,4 +57,5 @@
 +(void) goOpeningSequence;
 +(void) goLearningModuleScene;
 +(void) goMaze: (int) mazeID;
++(void) goMovie;
 @end

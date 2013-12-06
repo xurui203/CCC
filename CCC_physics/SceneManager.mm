@@ -46,6 +46,11 @@
     [SceneManager go:[GameOverLayer node]];
 }
 
++(void) goMovie {
+    [SceneManager go:[LearningModuleLayer node]];
+}
+
+
 //Learning Module Methods
 +(void) goLearningModuleScene {
     [[World sharedWorld] CCCplayer].inLearningModules = YES;

@@ -68,21 +68,12 @@
         
         // Determine Screen Size
         CGSize screenSize = [CCDirector sharedDirector].winSize;
-        
-        // Calculate Large Font Size
-        int smallFont = screenSize.height / kFontScaleSmall;
-        
-        // Set font settings
-        [CCMenuItemFont setFontName:@"Marker Felt"];
-        [CCMenuItemFont setFontSize:smallFont];
-        
 
         CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"Opening Page.png"
                                                           selectedImage:@"Opening Page.png"
                                                                  target:self
                                                                selector:@selector(onPlay:)];
-        //
-        //
+
         explore.zOrder = -50;
         CCMenu *exploreMenu = [CCMenu menuWithItems: explore, nil];
         [self addChild:exploreMenu];

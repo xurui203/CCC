@@ -10,8 +10,6 @@
 #import "cocos2d.h"
 #import "CCVideoPlayer.h"
 #import "World.h"
-//#import "SceneManager.h"
-//#import "MazeManager.h"
 @interface LearningModuleLayer : CCLayer <CCVideoPlayerDelegate> {
 }
 
