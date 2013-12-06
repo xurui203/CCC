@@ -39,21 +39,21 @@
 
 - (CCTMXTiledMap*) getMapWithID: (int) mapID {
     if (mapID == KL_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"kangarooMaze1.tmx"];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"kangarooMaze1.tmx"] autorelease];
     }
     if (mapID == GECKO_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"gecko.tmx"] autorelease];
     }
     if (mapID == MAIN_ONE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze1.tmx"];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze1.tmx"] autorelease];
     }
     
     if (mapID == MAIN_TWO_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"] autorelease];
     }
     
     if (mapID == CAPTAIN_MAZE_ID) {
-        return [[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"] autorelease];
     }
     else {
         return nil;

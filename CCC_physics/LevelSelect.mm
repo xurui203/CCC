@@ -73,7 +73,7 @@
             self.device = @"iPhone";
         }
 
-        int smallFont = [CCDirector sharedDirector].winSize.height / kFontScaleSmall;   
+//        int smallFont = [CCDirector sharedDirector].winSize.height / kFontScaleSmall;   
         
          // Read in selected chapter name (use to load custom background later):
 //        NSString *selectedChapterName = @"Maze";

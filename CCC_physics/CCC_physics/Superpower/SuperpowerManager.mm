@@ -62,10 +62,9 @@ static SuperpowerManager *sharedMyManager = nil;
         
         NSString *tempClassName = [superpowers objectAtIndex:x];
         CCLOG(@"tempClassName = %@", tempClassName);
-        Superpower* o = nullptr;
-        o = [[NSClassFromString(tempClassName) alloc] init];
+       Superpower* o = [[NSClassFromString(tempClassName) alloc] init];
         [initiatedSPs addObject:o];
-        CCLOG(@"%d", initiatedSPs.count);
+//        CCLOG(@"%d", initiatedSPs.count);
     }
 //    
 //    if( o != nullptr )

@@ -66,7 +66,7 @@
         CGSize screenSize = [CCDirector sharedDirector].winSize;
         
         // Calculate Large Font Size
-        int largeFont = screenSize.height / kFontScaleLarge;
+//        int largeFont = screenSize.height / kFontScaleLarge;
         
         
         // Create font based items ready for CCMenu

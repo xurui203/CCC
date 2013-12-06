@@ -13,24 +13,24 @@
         CCLOG(@"init human");
 
         //Set default superpower to captain
-        self.currentSuperpower = [CaptainSP alloc];
-        [self.currentSuperpower init];
+        self.currentSuperpower = [[[CaptainSP alloc] init] autorelease];
+//        [self.currentSuperpower init];
         
         
-        CCLOG(@"Got HERE after loading current superpower!");
+//        CCLOG(@"Got HERE after loading current superpower!");
         
         //Set idle action
-        self.idleAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getIdleAnimation]]];
+        self.idleAction = [[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getIdleAnimation]]] autorelease];
                            
           //Set walk action
-        self.walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]]];
+        self.walkAction = [[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getWalkAnimation]]] autorelease];
                            
         //Set crawl action
-        self.crawlAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]]];
+        self.crawlAction = [[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation: [self.currentSuperpower getCrawlAnimation]]] autorelease];
         
-        self.jumpAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil];
+        self.jumpAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil] autorelease];
         
-        self.specialPowerAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil];
+        self.specialPowerAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil] autorelease];
         
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
@@ -47,8 +47,8 @@
 
 
 - (void) reset {
-    self.currentSuperpower = [CaptainSP alloc];
-    [self.currentSuperpower init];
+//    self.currentSuperpower = [[CaptainSP alloc] init];
+//    [self.currentSuperpower init];
     [self restoreHealth:MAX_HEALTH];
 }
 
@@ -258,6 +258,8 @@
 //    }
 //}
 
-
+-(void) dealloc {
+    
+}
 
 @end
