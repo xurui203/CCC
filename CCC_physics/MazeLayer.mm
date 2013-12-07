@@ -24,15 +24,15 @@
 //        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap: tileMap];
         NSLog(@"LOADING PLISTS!!!");
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
-        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Human_Kangaroo.png"];
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Dog_Gecko.plist"];
-         geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
-        [humanSpriteSheet.texture setAliasTexParameters];
-        [geckoSpriteSheet.texture setAliasTexParameters];
+//        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
+//        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Human_Kangaroo.png"];
+//        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Dog_Gecko.plist"];
+//         geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
+//        [humanSpriteSheet.texture setAliasTexParameters];
+//        [geckoSpriteSheet.texture setAliasTexParameters];
         [[World sharedWorld] CCCplayer].levelComplete = NO;
-        [self addChild:humanSpriteSheet z:2];
-        [self addChild:geckoSpriteSheet z:2];
+//        [self addChild:humanSpriteSheet z:2];
+//        [self addChild:geckoSpriteSheet z:2];
 
         [self drawCollisionTiles];
 
@@ -335,10 +335,20 @@
 //    if ((player = [player.superclass init])) {
     
 //    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+     if (player != nil) return;
     player = [[World sharedWorld] CCCplayer];
     if (player.inLearningModules == NO) {
             [player reset];
     }
+    player.tag = 17;
+    for (CCNode *node in [self children]){
+        if (node.tag == 17){
+            NSLog(@"removing captain");
+
+            [self removeChild:player cleanup:YES];
+        }
+    }
+    //[self removeChild:player cleanup:YES];
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
     player.zOrder = 100;
