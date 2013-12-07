@@ -73,7 +73,7 @@ void ContactListener::BeginContact(b2Contact *contact) {
         CCLOG(@"PLAYER REACHED wall");
         NSLog(@"hihihi %@", [[World sharedWorld] CCCplayer].currentSuperpower.name);
 
-        if (o1.type == kGameObjectWall &&  [[[World sharedWorld] CCCplayer].currentSuperpower.name  isEqual:  @"Ram"] && [[World sharedWorld] CCCplayer].breakingWall) {
+        if (o1.type == kGameObjectWall &&  [[[World sharedWorld] CCCplayer].currentSuperpower.name  isEqual:  @"Ram"] && [[World sharedWorld] CCCplayer].executingSpecialAction) {
             CCLOG(@"PLAYER breaking wall in contact listener");
 //            if (!o1.hasRunAnimation){
 //            CCAnimation *anim = [o1 makeAnimation:10 :@"Back wall"];
@@ -87,7 +87,7 @@ void ContactListener::BeginContact(b2Contact *contact) {
             
         }
         
-        if (o2.type == kGameObjectWall &&  [[[World sharedWorld] CCCplayer].currentSuperpower.name  isEqual:  @"Ram"] &&[[World sharedWorld] CCCplayer].breakingWall) {
+        if (o2.type == kGameObjectWall &&  [[[World sharedWorld] CCCplayer].currentSuperpower.name  isEqual:  @"Ram"] &&[[World sharedWorld] CCCplayer].executingSpecialAction) {
             CCLOG(@"PLAYER breaking wall in contact listener");
 //            if (!o2.hasRunAnimation){
 //                CCAnimation *anim = [o2 makeAnimation:10 :@"Back wall"];
@@ -101,10 +101,10 @@ void ContactListener::BeginContact(b2Contact *contact) {
             CCLOG(@"o2 wall broken");
         }
         if (o1.type == kGameObjectPlayer) {
-            [[World sharedWorld] CCCplayer].breakingWall = YES;
+            [[World sharedWorld] CCCplayer].executingSpecialAction = YES;
         }
         if (o2.type == kGameObjectPlayer) {
-            [[World sharedWorld] CCCplayer].breakingWall = YES;
+            [[World sharedWorld] CCCplayer].executingSpecialAction = YES;
         }
 
     }

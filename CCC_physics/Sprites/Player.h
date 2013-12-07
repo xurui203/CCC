@@ -29,7 +29,7 @@
 @property (nonatomic, readwrite) b2Body *body;
 @property bool contactingGameOver;
 @property bool inLearningModules;
-@property bool breakingWall;
+@property bool executingSpecialAction;
 @property bool isCrawling;
 
 

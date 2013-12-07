@@ -15,7 +15,7 @@
 
 //actions
 @property(nonatomic,retain) CCAction *idleAction;
-@property(nonatomic,retain)id specialPowerAction;
+@property(nonatomic,retain)id spAction;
 @property(nonatomic,retain)id walkAction;
 @property(nonatomic,retain)id failAction;
 @property(nonatomic,retain)id crawlAction;
@@ -65,6 +65,8 @@
 -(void) jump;
 -(void) climb: (b2Vec2) direction;
 -(void)breakWall;
+-(void) specialAction;
+
 -(void) transform:(Superpower *)sp;
 -(void) setUpright: (Boolean) wantUpright;
 - (void) reset;
