@@ -11,7 +11,7 @@
 
 
 @synthesize hud;
-@synthesize collectiblesArray, paused, player, drawer;
+@synthesize collectiblesArray, paused, drawer;
 
 
 -(id)initWithTileMap: (CCTMXTiledMap*) tileMap {
@@ -329,6 +329,7 @@
 
 -(void)initCaptain {
 //    if ((player = [player.superclass init])) {
+    if(![self getChildByTag:1234]) {
     
     
     NSLog(@"initizaling captain");
@@ -347,7 +348,7 @@
     player.scale = .4;
     player.position = ccp(100, 300);
     [player createBox2dObject:world];
-    [self addChild:player];
+        [self addChild:player z:123 tag:1234];
     [player idle];
 //    }
 //    } else {
@@ -375,7 +376,7 @@
 //        [player idle];
 //
 //    }
-
+    }
 }
 
 
@@ -618,12 +619,12 @@
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
 //    [player dealloc];
-    [collectiblesArray release];
+//    [collectiblesArray release];
 //    [humanSpriteSheet release];
     [self removeChild:player cleanup:YES];
     [self removeChild:player.superclass cleanup:YES];
-    [hud release];
-    [drawer release];
+//    [hud release];
+//    [drawer release];
 //    [player.currentSuperpower relea=se];
     [super dealloc];
 }
