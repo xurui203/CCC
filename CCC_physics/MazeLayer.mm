@@ -24,18 +24,8 @@
 //        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"sbm.mp3"];
         [self initTileMap: tileMap];
         NSLog(@"LOADING PLISTS!!!");
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Human_Kangaroo.plist"];
-        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Human_Kangaroo.png"];
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Dog_Gecko.plist"];
-         geckoSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Dog_Gecko.png"];
-        [humanSpriteSheet.texture setAliasTexParameters];
-        [geckoSpriteSheet.texture setAliasTexParameters];
         [[World sharedWorld] CCCplayer].levelComplete = NO;
-        [self addChild:humanSpriteSheet z:2];
-        [self addChild:geckoSpriteSheet z:2];
-
         [self drawCollisionTiles];
-
         [self drawGameOverTiles];
         [self drawEndTiles];
         [self drawRamWall];
@@ -243,20 +233,10 @@
         
         num++;
 	}
-    
-  //    collectiblesArray = [CCArray arrayWithCapacity:num-4];
-//    for(int i=0; i<num-4; i++)
-//    {
-//        for (objPoint in [objects objects])
-//        {
-//            GameObject *collectItem = [[GameObject alloc] initWithSpriteFrameName:@"Apple.png"];
-//        }}
-    
 }
 -(void) removeBody:(b2Body*) b {
     world->DestroyBody(b);;
 }
-
 
 
 
@@ -289,15 +269,6 @@
         
         num++;
 	}
-    
-    //    collectiblesArray = [CCArray arrayWithCapacity:num-4];
-    //    for(int i=0; i<num-4; i++)
-    //    {
-    //        for (objPoint in [objects objects])
-    //        {
-    //            GameObject *collectItem = [[GameObject alloc] initWithSpriteFrameName:@"Apple.png"];
-    //        }}
-    
 }
 
 
@@ -335,11 +306,20 @@
     NSLog(@"initizaling captain");
 //    if ((player = [player.superclass init])) {
     
-//    player = [Captain spriteWithSpriteFrameName:@"Lat Capt Human-Standing001.png"];
+     if (player != nil) return;
     player = [[World sharedWorld] CCCplayer];
     if (player.inLearningModules == NO) {
             [player reset];
     }
+    player.tag = 17;
+    for (CCNode *node in [self children]){
+        if (node.tag == 17){
+            NSLog(@"removing captain");
+
+            [self removeChild:player cleanup:YES];
+        }
+    }
+    //[self removeChild:player cleanup:YES];
     NSLog(@"adding player to spritesheet");
     //[humanSpriteSheet addChild:player];
     player.zOrder = 100;
@@ -377,6 +357,7 @@
 //
 //    }
     }
+
 }
 
 
@@ -405,9 +386,8 @@
         }
         if (location.x >= screenSize.width/2 && location.y > 230) {
         //player.position = ccp(player.position.x, player.position.y-50);
-            if ([player.currentSuperpower.name isEqual:@"Ram"]){
-                [player moveBackwards];
-                [player breakWall];
+            if (player.currentSuperpower.canSP){//.name isEqual:@"Ram"]){
+                [player specialAction];
             }
             else {[player jump];
             }
@@ -474,30 +454,19 @@
     }
     if (!paused) {
         
-        if (player.breakingWall ) {
+        if (player.executingSpecialAction ) {
             
         }
     int32 velocityIterations = 8;
 	int32 positionIterations = 1;
     
     if (contactListener->collected > numCollected) {
-        //        if (contactListener->collectible != nil) {
-        //            CCLOG(@"contact listener -> collectible: %u",  );
-        ////            [self removeBody:contactListener->collectible];
-        
-        //
-        //        }
         numCollected ++;
         [player updateHealth];
-        //CCLOG(@"updating player health");
-        //    world->DestroyBody(contactListener->collectible);
+
     }
     [hud setHealth:player.health];
-    
-   // CCLOG(@"player health: %d", player.health);
-    
-
-    
+        
 	// Instruct the world to perform a single step of simulation. It is
 	// generally best to keep the time step and iterations fixed.
 	world->Step(dt, velocityIterations, positionIterations);
@@ -517,8 +486,6 @@
   
 	CGPoint newPos = ccp(-1* pos.x * PTM_RATIO + 50, self.position.y * PTM_RATIO);
 	[self setPosition:newPos];
-   // [self setViewpointCenter:player.position];
-    // [self setViewpointCenter:player.position];
     std::vector<b2Body *>toDestroy;
     std::vector<MyContact>::iterator p;
     for (p= contactListener->_contacts.begin();
@@ -548,7 +515,6 @@
                     if ([spriteA numberOfRunningActions] == 0 && spriteA.hasRunAnimation){
                         toDestroy.push_back(bodyA);
                     }
-//                    toDestroy.push_back(bodyA);
                 }
             }
             
@@ -562,7 +528,6 @@
                     if ([spriteB numberOfRunningActions] == 0 && spriteB.hasRunAnimation){
                         toDestroy.push_back(bodyB);
                     }
-//                    toDestroy.push_back(bodyB);
                 }
             }
 
@@ -618,14 +583,12 @@
 -(void)dealloc {
     [[SimpleAudioEngine sharedEngine]stopBackgroundMusic];
     [self unscheduleUpdate];
-//    [player dealloc];
-//    [collectiblesArray release];
-//    [humanSpriteSheet release];
+
+    [collectiblesArray release];
     [self removeChild:player cleanup:YES];
     [self removeChild:player.superclass cleanup:YES];
-//    [hud release];
-//    [drawer release];
-//    [player.currentSuperpower relea=se];
+    [hud release];
+    [drawer release];
     [super dealloc];
 }
 

@@ -4,7 +4,7 @@
 #import "ContactListener.h"
 @implementation Player
 @synthesize body;
-@synthesize health, inLearningModules, breakingWall;
+@synthesize health, inLearningModules, executingSpecialAction;
 
 - (id) init {
 	if ((self = [super init])) {
@@ -13,7 +13,7 @@
         self.isDead = NO;
         self.inLearningModules = NO;
         self.levelComplete = NO;
-        self.breakingWall = NO;
+        self.executingSpecialAction = NO;
 	}
 	return self;
 }
@@ -64,7 +64,7 @@
 	body = world->CreateBody(&playerBodyDef);
     b2PolygonShape polygonShape;
     polygonShape.SetAsBox(1.0f, 1.0f);
-    //polygonShape.m_radius = 0.7;
+    polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &polygonShape;
 	fixtureDef.density = 1.0f;
@@ -107,7 +107,8 @@
 -(void) changeToStandFixture {
     b2PolygonShape standPolygonShape;
     standPolygonShape.SetAsBox(1.0f, 1.0f);
-    
+    standPolygonShape.m_radius = 0.07;
+
 //    b2Vec2 move = b2Vec2(0.0f, 1.0f);
 //    for(int32 i=0;i<standPolygonShape.m_vertexCount;i++)
 //    {

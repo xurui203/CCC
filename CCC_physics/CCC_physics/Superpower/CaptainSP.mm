@@ -39,7 +39,7 @@
 
 # define NUM_TRANSFORM_INTO 35
 
-- (CCAnimation *) getTransformIntoAnimation { //Ant Capt Trainsition-Human0001.png
+- (CCAnimation *) getTransformIntoAnimation {
     //action animation - runs once and then returns to idle
     if (self.transformIntoAnimation == nil){
         self.transformIntoAnimation = [self makeAnimation:NUM_TRANSFORM_INTO :[NSString stringWithFormat:@"Captain"]];
@@ -51,7 +51,7 @@
 //Ant Capt Transition-From Human0001
 # define NUM_TRANSFORM_FROM 27
 
-- (CCAnimation *) getTransformFromAnimation { //Ant Capt Transition-From Human0002.png
+- (CCAnimation *) getTransformFromAnimation {
     //action animation - runs once and then returns to idle
     if (self.transformFromAnimation == nil){
         self.transformFromAnimation = [self makeAnimation:NUM_TRANSFORM_FROM :[NSString stringWithFormat:@"Ant Capt Transition-From Human"]];
@@ -85,6 +85,7 @@
     }
     return self.idleAnimation;
 }
+
 
 # define NUM_TRANSFORM_JUMP 11
 - (CCAnimation *) getJumpAnimation {

@@ -21,7 +21,6 @@ static World *sharedMyWorld = nil;
     @synchronized(self) {
         if(sharedMyWorld == nil)
             sharedMyWorld = [[super allocWithZone:NULL] init];
-        
     }
     return sharedMyWorld;
 }

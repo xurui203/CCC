@@ -37,22 +37,10 @@ static SuperpowerManager *sharedMyManager = nil;
     
     return self;
 }
--(void)humanButtonTapped:(id) sender{
-    NSLog(@"kangaroo selected");
-    //Superpower *power = [Superpower init];
-    //    _human.superPowerAction = power.superpowerAction;
-//    CaptainSP *captainSP = [[CaptainSP alloc] init];
-//    [_mazeLayer.getPlayer transform: captainSP];
-}
-
 
 -(void) addSPs
 {
-//    CCLOG(@"adding instantiated superpowers to array");
-    // create the Player object
-    
     if (superpowers != nil) {
-//        CCLOG(@"not nil");
         NSLog(@"array: %@", superpowers);
     }
     for (int x=0; x< superpowers.count; x++) {
@@ -64,18 +52,7 @@ static SuperpowerManager *sharedMyManager = nil;
         CCLOG(@"tempClassName = %@", tempClassName);
        Superpower* o = [[[NSClassFromString(tempClassName) alloc] init] autorelease];
         [initiatedSPs addObject:o];
-//        CCLOG(@"%d", initiatedSPs.count);
     }
-//    
-//    if( o != nullptr )
-//    {
-//        //    o->addBodyToWorld(this->world);
-//        //    self->addChild(o);
-//    }
-    
-    
-    //initialize icon drawer
-    
 }
 
 -(CCMenu *) getIconsMenu {
