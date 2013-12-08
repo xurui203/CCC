@@ -1,9 +1,4 @@
-//
-//  Constants.h
-//  SimpleBox2dScroller
-//
-//  Created by min on 3/17/11.
-//  Copyright 2011 Min Kwon. All rights reserved.
+//Constants.h
 //
 
 //Pixel to metres ratio. Box2D uses metres as the unit for measurement.

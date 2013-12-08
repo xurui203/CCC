@@ -31,11 +31,11 @@
 @property (nonatomic, assign) BOOL iPad;
 @property (nonatomic, assign) NSString *device;
 
-@property (nonatomic, retain)MazeLayer *mazeLayer;
-@property(nonatomic, retain)HudLayer *hudLayer;
-@property(nonatomic, retain) SuperpowerManager *spM;
+@property (nonatomic)MazeLayer *mazeLayer;
+@property(nonatomic)HudLayer *hudLayer;
+@property(nonatomic) SuperpowerManager *spM;
 
-@property(nonatomic, retain)IconDrawer *icondrawer;
+@property(nonatomic)IconDrawer *icondrawer;
 
 - (id) initWithMaze: (int) mazeID;
 @end

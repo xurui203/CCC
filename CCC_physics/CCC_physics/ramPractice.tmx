@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="RH Ground" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="RH Ground.png" width="1960" height="675"/>
+ </tileset>
+ <layer name="back" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0MdOQkEYhmEgASk3RY+CSAex0FxJt8CGot4URbkCqpfku3BxFkPCgpmw+N/kySSTk3yTY7NJkiRJkiRJp+zy/4whbrkPIYwIopb7K8u310jgBkmkkEYGWeSQRwFF3KKEO9zjAY8oo4Iqaqjj6cB7n9FAEy200UEXPbzgFW94Rx+D43+HJEln3MpuxhobbLHDHr8KujedDjNcuIAbHnjhU9C96TckgCBCCCOCqILuzaEhI4wxwQc+8aWge3NqyAxzLPCNHywVdG/+AVJxm2M=
+  </data>
+ </layer>
+ <objectgroup name="collisions" width="60" height="20">
+  <object x="6" y="568" width="1926" height="298"/>
+ </objectgroup>
+ <objectgroup name="gameOverLayer" width="60" height="20"/>
+ <objectgroup name="end" width="60" height="20">
+  <object x="1812" y="14" width="104" height="616"/>
+ </objectgroup>
+ <objectgroup name="wall" width="60" height="20">
+  <object x="474" y="94" width="14" height="502"/>
+  <object x="933" y="93" width="14" height="502"/>
+  <object x="1403" y="89" width="14" height="502"/>
+ </objectgroup>
+ <layer name="fore" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==
+  </data>
+ </layer>
+</map>

@@ -83,7 +83,7 @@
                                                                 target:self
                                                               selector:@selector(onHome:)];
         goHome.scale = .5;
-          CCMenu *menu = [CCMenu menuWithItems:label,item1,goHome, nil];
+          CCMenu *menu = [CCMenu menuWithItems:label,goHome, nil];
         
         
 		// Center label

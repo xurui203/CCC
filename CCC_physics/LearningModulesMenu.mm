@@ -23,6 +23,10 @@
         CGSize screenSize = [CCDirector sharedDirector].winSize;
         
         NSLog(@"LOADING PLISTS!!!");
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"BetaSheet.plist"];
+        humanSpriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"BetaSheet.png"];
+        [humanSpriteSheet.texture setAliasTexParameters];
+        [self addChild:humanSpriteSheet z:2];
         //  Put a 'back' button in the scene
         [self addBackButton];
         spM = [SuperpowerManager sharedManager];

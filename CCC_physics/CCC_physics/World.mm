@@ -28,16 +28,11 @@ static World *sharedMyWorld = nil;
 - (id)init {
     if (self = [super init]) {
         //INIT CAPTAIN
-        if (CCCplayer == nil) {
-            CCCplayer = [[Captain alloc] initWithFile:@"Lat Capt Human-Standing0001.png"];
-            CCCplayer.tag = 1234;
-            
-            CCLOG(@"world inits captain");
-            //        currentLevel = 1;
-            NSLog(@"%@", CCCplayer.currentSuperpower);
-
-        }
-           }
+        CCCplayer = [[Captain alloc] initWithFile:@"Lat Capt Human-Standing0001.png"];
+        CCLOG(@"world inits captain");
+//        currentLevel = 1;
+    
+    }
     return self;
 }
 

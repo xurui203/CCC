@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31110213184C486C00C52D8B /* GeckoPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 31110210184C486C00C52D8B /* GeckoPractice.tmx */; };
-		31110214184C486C00C52D8B /* KangarooPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 31110211184C486C00C52D8B /* KangarooPractice.tmx */; };
-		31110215184C486C00C52D8B /* mainMaze.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 31110212184C486C00C52D8B /* mainMaze.tmx */; };
 		3114C8D7183C5F170091AE4F /* LearningModuleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */; };
 		31234201182A3F21001BC4B7 /* GameOverScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234200182A3F21001BC4B7 /* GameOverScene.mm */; };
 		31234209182A95B4001BC4B7 /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31234208182A95B4001BC4B7 /* GameOverLayer.mm */; };
@@ -232,7 +229,6 @@
 		3EBD936D1833DEFB00ABC143 /* MyMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD93661833DEFB00ABC143 /* MyMovieView.m */; };
 		3EBD936E1833DEFB00ABC143 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD93671833DEFB00ABC143 /* README.md */; };
 		3EBD93701833DF1C00ABC143 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBD936F1833DF1C00ABC143 /* MediaPlayer.framework */; };
-		3EBD938218341EFB00ABC143 /* test_map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD938118341EFB00ABC143 /* test_map.tmx */; };
 		3EBD93871834280000ABC143 /* energy-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD93831834280000ABC143 /* energy-hd.plist */; };
 		3EBD93881834280000ABC143 /* energy-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD93841834280000ABC143 /* energy-hd.pvr.ccz */; };
 		3EBD93891834280000ABC143 /* energy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD93851834280000ABC143 /* energy.plist */; };
@@ -296,16 +292,20 @@
 		3ECB2EA21825866D00C82177 /* TRBox2DObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2E9F1825866D00C82177 /* TRBox2DObject.mm */; };
 		3ECB2EBC18258BAC00C82177 /* prac_map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EAA18258BAC00C82177 /* prac_map.tmx */; };
 		3ECB2EBF18258BAC00C82177 /* Fore.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EAF18258BAC00C82177 /* Fore.png */; };
-		3ECB2EC118258BAC00C82177 /* pd_dpad-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EB318258BAC00C82177 /* pd_dpad-hd.png */; };
-		3ECB2EC218258BAC00C82177 /* pd_dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EB418258BAC00C82177 /* pd_dpad.png */; };
 		3ECB2EC318258BAC00C82177 /* sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EB518258BAC00C82177 /* sprites.plist */; };
 		3ECB2EC418258BAC00C82177 /* Visible Boundary (Not include in final).png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EB618258BAC00C82177 /* Visible Boundary (Not include in final).png */; };
 		3ECB2EC518258BAC00C82177 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB2EB718258BAC00C82177 /* Back.png */; };
 		3ECB2ECD1825C9A400C82177 /* MazeLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECA1825C9A400C82177 /* MazeLayer.mm */; };
 		3ECB2ECE1825C9A400C82177 /* HudLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2ECC1825C9A400C82177 /* HudLayer.mm */; };
 		3EDC409C18452B97000EF77D /* World.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC409B18452B97000EF77D /* World.mm */; };
-		3EE1DC7A1851891700DCC098 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC791851891700DCC098 /* Sky.png */; };
-		3EE1DC7C185267AE00DCC098 /* Lat Capt Human-Standing0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC7B185267AE00DCC098 /* Lat Capt Human-Standing0001.png */; };
+		3EE1DC841855062600DCC098 /* Lat Capt Human-Standing0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC831855062600DCC098 /* Lat Capt Human-Standing0001.png */; };
+		3EE1DC8A185506B100DCC098 /* mainMazeRam.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC88185506B100DCC098 /* mainMazeRam.tmx */; };
+		3EE1DC8F1855118E00DCC098 /* test_map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC8E1855118E00DCC098 /* test_map.tmx */; };
+		3EE1DC91185512C200DCC098 /* kangarooPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC90185512C200DCC098 /* kangarooPractice.tmx */; };
+		3EE1DC951855139100DCC098 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC931855139100DCC098 /* ground.png */; };
+		3EE1DC9D1855170000DCC098 /* RH Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC9C1855170000DCC098 /* RH Ground.png */; };
+		3EE1DCA0185517BD00DCC098 /* geckoPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC9E185517BD00DCC098 /* geckoPractice.tmx */; };
+		3EE1DCA1185517BD00DCC098 /* ramPractice.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3EE1DC9F185517BD00DCC098 /* ramPractice.tmx */; };
 		5B0201CF184EC05C008E9C19 /* Gecko Feet Rough.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201CE184EC05C008E9C19 /* Gecko Feet Rough.m4v */; };
 		5B02041E184EC982008E9C19 /* CCC DN-Sniffing&Crawling0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201D7184EC980008E9C19 /* CCC DN-Sniffing&Crawling0001.png */; };
 		5B02041F184EC982008E9C19 /* CCC DN-Sniffing&Crawling0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0201D8184EC980008E9C19 /* CCC DN-Sniffing&Crawling0002.png */; };
@@ -865,6 +865,7 @@
 		5B02064B184EC982008E9C19 /* Lat Capt Ram-Sprinting0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B02041C184EC982008E9C19 /* Lat Capt Ram-Sprinting0015.png */; };
 		5B02064C184EC982008E9C19 /* Lat Capt Ram-Sprinting0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B02041D184EC982008E9C19 /* Lat Capt Ram-Sprinting0016.png */; };
 		5B274315182A154A00942895 /* Captain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B274314182A154A00942895 /* Captain.mm */; };
+		5B274392182A1C3600942895 /* CCC_first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B274339182A1C3500942895 /* CCC_first.plist */; };
 		5B274393182A1C3600942895 /* CCC_first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B27433A182A1C3500942895 /* CCC_first.png */; };
 		5B2F4FBE184F79C400E2A182 /* Energy Score Bar0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2F4F8C184F79C400E2A182 /* Energy Score Bar0001.png */; };
 		5B2F4FBF184F79C400E2A182 /* Energy Score Bar0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2F4F8D184F79C400E2A182 /* Energy Score Bar0002.png */; };
@@ -922,8 +923,6 @@
 		5B4D45211835D2A700F2855E /* SuperpowerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D45201835D2A700F2855E /* SuperpowerManager.mm */; };
 		5B6A4927184AA394003CD115 /* Gecko.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4926184AA394003CD115 /* Gecko.mm */; };
 		5B6A4932184AAC21003CD115 /* MazeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A4931184AAC21003CD115 /* MazeManager.m */; };
-		5B6A4938184AB8E2003CD115 /* kangaroo.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4936184AB8E2003CD115 /* kangaroo.tmx */; };
-		5B6A4939184AB8E2003CD115 /* gecko.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A4937184AB8E2003CD115 /* gecko.tmx */; };
 		5B8A7E51184CF01D00CCBA87 /* ActionsSheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7A8E184CF01B00CCBA87 /* ActionsSheet.plist */; };
 		5B8A7E52184CF01D00CCBA87 /* ActionsSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7A8F184CF01B00CCBA87 /* ActionsSheet.png */; };
 		5B8A7E53184CF01D00CCBA87 /* BetaSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A7A90184CF01B00CCBA87 /* BetaSheet.png */; };
@@ -1334,9 +1333,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31110210184C486C00C52D8B /* GeckoPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GeckoPractice.tmx; sourceTree = "<group>"; };
-		31110211184C486C00C52D8B /* KangarooPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KangarooPractice.tmx; sourceTree = "<group>"; };
-		31110212184C486C00C52D8B /* mainMaze.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mainMaze.tmx; sourceTree = "<group>"; };
 		3114C8D5183C5F170091AE4F /* LearningModuleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningModuleScene.h; sourceTree = "<group>"; };
 		3114C8D6183C5F170091AE4F /* LearningModuleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LearningModuleScene.mm; sourceTree = "<group>"; };
 		312341FF182A3F21001BC4B7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
@@ -1735,7 +1731,6 @@
 		3EBD93661833DEFB00ABC143 /* MyMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMovieView.m; sourceTree = "<group>"; };
 		3EBD93671833DEFB00ABC143 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3EBD936F1833DF1C00ABC143 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		3EBD938118341EFB00ABC143 /* test_map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test_map.tmx; sourceTree = "<group>"; };
 		3EBD93831834280000ABC143 /* energy-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "energy-hd.plist"; sourceTree = "<group>"; };
 		3EBD93841834280000ABC143 /* energy-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "energy-hd.pvr.ccz"; sourceTree = "<group>"; };
 		3EBD93851834280000ABC143 /* energy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = energy.plist; sourceTree = "<group>"; };
@@ -1820,8 +1815,6 @@
 		3ECB2E9F1825866D00C82177 /* TRBox2DObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TRBox2DObject.mm; sourceTree = "<group>"; };
 		3ECB2EAA18258BAC00C82177 /* prac_map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prac_map.tmx; path = ../prac_map.tmx; sourceTree = "<group>"; };
 		3ECB2EAF18258BAC00C82177 /* Fore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fore.png; path = ../Fore.png; sourceTree = "<group>"; };
-		3ECB2EB318258BAC00C82177 /* pd_dpad-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pd_dpad-hd.png"; path = "../pd_dpad-hd.png"; sourceTree = "<group>"; };
-		3ECB2EB418258BAC00C82177 /* pd_dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pd_dpad.png; path = ../pd_dpad.png; sourceTree = "<group>"; };
 		3ECB2EB518258BAC00C82177 /* sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sprites.plist; path = ../sprites.plist; sourceTree = "<group>"; };
 		3ECB2EB618258BAC00C82177 /* Visible Boundary (Not include in final).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Visible Boundary (Not include in final).png"; path = "../Visible Boundary (Not include in final).png"; sourceTree = "<group>"; };
 		3ECB2EB718258BAC00C82177 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = ../Back.png; sourceTree = "<group>"; };
@@ -1831,8 +1824,14 @@
 		3ECB2ECC1825C9A400C82177 /* HudLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HudLayer.mm; path = ../HudLayer.mm; sourceTree = "<group>"; };
 		3EDC409A18452B96000EF77D /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = CCC_physics/World.h; sourceTree = "<group>"; };
 		3EDC409B18452B97000EF77D /* World.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = World.mm; path = CCC_physics/World.mm; sourceTree = "<group>"; };
-		3EE1DC791851891700DCC098 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
-		3EE1DC7B185267AE00DCC098 /* Lat Capt Human-Standing0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0001.png"; sourceTree = "<group>"; };
+		3EE1DC831855062600DCC098 /* Lat Capt Human-Standing0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Human-Standing0001.png"; sourceTree = "<group>"; };
+		3EE1DC88185506B100DCC098 /* mainMazeRam.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mainMazeRam.tmx; sourceTree = "<group>"; };
+		3EE1DC8E1855118E00DCC098 /* test_map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test_map.tmx; sourceTree = "<group>"; };
+		3EE1DC90185512C200DCC098 /* kangarooPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kangarooPractice.tmx; sourceTree = "<group>"; };
+		3EE1DC931855139100DCC098 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		3EE1DC9C1855170000DCC098 /* RH Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RH Ground.png"; sourceTree = "<group>"; };
+		3EE1DC9E185517BD00DCC098 /* geckoPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = geckoPractice.tmx; sourceTree = "<group>"; };
+		3EE1DC9F185517BD00DCC098 /* ramPractice.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ramPractice.tmx; sourceTree = "<group>"; };
 		5B0201CE184EC05C008E9C19 /* Gecko Feet Rough.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gecko Feet Rough.m4v"; sourceTree = "<group>"; };
 		5B0201D7184EC980008E9C19 /* CCC DN-Sniffing&Crawling0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC DN-Sniffing&Crawling0001.png"; sourceTree = "<group>"; };
 		5B0201D8184EC980008E9C19 /* CCC DN-Sniffing&Crawling0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCC DN-Sniffing&Crawling0002.png"; sourceTree = "<group>"; };
@@ -2395,6 +2394,7 @@
 		5B02041D184EC982008E9C19 /* Lat Capt Ram-Sprinting0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lat Capt Ram-Sprinting0016.png"; sourceTree = "<group>"; };
 		5B274313182A154900942895 /* Captain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Captain.h; sourceTree = "<group>"; };
 		5B274314182A154A00942895 /* Captain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Captain.mm; sourceTree = "<group>"; };
+		5B274339182A1C3500942895 /* CCC_first.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CCC_first.plist; path = ../CCC_physics/KangarooTransform/CCC_first.plist; sourceTree = "<group>"; };
 		5B27433A182A1C3500942895 /* CCC_first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCC_first.png; path = ../CCC_physics/KangarooTransform/CCC_first.png; sourceTree = "<group>"; };
 		5B2F4F8C184F79C400E2A182 /* Energy Score Bar0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Energy Score Bar0001.png"; sourceTree = "<group>"; };
 		5B2F4F8D184F79C400E2A182 /* Energy Score Bar0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Energy Score Bar0002.png"; sourceTree = "<group>"; };
@@ -2459,8 +2459,6 @@
 		5B6A4926184AA394003CD115 /* Gecko.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Gecko.mm; sourceTree = "<group>"; };
 		5B6A4930184AAC21003CD115 /* MazeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MazeManager.h; path = Mazes/MazeManager.h; sourceTree = SOURCE_ROOT; };
 		5B6A4931184AAC21003CD115 /* MazeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MazeManager.m; path = Mazes/MazeManager.m; sourceTree = SOURCE_ROOT; };
-		5B6A4936184AB8E2003CD115 /* kangaroo.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kangaroo.tmx; sourceTree = "<group>"; };
-		5B6A4937184AB8E2003CD115 /* gecko.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gecko.tmx; sourceTree = "<group>"; };
 		5B8A7A8E184CF01B00CCBA87 /* ActionsSheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ActionsSheet.plist; sourceTree = "<group>"; };
 		5B8A7A8F184CF01B00CCBA87 /* ActionsSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActionsSheet.png; sourceTree = "<group>"; };
 		5B8A7A90184CF01B00CCBA87 /* BetaSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaSheet.png; sourceTree = "<group>"; };
@@ -3493,7 +3491,6 @@
 		3EBD92F81833DD6500ABC143 /* App Format */ = {
 			isa = PBXGroup;
 			children = (
-				3EE1DC7B185267AE00DCC098 /* Lat Capt Human-Standing0001.png */,
 				3EBD92F91833DD6500ABC143 /* Buttons */,
 				3EBD93091833DD6600ABC143 /* Page Backgrounds */,
 			);
@@ -3528,7 +3525,6 @@
 		3EBD93091833DD6600ABC143 /* Page Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				3EE1DC791851891700DCC098 /* Sky.png */,
 				3E09A248184FB92C0006672B /* Home Page without arrows.png */,
 				3E09A234184F9E0B0006672B /* Maze Page.png */,
 				3E09A235184F9E0B0006672B /* Icon Page.png */,
@@ -3765,6 +3761,46 @@
 			);
 			name = GamePlay;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		3EE1DC851855066700DCC098 /* Main Mazes */ = {
+			isa = PBXGroup;
+			children = (
+				3E09A24D184FBCFC0006672B /* mainMaze2.tmx */,
+				3E09A24F184FC2FE0006672B /* mainMaze1.tmx */,
+				3EE1DC88185506B100DCC098 /* mainMazeRam.tmx */,
+			);
+			name = "Main Mazes";
+			sourceTree = "<group>";
+		};
+		3EE1DC861855066D00DCC098 /* Practice Mazes */ = {
+			isa = PBXGroup;
+			children = (
+				3EE1DC8E1855118E00DCC098 /* test_map.tmx */,
+				3EE1DC90185512C200DCC098 /* kangarooPractice.tmx */,
+				3EE1DC9E185517BD00DCC098 /* geckoPractice.tmx */,
+				3EE1DC9F185517BD00DCC098 /* ramPractice.tmx */,
+			);
+			name = "Practice Mazes";
+			sourceTree = "<group>";
+		};
+		3EE1DC871855068900DCC098 /* Map Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EE1DC9C1855170000DCC098 /* RH Ground.png */,
+				3EE1DC931855139100DCC098 /* ground.png */,
+				3E09A214184F1D1D0006672B /* Cliff copy.png */,
+				5B8A7FDB184D11FF00CCBA87 /* Map of Gecko Feet Pm.png */,
+				3E09A1FF184C4D7C0006672B /* Path-KL */,
+				3ECB2EB718258BAC00C82177 /* Back.png */,
+				3E97293C182837AC00F988F1 /* Boundaries.png */,
+				3E97293A1828379A00F988F1 /* practice_map.tmx */,
+				3ECB2EAA18258BAC00C82177 /* prac_map.tmx */,
+				3ECB2EAF18258BAC00C82177 /* Fore.png */,
+				3ECB2EB518258BAC00C82177 /* sprites.plist */,
+				3ECB2EB618258BAC00C82177 /* Visible Boundary (Not include in final).png */,
+			);
+			name = "Map Resources";
 			sourceTree = "<group>";
 		};
 		5B0201D4184EC980008E9C19 /* Actions */ = {
@@ -4652,6 +4688,7 @@
 				5B0201D4184EC980008E9C19 /* Actions */,
 				5B8A7FDF184D1B3000CCBA87 /* back wall crumble */,
 				5B8A7FEA184D1B3000CCBA87 /* front wall.png */,
+				3EE1DC831855062600DCC098 /* Lat Capt Human-Standing0001.png */,
 				5B8A7A8E184CF01B00CCBA87 /* ActionsSheet.plist */,
 				5B8A7A8F184CF01B00CCBA87 /* ActionsSheet.png */,
 				5B8A7A90184CF01B00CCBA87 /* BetaSheet.png */,
@@ -5194,26 +5231,9 @@
 		5BCB88711829E412009D6DBF /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				3E09A24F184FC2FE0006672B /* mainMaze1.tmx */,
-				31110210184C486C00C52D8B /* GeckoPractice.tmx */,
-				3E09A214184F1D1D0006672B /* Cliff copy.png */,
-				5B8A7FDB184D11FF00CCBA87 /* Map of Gecko Feet Pm.png */,
-				3E09A24D184FBCFC0006672B /* mainMaze2.tmx */,
-				3E09A1FF184C4D7C0006672B /* Path-KL */,
-				31110211184C486C00C52D8B /* KangarooPractice.tmx */,
-				31110212184C486C00C52D8B /* mainMaze.tmx */,
-				5B6A4936184AB8E2003CD115 /* kangaroo.tmx */,
-				5B6A4937184AB8E2003CD115 /* gecko.tmx */,
-				3ECB2EB718258BAC00C82177 /* Back.png */,
-				3E97293C182837AC00F988F1 /* Boundaries.png */,
-				3E97293A1828379A00F988F1 /* practice_map.tmx */,
-				3ECB2EAA18258BAC00C82177 /* prac_map.tmx */,
-				3ECB2EAF18258BAC00C82177 /* Fore.png */,
-				3ECB2EB318258BAC00C82177 /* pd_dpad-hd.png */,
-				3ECB2EB418258BAC00C82177 /* pd_dpad.png */,
-				3EBD938118341EFB00ABC143 /* test_map.tmx */,
-				3ECB2EB518258BAC00C82177 /* sprites.plist */,
-				3ECB2EB618258BAC00C82177 /* Visible Boundary (Not include in final).png */,
+				3EE1DC871855068900DCC098 /* Map Resources */,
+				3EE1DC851855066700DCC098 /* Main Mazes */,
+				3EE1DC861855066D00DCC098 /* Practice Mazes */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -5250,6 +5270,7 @@
 				5B274313182A154900942895 /* Captain.h */,
 				5B274314182A154A00942895 /* Captain.mm */,
 				5BCB887E1829E6A4009D6DBF /* Constants.h */,
+				5B274339182A1C3500942895 /* CCC_first.plist */,
 				5B27433A182A1C3500942895 /* CCC_first.png */,
 			);
 			path = Sprites;
@@ -5407,7 +5428,6 @@
 				5B2F4FBE184F79C400E2A182 /* Energy Score Bar0001.png in Resources */,
 				5B8A7EA0184CF01D00CCBA87 /* Ant Capt Tranisition-From GF0024.png in Resources */,
 				5B8A7F7F184CF01D00CCBA87 /* Captain0028.png in Resources */,
-				31110214184C486C00C52D8B /* KangarooPractice.tmx in Resources */,
 				5B0205AF184EC982008E9C19 /* Lat Capt Human-Walking0009.png in Resources */,
 				5B0204D4184EC982008E9C19 /* CCC DN-Walking0041.png in Resources */,
 				5B020495184EC982008E9C19 /* CCC DN-Stand&Sniff0076.png in Resources */,
@@ -5453,7 +5473,6 @@
 				5B8A7F63184CF01D00CCBA87 /* Ant Capt Trainsition-GF0029.png in Resources */,
 				5B020474184EC982008E9C19 /* CCC DN-Stand&Sniff0043.png in Resources */,
 				5B0205E3184EC982008E9C19 /* Lat Capt KL-Running0009.png in Resources */,
-				5B6A4938184AB8E2003CD115 /* kangaroo.tmx in Resources */,
 				5B8A7F62184CF01D00CCBA87 /* Ant Capt Trainsition-GF0028.png in Resources */,
 				5B0205DB184EC982008E9C19 /* Lat Capt KL-Running0001.png in Resources */,
 				5B8A7EF4184CF01D00CCBA87 /* Captain From RH0028.png in Resources */,
@@ -5524,6 +5543,7 @@
 				5B2F4FC5184F79C400E2A182 /* Energy Score Bar0008.png in Resources */,
 				5B8A7ECB184CF01D00CCBA87 /* Ant Capt Transistion-From KL0012.png in Resources */,
 				5B8A7F1C184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0020.png in Resources */,
+				3EE1DCA0185517BD00DCC098 /* geckoPractice.tmx in Resources */,
 				5B8A7EEB184CF01D00CCBA87 /* Captain From RH0019.png in Resources */,
 				5B020496184EC982008E9C19 /* CCC DN-Stand&Sniff0077.png in Resources */,
 				3E09A215184F1D1D0006672B /* Cliff copy.png in Resources */,
@@ -5551,6 +5571,7 @@
 				5B8A7EAA184CF01D00CCBA87 /* Ant Capt Transition-From Human0006.png in Resources */,
 				5B020472184EC982008E9C19 /* CCC DN-Stand&Sniff0041.png in Resources */,
 				5B8A7F14184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0012.png in Resources */,
+				3EE1DC91185512C200DCC098 /* kangarooPractice.tmx in Resources */,
 				5B020497184EC982008E9C19 /* CCC DN-Stand&Sniff0078.png in Resources */,
 				5B8A7EFE184CF01D00CCBA87 /* Captain From RH0038.png in Resources */,
 				5B0205E4184EC982008E9C19 /* Lat Capt KL-Running0010.png in Resources */,
@@ -5683,7 +5704,6 @@
 				5B0205C4184EC982008E9C19 /* Lat Capt KL-Jumping0010.png in Resources */,
 				5B8A7FCE184CF01D00CCBA87 /* Captain Into RH0043.png in Resources */,
 				5B2F4FEA184F79C400E2A182 /* Energy Score Bar0045.png in Resources */,
-				31110213184C486C00C52D8B /* GeckoPractice.tmx in Resources */,
 				5B8A7EB4184CF01D00CCBA87 /* Ant Capt Transition-From Human0016.png in Resources */,
 				5B020471184EC982008E9C19 /* CCC DN-Stand&Sniff0040.png in Resources */,
 				3EBD93541833DD6600ABC143 /* .QT-04b2-cea298cc-bfffd0b8-00 in Resources */,
@@ -5693,6 +5713,7 @@
 				5B8A7F89184CF01D00CCBA87 /* Ant Capt Trainsition-KL0003.png in Resources */,
 				5B8A7F81184CF01D00CCBA87 /* Captain0030.png in Resources */,
 				5B2F4FD6184F79C400E2A182 /* Energy Score Bar0025.png in Resources */,
+				3EE1DC951855139100DCC098 /* ground.png in Resources */,
 				5B2F4FD3184F79C400E2A182 /* Energy Score Bar0022.png in Resources */,
 				5B020591184EC982008E9C19 /* Lat Capt Human-To Crawl Transition0010.png in Resources */,
 				5B8A7FA4184CF01D00CCBA87 /* Captain Into RH0001.png in Resources */,
@@ -5760,7 +5781,6 @@
 				5B0204C0184EC982008E9C19 /* CCC DN-Walking0021.png in Resources */,
 				5B020543184EC982008E9C19 /* lat capt human0005.png in Resources */,
 				5B2F4FCF184F79C400E2A182 /* Energy Score Bar0018.png in Resources */,
-				31110215184C486C00C52D8B /* mainMaze.tmx in Resources */,
 				3EBD934A1833DD6600ABC143 /* Dog Icon.png in Resources */,
 				5B020574184EC982008E9C19 /* Lat Capt Human-Stand Up0010.png in Resources */,
 				5B020423184EC982008E9C19 /* CCC DN-Sniffing&Crawling0006.png in Resources */,
@@ -5810,7 +5830,6 @@
 				5B8A7E73184CF01D00CCBA87 /* Ant Capt Transition-From DN0024.png in Resources */,
 				5B8A7F71184CF01D00CCBA87 /* Captain0014.png in Resources */,
 				5B0204BD184EC982008E9C19 /* CCC DN-Walking0018.png in Resources */,
-				3EBD938218341EFB00ABC143 /* test_map.tmx in Resources */,
 				5B020542184EC982008E9C19 /* lat capt human0004.png in Resources */,
 				5B8A7F66184CF01D00CCBA87 /* Captain0003.png in Resources */,
 				5B8A7EF0184CF01D00CCBA87 /* Captain From RH0024.png in Resources */,
@@ -5819,7 +5838,6 @@
 				5B0204CA184EC982008E9C19 /* CCC DN-Walking0031.png in Resources */,
 				5B020640184EC982008E9C19 /* Lat Capt Ram-Sprinting0004.png in Resources */,
 				5B8A7F6A184CF01D00CCBA87 /* Captain0007.png in Resources */,
-				3EE1DC7A1851891700DCC098 /* Sky.png in Resources */,
 				3ECB2DEE18256BE500C82177 /* GameData.xml in Resources */,
 				3E452D551824063400B4EFDE /* Icon-72.png in Resources */,
 				5B020531184EC982008E9C19 /* Lat Capt Human-Crawling0009.png in Resources */,
@@ -5867,6 +5885,7 @@
 				5B020559184EC982008E9C19 /* Lat Capt Human-Running0015.png in Resources */,
 				5B8A7F79184CF01D00CCBA87 /* Captain0022.png in Resources */,
 				5B02063B184EC982008E9C19 /* Lat Capt Ram-Running0023.png in Resources */,
+				3EE1DC8F1855118E00DCC098 /* test_map.tmx in Resources */,
 				5B0205B0184EC982008E9C19 /* Lat Capt Human-Walking0010.png in Resources */,
 				5B020451184EC982008E9C19 /* CCC DN-Stand&Sniff0008.png in Resources */,
 				3E452D4D1824063300B4EFDE /* Default.png in Resources */,
@@ -5895,6 +5914,7 @@
 				5B020546184EC982008E9C19 /* lat capt human0008.png in Resources */,
 				5B8A7F0C184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0004.png in Resources */,
 				5B020432184EC982008E9C19 /* CCC DN-Running0001.png in Resources */,
+				3EE1DC8A185506B100DCC098 /* mainMazeRam.tmx in Resources */,
 				5B8A7FCD184CF01D00CCBA87 /* Captain Into RH0042.png in Resources */,
 				5B0205A0184EC982008E9C19 /* Lat Capt Human-To Crawl Transition0025.png in Resources */,
 				3ECB2E9718257CB800C82177 /* Locked-iPhone.png in Resources */,
@@ -6008,10 +6028,8 @@
 				5B8A7F58184CF01D00CCBA87 /* Ant Capt Trainsition-GF0018.png in Resources */,
 				3EC0B9CA18255119004CC08D /* StickyNote-iPad-hd.png in Resources */,
 				5B8A7EBC184CF01D00CCBA87 /* Ant Capt Transition-From Human0024.png in Resources */,
-				3ECB2EC218258BAC00C82177 /* pd_dpad.png in Resources */,
 				5B020607184EC982008E9C19 /* Lat Capt Ram-Bounce Off0028.png in Resources */,
 				3EC0B9C918255119004CC08D /* Arrow-Selected-iPhone.png in Resources */,
-				3ECB2EC118258BAC00C82177 /* pd_dpad-hd.png in Resources */,
 				5B8A7E9B184CF01D00CCBA87 /* Ant Capt Tranisition-From GF0019.png in Resources */,
 				5B8A7F93184CF01D00CCBA87 /* Ant Capt Trainsition-KL0013.png in Resources */,
 				5B8A7FEC184D1B3000CCBA87 /* Back wall0002.png in Resources */,
@@ -6130,6 +6148,7 @@
 				5B8A7F86184CF01D00CCBA87 /* Captain0035.png in Resources */,
 				5B020521184EC982008E9C19 /* CCC GF-Walking0033.png in Resources */,
 				5B8A7F5F184CF01D00CCBA87 /* Ant Capt Trainsition-GF0025.png in Resources */,
+				5B274392182A1C3600942895 /* CCC_first.plist in Resources */,
 				5B8A7F47184CF01D00CCBA87 /* Ant Capt Trainsition-GF0001.png in Resources */,
 				5B020627184EC982008E9C19 /* Lat Capt Ram-Running0003.png in Resources */,
 				5B0205FB184EC982008E9C19 /* Lat Capt Ram-Bounce Off0016.png in Resources */,
@@ -6158,6 +6177,7 @@
 				5B8A7F55184CF01D00CCBA87 /* Ant Capt Trainsition-GF0015.png in Resources */,
 				5B02046F184EC982008E9C19 /* CCC DN-Stand&Sniff0038.png in Resources */,
 				5B8A7FBE184CF01D00CCBA87 /* Captain Into RH0027.png in Resources */,
+				3EE1DCA1185517BD00DCC098 /* ramPractice.tmx in Resources */,
 				5B0205BE184EC982008E9C19 /* Lat Capt KL-Jumping0004.png in Resources */,
 				3E09A238184F9E0B0006672B /* Maze 3 Icon.png in Resources */,
 				5B8A7F59184CF01D00CCBA87 /* Ant Capt Trainsition-GF0019.png in Resources */,
@@ -6236,12 +6256,11 @@
 				5B0204DC184EC982008E9C19 /* CCC DN-Walking0049.png in Resources */,
 				5B020509184EC982008E9C19 /* CCC GF-Walking0009.png in Resources */,
 				5B020431184EC982008E9C19 /* CCC DN-Sniffing&Crawling0020.png in Resources */,
-				3EE1DC7C185267AE00DCC098 /* Lat Capt Human-Standing0001.png in Resources */,
+				3EE1DC841855062600DCC098 /* Lat Capt Human-Standing0001.png in Resources */,
 				5B02059C184EC982008E9C19 /* Lat Capt Human-To Crawl Transition0021.png in Resources */,
 				5B0205C6184EC982008E9C19 /* Lat Capt KL-Jumping0012.png in Resources */,
 				5B0204F0184EC982008E9C19 /* lat capt gf0012.png in Resources */,
 				5B02061E184EC982008E9C19 /* Lat Capt Ram-Break Through0017.png in Resources */,
-				5B6A4939184AB8E2003CD115 /* gecko.tmx in Resources */,
 				3ECB2DEC18256BE500C82177 /* Chapters.xml in Resources */,
 				3ECB2E8918257CB800C82177 /* 1Star-Normal-iPad.png in Resources */,
 				3E09A23A184F9E0B0006672B /* Maze 1 icon.png in Resources */,
@@ -6335,6 +6354,7 @@
 				5B0204FB184EC982008E9C19 /* lat capt gf0023.png in Resources */,
 				3EBD93111833DD6600ABC143 /* Broccoli.png in Resources */,
 				5B020464184EC982008E9C19 /* CCC DN-Stand&Sniff0027.png in Resources */,
+				3EE1DC9D1855170000DCC098 /* RH Ground.png in Resources */,
 				5B020597184EC982008E9C19 /* Lat Capt Human-To Crawl Transition0016.png in Resources */,
 				5B0205A7184EC982008E9C19 /* Lat Capt Human-Walking0001.png in Resources */,
 				5B8A7F2B184CF01D00CCBA87 /* Ant Capt Trainsition-Into DN0035.png in Resources */,

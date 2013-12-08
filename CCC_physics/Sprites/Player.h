@@ -26,10 +26,11 @@
 -(void) updateHealth;
 -(void) decreaseHealth;
 
+
 @property (nonatomic, readwrite) b2Body *body;
 @property bool contactingGameOver;
 @property bool inLearningModules;
-@property bool executingSpecialAction;
+@property bool breakingWall;
 @property bool isCrawling;
 
 

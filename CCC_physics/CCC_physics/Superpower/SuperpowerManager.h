@@ -25,7 +25,9 @@
 
 }
 
+-(Superpower*) initSP: (NSString *) s;
 @property(strong, nonatomic) Superpower *currentSuperPower;
+-(void) updateIconDrawer: (NSArray *)spArray;
 @property(strong, nonatomic) NSMutableArray* superpowers;
 @property(strong, nonatomic) IconDrawer *iconDrawer;
 @property(strong, nonatomic) NSMutableArray* initiatedSPs;

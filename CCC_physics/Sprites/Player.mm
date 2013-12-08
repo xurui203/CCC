@@ -4,16 +4,16 @@
 #import "ContactListener.h"
 @implementation Player
 @synthesize body;
-@synthesize health, inLearningModules, executingSpecialAction;
+@synthesize health, inLearningModules, breakingWall;
 
 - (id) init {
 	if ((self = [super init])) {
 		type = kGameObjectPlayer;
-        health = 11;
+        health = 20;
         self.isDead = NO;
         self.inLearningModules = NO;
         self.levelComplete = NO;
-        self.executingSpecialAction = NO;
+        self.breakingWall = NO;
 	}
 	return self;
 }
@@ -44,6 +44,7 @@
     health -= 5;
     if (health <= 0) {
         self.isDead = YES;
+        health = MAX_HEALTH;
 //        [SceneManager goGameOverLayer];
     }
     // CCLOG(@"updating health");
@@ -64,7 +65,7 @@
 	body = world->CreateBody(&playerBodyDef);
     b2PolygonShape polygonShape;
     polygonShape.SetAsBox(1.0f, 1.0f);
-    polygonShape.m_radius = 0.7;
+    //polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &polygonShape;
 	fixtureDef.density = 1.0f;
@@ -107,8 +108,7 @@
 -(void) changeToStandFixture {
     b2PolygonShape standPolygonShape;
     standPolygonShape.SetAsBox(1.0f, 1.0f);
-    standPolygonShape.m_radius = 0.07;
-
+    
 //    b2Vec2 move = b2Vec2(0.0f, 1.0f);
 //    for(int32 i=0;i<standPolygonShape.m_vertexCount;i++)
 //    {
@@ -133,6 +133,8 @@
     self.isCrawling = false;
 
 }
+
+
 
 
 @end

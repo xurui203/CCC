@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="100" height="30" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="gecko" tilewidth="32" tileheight="32">
-  <image source="../Dropbox/CompSci 408 Materials/Content/Mazes/Practice Modules/Gecko Feet/Map of Gecko Feet Pm.png" width="1179" height="528"/>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="RH Ground" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="RH Ground.png" width="1960" height="675"/>
  </tileset>
- <layer name="Background" width="100" height="30">
+ <tileset firstgid="3721" name="Cliff copy" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="Cliff copy.png" width="280" height="661"/>
+ </tileset>
+ <layer name="back" width="60" height="20">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <objectgroup name="Collisions" width="100" height="30">
-  <object x="3" y="530" width="342" height="35"/>
-  <object x="447" y="653" width="427" height="21"/>
-  <object x="352" y="160" width="96" height="480"/>
-  <object x="832" y="352" width="128" height="288"/>
-  <object x="960" y="192" width="32" height="160"/>
-  <object x="992" y="352" width="256" height="32"/>
-  <object x="1248" y="96" width="32" height="288"/>
-  <object x="1280" y="352" width="224" height="32"/>
-  <object x="1504" y="32" width="32" height="352"/>
-  <object x="1536" y="352" width="224" height="32"/>
-  <object x="1696" y="384" width="64" height="288"/>
+ <layer name="cliff" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzsOOBAAQRdEeu2d+e2zbtm3btm3zzg/UotJJbfolZ/mS63C45557/wt3OhwRiEQUohGDWMQ5Xf+zXjxtCUhEEpKRglSkCd3an/XSactAJrKQjRzkIk/o1v6sl09bAQpRhGKUoBRlQrf2Z71y2ipQiSpUowa1qBO6tT/r1dPWgEY0oRktaEWb0K39Wa+dtg50ogvd6EEv+oRu7c96/bQNYBBDGMYIRjEmdGt/1hunbQKTmMI0ZjCLOaFb+7PePG0LWMQSlrGCVawJ3dqf9dZp28AmtrCNHexiT+jW/qy3T9sBDnGEY5zgFGdCt/ZnvXPaLnCJK1zjBre4E7q1P+vd0/aARzzhGS94xZvQrf1Z7522D3ziC9/4we9/c6jrf9bzoM0TXvCGD3zhB3+hW/uzXgBtgQhCMELgRCjChG7tzxX7A4vwxks=
+  </data>
+ </layer>
+ <objectgroup name="end" width="60" height="20">
+  <object x="1767" y="6" width="152" height="636"/>
+ </objectgroup>
+ <objectgroup name="collisions" width="60" height="20">
+  <object x="-3" y="463" width="1915" height="242"/>
+  <object x="518" y="100" width="204" height="416"/>
+  <object x="964" y="102" width="204" height="412"/>
+  <object x="1394" y="-170" height="6"/>
  </objectgroup>
 </map>

@@ -25,7 +25,7 @@
 @property (nonatomic, assign) BOOL iPad;
 
 
-@property(nonatomic, retain)    SuperpowerManager *spM;
-@property(nonatomic, retain) NSMutableArray *iconsArray;
-@property(nonatomic, retain) CCMenu *menu;
+@property(nonatomic)    SuperpowerManager *spM;
+@property(nonatomic) NSMutableArray *iconsArray;
+@property(nonatomic) CCMenu *menu;
 @end
