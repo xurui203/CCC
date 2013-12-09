@@ -47,9 +47,10 @@
 
 
 - (void) reset {
-//    self.currentSuperpower = [[CaptainSP alloc] init];
+    self.currentSuperpower = [[CaptainSP alloc] init];
 //    [self.currentSuperpower init];
     [self restoreHealth:MAX_HEALTH];
+//    self.currentSuperpower = CaptainSP
 }
 
 
