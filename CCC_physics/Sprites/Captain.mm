@@ -30,7 +30,7 @@
         
         self.jumpAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getJumpAnimation]], nil] autorelease];
         
-        self.specialPowerAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil] autorelease];
+        self.spAction = [[CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil] autorelease];
         
         //Set some initial values for the hero’s attributes, including the measurements from the center of the sprite to the sides and bottom
         self.centerToBottom = 39.0;
@@ -93,19 +93,6 @@
     _actionState = kActionStateIdle;
     }
 }
-
--(void)specialAction {
-    if (_actionState!= kActionStateSpecialAction){ //|| _actionState == kActionStateWalk) {
-        [self stopAllActions];
-        [self runAction:_specialPowerAction];
-        _actionState = kActionStateSpecialAction;
-        NSLog(@"state changed to superpower");
-        
-    }
-    //_actionState = kActionStateIdle;
-    
-}
-
 
 -(void)walk {
     self.breakingWall = FALSE;
@@ -171,23 +158,23 @@
 
 }
 
--(void)breakWall {
+-(void)specialAction {
     NSLog(@"Break wall method reached!!!");
 
-    if (!self.currentSuperpower.canBreak) return;
-    if (_actionState != kActionStateBreak){
+    if (!self.currentSuperpower.canSP) return;
+    if (_actionState != kActionStateSpecialAction){
         [self stopAllActions];
         if (self.isCrawling){
             [self changeToStandFixture];
         }
-        _breakAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getBreakAnimation]], nil];
-        [self runAction:_breakAction];
-        _actionState = kActionStateBreak;
-        NSLog(@"Captain class: Breaking wall");
+        _spAction = [CCSequence actions:[CCAnimate actionWithAnimation: [self.currentSuperpower getSpAnimation]], nil];
+        [self runAction:_spAction];
+        _actionState = kActionStateSpecialAction;
+        NSLog(@"Captain class: executing special action");
     }
     
-    if (_actionState == kActionStateBreak) {
-        [self.currentSuperpower breakWall:self];
+    if (_actionState == kActionStateSpecialAction) {
+        [self.currentSuperpower spAction:self];
     }
     NSLog(@"Current superpower is: %@", self.currentSuperpower.name);
     _actionState = kActionStateIdle;

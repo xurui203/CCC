@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "DirectionPad.h"
 //#import "GameScene.h"
 
 #define MAX_HEALTH_TOKENS 10
@@ -20,7 +19,6 @@
 
 
 }
-@property(nonatomic)DirectionPad *dPad;
 
 
 -(void) setHealth:(int) health;

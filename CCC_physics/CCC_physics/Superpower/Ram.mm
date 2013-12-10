@@ -19,7 +19,7 @@
         self.canWalk = TRUE;
         self.canCrawl = FALSE;
         //self.canJump = TRUE;
-        self.canBreak = TRUE;
+        self.canSP = TRUE;
         self.mazeID = RAM_MAZE_ID;
         self.isLocked = NO;
         self.icon = @"Ram Icon.png";
@@ -27,15 +27,6 @@
         
     }
     return self;
-}
-
-# define NUM_TRANSFORM_SP 31
-
--(CCAnimation*) getSpAnimation{
-    if (self.spAnimation == nil){
-        self.spAnimation = [self makeAnimation:NUM_TRANSFORM_SP :[NSString stringWithFormat:@"Lat Capt KL-Jumping"]];
-    }
-    return self.spAnimation;
 }
 
 
@@ -89,11 +80,11 @@
 }
 
 # define NUM_TRANSFORM_JUMP 23
-- (CCAnimation *) getBreakAnimation {
-    if (self.breakAnimation == nil){
-        self.breakAnimation = [self makeAnimation:NUM_TRANSFORM_JUMP :[NSString stringWithFormat:@"Lat Capt Ram-Break Through"]];
+- (CCAnimation *) getSpAnimation {
+    if (self.spAnimation == nil){
+        self.spAnimation = [self makeAnimation:NUM_TRANSFORM_JUMP :[NSString stringWithFormat:@"Lat Capt Ram-Break Through"]];
     }
-    return self.breakAnimation;
+    return self.spAnimation;
 }
 
 
@@ -105,7 +96,7 @@
     NSLog(@"Player jumping");
 }
 
--(void) breakWall:(Player *)player {
+-(void) spAction:(Player *)player {
     b2Vec2 impulse = b2Vec2(3.0f, 0.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     player.body->SetLinearVelocity(b2Vec2(6.5, 0));

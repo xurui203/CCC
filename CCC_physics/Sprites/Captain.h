@@ -15,19 +15,13 @@
 
 //actions
 @property(nonatomic,strong) CCAction *idleAction;
-@property(nonatomic,strong)id specialPowerAction;
+@property(nonatomic,strong)id spAction;
 @property(nonatomic,strong)id walkAction;
 @property(nonatomic,strong)id failAction;
 @property(nonatomic,strong)id crawlAction;
 @property(nonatomic,strong)id jumpAction;
-@property(nonatomic,strong)id breakAction;
+//@property(nonatomic,strong)id breakAction;
 @property(nonatomic,strong)id climbAction;
-
-
-// FIXTURE STUFF
-//@property(nonatomic,assign) b2FixtureDef fixtureDef;
-//@property(nonatomic,assign) b2FixtureDef crawlFixtureDef;
-
 @property(nonatomic,strong)id transformAction;
 
 //transform animations
@@ -41,6 +35,8 @@
 @property(nonatomic,assign)ActionState actionState;
 @property(nonatomic,assign) Boolean reactivated;
 @property(nonatomic,assign) Boolean upright;
+@property(nonatomic,assign) Boolean executingSpecialAction;
+
 
 //attributes
 @property(nonatomic,assign)float walkSpeed;
@@ -56,15 +52,15 @@
 @property(nonatomic,assign)float centerToBottom;
 
 //action methods
--(void)superPower;//attack
-//-(void)hurtWithDamage:(float)damage;
 -(void)idle;
 -(void)walk;
 -(void) moveBackwards;
 -(void) crawl;
 -(void) jump;
 -(void) climb: (b2Vec2) direction;
--(void)breakWall;
+//-(void)breakWall;
+-(void) specialAction;
+
 -(void) transform:(Superpower *)sp;
 -(void) setUpright: (Boolean) wantUpright;
 - (void) reset;
