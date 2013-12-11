@@ -48,11 +48,11 @@
         return [[[CCTMXTiledMap alloc] initWithTMXFile:@"ramPractice.tmx"] autorelease];
     }
     if (mapID == MAIN_ONE_ID) {
-        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"] autorelease];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMazeRam.tmx"] autorelease];
     }
     
     if (mapID == MAIN_TWO_ID) {
-        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMazeRam.tmx"] autorelease];
+        return [[[CCTMXTiledMap alloc] initWithTMXFile:@"mainMaze2.tmx"] autorelease];
     }
     
     if (mapID == CAPTAIN_MAZE_ID) {
