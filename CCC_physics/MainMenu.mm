@@ -85,7 +85,7 @@
         //        ADD BACKGROUND IMAGE
         CCSprite *background = [CCSprite spriteWithFile:@"Home Page without arrows.png"];
         background.position = ccp(screenSize.width/2, screenSize.height/2);
-        background.scale = .6;
+        background.scale = .5;
         background.zOrder = -100;
         [self addChild:background];
         
