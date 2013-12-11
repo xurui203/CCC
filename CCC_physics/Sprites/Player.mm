@@ -68,7 +68,7 @@
     //polygonShape.m_radius = 0.7;
 //	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &polygonShape;
-	fixtureDef.density = 1.0f;
+	fixtureDef.density = 1.4f;
 	fixtureDef.friction = 1.0f;
 	fixtureDef.restitution =  0.0f;
     fixtureDef.isSensor = false;
@@ -90,7 +90,7 @@
 //    crawlPolygonShape.m_centroid+=move;
     b2FixtureDef crawlDef;
     crawlDef.shape = &crawlPolygonShape;
-    crawlDef.density = 1.0f;
+    crawlDef.density = 1.4f;
     crawlDef.friction = 1.0f;
     crawlDef.restitution = 0.0f;
     crawlDef.isSensor = false;
@@ -119,7 +119,7 @@
     
     b2FixtureDef standDef;
     standDef.shape = &standPolygonShape;
-    standDef.density = 1.0f;
+    standDef.density = 1.4f;
     standDef.friction = 1.0f;
     standDef.restitution = 0.0f;
     standDef.isSensor = false;

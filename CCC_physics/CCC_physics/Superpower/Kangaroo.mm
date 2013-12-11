@@ -36,7 +36,6 @@
 
 }
 
-//Ant Capt Trainsition-KL0001
 
 # define NUM_TRANSFORM_INTO 29
 -(CCAnimation*) getTransformIntoAnimation{
@@ -82,7 +81,7 @@
 
 -(void) jump: (Player*) player {
     [player setUpright:true];
-    b2Vec2 impulse = b2Vec2(0.0f, 25.0f);
+    b2Vec2 impulse = b2Vec2(0.5f, 40.0f);
     player.body->ApplyLinearImpulse(impulse, player.body->GetWorldCenter());
     NSLog(@"PHYSICS JUMPING");
 
