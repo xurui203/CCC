@@ -192,9 +192,9 @@
 		3E8ABCE41858F01A00B73C76 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCDC1858F01A00B73C76 /* Icon-Small.png */; };
 		3E8ABCE51858F01A00B73C76 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCDD1858F01A00B73C76 /* Icon-Small-50.png */; };
 		3E8ABCE61858F01A00B73C76 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCDE1858F01A00B73C76 /* Icon-72.png */; };
-		3E8ABCE71858F01A00B73C76 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCDF1858F01A00B73C76 /* Default@2x.png */; };
-		3E8ABCE81858F01A00B73C76 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCE01858F01A00B73C76 /* Default.png */; };
-		3E8ABCEA1858F0ED00B73C76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCE91858F0ED00B73C76 /* Default-568h@2x.png */; };
+		3E8ABCEE1858F23300B73C76 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCEB1858F23300B73C76 /* Default.png */; };
+		3E8ABCEF1858F23300B73C76 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCEC1858F23300B73C76 /* Default@2x.png */; };
+		3E8ABCF01858F23300B73C76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ABCED1858F23300B73C76 /* Default-568h@2x.png */; };
 		3E97293B1828379A00F988F1 /* practice_map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3E97293A1828379A00F988F1 /* practice_map.tmx */; };
 		3E97293D182837AC00F988F1 /* Boundaries.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E97293C182837AC00F988F1 /* Boundaries.png */; };
 		3EBD9144182AA47C00ABC143 /* LevelCompleteScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD9143182AA47C00ABC143 /* LevelCompleteScene.mm */; };
@@ -1686,9 +1686,9 @@
 		3E8ABCDC1858F01A00B73C76 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		3E8ABCDD1858F01A00B73C76 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		3E8ABCDE1858F01A00B73C76 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		3E8ABCDF1858F01A00B73C76 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3E8ABCE01858F01A00B73C76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3E8ABCE91858F0ED00B73C76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3E8ABCEB1858F23300B73C76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3E8ABCEC1858F23300B73C76 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3E8ABCED1858F23300B73C76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3E97293A1828379A00F988F1 /* practice_map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = practice_map.tmx; sourceTree = "<group>"; };
 		3E97293C182837AC00F988F1 /* Boundaries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boundaries.png; sourceTree = "<group>"; };
 		3EBD9142182AA47C00ABC143 /* LevelCompleteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCompleteScene.h; sourceTree = "<group>"; };
@@ -5245,12 +5245,12 @@
 				3E8ABCD91858F01A00B73C76 /* Icon@2x.png */,
 				3E8ABCDA1858F01A00B73C76 /* Icon.png */,
 				3E8ABCDB1858F01A00B73C76 /* Icon-Small@2x.png */,
+				3E8ABCEB1858F23300B73C76 /* Default.png */,
+				3E8ABCEC1858F23300B73C76 /* Default@2x.png */,
+				3E8ABCED1858F23300B73C76 /* Default-568h@2x.png */,
 				3E8ABCDC1858F01A00B73C76 /* Icon-Small.png */,
-				3E8ABCE91858F0ED00B73C76 /* Default-568h@2x.png */,
 				3E8ABCDD1858F01A00B73C76 /* Icon-Small-50.png */,
 				3E8ABCDE1858F01A00B73C76 /* Icon-72.png */,
-				3E8ABCDF1858F01A00B73C76 /* Default@2x.png */,
-				3E8ABCE01858F01A00B73C76 /* Default.png */,
 				3E452D601824063400B4EFDE /* Info.plist */,
 				3E452D611824063400B4EFDE /* iTunesArtwork */,
 				3E452F2B1824063800B4EFDE /* blocks.png */,
@@ -5350,7 +5350,6 @@
 				5B020537184EC982008E9C19 /* Lat Capt Human-Crawling0015.png in Resources */,
 				5B02051A184EC982008E9C19 /* CCC GF-Walking0026.png in Resources */,
 				5B020647184EC982008E9C19 /* Lat Capt Ram-Sprinting0011.png in Resources */,
-				3E8ABCE81858F01A00B73C76 /* Default.png in Resources */,
 				5B8A7E63184CF01D00CCBA87 /* Ant Capt Transition-From DN0008.png in Resources */,
 				5B02056D184EC982008E9C19 /* Lat Capt Human-Stand Up0003.png in Resources */,
 				5B020615184EC982008E9C19 /* Lat Capt Ram-Break Through0008.png in Resources */,
@@ -5483,6 +5482,7 @@
 				3ECB2EC518258BAC00C82177 /* Back.png in Resources */,
 				5B8A7EEE184CF01D00CCBA87 /* Captain From RH0022.png in Resources */,
 				5B02049F184EC982008E9C19 /* CCC DN-Stand&Sniff0086.png in Resources */,
+				3E8ABCEE1858F23300B73C76 /* Default.png in Resources */,
 				5B2F4FD9184F79C400E2A182 /* Energy Score Bar0028.png in Resources */,
 				5B020592184EC982008E9C19 /* Lat Capt Human-To Crawl Transition0011.png in Resources */,
 				5B8A7EF1184CF01D00CCBA87 /* Captain From RH0025.png in Resources */,
@@ -5619,6 +5619,7 @@
 				5B0204D0184EC982008E9C19 /* CCC DN-Walking0037.png in Resources */,
 				5B8A7F7A184CF01D00CCBA87 /* Captain0023.png in Resources */,
 				5B8A7F4D184CF01D00CCBA87 /* Ant Capt Trainsition-GF0007.png in Resources */,
+				3E8ABCEF1858F23300B73C76 /* Default@2x.png in Resources */,
 				5B8A7ECA184CF01D00CCBA87 /* Ant Capt Transistion-From KL0011.png in Resources */,
 				5B0204F8184EC982008E9C19 /* lat capt gf0020.png in Resources */,
 				3ECB2E8E18257CB800C82177 /* 2Star-Normal-iPhone-hd.png in Resources */,
@@ -6373,7 +6374,6 @@
 				5B020568184EC982008E9C19 /* Lat Capt Human-Standing0005.png in Resources */,
 				5B8A7E99184CF01D00CCBA87 /* Ant Capt Tranisition-From GF0017.png in Resources */,
 				5B2F4FD7184F79C400E2A182 /* Energy Score Bar0026.png in Resources */,
-				3E8ABCE71858F01A00B73C76 /* Default@2x.png in Resources */,
 				3E09A208184C4D7C0006672B /* Back Graphics-KL 2 copy.png in Resources */,
 				5B8A7E68184CF01D00CCBA87 /* Ant Capt Transition-From DN0013.png in Resources */,
 				5B02049D184EC982008E9C19 /* CCC DN-Stand&Sniff0084.png in Resources */,
@@ -6446,7 +6446,7 @@
 				5B0204A6184EC982008E9C19 /* CCC DN-Stand&Sniff0093.png in Resources */,
 				5B020515184EC982008E9C19 /* CCC GF-Walking0021.png in Resources */,
 				5B020485184EC982008E9C19 /* CCC DN-Stand&Sniff0060.png in Resources */,
-				3E8ABCEA1858F0ED00B73C76 /* Default-568h@2x.png in Resources */,
+				3E8ABCF01858F23300B73C76 /* Default-568h@2x.png in Resources */,
 				5B02042A184EC982008E9C19 /* CCC DN-Sniffing&Crawling0013.png in Resources */,
 				5B02057B184EC982008E9C19 /* Lat Capt Human-Stand Up0017.png in Resources */,
 				5B8A7E80184CF01D00CCBA87 /* Ant Capt Transition-From DN0037.png in Resources */,

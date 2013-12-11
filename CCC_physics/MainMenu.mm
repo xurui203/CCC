@@ -78,7 +78,7 @@
         CCMenu *parentMenu = [CCMenu menuWithItems: parents, nil];
         [self addChild:parentMenu];
         parents.scale = .5;
-        parentMenu.position = ccp(190,35);
+        parentMenu.position = ccp(230,35);
         
         
         
