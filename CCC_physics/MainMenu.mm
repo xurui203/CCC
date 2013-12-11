@@ -57,7 +57,7 @@
         learn.scale = 1.2;
         CCMenu *learnMenu = [CCMenu menuWithItems: learn, nil];
         [self addChild:learnMenu];
-        learnMenu.position = ccp(screenSize.width/4,screenSize.height/2-10);
+        learnMenu.position = ccp(screenSize.width/4,screenSize.height/2-50);
         
         CCMenuItemImage *explore = [CCMenuItemImage itemFromNormalImage:@"Forward Arrow (Green).png"
                                                           selectedImage:@"Forward Arrow (Green).png"
@@ -67,7 +67,7 @@
         explore.scale = 1.2;
         CCMenu *exploreMenu = [CCMenu menuWithItems: explore, nil];
         [self addChild:exploreMenu];
-        exploreMenu.position = ccp(screenSize.width-(screenSize.width/4),screenSize.height/2-10);
+        exploreMenu.position = ccp(screenSize.width-(screenSize.width/4),screenSize.height/2-50);
         
         
         CCMenuItemImage *parents = [CCMenuItemImage itemFromNormalImage:@"Forward Arrow (Red).png"
@@ -83,9 +83,10 @@
         
         
         //        ADD BACKGROUND IMAGE
-        CCSprite *background = [CCSprite spriteWithFile:@"Home Page without arrows.png"];
+        CCSprite *background = [CCSprite spriteWithFile:@"Home-Page-without-arrows.png"];
+                background.scale = .5;
         background.position = ccp(screenSize.width/2, screenSize.height/2);
-        background.scale = .6;
+
         background.zOrder = -100;
         [self addChild:background];
         

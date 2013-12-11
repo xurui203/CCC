@@ -200,9 +200,9 @@
 //        }
 
         //        ADD BACKGROUND IMAGE
-        CCSprite *background = [CCSprite spriteWithFile:@"Maze Page.png"];
-        background.position = ccp(screenSize.width/2+60, screenSize.height/2+50);
-        background.scale = .6;
+        CCSprite *background = [CCSprite spriteWithFile:@"Maze-Page.png"];
+        background.position = ccp(screenSize.width/2, screenSize.height/2);
+        background.scale = .5;
         background.zOrder = -100;
         [self addChild:background];
 

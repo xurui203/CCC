@@ -42,9 +42,9 @@
         
         
         //        ADD BACKGROUND IMAGE
-        CCSprite *background = [CCSprite spriteWithFile:@"Icon Page.png"];
-                background.scale = .6;
-        background.position = ccp(screenSize.width/2-80, screenSize.height/2-90);
+        CCSprite *background = [CCSprite spriteWithFile:@"Icon-Page.png"];
+                background.scale = .5;
+        background.position = ccp(screenSize.width/2, screenSize.height/2);
 
         background.zOrder = -100;
         [self addChild:background];
