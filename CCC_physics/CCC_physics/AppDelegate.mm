@@ -96,7 +96,7 @@
 //#endif
 	
 	[director setAnimationInterval:1.0/60];
-	[director setDisplayFPS:YES];
+	[director setDisplayFPS:NO];
 	if(GAME_AUTOROTATION == kGameAutorotationUIViewController) {
         [director setDeviceOrientation:kCCDeviceOrientationLandscapeLeft];
     }
