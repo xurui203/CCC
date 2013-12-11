@@ -174,6 +174,7 @@
     Superpower *s =  (Superpower *)itm.userData;
     [[World sharedWorld] CCCplayer].currentSuperpower = s;
     CCLOG(@"%@", s.name);
+    
     [SceneManager goLearningModuleScene];
 }
 
@@ -182,6 +183,8 @@
     
     CCLOG(@"superpower icon pressed");
     CCMenuItemFont *itm = (CCMenuItemFont *)sender;
+
+
        Superpower *s =  (Superpower *)itm.userData;
     [[[World sharedWorld] CCCplayer] transform: s];
     

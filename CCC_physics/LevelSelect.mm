@@ -99,7 +99,7 @@
         lvl2.tag = 2;
         CCMenuItemImage *lvl3 = [CCMenuItemImage itemFromNormalImage:@"Maze 3 Icon.png"
                                                          selectedImage:@"Maze 3 Icon.png"
-                                 disabledImage:@"Lock.png"
+                                 disabledImage:@"locked maze 3.png"
                                                                 target:self
                                                               selector:@selector(onPlay:)];
         lvl3.tag = 3;
